@@ -1,0 +1,10 @@
+/users/omarne/small_dataset/jaccard/outgroup_comparison/ng_g_o_compare/ma_ng_ma_g_o
+/users/omarne/.conda/envs/omkar/bin/python3
+Python 3.11.7
+All OK
+# Reading from mafft_ng_o.fasta
+# Reading from mafft_g_o.fasta
+File1,File2,Shared,Uniq1,Uniq2,PreliminaryScore,FinalScore
+mafft_ng_o.fasta,mafft_g_o.fasta,217,32731,30524,0.10636102958885968,0.05826668230830864
+File1,File2,Shared,Uniq1,Uniq2,PreliminaryScoreStates,FinalScoreStates
+mafft_ng_o.fasta,mafft_g_o.fasta,5899,2595,2519,0.8329797168005717,0.7319152242892476

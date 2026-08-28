@@ -1,0 +1,10 @@
+/users/omarne/small_alignments
+/users/omarne/.conda/envs/omkar/bin/python3
+Python 3.11.7
+All OK
+# Reading from muscle.fasta
+# Reading from mafft.fasta
+File1,File2,Shared,Uniq1,Uniq2,PreliminaryScore,FinalScore
+muscle.fasta,mafft.fasta,194,32838,30547,0.10660380598168716,0.05811125970566764
+File1,File2,Shared,Uniq1,Uniq2,PreliminaryScoreStates,FinalScoreStates
+muscle.fasta,mafft.fasta,5499,3019,2919,0.8447823105238358,0.7038032522052514

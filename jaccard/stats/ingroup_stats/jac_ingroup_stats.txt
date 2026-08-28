@@ -1,0 +1,33 @@
+===== STATISTICAL ANALYSIS REPORT =====
+
+Positions N = 15
+States N = 15
+
+--- NORMALITY TESTS ---
+Shapiro (Positions): statistic=0.666359, p=0.000111
+Shapiro (States): statistic=0.790775, p=0.002806
+KS (Positions): statistic=0.345861, p=0.041663
+KS (States): statistic=0.326394, p=0.063539
+
+--- VARIANCE TESTS ---
+Levene: statistic=2.967396, p=0.095988
+Bartlett: statistic=20.865846, p=0.000005
+
+--- PARAMETRIC TEST ---
+Welch T-test: statistic=-5.035607, p=0.000130
+
+--- NON-PARAMETRIC TESTS ---
+Mann–Whitney U: statistic=45.000000, p=0.005452
+Wilcoxon: statistic=6.000000, p=0.000854
+
+--- DISTRIBUTION TESTS ---
+KS 2-sample: statistic=0.800000, p=0.000052
+Anderson–Darling: statistic=7.396439, p=0.001000
+
+--- EFFECT SIZE ---
+Cohen's d: -1.903281
+Rank-biserial correlation: 0.600000
+
+--- SUMMARY STATISTICS ---
+Positions: {'mean': '0.281687', 'median': '0.038351', 'std': '0.367629', 'min': '0.032571', 'max': '0.986726'}
+States: {'mean': '0.791076', 'median': '0.734665', 'std': '0.090051', 'min': '0.701820', 'max': '0.936086'}

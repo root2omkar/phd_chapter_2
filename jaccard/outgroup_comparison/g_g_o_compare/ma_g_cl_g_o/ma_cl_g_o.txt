@@ -1,0 +1,10 @@
+/users/omarne/small_dataset/jaccard/outgroup_comparison/g_g_o_compare/ma_g_cl_g_o
+/users/omarne/.conda/envs/omkar/bin/python3
+Python 3.11.7
+All OK
+# Reading from mafft_g_o.fasta
+# Reading from clustal_g_o.fasta
+File1,File2,Shared,Uniq1,Uniq2,PreliminaryScore,FinalScore
+mafft_g_o.fasta,clustal_g_o.fasta,500,30241,30030,0.6285535813630801,0.32100983781739495
+File1,File2,Shared,Uniq1,Uniq2,PreliminaryScoreStates,FinalScoreStates
+mafft_g_o.fasta,clustal_g_o.fasta,7182,1236,1262,0.8856101471206684,0.8574008270316409

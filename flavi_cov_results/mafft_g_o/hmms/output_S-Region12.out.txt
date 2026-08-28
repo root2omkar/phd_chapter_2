@@ -1,0 +1,932 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /users/omarne/small_dataset//flavi-cov/database/S/Region12.hmm
+# target sequence database:        output_S_prot.fasta
+# output directed to file:         output_S-Region12.out.txt
+# per-dom hits tabular output:     output_S-Region12.dom.txt
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       Region12  [M=18]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence  Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------  -----------
+    3.1e-14   44.5  13.5    5.2e-14   43.8  13.5    1.4  1  OL926066_  S 21994-25359
+    3.1e-14   44.5  13.5    5.2e-14   43.8  13.5    1.4  1  OR020535_  S 21973-25338
+    3.2e-14   44.5  13.5    5.2e-14   43.8  13.5    1.4  1  OU470855_  S 21819-25184
+    3.2e-14   44.5  13.5    5.2e-14   43.8  13.5    1.4  1  PP023772_  S 21982-25347
+    3.2e-14   44.5  13.5    5.2e-14   43.8  13.5    1.4  1  PQ972523_  S 21952-25317
+    3.2e-14   44.5  13.5    5.2e-14   43.8  13.5    1.4  1  OR563456_  S 21973-25338
+    3.5e-14   44.4  13.5      6e-14   43.6  13.5    1.4  1  MT040334_  S 21540-25337
+    3.5e-14   44.4  13.5      6e-14   43.6  13.5    1.4  1  PQ391889_  S 21516-25313
+    3.5e-14   44.4  13.5      6e-14   43.6  13.5    1.4  1  MT040335_  S 21540-25343
+    3.5e-14   44.4  13.5      6e-14   43.6  13.5    1.4  1  OZ223682_  S 21554-25351
+    3.5e-14   44.4  13.5      6e-14   43.6  13.5    1.4  1  PQ899058_  S 21515-25312
+    3.5e-14   44.4  13.5      6e-14   43.6  13.5    1.4  1  PX059619_  S 21476-25273
+    3.5e-14   44.4  13.5      6e-14   43.6  13.5    1.4  1  PQ375771_  S 21522-25328
+    3.5e-14   44.4  13.5      6e-14   43.6  13.5    1.4  1  MT072864_  S 21522-25331
+    3.5e-14   44.4  13.5      6e-14   43.6  13.5    1.4  1  MT040333_  S 21540-25343
+    3.5e-14   44.4  13.5      6e-14   43.6  13.5    1.4  1  MT040336_  S 21540-25343
+    3.5e-14   44.4  13.5      6e-14   43.6  13.5    1.4  1  PV239625_  S 21476-25282
+    3.5e-14   44.4  13.5      6e-14   43.6  13.5    1.4  1  PX393327_  S 21476-25285
+    3.5e-14   44.4  13.5      6e-14   43.6  13.5    1.4  1  OZ014103_  S 21551-25363
+    3.5e-14   44.4  13.5      6e-14   43.6  13.5    1.4  1  OK433428_  S 21509-25315
+    3.5e-14   44.4  13.5      6e-14   43.6  13.5    1.4  1  PX448754_  S 21512-25318
+    3.6e-14   44.4  13.5      6e-14   43.6  13.5    1.4  1  OZ061529_  S 21516-25316
+    3.6e-14   44.4  13.5      6e-14   43.6  13.5    1.4  1  OP578130_  S 21513-25319
+    3.6e-14   44.4  13.5      6e-14   43.6  13.5    1.4  1  PQ017244_  S 21499-25305
+    3.6e-14   44.4  13.5      6e-14   43.6  13.5    1.4  1  ON923618_  S 21520-25326
+    3.6e-14   44.4  13.5      6e-14   43.6  13.5    1.4  1  OV948634_  S 21548-25351
+    3.6e-14   44.4  13.5      6e-14   43.6  13.5    1.4  1  PQ279092_  S 21512-25321
+    3.6e-14   44.4  13.5      6e-14   43.6  13.5    1.4  1  OY784472_  S 21554-25363
+    3.6e-14   44.4  13.5      6e-14   43.6  13.5    1.4  1  OR983979_  S 21504-25313
+    3.6e-14   44.4  13.5      6e-14   43.6  13.5    1.4  1  OQ896588_  S 21463-25284
+    3.6e-14   44.3  13.5      6e-14   43.6  13.5    1.4  1  PQ304301_  S 21512-25321
+    3.6e-14   44.3  13.5      6e-14   43.6  13.5    1.4  1  OD923885_  S 21563-25384
+    3.6e-14   44.3  13.5      6e-14   43.6  13.5    1.4  1  PP601887_  S 21509-25330
+    3.6e-14   44.3  13.5      6e-14   43.6  13.5    1.4  1  PP615923_  S 21561-25382
+    3.6e-14   44.3  13.5      6e-14   43.6  13.5    1.4  1  MW183957_  S 21524-25345
+    3.6e-14   44.3  13.5      6e-14   43.6  13.5    1.4  1  MN908947_  S 21563-25384
+    3.6e-14   44.3  13.5      6e-14   43.6  13.5    1.4  1  OL714154_  S 21542-25357
+    3.6e-14   44.3  13.5      6e-14   43.6  13.5    1.4  1  OP440368_  S 21500-25312
+    3.6e-14   44.3  13.5      6e-14   43.6  13.5    1.4  1  PP630509_  S 21509-25324
+    3.6e-14   44.3  13.5      6e-14   43.6  13.5    1.4  1  OK177352_  S 21508-25329
+    3.6e-14   44.3  13.5      6e-14   43.6  13.5    1.4  1  PQ121865_  S 21500-25309
+    3.6e-14   44.3  13.5      6e-14   43.6  13.5    1.4  1  OK221016_  S 21520-25332
+    3.6e-14   44.3  13.5      6e-14   43.6  13.5    1.4  1  MZ412499_  S 21500-25321
+    3.6e-14   44.3  13.5      6e-14   43.6  13.5    1.4  1  OK204161_  S 21526-25341
+    3.7e-14   44.3  13.5      6e-14   43.6  13.5    1.4  1  MZ131148_  S 21516-25328
+    3.7e-14   44.3  13.5      6e-14   43.6  13.5    1.4  1  OY792307_  S 21554-25366
+    3.7e-14   44.3  13.5      6e-14   43.6  13.5    1.4  1  PV497551_  S 21512-25321
+    3.7e-14   44.3  13.5      6e-14   43.6  13.5    1.4  1  PP030571_  S 21504-25313
+    3.7e-14   44.3  13.5      6e-14   43.6  13.5    1.4  1  PQ279056_  S 21512-25321
+    3.7e-14   44.3  13.5      6e-14   43.6  13.5    1.4  1  OR689160_  S 21512-25318
+    3.7e-14   44.3  13.5      6e-14   43.6  13.5    1.4  1  MZ160298_  S 21469-25290
+    3.7e-14   44.3  13.5      6e-14   43.6  13.5    1.4  1  MW901580_  S 21509-25330
+    3.8e-14   44.3  13.5      6e-14   43.6  13.5    1.3  1  OQ558991_  S 21509-25327
+    6.2e-14   43.6  11.5    1.1e-13   42.8  11.5    1.4  1  MG772933_  S 21549-25289
+    6.4e-14   43.5  11.5    1.1e-13   42.8  11.5    1.4  1  GQ153543_  S 21483-25211
+    6.4e-14   43.5  11.5    1.1e-13   42.8  11.5    1.4  1  GQ153547_  S 21471-25199
+    6.4e-14   43.5  11.5    1.1e-13   42.8  11.5    1.4  1  GQ153542_  S 21483-25211
+    6.4e-14   43.5  11.5    1.1e-13   42.8  11.5    1.4  1  DQ084199_  S 21454-25182
+    6.4e-14   43.5  11.5    1.1e-13   42.8  11.5    1.4  1  DQ022305_  S 21471-25199
+    6.4e-14   43.5  11.5    1.1e-13   42.8  11.5    1.4  1  GQ153539_  S 21471-25199
+    6.4e-14   43.5  11.5    1.1e-13   42.8  11.5    1.4  1  GQ153540_  S 21471-25199
+    6.4e-14   43.5  11.5    1.1e-13   42.8  11.5    1.4  1  GQ153541_  S 21471-25199
+    6.4e-14   43.5  11.5    1.1e-13   42.8  11.5    1.4  1  GQ153544_  S 21462-25190
+    6.4e-14   43.5  11.5    1.1e-13   42.8  11.5    1.4  1  GQ153545_  S 21462-25190
+    6.4e-14   43.5  11.5    1.1e-13   42.8  11.5    1.4  1  GQ153546_  S 21462-25190
+    6.4e-14   43.5  11.5    1.1e-13   42.8  11.5    1.4  1  GQ153548_  S 21444-25172
+    1.1e-13   42.8   9.6      2e-13   42.0   9.6    1.4  1  KY352407_  S 21418-25191
+    4.5e-13   40.9  10.1    7.7e-13   40.1  10.1    1.4  1  MG772934_  S 21483-25220
+      8e-11   33.7   5.9      8e-11   33.7   5.9    1.7  1  NC025217_  S 23563-27516
+
+
+Domain annotation for each sequence (and alignments):
+>> OL926066_  S 21994-25359
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.8  13.5   5.2e-14   5.2e-14       1      18 []    1051    1068 ..    1051    1068 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 43.8 bits;  conditional E-value: 5.2e-14
+   Region12    1 LGKYEQYIKWPWYIWLGF 18  
+                 LGKYEQYIKWPWYIWLGF
+  OL926066_ 1051 LGKYEQYIKWPWYIWLGF 1068
+                 9****************9 PP
+
+>> OR020535_  S 21973-25338
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.8  13.5   5.2e-14   5.2e-14       1      18 []    1051    1068 ..    1051    1068 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 43.8 bits;  conditional E-value: 5.2e-14
+   Region12    1 LGKYEQYIKWPWYIWLGF 18  
+                 LGKYEQYIKWPWYIWLGF
+  OR020535_ 1051 LGKYEQYIKWPWYIWLGF 1068
+                 9****************9 PP
+
+>> OU470855_  S 21819-25184
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.8  13.5   5.2e-14   5.2e-14       1      18 []    1051    1068 ..    1051    1068 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 43.8 bits;  conditional E-value: 5.2e-14
+   Region12    1 LGKYEQYIKWPWYIWLGF 18  
+                 LGKYEQYIKWPWYIWLGF
+  OU470855_ 1051 LGKYEQYIKWPWYIWLGF 1068
+                 9****************9 PP
+
+>> PP023772_  S 21982-25347
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.8  13.5   5.2e-14   5.2e-14       1      18 []    1051    1068 ..    1051    1068 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 43.8 bits;  conditional E-value: 5.2e-14
+   Region12    1 LGKYEQYIKWPWYIWLGF 18  
+                 LGKYEQYIKWPWYIWLGF
+  PP023772_ 1051 LGKYEQYIKWPWYIWLGF 1068
+                 9****************9 PP
+
+>> PQ972523_  S 21952-25317
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.8  13.5   5.2e-14   5.2e-14       1      18 []    1051    1068 ..    1051    1068 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 43.8 bits;  conditional E-value: 5.2e-14
+   Region12    1 LGKYEQYIKWPWYIWLGF 18  
+                 LGKYEQYIKWPWYIWLGF
+  PQ972523_ 1051 LGKYEQYIKWPWYIWLGF 1068
+                 9****************9 PP
+
+>> OR563456_  S 21973-25338
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.8  13.5   5.2e-14   5.2e-14       1      18 []    1051    1068 ..    1051    1068 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 43.8 bits;  conditional E-value: 5.2e-14
+   Region12    1 LGKYEQYIKWPWYIWLGF 18  
+                 LGKYEQYIKWPWYIWLGF
+  OR563456_ 1051 LGKYEQYIKWPWYIWLGF 1068
+                 9****************9 PP
+
+>> MT040334_  S 21540-25337
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.6  13.5     6e-14     6e-14       1      18 []    1195    1212 ..    1195    1212 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 43.6 bits;  conditional E-value: 6e-14
+   Region12    1 LGKYEQYIKWPWYIWLGF 18  
+                 LGKYEQYIKWPWYIWLGF
+  MT040334_ 1195 LGKYEQYIKWPWYIWLGF 1212
+                 9****************9 PP
+
+>> PQ391889_  S 21516-25313
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.6  13.5     6e-14     6e-14       1      18 []    1195    1212 ..    1195    1212 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 43.6 bits;  conditional E-value: 6e-14
+   Region12    1 LGKYEQYIKWPWYIWLGF 18  
+                 LGKYEQYIKWPWYIWLGF
+  PQ391889_ 1195 LGKYEQYIKWPWYIWLGF 1212
+                 9****************9 PP
+
+>> MT040335_  S 21540-25343
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.6  13.5     6e-14     6e-14       1      18 []    1197    1214 ..    1197    1214 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 43.6 bits;  conditional E-value: 6e-14
+   Region12    1 LGKYEQYIKWPWYIWLGF 18  
+                 LGKYEQYIKWPWYIWLGF
+  MT040335_ 1197 LGKYEQYIKWPWYIWLGF 1214
+                 9****************9 PP
+
+>> OZ223682_  S 21554-25351
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.6  13.5     6e-14     6e-14       1      18 []    1195    1212 ..    1195    1212 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 43.6 bits;  conditional E-value: 6e-14
+   Region12    1 LGKYEQYIKWPWYIWLGF 18  
+                 LGKYEQYIKWPWYIWLGF
+  OZ223682_ 1195 LGKYEQYIKWPWYIWLGF 1212
+                 9****************9 PP
+
+>> PQ899058_  S 21515-25312
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.6  13.5     6e-14     6e-14       1      18 []    1195    1212 ..    1195    1212 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 43.6 bits;  conditional E-value: 6e-14
+   Region12    1 LGKYEQYIKWPWYIWLGF 18  
+                 LGKYEQYIKWPWYIWLGF
+  PQ899058_ 1195 LGKYEQYIKWPWYIWLGF 1212
+                 9****************9 PP
+
+>> PX059619_  S 21476-25273
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.6  13.5     6e-14     6e-14       1      18 []    1195    1212 ..    1195    1212 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 43.6 bits;  conditional E-value: 6e-14
+   Region12    1 LGKYEQYIKWPWYIWLGF 18  
+                 LGKYEQYIKWPWYIWLGF
+  PX059619_ 1195 LGKYEQYIKWPWYIWLGF 1212
+                 9****************9 PP
+
+>> PQ375771_  S 21522-25328
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.6  13.5     6e-14     6e-14       1      18 []    1198    1215 ..    1198    1215 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 43.6 bits;  conditional E-value: 6e-14
+   Region12    1 LGKYEQYIKWPWYIWLGF 18  
+                 LGKYEQYIKWPWYIWLGF
+  PQ375771_ 1198 LGKYEQYIKWPWYIWLGF 1215
+                 9****************9 PP
+
+>> MT072864_  S 21522-25331
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.6  13.5     6e-14     6e-14       1      18 []    1199    1216 ..    1199    1216 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 43.6 bits;  conditional E-value: 6e-14
+   Region12    1 LGKYEQYIKWPWYIWLGF 18  
+                 LGKYEQYIKWPWYIWLGF
+  MT072864_ 1199 LGKYEQYIKWPWYIWLGF 1216
+                 9****************9 PP
+
+>> MT040333_  S 21540-25343
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.6  13.5     6e-14     6e-14       1      18 []    1197    1214 ..    1197    1214 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 43.6 bits;  conditional E-value: 6e-14
+   Region12    1 LGKYEQYIKWPWYIWLGF 18  
+                 LGKYEQYIKWPWYIWLGF
+  MT040333_ 1197 LGKYEQYIKWPWYIWLGF 1214
+                 9****************9 PP
+
+>> MT040336_  S 21540-25343
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.6  13.5     6e-14     6e-14       1      18 []    1197    1214 ..    1197    1214 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 43.6 bits;  conditional E-value: 6e-14
+   Region12    1 LGKYEQYIKWPWYIWLGF 18  
+                 LGKYEQYIKWPWYIWLGF
+  MT040336_ 1197 LGKYEQYIKWPWYIWLGF 1214
+                 9****************9 PP
+
+>> PV239625_  S 21476-25282
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.6  13.5     6e-14     6e-14       1      18 []    1198    1215 ..    1198    1215 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 43.6 bits;  conditional E-value: 6e-14
+   Region12    1 LGKYEQYIKWPWYIWLGF 18  
+                 LGKYEQYIKWPWYIWLGF
+  PV239625_ 1198 LGKYEQYIKWPWYIWLGF 1215
+                 9****************9 PP
+
+>> PX393327_  S 21476-25285
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.6  13.5     6e-14     6e-14       1      18 []    1199    1216 ..    1199    1216 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 43.6 bits;  conditional E-value: 6e-14
+   Region12    1 LGKYEQYIKWPWYIWLGF 18  
+                 LGKYEQYIKWPWYIWLGF
+  PX393327_ 1199 LGKYEQYIKWPWYIWLGF 1216
+                 9****************9 PP
+
+>> OZ014103_  S 21551-25363
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.6  13.5     6e-14     6e-14       1      18 []    1200    1217 ..    1200    1217 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 43.6 bits;  conditional E-value: 6e-14
+   Region12    1 LGKYEQYIKWPWYIWLGF 18  
+                 LGKYEQYIKWPWYIWLGF
+  OZ014103_ 1200 LGKYEQYIKWPWYIWLGF 1217
+                 9****************9 PP
+
+>> OK433428_  S 21509-25315
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.6  13.5     6e-14     6e-14       1      18 []    1198    1215 ..    1198    1215 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 43.6 bits;  conditional E-value: 6e-14
+   Region12    1 LGKYEQYIKWPWYIWLGF 18  
+                 LGKYEQYIKWPWYIWLGF
+  OK433428_ 1198 LGKYEQYIKWPWYIWLGF 1215
+                 9****************9 PP
+
+>> PX448754_  S 21512-25318
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.6  13.5     6e-14     6e-14       1      18 []    1198    1215 ..    1198    1215 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 43.6 bits;  conditional E-value: 6e-14
+   Region12    1 LGKYEQYIKWPWYIWLGF 18  
+                 LGKYEQYIKWPWYIWLGF
+  PX448754_ 1198 LGKYEQYIKWPWYIWLGF 1215
+                 9****************9 PP
+
+>> OZ061529_  S 21516-25316
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.6  13.5     6e-14     6e-14       1      18 []    1196    1213 ..    1196    1213 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 43.6 bits;  conditional E-value: 6e-14
+   Region12    1 LGKYEQYIKWPWYIWLGF 18  
+                 LGKYEQYIKWPWYIWLGF
+  OZ061529_ 1196 LGKYEQYIKWPWYIWLGF 1213
+                 9****************9 PP
+
+>> OP578130_  S 21513-25319
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.6  13.5     6e-14     6e-14       1      18 []    1198    1215 ..    1198    1215 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 43.6 bits;  conditional E-value: 6e-14
+   Region12    1 LGKYEQYIKWPWYIWLGF 18  
+                 LGKYEQYIKWPWYIWLGF
+  OP578130_ 1198 LGKYEQYIKWPWYIWLGF 1215
+                 9****************9 PP
+
+>> PQ017244_  S 21499-25305
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.6  13.5     6e-14     6e-14       1      18 []    1198    1215 ..    1198    1215 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 43.6 bits;  conditional E-value: 6e-14
+   Region12    1 LGKYEQYIKWPWYIWLGF 18  
+                 LGKYEQYIKWPWYIWLGF
+  PQ017244_ 1198 LGKYEQYIKWPWYIWLGF 1215
+                 9****************9 PP
+
+>> ON923618_  S 21520-25326
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.6  13.5     6e-14     6e-14       1      18 []    1198    1215 ..    1198    1215 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 43.6 bits;  conditional E-value: 6e-14
+   Region12    1 LGKYEQYIKWPWYIWLGF 18  
+                 LGKYEQYIKWPWYIWLGF
+  ON923618_ 1198 LGKYEQYIKWPWYIWLGF 1215
+                 9****************9 PP
+
+>> OV948634_  S 21548-25351
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.6  13.5     6e-14     6e-14       1      18 []    1197    1214 ..    1197    1214 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 43.6 bits;  conditional E-value: 6e-14
+   Region12    1 LGKYEQYIKWPWYIWLGF 18  
+                 LGKYEQYIKWPWYIWLGF
+  OV948634_ 1197 LGKYEQYIKWPWYIWLGF 1214
+                 9****************9 PP
+
+>> PQ279092_  S 21512-25321
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.6  13.5     6e-14     6e-14       1      18 []    1199    1216 ..    1199    1216 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 43.6 bits;  conditional E-value: 6e-14
+   Region12    1 LGKYEQYIKWPWYIWLGF 18  
+                 LGKYEQYIKWPWYIWLGF
+  PQ279092_ 1199 LGKYEQYIKWPWYIWLGF 1216
+                 9****************9 PP
+
+>> OY784472_  S 21554-25363
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.6  13.5     6e-14     6e-14       1      18 []    1199    1216 ..    1199    1216 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 43.6 bits;  conditional E-value: 6e-14
+   Region12    1 LGKYEQYIKWPWYIWLGF 18  
+                 LGKYEQYIKWPWYIWLGF
+  OY784472_ 1199 LGKYEQYIKWPWYIWLGF 1216
+                 9****************9 PP
+
+>> OR983979_  S 21504-25313
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.6  13.5     6e-14     6e-14       1      18 []    1199    1216 ..    1199    1216 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 43.6 bits;  conditional E-value: 6e-14
+   Region12    1 LGKYEQYIKWPWYIWLGF 18  
+                 LGKYEQYIKWPWYIWLGF
+  OR983979_ 1199 LGKYEQYIKWPWYIWLGF 1216
+                 9****************9 PP
+
+>> OQ896588_  S 21463-25284
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.6  13.5     6e-14     6e-14       1      18 []    1203    1220 ..    1203    1220 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 43.6 bits;  conditional E-value: 6e-14
+   Region12    1 LGKYEQYIKWPWYIWLGF 18  
+                 LGKYEQYIKWPWYIWLGF
+  OQ896588_ 1203 LGKYEQYIKWPWYIWLGF 1220
+                 9****************9 PP
+
+>> PQ304301_  S 21512-25321
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.6  13.5     6e-14     6e-14       1      18 []    1199    1216 ..    1199    1216 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 43.6 bits;  conditional E-value: 6e-14
+   Region12    1 LGKYEQYIKWPWYIWLGF 18  
+                 LGKYEQYIKWPWYIWLGF
+  PQ304301_ 1199 LGKYEQYIKWPWYIWLGF 1216
+                 9****************9 PP
+
+>> OD923885_  S 21563-25384
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.6  13.5     6e-14     6e-14       1      18 []    1203    1220 ..    1203    1220 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 43.6 bits;  conditional E-value: 6e-14
+   Region12    1 LGKYEQYIKWPWYIWLGF 18  
+                 LGKYEQYIKWPWYIWLGF
+  OD923885_ 1203 LGKYEQYIKWPWYIWLGF 1220
+                 9****************9 PP
+
+>> PP601887_  S 21509-25330
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.6  13.5     6e-14     6e-14       1      18 []    1203    1220 ..    1203    1220 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 43.6 bits;  conditional E-value: 6e-14
+   Region12    1 LGKYEQYIKWPWYIWLGF 18  
+                 LGKYEQYIKWPWYIWLGF
+  PP601887_ 1203 LGKYEQYIKWPWYIWLGF 1220
+                 9****************9 PP
+
+>> PP615923_  S 21561-25382
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.6  13.5     6e-14     6e-14       1      18 []    1203    1220 ..    1203    1220 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 43.6 bits;  conditional E-value: 6e-14
+   Region12    1 LGKYEQYIKWPWYIWLGF 18  
+                 LGKYEQYIKWPWYIWLGF
+  PP615923_ 1203 LGKYEQYIKWPWYIWLGF 1220
+                 9****************9 PP
+
+>> MW183957_  S 21524-25345
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.6  13.5     6e-14     6e-14       1      18 []    1203    1220 ..    1203    1220 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 43.6 bits;  conditional E-value: 6e-14
+   Region12    1 LGKYEQYIKWPWYIWLGF 18  
+                 LGKYEQYIKWPWYIWLGF
+  MW183957_ 1203 LGKYEQYIKWPWYIWLGF 1220
+                 9****************9 PP
+
+>> MN908947_  S 21563-25384
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.6  13.5     6e-14     6e-14       1      18 []    1203    1220 ..    1203    1220 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 43.6 bits;  conditional E-value: 6e-14
+   Region12    1 LGKYEQYIKWPWYIWLGF 18  
+                 LGKYEQYIKWPWYIWLGF
+  MN908947_ 1203 LGKYEQYIKWPWYIWLGF 1220
+                 9****************9 PP
+
+>> OL714154_  S 21542-25357
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.6  13.5     6e-14     6e-14       1      18 []    1201    1218 ..    1201    1218 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 43.6 bits;  conditional E-value: 6e-14
+   Region12    1 LGKYEQYIKWPWYIWLGF 18  
+                 LGKYEQYIKWPWYIWLGF
+  OL714154_ 1201 LGKYEQYIKWPWYIWLGF 1218
+                 9****************9 PP
+
+>> OP440368_  S 21500-25312
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.6  13.5     6e-14     6e-14       1      18 []    1200    1217 ..    1200    1217 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 43.6 bits;  conditional E-value: 6e-14
+   Region12    1 LGKYEQYIKWPWYIWLGF 18  
+                 LGKYEQYIKWPWYIWLGF
+  OP440368_ 1200 LGKYEQYIKWPWYIWLGF 1217
+                 9****************9 PP
+
+>> PP630509_  S 21509-25324
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.6  13.5     6e-14     6e-14       1      18 []    1201    1218 ..    1201    1218 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 43.6 bits;  conditional E-value: 6e-14
+   Region12    1 LGKYEQYIKWPWYIWLGF 18  
+                 LGKYEQYIKWPWYIWLGF
+  PP630509_ 1201 LGKYEQYIKWPWYIWLGF 1218
+                 9****************9 PP
+
+>> OK177352_  S 21508-25329
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.6  13.5     6e-14     6e-14       1      18 []    1203    1220 ..    1203    1220 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 43.6 bits;  conditional E-value: 6e-14
+   Region12    1 LGKYEQYIKWPWYIWLGF 18  
+                 LGKYEQYIKWPWYIWLGF
+  OK177352_ 1203 LGKYEQYIKWPWYIWLGF 1220
+                 9****************9 PP
+
+>> PQ121865_  S 21500-25309
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.6  13.5     6e-14     6e-14       1      18 []    1199    1216 ..    1199    1216 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 43.6 bits;  conditional E-value: 6e-14
+   Region12    1 LGKYEQYIKWPWYIWLGF 18  
+                 LGKYEQYIKWPWYIWLGF
+  PQ121865_ 1199 LGKYEQYIKWPWYIWLGF 1216
+                 9****************9 PP
+
+>> OK221016_  S 21520-25332
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.6  13.5     6e-14     6e-14       1      18 []    1200    1217 ..    1200    1217 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 43.6 bits;  conditional E-value: 6e-14
+   Region12    1 LGKYEQYIKWPWYIWLGF 18  
+                 LGKYEQYIKWPWYIWLGF
+  OK221016_ 1200 LGKYEQYIKWPWYIWLGF 1217
+                 9****************9 PP
+
+>> MZ412499_  S 21500-25321
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.6  13.5     6e-14     6e-14       1      18 []    1203    1220 ..    1203    1220 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 43.6 bits;  conditional E-value: 6e-14
+   Region12    1 LGKYEQYIKWPWYIWLGF 18  
+                 LGKYEQYIKWPWYIWLGF
+  MZ412499_ 1203 LGKYEQYIKWPWYIWLGF 1220
+                 9****************9 PP
+
+>> OK204161_  S 21526-25341
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.6  13.5     6e-14     6e-14       1      18 []    1201    1218 ..    1201    1218 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 43.6 bits;  conditional E-value: 6e-14
+   Region12    1 LGKYEQYIKWPWYIWLGF 18  
+                 LGKYEQYIKWPWYIWLGF
+  OK204161_ 1201 LGKYEQYIKWPWYIWLGF 1218
+                 9****************9 PP
+
+>> MZ131148_  S 21516-25328
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.6  13.5     6e-14     6e-14       1      18 []    1200    1217 ..    1200    1217 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 43.6 bits;  conditional E-value: 6e-14
+   Region12    1 LGKYEQYIKWPWYIWLGF 18  
+                 LGKYEQYIKWPWYIWLGF
+  MZ131148_ 1200 LGKYEQYIKWPWYIWLGF 1217
+                 9****************9 PP
+
+>> OY792307_  S 21554-25366
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.6  13.5     6e-14     6e-14       1      18 []    1200    1217 ..    1200    1217 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 43.6 bits;  conditional E-value: 6e-14
+   Region12    1 LGKYEQYIKWPWYIWLGF 18  
+                 LGKYEQYIKWPWYIWLGF
+  OY792307_ 1200 LGKYEQYIKWPWYIWLGF 1217
+                 9****************9 PP
+
+>> PV497551_  S 21512-25321
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.6  13.5     6e-14     6e-14       1      18 []    1199    1216 ..    1199    1216 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 43.6 bits;  conditional E-value: 6e-14
+   Region12    1 LGKYEQYIKWPWYIWLGF 18  
+                 LGKYEQYIKWPWYIWLGF
+  PV497551_ 1199 LGKYEQYIKWPWYIWLGF 1216
+                 9****************9 PP
+
+>> PP030571_  S 21504-25313
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.6  13.5     6e-14     6e-14       1      18 []    1199    1216 ..    1199    1216 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 43.6 bits;  conditional E-value: 6e-14
+   Region12    1 LGKYEQYIKWPWYIWLGF 18  
+                 LGKYEQYIKWPWYIWLGF
+  PP030571_ 1199 LGKYEQYIKWPWYIWLGF 1216
+                 9****************9 PP
+
+>> PQ279056_  S 21512-25321
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.6  13.5     6e-14     6e-14       1      18 []    1199    1216 ..    1199    1216 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 43.6 bits;  conditional E-value: 6e-14
+   Region12    1 LGKYEQYIKWPWYIWLGF 18  
+                 LGKYEQYIKWPWYIWLGF
+  PQ279056_ 1199 LGKYEQYIKWPWYIWLGF 1216
+                 9****************9 PP
+
+>> OR689160_  S 21512-25318
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.6  13.5     6e-14     6e-14       1      18 []    1198    1215 ..    1198    1215 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 43.6 bits;  conditional E-value: 6e-14
+   Region12    1 LGKYEQYIKWPWYIWLGF 18  
+                 LGKYEQYIKWPWYIWLGF
+  OR689160_ 1198 LGKYEQYIKWPWYIWLGF 1215
+                 9****************9 PP
+
+>> MZ160298_  S 21469-25290
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.6  13.5     6e-14     6e-14       1      18 []    1203    1220 ..    1203    1220 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 43.6 bits;  conditional E-value: 6e-14
+   Region12    1 LGKYEQYIKWPWYIWLGF 18  
+                 LGKYEQYIKWPWYIWLGF
+  MZ160298_ 1203 LGKYEQYIKWPWYIWLGF 1220
+                 9****************9 PP
+
+>> MW901580_  S 21509-25330
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.6  13.5     6e-14     6e-14       1      18 []    1203    1220 ..    1203    1220 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 43.6 bits;  conditional E-value: 6e-14
+   Region12    1 LGKYEQYIKWPWYIWLGF 18  
+                 LGKYEQYIKWPWYIWLGF
+  MW901580_ 1203 LGKYEQYIKWPWYIWLGF 1220
+                 9****************9 PP
+
+>> OQ558991_  S 21509-25327
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.6  13.5     6e-14     6e-14       1      18 []    1202    1219 ..    1202    1219 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 43.6 bits;  conditional E-value: 6e-14
+   Region12    1 LGKYEQYIKWPWYIWLGF 18  
+                 LGKYEQYIKWPWYIWLGF
+  OQ558991_ 1202 LGKYEQYIKWPWYIWLGF 1219
+                 9****************9 PP
+
+>> MG772933_  S 21549-25289
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   42.8  11.5   1.1e-13   1.1e-13       1      18 []    1176    1193 ..    1176    1193 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 42.8 bits;  conditional E-value: 1.1e-13
+   Region12    1 LGKYEQYIKWPWYIWLGF 18  
+                 LGKYEQYIKWPWY+WLGF
+  MG772933_ 1176 LGKYEQYIKWPWYVWLGF 1193
+                 9****************9 PP
+
+>> GQ153543_  S 21483-25211
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   42.8  11.5   1.1e-13   1.1e-13       1      18 []    1172    1189 ..    1172    1189 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 42.8 bits;  conditional E-value: 1.1e-13
+   Region12    1 LGKYEQYIKWPWYIWLGF 18  
+                 LGKYEQYIKWPWY+WLGF
+  GQ153543_ 1172 LGKYEQYIKWPWYVWLGF 1189
+                 9****************9 PP
+
+>> GQ153547_  S 21471-25199
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   42.8  11.5   1.1e-13   1.1e-13       1      18 []    1172    1189 ..    1172    1189 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 42.8 bits;  conditional E-value: 1.1e-13
+   Region12    1 LGKYEQYIKWPWYIWLGF 18  
+                 LGKYEQYIKWPWY+WLGF
+  GQ153547_ 1172 LGKYEQYIKWPWYVWLGF 1189
+                 9****************9 PP
+
+>> GQ153542_  S 21483-25211
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   42.8  11.5   1.1e-13   1.1e-13       1      18 []    1172    1189 ..    1172    1189 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 42.8 bits;  conditional E-value: 1.1e-13
+   Region12    1 LGKYEQYIKWPWYIWLGF 18  
+                 LGKYEQYIKWPWY+WLGF
+  GQ153542_ 1172 LGKYEQYIKWPWYVWLGF 1189
+                 9****************9 PP
+
+>> DQ084199_  S 21454-25182
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   42.8  11.5   1.1e-13   1.1e-13       1      18 []    1172    1189 ..    1172    1189 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 42.8 bits;  conditional E-value: 1.1e-13
+   Region12    1 LGKYEQYIKWPWYIWLGF 18  
+                 LGKYEQYIKWPWY+WLGF
+  DQ084199_ 1172 LGKYEQYIKWPWYVWLGF 1189
+                 9****************9 PP
+
+>> DQ022305_  S 21471-25199
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   42.8  11.5   1.1e-13   1.1e-13       1      18 []    1172    1189 ..    1172    1189 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 42.8 bits;  conditional E-value: 1.1e-13
+   Region12    1 LGKYEQYIKWPWYIWLGF 18  
+                 LGKYEQYIKWPWY+WLGF
+  DQ022305_ 1172 LGKYEQYIKWPWYVWLGF 1189
+                 9****************9 PP
+
+>> GQ153539_  S 21471-25199
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   42.8  11.5   1.1e-13   1.1e-13       1      18 []    1172    1189 ..    1172    1189 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 42.8 bits;  conditional E-value: 1.1e-13
+   Region12    1 LGKYEQYIKWPWYIWLGF 18  
+                 LGKYEQYIKWPWY+WLGF
+  GQ153539_ 1172 LGKYEQYIKWPWYVWLGF 1189
+                 9****************9 PP
+
+>> GQ153540_  S 21471-25199
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   42.8  11.5   1.1e-13   1.1e-13       1      18 []    1172    1189 ..    1172    1189 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 42.8 bits;  conditional E-value: 1.1e-13
+   Region12    1 LGKYEQYIKWPWYIWLGF 18  
+                 LGKYEQYIKWPWY+WLGF
+  GQ153540_ 1172 LGKYEQYIKWPWYVWLGF 1189
+                 9****************9 PP
+
+>> GQ153541_  S 21471-25199
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   42.8  11.5   1.1e-13   1.1e-13       1      18 []    1172    1189 ..    1172    1189 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 42.8 bits;  conditional E-value: 1.1e-13
+   Region12    1 LGKYEQYIKWPWYIWLGF 18  
+                 LGKYEQYIKWPWY+WLGF
+  GQ153541_ 1172 LGKYEQYIKWPWYVWLGF 1189
+                 9****************9 PP
+
+>> GQ153544_  S 21462-25190
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   42.8  11.5   1.1e-13   1.1e-13       1      18 []    1172    1189 ..    1172    1189 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 42.8 bits;  conditional E-value: 1.1e-13
+   Region12    1 LGKYEQYIKWPWYIWLGF 18  
+                 LGKYEQYIKWPWY+WLGF
+  GQ153544_ 1172 LGKYEQYIKWPWYVWLGF 1189
+                 9****************9 PP
+
+>> GQ153545_  S 21462-25190
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   42.8  11.5   1.1e-13   1.1e-13       1      18 []    1172    1189 ..    1172    1189 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 42.8 bits;  conditional E-value: 1.1e-13
+   Region12    1 LGKYEQYIKWPWYIWLGF 18  
+                 LGKYEQYIKWPWY+WLGF
+  GQ153545_ 1172 LGKYEQYIKWPWYVWLGF 1189
+                 9****************9 PP
+
+>> GQ153546_  S 21462-25190
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   42.8  11.5   1.1e-13   1.1e-13       1      18 []    1172    1189 ..    1172    1189 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 42.8 bits;  conditional E-value: 1.1e-13
+   Region12    1 LGKYEQYIKWPWYIWLGF 18  
+                 LGKYEQYIKWPWY+WLGF
+  GQ153546_ 1172 LGKYEQYIKWPWYVWLGF 1189
+                 9****************9 PP
+
+>> GQ153548_  S 21444-25172
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   42.8  11.5   1.1e-13   1.1e-13       1      18 []    1172    1189 ..    1172    1189 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 42.8 bits;  conditional E-value: 1.1e-13
+   Region12    1 LGKYEQYIKWPWYIWLGF 18  
+                 LGKYEQYIKWPWY+WLGF
+  GQ153548_ 1172 LGKYEQYIKWPWYVWLGF 1189
+                 9****************9 PP
+
+>> KY352407_  S 21418-25191
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   42.0   9.6     2e-13     2e-13       1      18 []    1188    1205 ..    1188    1205 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 42.0 bits;  conditional E-value: 2e-13
+   Region12    1 LGKYEQYIKWPWYIWLGF 18  
+                 LGKYEQY+KWPWY+WLGF
+  KY352407_ 1188 LGKYEQYVKWPWYVWLGF 1205
+                 9****************9 PP
+
+>> MG772934_  S 21483-25220
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   40.1  10.1   7.7e-13   7.7e-13       1      18 []    1175    1192 ..    1175    1192 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 40.1 bits;  conditional E-value: 7.7e-13
+   Region12    1 LGKYEQYIKWPWYIWLGF 18  
+                 LGKYE YIKWPWY+WLGF
+  MG772934_ 1175 LGKYEHYIKWPWYVWLGF 1192
+                 9****************9 PP
+
+>> NC025217_  S 23563-27516
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   33.7   5.9     8e-11     8e-11       6      18 .]    1256    1268 ..    1251    1268 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 33.7 bits;  conditional E-value: 8e-11
+   Region12    6 QYIKWPWYIWLGF 18  
+                 QYIKWPWYIWLGF
+  NC025217_ 1256 QYIKWPWYIWLGF 1268
+                 ************9 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (18 nodes)
+Target sequences:                         69  (86422 residues searched)
+Passed MSV filter:                        69  (1); expected 1.4 (0.02)
+Passed bias filter:                       69  (1); expected 1.4 (0.02)
+Passed Vit filter:                        69  (1); expected 0.1 (0.001)
+Passed Fwd filter:                        69  (1); expected 0.0 (1e-05)
+Initial search space (Z):                 69  [actual number of targets]
+Domain search space  (domZ):              69  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.01
+# Mc/sec: 120.76
+//
+[ok]

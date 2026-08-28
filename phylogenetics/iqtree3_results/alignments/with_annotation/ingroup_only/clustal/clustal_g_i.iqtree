@@ -1,0 +1,366 @@
+IQ-TREE 3.0.1 built Jun 30 2025
+
+Partition file name: partition.nexus
+Input file name: clustal_g_i.fasta
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 50
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Hector Banos, Andrew J. Roger,
+Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman, Matthew W. Hahn,
+Gavin Huttley, Robert Lanfear, Bui Quang Minh (2025)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Submitted.
+
+Since you used ModelFinder please also cite: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+Since you used partition models please also cite:
+
+Olga Chernomor, Arndt von Haeseler, and Bui Quang Minh (2016)
+Terrace aware data structure for phylogenomic inference from
+supermatrices. Syst. Biol., 65:997-1008.
+https://doi.org/10.1093/sysbio/syw037
+
+SEQUENCE ALIGNMENT
+------------------
+
+NOTE: Alignment sequence type is auto-detected. If in doubt, specify it via -st option.
+Input data: 48 taxa with 11 partitions and 30530 total sites (0.210449% missing data)
+
+  ID	Type	Seq	Site	Unique	Infor	Invar	Const	Name
+   1	DNA	48	22030	669	156	21498	21498	ORF1ab
+   2	DNA	48	4074	519	143	3834	3834	S
+   3	DNA	48	840	65	16	793	793	ORF3a
+   4	DNA	48	258	38	5	241	241	E
+   5	DNA	48	672	103	10	648	648	M
+   6	DNA	46	192	19	4	185	185	ORF6
+   7	DNA	48	511	92	8	472	472	ORF7a
+   8	DNA	46	135	17	3	129	129	ORF7b
+   9	DNA	42	405	69	8	363	363	ORF8
+  10	DNA	48	1296	103	15	1223	1223	N
+  11	DNA	48	117	14	1	111	111	ORF10
+
+Column meanings:
+  Unique: Number of unique site patterns
+  Infor:  Number of parsimony-informative sites
+  Invar:  Number of invariant sites
+  Const:  Number of constant sites (can be subset of invariant sites)
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: GTR+F+I+R3:ORF1ab,K3Pu+F+I+R3:S,TN+F+I:ORF3a,F81+F+I:E,HKY+F+I:M,F81+F:ORF6,F81+F+I:ORF7a,HKY+F:ORF7b,HKY+F+G4:ORF8,TN+F+I:N,F81+F:ORF10
+
+List of best-fit models per partition:
+
+  ID  Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+   1  GTR+F+I+R3       -34800.871   69629.741 + 3.05e-314   69629.760 + 3.34e-314   69741.743 +        0
+   2  K3Pu+F+I+R3       -8011.568   16045.135 + 3.05e-314   16045.200 + 3.34e-314   16114.571 +        0
+   3  TN+F+I            -1612.449    3238.899 + 3.05e-314    3239.033 + 3.34e-314    3272.033 +        0
+   4  F81+F+I            -524.377    1058.754 + 3.05e-314    1058.992 + 3.34e-314    1076.519 +        0
+   5  HKY+F+I           -1164.914    2341.829 + 3.05e-314    2341.955 + 3.34e-314    2368.890 +        0
+   6  F81+F              -319.075     646.150 + 3.05e-314     646.363 + 3.34e-314     659.180 +        0
+   7  F81+F+I           -1055.931    2121.862 + 3.05e-314    2121.981 + 3.34e-314    2143.044 +        0
+   8  HKY+F              -230.451     470.903 + 3.05e-314     471.368 + 3.34e-314     485.429 +        0
+   9  HKY+F+G4           -912.745    1837.491 + 3.05e-314    1837.702 + 3.34e-314    1861.514 +        0
+  10  TN+F+I            -2519.100    5052.201 + 3.05e-314    5052.288 + 3.34e-314    5088.370 +        0
+  11  F81+F              -209.906     427.813 + 3.05e-314     428.170 + 3.34e-314     438.861 +        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Edge-linked-proportional partition model with separate substitution models and separate rates across sites
+
+  ID  Model           Speed  Parameters
+   1  GTR+F+I+R3     0.6847  GTR{0.317154,1.33647,0.27493,0.132222,3.33212}+F{0.301908,0.175275,0.198693,0.324125}+I{0.67839}+R3{0.237322,1.7426e-14,0.0840181,10.1055,0.000269911,559.288}
+   2  K3Pu+F+I+R3    2.0071  K3Pu{1.57318,0.486258}+F{0.296018,0.187581,0.184383,0.332017}+I{0.610309}+R3{0.228906,2.95968e-15,0.153562,4.51923,0.0072237,42.3631}
+   3  TN+F+I         1.3263  TN{0.89429,4.9674}+F{0.2718,0.207811,0.184398,0.335991}+I{0.792932}
+   4  F81+F+I        2.0418  F81+F{0.215082,0.194192,0.185012,0.405714}+I{0.84818}
+   5  HKY+F+I        0.8728  HKY{12.7455}+F{0.255548,0.215838,0.207695,0.320919}+I{0.88991}
+   6  F81+F          0.8564  F81+F{0.360417,0.1482,0.136827,0.354555}
+   7  F81+F+I        2.6706  F81+F{0.295241,0.215234,0.165865,0.32366}+I{0.725154}
+   8  HKY+F          1.1975  HKY{14.3371}+F{0.234866,0.178961,0.12868,0.457493}
+   9  HKY+F+G4       3.3561  HKY{2.55194}+F{0.276258,0.173774,0.182865,0.367103}+G4{0.263129}
+  10  TN+F+I         1.4478  TN{1.62194,6.13547}+F{0.317625,0.250237,0.219893,0.212244}+I{0.84275}
+  11  F81+F          0.9830  F81+F{0.299679,0.178737,0.161969,0.359615}
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -51334.4970 (s.e. 363.0230)
+Unconstrained log-likelihood (without tree): -100604.1278
+Number of free parameters (#branches + #model parameters): 166
+Akaike information criterion (AIC) score: 103000.9941
+Corrected Akaike information criterion (AICc) score: 103002.8201
+Bayesian information criterion (BIC) score: 104383.1873
+
+Marginal log-likelihood of the tree: -52139.5052
+Marginal Akaike information criterion (mAIC) score: 104611.0105
+
+Total tree length (sum of branch lengths): 0.0522
+Sum of internal branch lengths: 0.0123 (23.4533% of tree length)
+
+WARNING: 9 near-zero internal branches (<0.0000) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'MN908947_' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / ultrafast bootstrap support (%)
+
++--MN908947_
+|
+|        +--MW183957_
+|     +--| (80.6/87)
+|     |  |                +--ON923618_
+|     |  |             +--| (82.6/90)
+|     |  |             |  |  +--OP440368_
+|     |  |             |  +--| (81.4/91)
+|     |  |             |     |     +----------OR020535_
+|     |  |             |     |  +--| (97.1/100)
+|     |  |             |     |  |  +--OY792307_
+|     |  |             |     +--| (93.8/97)
+|     |  |             |        |           +---OR563456_
+|     |  |             |        |        +--| (75.8/58)
+|     |  |             |        |        |  |  +---OR983979_
+|     |  |             |        |        |  +--| (69.1/57)
+|     |  |             |        |        |     |  +--PP023772_
+|     |  |             |        |        |     +--| (98/100)
+|     |  |             |        |        |        +--------------PP030571_
+|     |  |             |        |     +--| (84.9/73)
+|     |  |             |        |     |  |  +-----OY784472_
+|     |  |             |        |     |  +--| (89.6/61)
+|     |  |             |        |     |     +----PV497551_
+|     |  |             |        |  +--| (93.9/83)
+|     |  |             |        |  |  +----OR689160_
+|     |  |             |        +--| (89/91)
+|     |  |             |           |                       +---OZ014103_
+|     |  |             |           |                    +**| (73.2/56)
+|     |  |             |           |                    |  |     +--PQ121865_
+|     |  |             |           |                    |  |  +--| (86.7/78)
+|     |  |             |           |                    |  |  |  |     +--PQ279056_
+|     |  |             |           |                    |  |  |  |  +--| (86/95)
+|     |  |             |           |                    |  |  |  |  |  +----PX448754_
+|     |  |             |           |                    |  |  |  +--| (99.8/97)
+|     |  |             |           |                    |  |  |     |  +--PQ279092_
+|     |  |             |           |                    |  |  |     +--| (23.1/82)
+|     |  |             |           |                    |  |  |        +--PQ304301_
+|     |  |             |           |                    |  +--| (85/80)
+|     |  |             |           |                    |     +---PV239625_
+|     |  |             |           |                 +--| (95.5/77)
+|     |  |             |           |                 |  +--------------PQ375771_
+|     |  |             |           |           +-----| (100/100)
+|     |  |             |           |           |     |     +--OZ223682_
+|     |  |             |           |           |     |  +--| (99.3/99)
+|     |  |             |           |           |     |  |  +----PX393327_
+|     |  |             |           |           |     +**| (0/64)
+|     |  |             |           |           |        +---PQ899058_
+|     |  |             |           +-----------| (100/100)
+|     |  |             |                       |  +----PQ391889_
+|     |  |             |                       +--| (98.8/100)
+|     |  |             |                          +------PX059619_
+|     |  |         +---| (99/99)
+|     |  |         |   |  +--OP578130_
+|     |  |         |   +--| (93.9/99)
+|     |  |         |      +---PQ017244_
+|     |  +---------| (100/100)
+|     |            +------OV948634_
+|  +**| (0/75)
+|  |  +-----OK433428_
++--| (93.7/86)
+|  +--PP601887_
+|
+|  +------MW901580_
++**| (0/70)
+   |                 +---MZ131148_
+   |              +--| (85.1/93)
+   |              |  +--MZ160298_
+   |           +**| (0/47)
+   |           |  |     +------OK177352_
+   |           |  |  +--| (96.6/61)
+   |           |  |  |  +--------OQ558991_
+   |           |  +**| (71.3/53)
+   |           |     +------PQ972523_
+   |        +--| (80.8/50)
+   |        |  |     +-------MZ412499_
+   |        |  |  +**| (0/88)
+   |        |  |  |  +-------OK221016_
+   |        |  +--| (92.1/78)
+   |        |     |  +--OD923885_
+   |        |     +--| (94.7/97)
+   |        |        +-------OZ061529_
+   |     +**| (0/38)
+   |     |  |           +-----OK204161_
+   |     |  |        +--| (84.6/99)
+   |     |  |        |  +----PP630509_
+   |     |  |     +--| (99.6/100)
+   |     |  |     |  +-----OL714154_
+   |     |  |  +--| (92/95)
+   |     |  |  |  +--OL926066_
+   |     |  +--| (74.5/82)
+   |     |     +-----OQ896588_
+   |  +**| (99.8/51)
+   |  |  +--PP615923_
+   +--| (13.7/48)
+      +-----OU470855_
+
+Tree in newick format:
+
+(MN908947_:0.0001045183,(((MW183957_:0.0005655041,(((ON923618_:0.0003097067,(OP440368_:0.0004534398,((OR020535_:0.0016970511,OY792307_:0.0005044991)97.1/100:0.0003252747,((((OR563456_:0.0007138153,(OR983979_:0.0007231211,(PP023772_:0.0005846931,PP030571_:0.0023372081)98/100:0.0003755173)69.1/57:0.0001931784)75.8/58:0.0001110031,(OY784472_:0.0009181241,PV497551_:0.0008694373)89.6/61:0.0001482412)84.9/73:0.0002585604,OR689160_:0.0008289974)93.9/83:0.0004477831,((((OZ014103_:0.0006225084,((PQ121865_:0.0004502276,((PQ279056_:0.0002901444,PX448754_:0.0007920999)86/95:0.0000842559,(PQ279092_:0.0003724867,PQ304301_:0.0002880366)23.1/82:0.0000351098)99.8/97:0.0003827051)86.7/78:0.0000740376,PV239625_:0.0006765791)85/80:0.0000710098)73.2/56:0.0000264365,PQ375771_:0.0022929682)95.5/77:0.0002413608,((OZ223682_:0.0004216533,PX393327_:0.0007905900)99.3/99:0.0004039115,PQ899058_:0.0007282601)0/64:0.0000020290)100/100:0.0009464453,(PQ391889_:0.0008884997,PX059619_:0.0011765917)98.8/100:0.0004917033)100/100:0.0019286686)89/91:0.0004556273)93.8/97:0.0003070014)81.4/91:0.0001800943)82.6/90:0.0001867830,(OP578130_:0.0003431115,PQ017244_:0.0007128858)93.9/99:0.0002807117)99/99:0.0007151563,OV948634_:0.0011272816)100/100:0.0015605491)80.6/87:0.0000652990,OK433428_:0.0009961746)0/75:0.0000010152,PP601887_:0.0005871577)93.7/86:0.0001078354,(MW901580_:0.0011123766,((((((MZ131148_:0.0006383839,MZ160298_:0.0004835815)85.1/93:0.0001152882,((OK177352_:0.0011515672,OQ558991_:0.0014064680)96.6/61:0.0002868643,PQ972523_:0.0011984725)71.3/53:0.0000239587)0/47:0.0000021134,((MZ412499_:0.0012405190,OK221016_:0.0013452929)0/88:0.0000010236,(OD923885_:0.0005464604,OZ061529_:0.0012029021)94.7/97:0.0002027366)92.1/78:0.0001053005)80.8/50:0.0000361084,((((OK204161_:0.0009581496,PP630509_:0.0007950386)84.6/99:0.0000998234,OL714154_:0.0010464789)99.6/100:0.0005386049,OL926066_:0.0003121925)92/95:0.0002027449,OQ896588_:0.0009656331)74.5/82:0.0000420026)0/38:0.0000020836,PP615923_:0.0004979054)99.8/51:0.0000065147,OU470855_:0.0009187734)13.7/48:0.0001768495)0/70:0.0000025616);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -51334.539396
+Robinson-Foulds distance between ML tree and consensus tree: 0
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--MN908947_
+|
+|        +--MW183957_
+|     +--| (87)
+|     |  |                +--ON923618_
+|     |  |             +--| (90)
+|     |  |             |  |  +--OP440368_
+|     |  |             |  +--| (91)
+|     |  |             |     |     +----------OR020535_
+|     |  |             |     |  +--| (100)
+|     |  |             |     |  |  +--OY792307_
+|     |  |             |     +--| (97)
+|     |  |             |        |           +---OR563456_
+|     |  |             |        |        +--| (58)
+|     |  |             |        |        |  |  +---OR983979_
+|     |  |             |        |        |  +--| (57)
+|     |  |             |        |        |     |  +--PP023772_
+|     |  |             |        |        |     +--| (100)
+|     |  |             |        |        |        +--------------PP030571_
+|     |  |             |        |     +--| (73)
+|     |  |             |        |     |  |  +-----OY784472_
+|     |  |             |        |     |  +--| (61)
+|     |  |             |        |     |     +----PV497551_
+|     |  |             |        |  +--| (83)
+|     |  |             |        |  |  +----OR689160_
+|     |  |             |        +--| (91)
+|     |  |             |           |                       +---OZ014103_
+|     |  |             |           |                    +--| (56)
+|     |  |             |           |                    |  |     +--PQ121865_
+|     |  |             |           |                    |  |  +--| (78)
+|     |  |             |           |                    |  |  |  |     +--PQ279056_
+|     |  |             |           |                    |  |  |  |  +--| (95)
+|     |  |             |           |                    |  |  |  |  |  +----PX448754_
+|     |  |             |           |                    |  |  |  +--| (97)
+|     |  |             |           |                    |  |  |     |  +--PQ279092_
+|     |  |             |           |                    |  |  |     +--| (82)
+|     |  |             |           |                    |  |  |        +--PQ304301_
+|     |  |             |           |                    |  +--| (80)
+|     |  |             |           |                    |     +---PV239625_
+|     |  |             |           |                 +--| (77)
+|     |  |             |           |                 |  +--------------PQ375771_
+|     |  |             |           |           +-----| (100)
+|     |  |             |           |           |     |     +--OZ223682_
+|     |  |             |           |           |     |  +--| (99)
+|     |  |             |           |           |     |  |  +----PX393327_
+|     |  |             |           |           |     +--| (64)
+|     |  |             |           |           |        +---PQ899058_
+|     |  |             |           +-----------| (100)
+|     |  |             |                       |  +----PQ391889_
+|     |  |             |                       +--| (100)
+|     |  |             |                          +------PX059619_
+|     |  |         +---| (99)
+|     |  |         |   |  +--OP578130_
+|     |  |         |   +--| (99)
+|     |  |         |      +---PQ017244_
+|     |  +---------| (100)
+|     |            +------OV948634_
+|  +--| (75)
+|  |  +-----OK433428_
++--| (86)
+|  +--PP601887_
+|
+|  +------MW901580_
++--| (70)
+   |                 +---MZ131148_
+   |              +--| (93)
+   |              |  +--MZ160298_
+   |           +--| (47)
+   |           |  |     +------OK177352_
+   |           |  |  +--| (61)
+   |           |  |  |  +--------OQ558991_
+   |           |  +--| (53)
+   |           |     +------PQ972523_
+   |        +--| (50)
+   |        |  |     +-------MZ412499_
+   |        |  |  +**| (88)
+   |        |  |  |  +-------OK221016_
+   |        |  +--| (78)
+   |        |     |  +--OD923885_
+   |        |     +--| (97)
+   |        |        +-------OZ061529_
+   |     +--| (38)
+   |     |  |           +-----OK204161_
+   |     |  |        +--| (99)
+   |     |  |        |  +----PP630509_
+   |     |  |     +--| (100)
+   |     |  |     |  +-----OL714154_
+   |     |  |  +--| (95)
+   |     |  |  |  +--OL926066_
+   |     |  +--| (82)
+   |     |     +-----OQ896588_
+   |  +--| (51)
+   |  |  +--PP615923_
+   +--| (48)
+      +-----OU470855_
+
+
+Consensus tree in newick format: 
+
+(MN908947_:0.0001051051,(((MW183957_:0.0005651910,(((ON923618_:0.0003092590,(OP440368_:0.0004532204,((OR020535_:0.0016981031,OY792307_:0.0005048709)100:0.0003250259,((((OR563456_:0.0007149146,(OR983979_:0.0007238730,(PP023772_:0.0005854468,PP030571_:0.0023378937)100:0.0003747190)57:0.0001924834)58:0.0001105517,(OY784472_:0.0009177290,PV497551_:0.0008702987)61:0.0001485003)73:0.0002596646,OR689160_:0.0008299537)83:0.0004447888,((((OZ014103_:0.0006228441,((PQ121865_:0.0004510282,((PQ279056_:0.0002906231,PX448754_:0.0007914755)95:0.0000838978,(PQ279092_:0.0003724751,PQ304301_:0.0002885300)82:0.0000354353)97:0.0003836060)78:0.0000748290,PV239625_:0.0006759416)80:0.0000712060)56:0.0000266104,PQ375771_:0.0022940701)77:0.0002395414,((OZ223682_:0.0004242434,PX393327_:0.0007891927)99:0.0004047384,PQ899058_:0.0007296847)64:0.0000029194)100:0.0009483825,(PQ391889_:0.0008910828,PX059619_:0.0011751391)100:0.0004916303)100:0.0019294658)91:0.0004575852)97:0.0003071051)91:0.0001799965)90:0.0001878038,(OP578130_:0.0003443474,PQ017244_:0.0007136845)99:0.0002800296)99:0.0007161842,OV948634_:0.0011283313)100:0.0015606100)87:0.0000659402,OK433428_:0.0009964733)75:0.0000020873,PP601887_:0.0005867051)86:0.0001082069,(MW901580_:0.0011127367,((((((MZ131148_:0.0006381446,MZ160298_:0.0004832658)93:0.0001149306,((OK177352_:0.0011522785,OQ558991_:0.0014062021)61:0.0002872437,PQ972523_:0.0011994198)53:0.0000242703)47:0.0000021518,((MZ412499_:0.0012403231,OK221016_:0.0013452371)88:0.0000012864,(OD923885_:0.0005464946,OZ061529_:0.0012026298)97:0.0002023073)78:0.0001056091)50:0.0000365530,((((OK204161_:0.0009578966,PP630509_:0.0007954411)99:0.0000999066,OL714154_:0.0010470315)100:0.0005387572,OL926066_:0.0003127408)95:0.0002031113,OQ896588_:0.0009655317)82:0.0000410420)38:0.0000020877,PP615923_:0.0004980511)51:0.0001371965,OU470855_:0.0009194767)48:0.0000462579)70:0.0000020877);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t clustal_g_i.treefile -p clustal_g_i.best_model.nex
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s clustal_g_i.fasta --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s clustal_g_i.fasta --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Sat Dec 27 15:33:36 2025
+Total CPU time used: 140.738014 seconds (0h:2m:20s)
+Total wall-clock time used: 169.0267661 seconds (0h:2m:49s)
+

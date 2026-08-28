@@ -1,0 +1,12 @@
+/users/omarne/small_dataset/jaccard/ingroup_comparison/ng_ng_i_compare/ma_ng_cl_ng_i
+/users/omarne/.conda/envs/omkar/bin/python3
+Python 3.11.7
+All OK
+# Reading from mafft_ng_i.fasta
+# Reading from clustal_ng_i.fasta
+# Comparing alignment positions in mafft_ng_i.fasta and clustal_ng_i.fasta
+# Comparing alignment states in mafft_ng_i.fasta and clustal_ng_i.fasta
+File1,File2,Shared,Uniq1,Uniq2,PreliminaryScore,FinalScore
+mafft_ng_i.fasta,clustal_ng_i.fasta,29579,359,365,0.8815334947763414,0.9867260576706387
+File1,File2,Shared,Uniq1,Uniq2,PreliminaryScoreStates,FinalScoreStates
+mafft_ng_i.fasta,clustal_ng_i.fasta,1412,101,130,0.671388934692696,0.9125262090748938

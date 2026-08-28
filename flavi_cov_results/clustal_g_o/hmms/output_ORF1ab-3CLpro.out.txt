@@ -1,0 +1,2450 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /users/omarne/small_dataset//flavi-cov/database/ORF1ab/3CLpro.hmm
+# target sequence database:        output_ORF1ab_prot.fasta
+# output directed to file:         output_ORF1ab-3CLpro.out.txt
+# per-dom hits tabular output:     output_ORF1ab-3CLpro.dom.txt
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       3CLpro  [M=306]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence  Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------  -----------
+   2.9e-224  734.5   4.1   2.9e-224  734.5   4.1    2.2  2  MZ160298_  ORF1ab 181-13374;13374-21461
+   2.9e-224  734.5   4.1   2.9e-224  734.5   4.1    2.2  2  MZ412499_  ORF1ab 212-13405;13405-21492
+   2.9e-224  734.5   4.1   2.9e-224  734.5   4.1    2.2  2  OK177352_  ORF1ab 220-13413;13413-21500
+   2.9e-224  734.5   4.1   2.9e-224  734.5   4.1    2.2  2  OK221016_  ORF1ab 232-13425;13425-21512
+   2.9e-224  734.5   4.1   2.9e-224  734.5   4.1    2.2  2  MN908947_  ORF1ab 266-13468;13468-21555
+   2.9e-224  734.5   4.1   2.9e-224  734.5   4.1    2.2  2  MW183957_  ORF1ab 227-13429;13429-21516
+   2.9e-224  734.5   4.1   2.9e-224  734.5   4.1    2.2  2  MW901580_  ORF1ab 212-13414;13414-21501
+   2.9e-224  734.5   4.1   2.9e-224  734.5   4.1    2.2  2  OK204161_  ORF1ab 229-13431;13431-21518
+   2.9e-224  734.5   4.1   2.9e-224  734.5   4.1    2.3  2  OL714154_  ORF1ab 245-13447;13447-21534
+   2.9e-224  734.5   4.1   2.9e-224  734.5   4.1    2.2  2  OQ558991_  ORF1ab 212-13414;13414-21501
+   2.9e-224  734.5   4.1   2.9e-224  734.5   4.1    2.2  2  PP601887_  ORF1ab 212-13414;13414-21501
+   2.9e-224  734.5   4.1   2.9e-224  734.5   4.1    2.2  2  PP615923_  ORF1ab 264-13466;13466-21553
+     3e-224  734.5   4.1     3e-224  734.5   4.1    2.2  2  OU470855_  ORF1ab 66-13268;13268-21400
+     3e-224  734.5   4.1     3e-224  734.5   4.1    2.2  2  PQ972523_  ORF1ab 217-13410;13410-21623
+     6e-224  733.5   3.9     6e-224  733.5   3.9    2.2  2  MZ131148_  ORF1ab 228-13421;13421-21508
+   9.7e-224  732.8   4.1   9.7e-224  732.8   4.1    2.2  2  OZ061529_  ORF1ab 228-13421;13421-21508
+   1.1e-223  732.6   7.8   3.7e-223  730.9   4.6    2.5  2  PQ121865_  ORF1ab 212-13405;13405-21492
+   1.1e-223  732.6   7.8   3.7e-223  730.9   4.6    2.5  2  PQ899058_  ORF1ab 227-13420;13420-21507
+   1.1e-223  732.6   7.8   3.7e-223  730.9   4.6    2.5  2  OZ223682_  ORF1ab 266-13459;13459-21546
+   1.1e-223  732.6   7.8   3.7e-223  730.9   4.6    2.5  2  PQ279056_  ORF1ab 224-13417;13417-21504
+   1.1e-223  732.6   7.8   3.7e-223  730.9   4.6    2.5  2  PQ279092_  ORF1ab 224-13417;13417-21504
+   1.1e-223  732.6   7.8   3.7e-223  730.9   4.6    2.4  2  PQ375771_  ORF1ab 234-13427;13427-21514
+   1.1e-223  732.6   7.8   3.7e-223  730.9   4.6    2.4  2  OR983979_  ORF1ab 216-13409;13409-21496
+   1.1e-223  732.6   7.8   3.7e-223  730.9   4.6    2.4  2  PP030571_  ORF1ab 216-13409;13409-21496
+   1.1e-223  732.6   7.8   3.7e-223  730.9   4.6    2.4  2  PV239625_  ORF1ab 188-13381;13381-21468
+   1.1e-223  732.6   7.8   3.7e-223  730.9   4.6    2.5  2  PP023772_  ORF1ab 241-13434;13434-21686
+   1.1e-223  732.6   7.8   3.7e-223  730.9   4.6    2.4  2  OZ014103_  ORF1ab 266-13456;13456-21543
+   1.1e-223  732.6   7.8   3.7e-223  730.9   4.6    2.4  2  PX393327_  ORF1ab 188-13381;13381-21468
+   1.6e-223  732.0   4.1   1.6e-223  732.0   4.1    2.2  2  OK433428_  ORF1ab 212-13414;13414-21501
+   3.6e-223  730.9   4.6   3.6e-223  730.9   4.6    2.2  2  ON923618_  ORF1ab 493-13425;13425-21512
+   3.6e-223  730.9   4.6   3.6e-223  730.9   4.6    2.2  2  OP440368_  ORF1ab 464-13405;13405-21492
+   3.6e-223  730.9   4.6   3.6e-223  730.9   4.6    2.2  2  OY784472_  ORF1ab 518-13459;13459-21546
+   3.7e-223  730.9   4.6   3.7e-223  730.9   4.6    2.2  2  OV948634_  ORF1ab 266-13453;13453-21540
+   3.7e-223  730.9   4.6   3.7e-223  730.9   4.6    2.2  2  OY792307_  ORF1ab 266-13459;13459-21546
+   3.7e-223  730.9   4.6   3.7e-223  730.9   4.6    2.2  2  PQ391889_  ORF1ab 228-13421;13421-21508
+   3.7e-223  730.9   4.6   3.7e-223  730.9   4.6    2.2  2  PX059619_  ORF1ab 188-13381;13381-21468
+   3.7e-223  730.9   4.6   3.7e-223  730.9   4.6    2.2  2  OP578130_  ORF1ab 216-13418;13418-21505
+   3.7e-223  730.9   4.6   3.7e-223  730.9   4.6    2.2  2  OR563456_  ORF1ab 241-13434;13434-21566
+   3.9e-223  730.8   3.8   3.9e-223  730.8   3.8    2.2  2  OQ896588_  ORF1ab 166-13368;13368-21455
+   4.5e-223  730.6   4.6   4.5e-223  730.6   4.6    2.2  2  PP630509_  ORF1ab 212-13414;13414-21501
+   7.5e-223  729.9   4.5   7.5e-223  729.9   4.5    2.2  2  PV497551_  ORF1ab 227-13417;13417-21504
+   1.1e-222  729.3   5.9   1.2e-222  729.2   3.9    2.2  2  MG772934_  ORF1ab 265-13389;13389-21476
+   1.2e-222  729.2   3.9   1.2e-222  729.2   3.9    2.0  2  MG772933_  ORF1ab 265-13455;13455-21542
+   1.8e-222  728.6   4.5   1.8e-222  728.6   4.5    2.2  2  OR020535_  ORF1ab 241-13431;13431-21563
+   2.2e-222  728.3   4.7   2.2e-222  728.3   4.7    2.2  2  PQ017244_  ORF1ab 211-13404;13404-21491
+   4.2e-222  727.4   4.2   4.2e-222  727.4   4.2    1.9  1  OL926066_  ORF1ab 241-13443;13443-21575
+   8.5e-220  719.8   5.2   1.2e-219  719.4   3.9    2.0  2  MT040336_  ORF1ab 267-13445;13445-21532
+   8.5e-220  719.8   5.2   1.2e-219  719.4   3.9    2.0  2  MT040333_  ORF1ab 267-13445;13445-21532
+   8.6e-220  719.8   5.2   1.2e-219  719.4   3.9    2.0  2  MT040335_  ORF1ab 267-13445;13445-21532
+     2e-219  718.6   5.4   2.7e-219  718.2   4.1    2.0  2  MT040334_  ORF1ab 267-13445;13445-21532
+   4.9e-219  717.3   5.2   6.7e-219  716.9   3.9    1.9  2  MT072864_  ORF1ab 249-13427;13427-21514
+   2.2e-217  711.9   3.3   2.2e-217  711.9   3.3    2.3  2  GQ153547_  ORF1ab 262-13377;13377-21464
+   2.2e-217  711.9   3.3   2.2e-217  711.9   3.3    2.7  3  GQ153542_  ORF1ab 262-13389;13389-21476
+   7.3e-217  710.2   3.4   7.3e-217  710.2   3.4    2.1  2  KY352407_  ORF1ab 260-13324;13324-21411
+   1.5e-216  709.1   3.4   1.5e-216  709.1   3.4    2.3  2  GQ153548_  ORF1ab 262-13350;13350-21437
+   1.5e-216  709.1   3.4   1.5e-216  709.1   3.4    2.3  2  DQ022305_  ORF1ab 262-13377;13377-21464
+   1.5e-216  709.1   3.4   1.5e-216  709.1   3.4    2.3  2  DQ084199_  ORF1ab 245-13360;13360-21447
+   1.5e-216  709.1   3.4   1.5e-216  709.1   3.4    2.3  2  GQ153539_  ORF1ab 262-13377;13377-21464
+   1.5e-216  709.1   3.4   1.5e-216  709.1   3.4    2.3  2  GQ153540_  ORF1ab 262-13377;13377-21464
+   1.5e-216  709.1   3.4   1.5e-216  709.1   3.4    2.3  2  GQ153541_  ORF1ab 262-13377;13377-21464
+   2.4e-216  708.5   3.8   2.4e-216  708.5   3.8    2.7  3  GQ153543_  ORF1ab 262-13389;13389-21476
+   2.3e-215  705.3   2.8   2.3e-215  705.3   2.8    2.3  2  GQ153544_  ORF1ab 262-13368;13368-21455
+   2.3e-215  705.3   2.8   2.3e-215  705.3   2.8    2.3  2  GQ153545_  ORF1ab 262-13368;13368-21455
+   2.3e-215  705.3   2.8   2.3e-215  705.3   2.8    2.3  2  GQ153546_  ORF1ab 262-13368;13368-21455
+   1.2e-208  683.2   7.8   4.2e-208  681.4   4.7    2.5  2  PQ304301_  ORF1ab 224-13417;13417-21504
+   1.2e-208  683.2   7.8   4.2e-208  681.4   4.7    2.4  2  PX448754_  ORF1ab 224-13417;13417-21504
+   4.2e-208  681.4   4.7   4.2e-208  681.4   4.7    2.2  2  OR689160_  ORF1ab 224-13417;13417-21504
+   2.5e-187  613.2   4.3   2.5e-187  613.2   4.3    2.0  2  OD923885_  ORF1ab 266-13468;13468-21555
+   1.5e-152  499.0   1.6   2.9e-152  498.0   1.6    1.5  1  NC025217_  ORF1ab 303-13931;13931-22045
+
+
+Domain annotation for each sequence (and alignments):
+>> MZ160298_  ORF1ab 181-13374;13374-21461
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  734.5   4.1  2.9e-224  2.9e-224       1     306 []    3264    3569 ..    3264    3569 .. 1.00
+   2 ?   -0.9   0.1       2.5       2.5     174     222 ..    4133    4181 ..    4125    4190 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 734.5 bits;  conditional E-value: 2.9e-224
+     3CLpro    1 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt 98  
+                 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt
+  MZ160298_ 3264 SGFRKMAFPSGKVEGCMVQVTCGTTTLNGLWLDDVVYCPRHVICTSEDMLNPNYEDLLIRKSNHNFLVQAGNVQLRVIGHSMQNCVLKLKVDTANPKT 3361
+                 8************************************************************************************************* PP
+
+     3CLpro   99 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt 196 
+                 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt
+  MZ160298_ 3362 PKYKFVRIQPGQTFSVLACYNGSPSGVYQCAMRPNFTIKGSFLNGSCGSVGFNIDYDCVSFCYMHHMELPTGVHAGTDLEGNFYGPFVDRQTAQAAGT 3459
+                 ************************************************************************************************** PP
+
+     3CLpro  197 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf 294 
+                 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf
+  MZ160298_ 3460 DTTITVNVLAWLYAAVINGDRWFLNRFTTTLNDFNLVAMKYNYEPLTQDHVDILGPLSAQTGIAVLDMCASLKELLQNGMNGRTILGSALLEDEFTPF 3557
+                 ************************************************************************************************** PP
+
+     3CLpro  295 dvvrqcsgvtfq 306 
+                 dvvrqcsgvtfq
+  MZ160298_ 3558 DVVRQCSGVTFQ 3569
+                 ***********8 PP
+
+  == domain 2  score: -0.9 bits;  conditional E-value: 2.5
+     3CLpro  174 gtdlegnfygpfvdrqtaqaagtdttitvnvlawlyaavingdrwflnr 222 
+                 +  l+ n   p+  rq + aagt  t   +  a  y    +g r++l  
+  MZ160298_ 4133 AVKLQNNELSPVALRQMSCAAGTTQTACTDDNALAYYNTTKGGRFVLAL 4181
+                 5678899999*************99999999999999999999998864 PP
+
+>> MZ412499_  ORF1ab 212-13405;13405-21492
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  734.5   4.1  2.9e-224  2.9e-224       1     306 []    3264    3569 ..    3264    3569 .. 1.00
+   2 ?   -0.9   0.1       2.5       2.5     174     222 ..    4133    4181 ..    4125    4190 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 734.5 bits;  conditional E-value: 2.9e-224
+     3CLpro    1 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt 98  
+                 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt
+  MZ412499_ 3264 SGFRKMAFPSGKVEGCMVQVTCGTTTLNGLWLDDVVYCPRHVICTSEDMLNPNYEDLLIRKSNHNFLVQAGNVQLRVIGHSMQNCVLKLKVDTANPKT 3361
+                 8************************************************************************************************* PP
+
+     3CLpro   99 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt 196 
+                 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt
+  MZ412499_ 3362 PKYKFVRIQPGQTFSVLACYNGSPSGVYQCAMRPNFTIKGSFLNGSCGSVGFNIDYDCVSFCYMHHMELPTGVHAGTDLEGNFYGPFVDRQTAQAAGT 3459
+                 ************************************************************************************************** PP
+
+     3CLpro  197 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf 294 
+                 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf
+  MZ412499_ 3460 DTTITVNVLAWLYAAVINGDRWFLNRFTTTLNDFNLVAMKYNYEPLTQDHVDILGPLSAQTGIAVLDMCASLKELLQNGMNGRTILGSALLEDEFTPF 3557
+                 ************************************************************************************************** PP
+
+     3CLpro  295 dvvrqcsgvtfq 306 
+                 dvvrqcsgvtfq
+  MZ412499_ 3558 DVVRQCSGVTFQ 3569
+                 ***********8 PP
+
+  == domain 2  score: -0.9 bits;  conditional E-value: 2.5
+     3CLpro  174 gtdlegnfygpfvdrqtaqaagtdttitvnvlawlyaavingdrwflnr 222 
+                 +  l+ n   p+  rq + aagt  t   +  a  y    +g r++l  
+  MZ412499_ 4133 AVKLQNNELSPVALRQMSCAAGTTQTACTDDNALAYYNTTKGGRFVLAL 4181
+                 5678899999*************99999999999999999999998864 PP
+
+>> OK177352_  ORF1ab 220-13413;13413-21500
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  734.5   4.1  2.9e-224  2.9e-224       1     306 []    3264    3569 ..    3264    3569 .. 1.00
+   2 ?   -0.9   0.1       2.5       2.5     174     222 ..    4133    4181 ..    4125    4190 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 734.5 bits;  conditional E-value: 2.9e-224
+     3CLpro    1 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt 98  
+                 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt
+  OK177352_ 3264 SGFRKMAFPSGKVEGCMVQVTCGTTTLNGLWLDDVVYCPRHVICTSEDMLNPNYEDLLIRKSNHNFLVQAGNVQLRVIGHSMQNCVLKLKVDTANPKT 3361
+                 8************************************************************************************************* PP
+
+     3CLpro   99 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt 196 
+                 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt
+  OK177352_ 3362 PKYKFVRIQPGQTFSVLACYNGSPSGVYQCAMRPNFTIKGSFLNGSCGSVGFNIDYDCVSFCYMHHMELPTGVHAGTDLEGNFYGPFVDRQTAQAAGT 3459
+                 ************************************************************************************************** PP
+
+     3CLpro  197 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf 294 
+                 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf
+  OK177352_ 3460 DTTITVNVLAWLYAAVINGDRWFLNRFTTTLNDFNLVAMKYNYEPLTQDHVDILGPLSAQTGIAVLDMCASLKELLQNGMNGRTILGSALLEDEFTPF 3557
+                 ************************************************************************************************** PP
+
+     3CLpro  295 dvvrqcsgvtfq 306 
+                 dvvrqcsgvtfq
+  OK177352_ 3558 DVVRQCSGVTFQ 3569
+                 ***********8 PP
+
+  == domain 2  score: -0.9 bits;  conditional E-value: 2.5
+     3CLpro  174 gtdlegnfygpfvdrqtaqaagtdttitvnvlawlyaavingdrwflnr 222 
+                 +  l+ n   p+  rq + aagt  t   +  a  y    +g r++l  
+  OK177352_ 4133 AVKLQNNELSPVALRQMSCAAGTTQTACTDDNALAYYNTTKGGRFVLAL 4181
+                 5678899999*************99999999999999999999998864 PP
+
+>> OK221016_  ORF1ab 232-13425;13425-21512
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  734.5   4.1  2.9e-224  2.9e-224       1     306 []    3264    3569 ..    3264    3569 .. 1.00
+   2 ?   -0.9   0.1       2.5       2.5     174     222 ..    4133    4181 ..    4125    4190 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 734.5 bits;  conditional E-value: 2.9e-224
+     3CLpro    1 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt 98  
+                 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt
+  OK221016_ 3264 SGFRKMAFPSGKVEGCMVQVTCGTTTLNGLWLDDVVYCPRHVICTSEDMLNPNYEDLLIRKSNHNFLVQAGNVQLRVIGHSMQNCVLKLKVDTANPKT 3361
+                 8************************************************************************************************* PP
+
+     3CLpro   99 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt 196 
+                 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt
+  OK221016_ 3362 PKYKFVRIQPGQTFSVLACYNGSPSGVYQCAMRPNFTIKGSFLNGSCGSVGFNIDYDCVSFCYMHHMELPTGVHAGTDLEGNFYGPFVDRQTAQAAGT 3459
+                 ************************************************************************************************** PP
+
+     3CLpro  197 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf 294 
+                 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf
+  OK221016_ 3460 DTTITVNVLAWLYAAVINGDRWFLNRFTTTLNDFNLVAMKYNYEPLTQDHVDILGPLSAQTGIAVLDMCASLKELLQNGMNGRTILGSALLEDEFTPF 3557
+                 ************************************************************************************************** PP
+
+     3CLpro  295 dvvrqcsgvtfq 306 
+                 dvvrqcsgvtfq
+  OK221016_ 3558 DVVRQCSGVTFQ 3569
+                 ***********8 PP
+
+  == domain 2  score: -0.9 bits;  conditional E-value: 2.5
+     3CLpro  174 gtdlegnfygpfvdrqtaqaagtdttitvnvlawlyaavingdrwflnr 222 
+                 +  l+ n   p+  rq + aagt  t   +  a  y    +g r++l  
+  OK221016_ 4133 AVKLQNNELSPVALRQMSCAAGTTQTACTDDNALAYYNTTKGGRFVLAL 4181
+                 5678899999*************99999999999999999999998864 PP
+
+>> MN908947_  ORF1ab 266-13468;13468-21555
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  734.5   4.1  2.9e-224  2.9e-224       1     306 []    3264    3569 ..    3264    3569 .. 1.00
+   2 ?   -0.9   0.1       2.5       2.5     174     222 ..    4136    4184 ..    4128    4193 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 734.5 bits;  conditional E-value: 2.9e-224
+     3CLpro    1 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt 98  
+                 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt
+  MN908947_ 3264 SGFRKMAFPSGKVEGCMVQVTCGTTTLNGLWLDDVVYCPRHVICTSEDMLNPNYEDLLIRKSNHNFLVQAGNVQLRVIGHSMQNCVLKLKVDTANPKT 3361
+                 8************************************************************************************************* PP
+
+     3CLpro   99 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt 196 
+                 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt
+  MN908947_ 3362 PKYKFVRIQPGQTFSVLACYNGSPSGVYQCAMRPNFTIKGSFLNGSCGSVGFNIDYDCVSFCYMHHMELPTGVHAGTDLEGNFYGPFVDRQTAQAAGT 3459
+                 ************************************************************************************************** PP
+
+     3CLpro  197 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf 294 
+                 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf
+  MN908947_ 3460 DTTITVNVLAWLYAAVINGDRWFLNRFTTTLNDFNLVAMKYNYEPLTQDHVDILGPLSAQTGIAVLDMCASLKELLQNGMNGRTILGSALLEDEFTPF 3557
+                 ************************************************************************************************** PP
+
+     3CLpro  295 dvvrqcsgvtfq 306 
+                 dvvrqcsgvtfq
+  MN908947_ 3558 DVVRQCSGVTFQ 3569
+                 ***********8 PP
+
+  == domain 2  score: -0.9 bits;  conditional E-value: 2.5
+     3CLpro  174 gtdlegnfygpfvdrqtaqaagtdttitvnvlawlyaavingdrwflnr 222 
+                 +  l+ n   p+  rq + aagt  t   +  a  y    +g r++l  
+  MN908947_ 4136 AVKLQNNELSPVALRQMSCAAGTTQTACTDDNALAYYNTTKGGRFVLAL 4184
+                 5678899999*************99999999999999999999998864 PP
+
+>> MW183957_  ORF1ab 227-13429;13429-21516
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  734.5   4.1  2.9e-224  2.9e-224       1     306 []    3264    3569 ..    3264    3569 .. 1.00
+   2 ?   -0.9   0.1       2.5       2.5     174     222 ..    4136    4184 ..    4128    4193 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 734.5 bits;  conditional E-value: 2.9e-224
+     3CLpro    1 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt 98  
+                 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt
+  MW183957_ 3264 SGFRKMAFPSGKVEGCMVQVTCGTTTLNGLWLDDVVYCPRHVICTSEDMLNPNYEDLLIRKSNHNFLVQAGNVQLRVIGHSMQNCVLKLKVDTANPKT 3361
+                 8************************************************************************************************* PP
+
+     3CLpro   99 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt 196 
+                 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt
+  MW183957_ 3362 PKYKFVRIQPGQTFSVLACYNGSPSGVYQCAMRPNFTIKGSFLNGSCGSVGFNIDYDCVSFCYMHHMELPTGVHAGTDLEGNFYGPFVDRQTAQAAGT 3459
+                 ************************************************************************************************** PP
+
+     3CLpro  197 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf 294 
+                 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf
+  MW183957_ 3460 DTTITVNVLAWLYAAVINGDRWFLNRFTTTLNDFNLVAMKYNYEPLTQDHVDILGPLSAQTGIAVLDMCASLKELLQNGMNGRTILGSALLEDEFTPF 3557
+                 ************************************************************************************************** PP
+
+     3CLpro  295 dvvrqcsgvtfq 306 
+                 dvvrqcsgvtfq
+  MW183957_ 3558 DVVRQCSGVTFQ 3569
+                 ***********8 PP
+
+  == domain 2  score: -0.9 bits;  conditional E-value: 2.5
+     3CLpro  174 gtdlegnfygpfvdrqtaqaagtdttitvnvlawlyaavingdrwflnr 222 
+                 +  l+ n   p+  rq + aagt  t   +  a  y    +g r++l  
+  MW183957_ 4136 AVKLQNNELSPVALRQMSCAAGTTQTACTDDNALAYYNTTKGGRFVLAL 4184
+                 5678899999*************99999999999999999999998864 PP
+
+>> MW901580_  ORF1ab 212-13414;13414-21501
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  734.5   4.1  2.9e-224  2.9e-224       1     306 []    3264    3569 ..    3264    3569 .. 1.00
+   2 ?   -0.9   0.1       2.5       2.5     174     222 ..    4136    4184 ..    4128    4193 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 734.5 bits;  conditional E-value: 2.9e-224
+     3CLpro    1 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt 98  
+                 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt
+  MW901580_ 3264 SGFRKMAFPSGKVEGCMVQVTCGTTTLNGLWLDDVVYCPRHVICTSEDMLNPNYEDLLIRKSNHNFLVQAGNVQLRVIGHSMQNCVLKLKVDTANPKT 3361
+                 8************************************************************************************************* PP
+
+     3CLpro   99 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt 196 
+                 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt
+  MW901580_ 3362 PKYKFVRIQPGQTFSVLACYNGSPSGVYQCAMRPNFTIKGSFLNGSCGSVGFNIDYDCVSFCYMHHMELPTGVHAGTDLEGNFYGPFVDRQTAQAAGT 3459
+                 ************************************************************************************************** PP
+
+     3CLpro  197 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf 294 
+                 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf
+  MW901580_ 3460 DTTITVNVLAWLYAAVINGDRWFLNRFTTTLNDFNLVAMKYNYEPLTQDHVDILGPLSAQTGIAVLDMCASLKELLQNGMNGRTILGSALLEDEFTPF 3557
+                 ************************************************************************************************** PP
+
+     3CLpro  295 dvvrqcsgvtfq 306 
+                 dvvrqcsgvtfq
+  MW901580_ 3558 DVVRQCSGVTFQ 3569
+                 ***********8 PP
+
+  == domain 2  score: -0.9 bits;  conditional E-value: 2.5
+     3CLpro  174 gtdlegnfygpfvdrqtaqaagtdttitvnvlawlyaavingdrwflnr 222 
+                 +  l+ n   p+  rq + aagt  t   +  a  y    +g r++l  
+  MW901580_ 4136 AVKLQNNELSPVALRQMSCAAGTTQTACTDDNALAYYNTTKGGRFVLAL 4184
+                 5678899999*************99999999999999999999998864 PP
+
+>> OK204161_  ORF1ab 229-13431;13431-21518
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  734.5   4.1  2.9e-224  2.9e-224       1     306 []    3264    3569 ..    3264    3569 .. 1.00
+   2 ?   -0.9   0.1       2.5       2.5     174     222 ..    4136    4184 ..    4128    4193 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 734.5 bits;  conditional E-value: 2.9e-224
+     3CLpro    1 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt 98  
+                 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt
+  OK204161_ 3264 SGFRKMAFPSGKVEGCMVQVTCGTTTLNGLWLDDVVYCPRHVICTSEDMLNPNYEDLLIRKSNHNFLVQAGNVQLRVIGHSMQNCVLKLKVDTANPKT 3361
+                 8************************************************************************************************* PP
+
+     3CLpro   99 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt 196 
+                 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt
+  OK204161_ 3362 PKYKFVRIQPGQTFSVLACYNGSPSGVYQCAMRPNFTIKGSFLNGSCGSVGFNIDYDCVSFCYMHHMELPTGVHAGTDLEGNFYGPFVDRQTAQAAGT 3459
+                 ************************************************************************************************** PP
+
+     3CLpro  197 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf 294 
+                 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf
+  OK204161_ 3460 DTTITVNVLAWLYAAVINGDRWFLNRFTTTLNDFNLVAMKYNYEPLTQDHVDILGPLSAQTGIAVLDMCASLKELLQNGMNGRTILGSALLEDEFTPF 3557
+                 ************************************************************************************************** PP
+
+     3CLpro  295 dvvrqcsgvtfq 306 
+                 dvvrqcsgvtfq
+  OK204161_ 3558 DVVRQCSGVTFQ 3569
+                 ***********8 PP
+
+  == domain 2  score: -0.9 bits;  conditional E-value: 2.5
+     3CLpro  174 gtdlegnfygpfvdrqtaqaagtdttitvnvlawlyaavingdrwflnr 222 
+                 +  l+ n   p+  rq + aagt  t   +  a  y    +g r++l  
+  OK204161_ 4136 AVKLQNNELSPVALRQMSCAAGTTQTACTDDNALAYYNTTKGGRFVLAL 4184
+                 5678899999*************99999999999999999999998864 PP
+
+>> OL714154_  ORF1ab 245-13447;13447-21534
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  734.5   4.1  2.9e-224  2.9e-224       1     306 []    3264    3569 ..    3264    3569 .. 1.00
+   2 ?   -0.2   0.1       1.6       1.6     175     222 ..    4137    4184 ..    4131    4194 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 734.5 bits;  conditional E-value: 2.9e-224
+     3CLpro    1 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt 98  
+                 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt
+  OL714154_ 3264 SGFRKMAFPSGKVEGCMVQVTCGTTTLNGLWLDDVVYCPRHVICTSEDMLNPNYEDLLIRKSNHNFLVQAGNVQLRVIGHSMQNCVLKLKVDTANPKT 3361
+                 8************************************************************************************************* PP
+
+     3CLpro   99 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt 196 
+                 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt
+  OL714154_ 3362 PKYKFVRIQPGQTFSVLACYNGSPSGVYQCAMRPNFTIKGSFLNGSCGSVGFNIDYDCVSFCYMHHMELPTGVHAGTDLEGNFYGPFVDRQTAQAAGT 3459
+                 ************************************************************************************************** PP
+
+     3CLpro  197 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf 294 
+                 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf
+  OL714154_ 3460 DTTITVNVLAWLYAAVINGDRWFLNRFTTTLNDFNLVAMKYNYEPLTQDHVDILGPLSAQTGIAVLDMCASLKELLQNGMNGRTILGSALLEDEFTPF 3557
+                 ************************************************************************************************** PP
+
+     3CLpro  295 dvvrqcsgvtfq 306 
+                 dvvrqcsgvtfq
+  OL714154_ 3558 DVVRQCSGVTFQ 3569
+                 ***********8 PP
+
+  == domain 2  score: -0.2 bits;  conditional E-value: 1.6
+     3CLpro  175 tdlegnfygpfvdrqtaqaagtdttitvnvlawlyaavingdrwflnr 222 
+                   l+ n   p+  rq + aagt  t   n  a  y    +g r++l  
+  OL714154_ 4137 VKLQNNELSPVALRQMSCAAGTTQTSYTNDNALAYYNTTKGGRFVLAL 4184
+                 678889999**************99999999999999999*9998864 PP
+
+>> OQ558991_  ORF1ab 212-13414;13414-21501
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  734.5   4.1  2.9e-224  2.9e-224       1     306 []    3264    3569 ..    3264    3569 .. 1.00
+   2 ?   -0.9   0.1       2.5       2.5     174     222 ..    4136    4184 ..    4128    4193 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 734.5 bits;  conditional E-value: 2.9e-224
+     3CLpro    1 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt 98  
+                 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt
+  OQ558991_ 3264 SGFRKMAFPSGKVEGCMVQVTCGTTTLNGLWLDDVVYCPRHVICTSEDMLNPNYEDLLIRKSNHNFLVQAGNVQLRVIGHSMQNCVLKLKVDTANPKT 3361
+                 8************************************************************************************************* PP
+
+     3CLpro   99 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt 196 
+                 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt
+  OQ558991_ 3362 PKYKFVRIQPGQTFSVLACYNGSPSGVYQCAMRPNFTIKGSFLNGSCGSVGFNIDYDCVSFCYMHHMELPTGVHAGTDLEGNFYGPFVDRQTAQAAGT 3459
+                 ************************************************************************************************** PP
+
+     3CLpro  197 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf 294 
+                 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf
+  OQ558991_ 3460 DTTITVNVLAWLYAAVINGDRWFLNRFTTTLNDFNLVAMKYNYEPLTQDHVDILGPLSAQTGIAVLDMCASLKELLQNGMNGRTILGSALLEDEFTPF 3557
+                 ************************************************************************************************** PP
+
+     3CLpro  295 dvvrqcsgvtfq 306 
+                 dvvrqcsgvtfq
+  OQ558991_ 3558 DVVRQCSGVTFQ 3569
+                 ***********8 PP
+
+  == domain 2  score: -0.9 bits;  conditional E-value: 2.5
+     3CLpro  174 gtdlegnfygpfvdrqtaqaagtdttitvnvlawlyaavingdrwflnr 222 
+                 +  l+ n   p+  rq + aagt  t   +  a  y    +g r++l  
+  OQ558991_ 4136 AVKLQNNELSPVALRQMSCAAGTTQTACTDDNALAYYNTTKGGRFVLAL 4184
+                 5678899999*************99999999999999999999998864 PP
+
+>> PP601887_  ORF1ab 212-13414;13414-21501
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  734.5   4.1  2.9e-224  2.9e-224       1     306 []    3264    3569 ..    3264    3569 .. 1.00
+   2 ?   -0.9   0.1       2.5       2.5     174     222 ..    4136    4184 ..    4128    4193 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 734.5 bits;  conditional E-value: 2.9e-224
+     3CLpro    1 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt 98  
+                 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt
+  PP601887_ 3264 SGFRKMAFPSGKVEGCMVQVTCGTTTLNGLWLDDVVYCPRHVICTSEDMLNPNYEDLLIRKSNHNFLVQAGNVQLRVIGHSMQNCVLKLKVDTANPKT 3361
+                 8************************************************************************************************* PP
+
+     3CLpro   99 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt 196 
+                 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt
+  PP601887_ 3362 PKYKFVRIQPGQTFSVLACYNGSPSGVYQCAMRPNFTIKGSFLNGSCGSVGFNIDYDCVSFCYMHHMELPTGVHAGTDLEGNFYGPFVDRQTAQAAGT 3459
+                 ************************************************************************************************** PP
+
+     3CLpro  197 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf 294 
+                 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf
+  PP601887_ 3460 DTTITVNVLAWLYAAVINGDRWFLNRFTTTLNDFNLVAMKYNYEPLTQDHVDILGPLSAQTGIAVLDMCASLKELLQNGMNGRTILGSALLEDEFTPF 3557
+                 ************************************************************************************************** PP
+
+     3CLpro  295 dvvrqcsgvtfq 306 
+                 dvvrqcsgvtfq
+  PP601887_ 3558 DVVRQCSGVTFQ 3569
+                 ***********8 PP
+
+  == domain 2  score: -0.9 bits;  conditional E-value: 2.5
+     3CLpro  174 gtdlegnfygpfvdrqtaqaagtdttitvnvlawlyaavingdrwflnr 222 
+                 +  l+ n   p+  rq + aagt  t   +  a  y    +g r++l  
+  PP601887_ 4136 AVKLQNNELSPVALRQMSCAAGTTQTACTDDNALAYYNTTKGGRFVLAL 4184
+                 5678899999*************99999999999999999999998864 PP
+
+>> PP615923_  ORF1ab 264-13466;13466-21553
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  734.5   4.1  2.9e-224  2.9e-224       1     306 []    3264    3569 ..    3264    3569 .. 1.00
+   2 ?   -0.9   0.1       2.5       2.5     174     222 ..    4136    4184 ..    4128    4193 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 734.5 bits;  conditional E-value: 2.9e-224
+     3CLpro    1 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt 98  
+                 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt
+  PP615923_ 3264 SGFRKMAFPSGKVEGCMVQVTCGTTTLNGLWLDDVVYCPRHVICTSEDMLNPNYEDLLIRKSNHNFLVQAGNVQLRVIGHSMQNCVLKLKVDTANPKT 3361
+                 8************************************************************************************************* PP
+
+     3CLpro   99 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt 196 
+                 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt
+  PP615923_ 3362 PKYKFVRIQPGQTFSVLACYNGSPSGVYQCAMRPNFTIKGSFLNGSCGSVGFNIDYDCVSFCYMHHMELPTGVHAGTDLEGNFYGPFVDRQTAQAAGT 3459
+                 ************************************************************************************************** PP
+
+     3CLpro  197 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf 294 
+                 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf
+  PP615923_ 3460 DTTITVNVLAWLYAAVINGDRWFLNRFTTTLNDFNLVAMKYNYEPLTQDHVDILGPLSAQTGIAVLDMCASLKELLQNGMNGRTILGSALLEDEFTPF 3557
+                 ************************************************************************************************** PP
+
+     3CLpro  295 dvvrqcsgvtfq 306 
+                 dvvrqcsgvtfq
+  PP615923_ 3558 DVVRQCSGVTFQ 3569
+                 ***********8 PP
+
+  == domain 2  score: -0.9 bits;  conditional E-value: 2.5
+     3CLpro  174 gtdlegnfygpfvdrqtaqaagtdttitvnvlawlyaavingdrwflnr 222 
+                 +  l+ n   p+  rq + aagt  t   +  a  y    +g r++l  
+  PP615923_ 4136 AVKLQNNELSPVALRQMSCAAGTTQTACTDDNALAYYNTTKGGRFVLAL 4184
+                 5678899999*************99999999999999999999998864 PP
+
+>> OU470855_  ORF1ab 66-13268;13268-21400
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  734.5   4.1    3e-224    3e-224       1     306 []    3264    3569 ..    3264    3569 .. 1.00
+   2 ?   -0.9   0.1       2.5       2.5     174     222 ..    4136    4184 ..    4128    4193 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 734.5 bits;  conditional E-value: 3e-224
+     3CLpro    1 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt 98  
+                 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt
+  OU470855_ 3264 SGFRKMAFPSGKVEGCMVQVTCGTTTLNGLWLDDVVYCPRHVICTSEDMLNPNYEDLLIRKSNHNFLVQAGNVQLRVIGHSMQNCVLKLKVDTANPKT 3361
+                 8************************************************************************************************* PP
+
+     3CLpro   99 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt 196 
+                 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt
+  OU470855_ 3362 PKYKFVRIQPGQTFSVLACYNGSPSGVYQCAMRPNFTIKGSFLNGSCGSVGFNIDYDCVSFCYMHHMELPTGVHAGTDLEGNFYGPFVDRQTAQAAGT 3459
+                 ************************************************************************************************** PP
+
+     3CLpro  197 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf 294 
+                 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf
+  OU470855_ 3460 DTTITVNVLAWLYAAVINGDRWFLNRFTTTLNDFNLVAMKYNYEPLTQDHVDILGPLSAQTGIAVLDMCASLKELLQNGMNGRTILGSALLEDEFTPF 3557
+                 ************************************************************************************************** PP
+
+     3CLpro  295 dvvrqcsgvtfq 306 
+                 dvvrqcsgvtfq
+  OU470855_ 3558 DVVRQCSGVTFQ 3569
+                 ***********8 PP
+
+  == domain 2  score: -0.9 bits;  conditional E-value: 2.5
+     3CLpro  174 gtdlegnfygpfvdrqtaqaagtdttitvnvlawlyaavingdrwflnr 222 
+                 +  l+ n   p+  rq + aagt  t   +  a  y    +g r++l  
+  OU470855_ 4136 AVKLQNNELSPVALRQMSCAAGTTQTACTDDNALAYYNTTKGGRFVLAL 4184
+                 5678899999*************99999999999999999999998864 PP
+
+>> PQ972523_  ORF1ab 217-13410;13410-21623
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  734.5   4.1    3e-224    3e-224       1     306 []    3264    3569 ..    3264    3569 .. 1.00
+   2 ?   -0.9   0.1       2.5       2.5     174     222 ..    4133    4181 ..    4125    4190 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 734.5 bits;  conditional E-value: 3e-224
+     3CLpro    1 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt 98  
+                 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt
+  PQ972523_ 3264 SGFRKMAFPSGKVEGCMVQVTCGTTTLNGLWLDDVVYCPRHVICTSEDMLNPNYEDLLIRKSNHNFLVQAGNVQLRVIGHSMQNCVLKLKVDTANPKT 3361
+                 8************************************************************************************************* PP
+
+     3CLpro   99 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt 196 
+                 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt
+  PQ972523_ 3362 PKYKFVRIQPGQTFSVLACYNGSPSGVYQCAMRPNFTIKGSFLNGSCGSVGFNIDYDCVSFCYMHHMELPTGVHAGTDLEGNFYGPFVDRQTAQAAGT 3459
+                 ************************************************************************************************** PP
+
+     3CLpro  197 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf 294 
+                 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf
+  PQ972523_ 3460 DTTITVNVLAWLYAAVINGDRWFLNRFTTTLNDFNLVAMKYNYEPLTQDHVDILGPLSAQTGIAVLDMCASLKELLQNGMNGRTILGSALLEDEFTPF 3557
+                 ************************************************************************************************** PP
+
+     3CLpro  295 dvvrqcsgvtfq 306 
+                 dvvrqcsgvtfq
+  PQ972523_ 3558 DVVRQCSGVTFQ 3569
+                 ***********8 PP
+
+  == domain 2  score: -0.9 bits;  conditional E-value: 2.5
+     3CLpro  174 gtdlegnfygpfvdrqtaqaagtdttitvnvlawlyaavingdrwflnr 222 
+                 +  l+ n   p+  rq + aagt  t   +  a  y    +g r++l  
+  PQ972523_ 4133 AVKLQNNELSPVALRQMSCAAGTTQTACTDDNALAYYNTTKGGRFVLAL 4181
+                 5678899999*************99999999999999999999998864 PP
+
+>> MZ131148_  ORF1ab 228-13421;13421-21508
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  733.5   3.9    6e-224    6e-224       1     306 []    3264    3569 ..    3264    3569 .. 1.00
+   2 ?   -0.9   0.1       2.5       2.5     174     222 ..    4133    4181 ..    4125    4190 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 733.5 bits;  conditional E-value: 6e-224
+     3CLpro    1 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt 98  
+                 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlkl+vdtanpkt
+  MZ131148_ 3264 SGFRKMAFPSGKVEGCMVQVTCGTTTLNGLWLDDVVYCPRHVICTSEDMLNPNYEDLLIRKSNHNFLVQAGNVQLRVIGHSMQNCVLKLRVDTANPKT 3361
+                 8************************************************************************************************* PP
+
+     3CLpro   99 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt 196 
+                 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt
+  MZ131148_ 3362 PKYKFVRIQPGQTFSVLACYNGSPSGVYQCAMRPNFTIKGSFLNGSCGSVGFNIDYDCVSFCYMHHMELPTGVHAGTDLEGNFYGPFVDRQTAQAAGT 3459
+                 ************************************************************************************************** PP
+
+     3CLpro  197 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf 294 
+                 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf
+  MZ131148_ 3460 DTTITVNVLAWLYAAVINGDRWFLNRFTTTLNDFNLVAMKYNYEPLTQDHVDILGPLSAQTGIAVLDMCASLKELLQNGMNGRTILGSALLEDEFTPF 3557
+                 ************************************************************************************************** PP
+
+     3CLpro  295 dvvrqcsgvtfq 306 
+                 dvvrqcsgvtfq
+  MZ131148_ 3558 DVVRQCSGVTFQ 3569
+                 ***********8 PP
+
+  == domain 2  score: -0.9 bits;  conditional E-value: 2.5
+     3CLpro  174 gtdlegnfygpfvdrqtaqaagtdttitvnvlawlyaavingdrwflnr 222 
+                 +  l+ n   p+  rq + aagt  t   +  a  y    +g r++l  
+  MZ131148_ 4133 AVKLQNNELSPVALRQMSCAAGTTQTACTDDNALAYYNTTKGGRFVLAL 4181
+                 5678899999*************99999999999999999999998864 PP
+
+>> OZ061529_  ORF1ab 228-13421;13421-21508
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  732.8   4.1  9.7e-224  9.7e-224       1     306 []    3264    3569 ..    3264    3569 .. 1.00
+   2 ?   -0.9   0.1       2.5       2.5     174     222 ..    4133    4181 ..    4125    4190 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 732.8 bits;  conditional E-value: 9.7e-224
+     3CLpro    1 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt 98  
+                 sgfrkmafpsgkve+cmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt
+  OZ061529_ 3264 SGFRKMAFPSGKVESCMVQVTCGTTTLNGLWLDDVVYCPRHVICTSEDMLNPNYEDLLIRKSNHNFLVQAGNVQLRVIGHSMQNCVLKLKVDTANPKT 3361
+                 8************************************************************************************************* PP
+
+     3CLpro   99 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt 196 
+                 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt
+  OZ061529_ 3362 PKYKFVRIQPGQTFSVLACYNGSPSGVYQCAMRPNFTIKGSFLNGSCGSVGFNIDYDCVSFCYMHHMELPTGVHAGTDLEGNFYGPFVDRQTAQAAGT 3459
+                 ************************************************************************************************** PP
+
+     3CLpro  197 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf 294 
+                 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf
+  OZ061529_ 3460 DTTITVNVLAWLYAAVINGDRWFLNRFTTTLNDFNLVAMKYNYEPLTQDHVDILGPLSAQTGIAVLDMCASLKELLQNGMNGRTILGSALLEDEFTPF 3557
+                 ************************************************************************************************** PP
+
+     3CLpro  295 dvvrqcsgvtfq 306 
+                 dvvrqcsgvtfq
+  OZ061529_ 3558 DVVRQCSGVTFQ 3569
+                 ***********8 PP
+
+  == domain 2  score: -0.9 bits;  conditional E-value: 2.5
+     3CLpro  174 gtdlegnfygpfvdrqtaqaagtdttitvnvlawlyaavingdrwflnr 222 
+                 +  l+ n   p+  rq + aagt  t   +  a  y    +g r++l  
+  OZ061529_ 4133 AVKLQNNELSPVALRQMSCAAGTTQTACTDDNALAYYNTTKGGRFVLAL 4181
+                 5678899999*************99999999999999999999998864 PP
+
+>> PQ121865_  ORF1ab 212-13405;13405-21492
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  730.9   4.6  3.7e-223  3.7e-223       1     306 []    3264    3569 ..    3264    3569 .. 1.00
+   2 ?    2.1   0.0      0.32      0.32     174     222 ..    4133    4181 ..    4124    4192 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 730.9 bits;  conditional E-value: 3.7e-223
+     3CLpro    1 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt 98  
+                 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt
+  PQ121865_ 3264 SGFRKMAFPSGKVEGCMVQVTCGTTTLNGLWLDDVVYCPRHVICTSEDMLNPNYEDLLIRKSNHNFLVQAGNVQLRVIGHSMQNCVLKLKVDTANPKT 3361
+                 8************************************************************************************************* PP
+
+     3CLpro   99 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt 196 
+                 pkykfvriqpgqtfsvlacyngspsgvyqcamr nftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt
+  PQ121865_ 3362 PKYKFVRIQPGQTFSVLACYNGSPSGVYQCAMRHNFTIKGSFLNGSCGSVGFNIDYDCVSFCYMHHMELPTGVHAGTDLEGNFYGPFVDRQTAQAAGT 3459
+                 ************************************************************************************************** PP
+
+     3CLpro  197 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf 294 
+                 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf
+  PQ121865_ 3460 DTTITVNVLAWLYAAVINGDRWFLNRFTTTLNDFNLVAMKYNYEPLTQDHVDILGPLSAQTGIAVLDMCASLKELLQNGMNGRTILGSALLEDEFTPF 3557
+                 ************************************************************************************************** PP
+
+     3CLpro  295 dvvrqcsgvtfq 306 
+                 dvvrqcsgvtfq
+  PQ121865_ 3558 DVVRQCSGVTFQ 3569
+                 ***********8 PP
+
+  == domain 2  score: 2.1 bits;  conditional E-value: 0.32
+     3CLpro  174 gtdlegnfygpfvdrqtaqaagtdttitvnvlawlyaavingdrwflnr 222 
+                 +  l+ n   p+  rq + aagt  t   +  a  y   i+g r++l  
+  PQ121865_ 4133 AVKLQNNELSPVALRQMSCAAGTTQTACTDDNALAYYNTIKGGRFVLAL 4181
+                 5678899999****************999999999*********99865 PP
+
+>> PQ899058_  ORF1ab 227-13420;13420-21507
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  730.9   4.6  3.7e-223  3.7e-223       1     306 []    3264    3569 ..    3264    3569 .. 1.00
+   2 ?    2.1   0.0      0.32      0.32     174     222 ..    4133    4181 ..    4124    4192 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 730.9 bits;  conditional E-value: 3.7e-223
+     3CLpro    1 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt 98  
+                 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt
+  PQ899058_ 3264 SGFRKMAFPSGKVEGCMVQVTCGTTTLNGLWLDDVVYCPRHVICTSEDMLNPNYEDLLIRKSNHNFLVQAGNVQLRVIGHSMQNCVLKLKVDTANPKT 3361
+                 8************************************************************************************************* PP
+
+     3CLpro   99 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt 196 
+                 pkykfvriqpgqtfsvlacyngspsgvyqcamr nftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt
+  PQ899058_ 3362 PKYKFVRIQPGQTFSVLACYNGSPSGVYQCAMRHNFTIKGSFLNGSCGSVGFNIDYDCVSFCYMHHMELPTGVHAGTDLEGNFYGPFVDRQTAQAAGT 3459
+                 ************************************************************************************************** PP
+
+     3CLpro  197 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf 294 
+                 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf
+  PQ899058_ 3460 DTTITVNVLAWLYAAVINGDRWFLNRFTTTLNDFNLVAMKYNYEPLTQDHVDILGPLSAQTGIAVLDMCASLKELLQNGMNGRTILGSALLEDEFTPF 3557
+                 ************************************************************************************************** PP
+
+     3CLpro  295 dvvrqcsgvtfq 306 
+                 dvvrqcsgvtfq
+  PQ899058_ 3558 DVVRQCSGVTFQ 3569
+                 ***********8 PP
+
+  == domain 2  score: 2.1 bits;  conditional E-value: 0.32
+     3CLpro  174 gtdlegnfygpfvdrqtaqaagtdttitvnvlawlyaavingdrwflnr 222 
+                 +  l+ n   p+  rq + aagt  t   +  a  y   i+g r++l  
+  PQ899058_ 4133 AVKLQNNELSPVALRQMSCAAGTTQTACTDDNALAYYNTIKGGRFVLAL 4181
+                 5678899999****************999999999*********99865 PP
+
+>> OZ223682_  ORF1ab 266-13459;13459-21546
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  730.9   4.6  3.7e-223  3.7e-223       1     306 []    3264    3569 ..    3264    3569 .. 1.00
+   2 ?    2.1   0.0      0.32      0.32     174     222 ..    4133    4181 ..    4124    4192 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 730.9 bits;  conditional E-value: 3.7e-223
+     3CLpro    1 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt 98  
+                 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt
+  OZ223682_ 3264 SGFRKMAFPSGKVEGCMVQVTCGTTTLNGLWLDDVVYCPRHVICTSEDMLNPNYEDLLIRKSNHNFLVQAGNVQLRVIGHSMQNCVLKLKVDTANPKT 3361
+                 8************************************************************************************************* PP
+
+     3CLpro   99 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt 196 
+                 pkykfvriqpgqtfsvlacyngspsgvyqcamr nftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt
+  OZ223682_ 3362 PKYKFVRIQPGQTFSVLACYNGSPSGVYQCAMRHNFTIKGSFLNGSCGSVGFNIDYDCVSFCYMHHMELPTGVHAGTDLEGNFYGPFVDRQTAQAAGT 3459
+                 ************************************************************************************************** PP
+
+     3CLpro  197 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf 294 
+                 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf
+  OZ223682_ 3460 DTTITVNVLAWLYAAVINGDRWFLNRFTTTLNDFNLVAMKYNYEPLTQDHVDILGPLSAQTGIAVLDMCASLKELLQNGMNGRTILGSALLEDEFTPF 3557
+                 ************************************************************************************************** PP
+
+     3CLpro  295 dvvrqcsgvtfq 306 
+                 dvvrqcsgvtfq
+  OZ223682_ 3558 DVVRQCSGVTFQ 3569
+                 ***********8 PP
+
+  == domain 2  score: 2.1 bits;  conditional E-value: 0.32
+     3CLpro  174 gtdlegnfygpfvdrqtaqaagtdttitvnvlawlyaavingdrwflnr 222 
+                 +  l+ n   p+  rq + aagt  t   +  a  y   i+g r++l  
+  OZ223682_ 4133 AVKLQNNELSPVALRQMSCAAGTTQTACTDDNALAYYNTIKGGRFVLAL 4181
+                 5678899999****************999999999*********99865 PP
+
+>> PQ279056_  ORF1ab 224-13417;13417-21504
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  730.9   4.6  3.7e-223  3.7e-223       1     306 []    3264    3569 ..    3264    3569 .. 1.00
+   2 ?    2.1   0.0      0.32      0.32     174     222 ..    4133    4181 ..    4124    4192 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 730.9 bits;  conditional E-value: 3.7e-223
+     3CLpro    1 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt 98  
+                 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt
+  PQ279056_ 3264 SGFRKMAFPSGKVEGCMVQVTCGTTTLNGLWLDDVVYCPRHVICTSEDMLNPNYEDLLIRKSNHNFLVQAGNVQLRVIGHSMQNCVLKLKVDTANPKT 3361
+                 8************************************************************************************************* PP
+
+     3CLpro   99 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt 196 
+                 pkykfvriqpgqtfsvlacyngspsgvyqcamr nftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt
+  PQ279056_ 3362 PKYKFVRIQPGQTFSVLACYNGSPSGVYQCAMRHNFTIKGSFLNGSCGSVGFNIDYDCVSFCYMHHMELPTGVHAGTDLEGNFYGPFVDRQTAQAAGT 3459
+                 ************************************************************************************************** PP
+
+     3CLpro  197 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf 294 
+                 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf
+  PQ279056_ 3460 DTTITVNVLAWLYAAVINGDRWFLNRFTTTLNDFNLVAMKYNYEPLTQDHVDILGPLSAQTGIAVLDMCASLKELLQNGMNGRTILGSALLEDEFTPF 3557
+                 ************************************************************************************************** PP
+
+     3CLpro  295 dvvrqcsgvtfq 306 
+                 dvvrqcsgvtfq
+  PQ279056_ 3558 DVVRQCSGVTFQ 3569
+                 ***********8 PP
+
+  == domain 2  score: 2.1 bits;  conditional E-value: 0.32
+     3CLpro  174 gtdlegnfygpfvdrqtaqaagtdttitvnvlawlyaavingdrwflnr 222 
+                 +  l+ n   p+  rq + aagt  t   +  a  y   i+g r++l  
+  PQ279056_ 4133 AVKLQNNELSPVALRQMSCAAGTTQTACTDDNALAYYNTIKGGRFVLAL 4181
+                 5678899999****************999999999*********99865 PP
+
+>> PQ279092_  ORF1ab 224-13417;13417-21504
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  730.9   4.6  3.7e-223  3.7e-223       1     306 []    3264    3569 ..    3264    3569 .. 1.00
+   2 ?    2.1   0.0      0.32      0.32     174     222 ..    4133    4181 ..    4124    4192 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 730.9 bits;  conditional E-value: 3.7e-223
+     3CLpro    1 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt 98  
+                 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt
+  PQ279092_ 3264 SGFRKMAFPSGKVEGCMVQVTCGTTTLNGLWLDDVVYCPRHVICTSEDMLNPNYEDLLIRKSNHNFLVQAGNVQLRVIGHSMQNCVLKLKVDTANPKT 3361
+                 8************************************************************************************************* PP
+
+     3CLpro   99 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt 196 
+                 pkykfvriqpgqtfsvlacyngspsgvyqcamr nftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt
+  PQ279092_ 3362 PKYKFVRIQPGQTFSVLACYNGSPSGVYQCAMRHNFTIKGSFLNGSCGSVGFNIDYDCVSFCYMHHMELPTGVHAGTDLEGNFYGPFVDRQTAQAAGT 3459
+                 ************************************************************************************************** PP
+
+     3CLpro  197 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf 294 
+                 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf
+  PQ279092_ 3460 DTTITVNVLAWLYAAVINGDRWFLNRFTTTLNDFNLVAMKYNYEPLTQDHVDILGPLSAQTGIAVLDMCASLKELLQNGMNGRTILGSALLEDEFTPF 3557
+                 ************************************************************************************************** PP
+
+     3CLpro  295 dvvrqcsgvtfq 306 
+                 dvvrqcsgvtfq
+  PQ279092_ 3558 DVVRQCSGVTFQ 3569
+                 ***********8 PP
+
+  == domain 2  score: 2.1 bits;  conditional E-value: 0.32
+     3CLpro  174 gtdlegnfygpfvdrqtaqaagtdttitvnvlawlyaavingdrwflnr 222 
+                 +  l+ n   p+  rq + aagt  t   +  a  y   i+g r++l  
+  PQ279092_ 4133 AVKLQNNELSPVALRQMSCAAGTTQTACTDDNALAYYNTIKGGRFVLAL 4181
+                 5678899999****************999999999*********99865 PP
+
+>> PQ375771_  ORF1ab 234-13427;13427-21514
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  730.9   4.6  3.7e-223  3.7e-223       1     306 []    3264    3569 ..    3264    3569 .. 1.00
+   2 ?    2.1   0.0      0.32      0.32     174     222 ..    4133    4181 ..    4124    4192 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 730.9 bits;  conditional E-value: 3.7e-223
+     3CLpro    1 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt 98  
+                 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt
+  PQ375771_ 3264 SGFRKMAFPSGKVEGCMVQVTCGTTTLNGLWLDDVVYCPRHVICTSEDMLNPNYEDLLIRKSNHNFLVQAGNVQLRVIGHSMQNCVLKLKVDTANPKT 3361
+                 8************************************************************************************************* PP
+
+     3CLpro   99 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt 196 
+                 pkykfvriqpgqtfsvlacyngspsgvyqcamr nftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt
+  PQ375771_ 3362 PKYKFVRIQPGQTFSVLACYNGSPSGVYQCAMRHNFTIKGSFLNGSCGSVGFNIDYDCVSFCYMHHMELPTGVHAGTDLEGNFYGPFVDRQTAQAAGT 3459
+                 ************************************************************************************************** PP
+
+     3CLpro  197 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf 294 
+                 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf
+  PQ375771_ 3460 DTTITVNVLAWLYAAVINGDRWFLNRFTTTLNDFNLVAMKYNYEPLTQDHVDILGPLSAQTGIAVLDMCASLKELLQNGMNGRTILGSALLEDEFTPF 3557
+                 ************************************************************************************************** PP
+
+     3CLpro  295 dvvrqcsgvtfq 306 
+                 dvvrqcsgvtfq
+  PQ375771_ 3558 DVVRQCSGVTFQ 3569
+                 ***********8 PP
+
+  == domain 2  score: 2.1 bits;  conditional E-value: 0.32
+     3CLpro  174 gtdlegnfygpfvdrqtaqaagtdttitvnvlawlyaavingdrwflnr 222 
+                 +  l+ n   p+  rq + aagt  t   +  a  y   i+g r++l  
+  PQ375771_ 4133 AVKLQNNELSPVALRQMSCAAGTTQTACTDDNALAYYNTIKGGRFVLAL 4181
+                 5678899999****************999999999*********99865 PP
+
+>> OR983979_  ORF1ab 216-13409;13409-21496
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  730.9   4.6  3.7e-223  3.7e-223       1     306 []    3264    3569 ..    3264    3569 .. 1.00
+   2 ?    2.1   0.0      0.32      0.32     174     222 ..    4133    4181 ..    4124    4192 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 730.9 bits;  conditional E-value: 3.7e-223
+     3CLpro    1 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt 98  
+                 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt
+  OR983979_ 3264 SGFRKMAFPSGKVEGCMVQVTCGTTTLNGLWLDDVVYCPRHVICTSEDMLNPNYEDLLIRKSNHNFLVQAGNVQLRVIGHSMQNCVLKLKVDTANPKT 3361
+                 8************************************************************************************************* PP
+
+     3CLpro   99 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt 196 
+                 pkykfvriqpgqtfsvlacyngspsgvyqcamr nftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt
+  OR983979_ 3362 PKYKFVRIQPGQTFSVLACYNGSPSGVYQCAMRHNFTIKGSFLNGSCGSVGFNIDYDCVSFCYMHHMELPTGVHAGTDLEGNFYGPFVDRQTAQAAGT 3459
+                 ************************************************************************************************** PP
+
+     3CLpro  197 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf 294 
+                 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf
+  OR983979_ 3460 DTTITVNVLAWLYAAVINGDRWFLNRFTTTLNDFNLVAMKYNYEPLTQDHVDILGPLSAQTGIAVLDMCASLKELLQNGMNGRTILGSALLEDEFTPF 3557
+                 ************************************************************************************************** PP
+
+     3CLpro  295 dvvrqcsgvtfq 306 
+                 dvvrqcsgvtfq
+  OR983979_ 3558 DVVRQCSGVTFQ 3569
+                 ***********8 PP
+
+  == domain 2  score: 2.1 bits;  conditional E-value: 0.32
+     3CLpro  174 gtdlegnfygpfvdrqtaqaagtdttitvnvlawlyaavingdrwflnr 222 
+                 +  l+ n   p+  rq + aagt  t   +  a  y   i+g r++l  
+  OR983979_ 4133 AVKLQNNELSPVALRQMSCAAGTTQTACTDDNALAYYNTIKGGRFVLAL 4181
+                 5678899999****************999999999*********99865 PP
+
+>> PP030571_  ORF1ab 216-13409;13409-21496
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  730.9   4.6  3.7e-223  3.7e-223       1     306 []    3264    3569 ..    3264    3569 .. 1.00
+   2 ?    2.1   0.0      0.32      0.32     174     222 ..    4133    4181 ..    4124    4192 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 730.9 bits;  conditional E-value: 3.7e-223
+     3CLpro    1 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt 98  
+                 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt
+  PP030571_ 3264 SGFRKMAFPSGKVEGCMVQVTCGTTTLNGLWLDDVVYCPRHVICTSEDMLNPNYEDLLIRKSNHNFLVQAGNVQLRVIGHSMQNCVLKLKVDTANPKT 3361
+                 8************************************************************************************************* PP
+
+     3CLpro   99 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt 196 
+                 pkykfvriqpgqtfsvlacyngspsgvyqcamr nftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt
+  PP030571_ 3362 PKYKFVRIQPGQTFSVLACYNGSPSGVYQCAMRHNFTIKGSFLNGSCGSVGFNIDYDCVSFCYMHHMELPTGVHAGTDLEGNFYGPFVDRQTAQAAGT 3459
+                 ************************************************************************************************** PP
+
+     3CLpro  197 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf 294 
+                 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf
+  PP030571_ 3460 DTTITVNVLAWLYAAVINGDRWFLNRFTTTLNDFNLVAMKYNYEPLTQDHVDILGPLSAQTGIAVLDMCASLKELLQNGMNGRTILGSALLEDEFTPF 3557
+                 ************************************************************************************************** PP
+
+     3CLpro  295 dvvrqcsgvtfq 306 
+                 dvvrqcsgvtfq
+  PP030571_ 3558 DVVRQCSGVTFQ 3569
+                 ***********8 PP
+
+  == domain 2  score: 2.1 bits;  conditional E-value: 0.32
+     3CLpro  174 gtdlegnfygpfvdrqtaqaagtdttitvnvlawlyaavingdrwflnr 222 
+                 +  l+ n   p+  rq + aagt  t   +  a  y   i+g r++l  
+  PP030571_ 4133 AVKLQNNELSPVALRQMSCAAGTTQTACTDDNALAYYNTIKGGRFVLAL 4181
+                 5678899999****************999999999*********99865 PP
+
+>> PV239625_  ORF1ab 188-13381;13381-21468
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  730.9   4.6  3.7e-223  3.7e-223       1     306 []    3264    3569 ..    3264    3569 .. 1.00
+   2 ?    2.1   0.0      0.32      0.32     174     222 ..    4133    4181 ..    4124    4192 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 730.9 bits;  conditional E-value: 3.7e-223
+     3CLpro    1 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt 98  
+                 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt
+  PV239625_ 3264 SGFRKMAFPSGKVEGCMVQVTCGTTTLNGLWLDDVVYCPRHVICTSEDMLNPNYEDLLIRKSNHNFLVQAGNVQLRVIGHSMQNCVLKLKVDTANPKT 3361
+                 8************************************************************************************************* PP
+
+     3CLpro   99 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt 196 
+                 pkykfvriqpgqtfsvlacyngspsgvyqcamr nftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt
+  PV239625_ 3362 PKYKFVRIQPGQTFSVLACYNGSPSGVYQCAMRHNFTIKGSFLNGSCGSVGFNIDYDCVSFCYMHHMELPTGVHAGTDLEGNFYGPFVDRQTAQAAGT 3459
+                 ************************************************************************************************** PP
+
+     3CLpro  197 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf 294 
+                 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf
+  PV239625_ 3460 DTTITVNVLAWLYAAVINGDRWFLNRFTTTLNDFNLVAMKYNYEPLTQDHVDILGPLSAQTGIAVLDMCASLKELLQNGMNGRTILGSALLEDEFTPF 3557
+                 ************************************************************************************************** PP
+
+     3CLpro  295 dvvrqcsgvtfq 306 
+                 dvvrqcsgvtfq
+  PV239625_ 3558 DVVRQCSGVTFQ 3569
+                 ***********8 PP
+
+  == domain 2  score: 2.1 bits;  conditional E-value: 0.32
+     3CLpro  174 gtdlegnfygpfvdrqtaqaagtdttitvnvlawlyaavingdrwflnr 222 
+                 +  l+ n   p+  rq + aagt  t   +  a  y   i+g r++l  
+  PV239625_ 4133 AVKLQNNELSPVALRQMSCAAGTTQTACTDDNALAYYNTIKGGRFVLAL 4181
+                 5678899999****************999999999*********99865 PP
+
+>> PP023772_  ORF1ab 241-13434;13434-21686
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  730.9   4.6  3.7e-223  3.7e-223       1     306 []    3264    3569 ..    3264    3569 .. 1.00
+   2 ?    2.1   0.0      0.32      0.32     174     222 ..    4133    4181 ..    4124    4192 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 730.9 bits;  conditional E-value: 3.7e-223
+     3CLpro    1 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt 98  
+                 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt
+  PP023772_ 3264 SGFRKMAFPSGKVEGCMVQVTCGTTTLNGLWLDDVVYCPRHVICTSEDMLNPNYEDLLIRKSNHNFLVQAGNVQLRVIGHSMQNCVLKLKVDTANPKT 3361
+                 8************************************************************************************************* PP
+
+     3CLpro   99 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt 196 
+                 pkykfvriqpgqtfsvlacyngspsgvyqcamr nftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt
+  PP023772_ 3362 PKYKFVRIQPGQTFSVLACYNGSPSGVYQCAMRHNFTIKGSFLNGSCGSVGFNIDYDCVSFCYMHHMELPTGVHAGTDLEGNFYGPFVDRQTAQAAGT 3459
+                 ************************************************************************************************** PP
+
+     3CLpro  197 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf 294 
+                 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf
+  PP023772_ 3460 DTTITVNVLAWLYAAVINGDRWFLNRFTTTLNDFNLVAMKYNYEPLTQDHVDILGPLSAQTGIAVLDMCASLKELLQNGMNGRTILGSALLEDEFTPF 3557
+                 ************************************************************************************************** PP
+
+     3CLpro  295 dvvrqcsgvtfq 306 
+                 dvvrqcsgvtfq
+  PP023772_ 3558 DVVRQCSGVTFQ 3569
+                 ***********8 PP
+
+  == domain 2  score: 2.1 bits;  conditional E-value: 0.32
+     3CLpro  174 gtdlegnfygpfvdrqtaqaagtdttitvnvlawlyaavingdrwflnr 222 
+                 +  l+ n   p+  rq + aagt  t   +  a  y   i+g r++l  
+  PP023772_ 4133 AVKLQNNELSPVALRQMSCAAGTTQTACTDDNALAYYNTIKGGRFVLAL 4181
+                 5678899999****************999999999*********99865 PP
+
+>> OZ014103_  ORF1ab 266-13456;13456-21543
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  730.9   4.6  3.7e-223  3.7e-223       1     306 []    3263    3568 ..    3263    3568 .. 1.00
+   2 ?    2.1   0.0      0.32      0.32     174     222 ..    4132    4180 ..    4123    4191 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 730.9 bits;  conditional E-value: 3.7e-223
+     3CLpro    1 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt 98  
+                 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt
+  OZ014103_ 3263 SGFRKMAFPSGKVEGCMVQVTCGTTTLNGLWLDDVVYCPRHVICTSEDMLNPNYEDLLIRKSNHNFLVQAGNVQLRVIGHSMQNCVLKLKVDTANPKT 3360
+                 8************************************************************************************************* PP
+
+     3CLpro   99 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt 196 
+                 pkykfvriqpgqtfsvlacyngspsgvyqcamr nftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt
+  OZ014103_ 3361 PKYKFVRIQPGQTFSVLACYNGSPSGVYQCAMRHNFTIKGSFLNGSCGSVGFNIDYDCVSFCYMHHMELPTGVHAGTDLEGNFYGPFVDRQTAQAAGT 3458
+                 ************************************************************************************************** PP
+
+     3CLpro  197 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf 294 
+                 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf
+  OZ014103_ 3459 DTTITVNVLAWLYAAVINGDRWFLNRFTTTLNDFNLVAMKYNYEPLTQDHVDILGPLSAQTGIAVLDMCASLKELLQNGMNGRTILGSALLEDEFTPF 3556
+                 ************************************************************************************************** PP
+
+     3CLpro  295 dvvrqcsgvtfq 306 
+                 dvvrqcsgvtfq
+  OZ014103_ 3557 DVVRQCSGVTFQ 3568
+                 ***********8 PP
+
+  == domain 2  score: 2.1 bits;  conditional E-value: 0.32
+     3CLpro  174 gtdlegnfygpfvdrqtaqaagtdttitvnvlawlyaavingdrwflnr 222 
+                 +  l+ n   p+  rq + aagt  t   +  a  y   i+g r++l  
+  OZ014103_ 4132 AVKLQNNELSPVALRQMSCAAGTTQTACTDDNALAYYNTIKGGRFVLAL 4180
+                 5678899999****************999999999*********99865 PP
+
+>> PX393327_  ORF1ab 188-13381;13381-21468
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  730.9   4.6  3.7e-223  3.7e-223       1     306 []    3264    3569 ..    3264    3569 .. 1.00
+   2 ?    2.1   0.0      0.32      0.32     174     222 ..    4133    4181 ..    4124    4192 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 730.9 bits;  conditional E-value: 3.7e-223
+     3CLpro    1 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt 98  
+                 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt
+  PX393327_ 3264 SGFRKMAFPSGKVEGCMVQVTCGTTTLNGLWLDDVVYCPRHVICTSEDMLNPNYEDLLIRKSNHNFLVQAGNVQLRVIGHSMQNCVLKLKVDTANPKT 3361
+                 8************************************************************************************************* PP
+
+     3CLpro   99 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt 196 
+                 pkykfvriqpgqtfsvlacyngspsgvyqcamr nftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt
+  PX393327_ 3362 PKYKFVRIQPGQTFSVLACYNGSPSGVYQCAMRHNFTIKGSFLNGSCGSVGFNIDYDCVSFCYMHHMELPTGVHAGTDLEGNFYGPFVDRQTAQAAGT 3459
+                 ************************************************************************************************** PP
+
+     3CLpro  197 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf 294 
+                 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf
+  PX393327_ 3460 DTTITVNVLAWLYAAVINGDRWFLNRFTTTLNDFNLVAMKYNYEPLTQDHVDILGPLSAQTGIAVLDMCASLKELLQNGMNGRTILGSALLEDEFTPF 3557
+                 ************************************************************************************************** PP
+
+     3CLpro  295 dvvrqcsgvtfq 306 
+                 dvvrqcsgvtfq
+  PX393327_ 3558 DVVRQCSGVTFQ 3569
+                 ***********8 PP
+
+  == domain 2  score: 2.1 bits;  conditional E-value: 0.32
+     3CLpro  174 gtdlegnfygpfvdrqtaqaagtdttitvnvlawlyaavingdrwflnr 222 
+                 +  l+ n   p+  rq + aagt  t   +  a  y   i+g r++l  
+  PX393327_ 4133 AVKLQNNELSPVALRQMSCAAGTTQTACTDDNALAYYNTIKGGRFVLAL 4181
+                 5678899999****************999999999*********99865 PP
+
+>> OK433428_  ORF1ab 212-13414;13414-21501
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  732.0   4.1  1.6e-223  1.6e-223       1     306 []    3264    3569 ..    3264    3569 .. 1.00
+   2 ?   -0.9   0.1       2.5       2.5     174     222 ..    4136    4184 ..    4128    4193 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 732.0 bits;  conditional E-value: 1.6e-223
+     3CLpro    1 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt 98  
+                 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt
+  OK433428_ 3264 SGFRKMAFPSGKVEGCMVQVTCGTTTLNGLWLDDVVYCPRHVICTSEDMLNPNYEDLLIRKSNHNFLVQAGNVQLRVIGHSMQNCVLKLKVDTANPKT 3361
+                 8************************************************************************************************* PP
+
+     3CLpro   99 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt 196 
+                 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcv fcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt
+  OK433428_ 3362 PKYKFVRIQPGQTFSVLACYNGSPSGVYQCAMRPNFTIKGSFLNGSCGSVGFNIDYDCVXFCYMHHMELPTGVHAGTDLEGNFYGPFVDRQTAQAAGT 3459
+                 ************************************************************************************************** PP
+
+     3CLpro  197 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf 294 
+                 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf
+  OK433428_ 3460 DTTITVNVLAWLYAAVINGDRWFLNRFTTTLNDFNLVAMKYNYEPLTQDHVDILGPLSAQTGIAVLDMCASLKELLQNGMNGRTILGSALLEDEFTPF 3557
+                 ************************************************************************************************** PP
+
+     3CLpro  295 dvvrqcsgvtfq 306 
+                 dvvrqcsgvtfq
+  OK433428_ 3558 DVVRQCSGVTFQ 3569
+                 ***********8 PP
+
+  == domain 2  score: -0.9 bits;  conditional E-value: 2.5
+     3CLpro  174 gtdlegnfygpfvdrqtaqaagtdttitvnvlawlyaavingdrwflnr 222 
+                 +  l+ n   p+  rq + aagt  t   +  a  y    +g r++l  
+  OK433428_ 4136 AVKLQNNELSPVALRQMSCAAGTTQTACTDDNALAYYNTTKGGRFVLAL 4184
+                 5678899999*************99999999999999999999998864 PP
+
+>> ON923618_  ORF1ab 493-13425;13425-21512
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  730.9   4.6  3.6e-223  3.6e-223       1     306 []    3177    3482 ..    3177    3482 .. 1.00
+   2 ?   -0.9   0.1       2.5       2.5     174     222 ..    4046    4094 ..    4038    4103 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 730.9 bits;  conditional E-value: 3.6e-223
+     3CLpro    1 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt 98  
+                 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt
+  ON923618_ 3177 SGFRKMAFPSGKVEGCMVQVTCGTTTLNGLWLDDVVYCPRHVICTSEDMLNPNYEDLLIRKSNHNFLVQAGNVQLRVIGHSMQNCVLKLKVDTANPKT 3274
+                 8************************************************************************************************* PP
+
+     3CLpro   99 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt 196 
+                 pkykfvriqpgqtfsvlacyngspsgvyqcamr nftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt
+  ON923618_ 3275 PKYKFVRIQPGQTFSVLACYNGSPSGVYQCAMRHNFTIKGSFLNGSCGSVGFNIDYDCVSFCYMHHMELPTGVHAGTDLEGNFYGPFVDRQTAQAAGT 3372
+                 ************************************************************************************************** PP
+
+     3CLpro  197 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf 294 
+                 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf
+  ON923618_ 3373 DTTITVNVLAWLYAAVINGDRWFLNRFTTTLNDFNLVAMKYNYEPLTQDHVDILGPLSAQTGIAVLDMCASLKELLQNGMNGRTILGSALLEDEFTPF 3470
+                 ************************************************************************************************** PP
+
+     3CLpro  295 dvvrqcsgvtfq 306 
+                 dvvrqcsgvtfq
+  ON923618_ 3471 DVVRQCSGVTFQ 3482
+                 ***********8 PP
+
+  == domain 2  score: -0.9 bits;  conditional E-value: 2.5
+     3CLpro  174 gtdlegnfygpfvdrqtaqaagtdttitvnvlawlyaavingdrwflnr 222 
+                 +  l+ n   p+  rq + aagt  t   +  a  y    +g r++l  
+  ON923618_ 4046 AVKLQNNELSPVALRQMSCAAGTTQTACTDDNALAYYNTTKGGRFVLAL 4094
+                 5678899999*************99999999999999999999998864 PP
+
+>> OP440368_  ORF1ab 464-13405;13405-21492
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  730.9   4.6  3.6e-223  3.6e-223       1     306 []    3180    3485 ..    3180    3485 .. 1.00
+   2 ?   -0.9   0.0       2.6       2.6     174     222 ..    4049    4097 ..    4042    4106 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 730.9 bits;  conditional E-value: 3.6e-223
+     3CLpro    1 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt 98  
+                 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt
+  OP440368_ 3180 SGFRKMAFPSGKVEGCMVQVTCGTTTLNGLWLDDVVYCPRHVICTSEDMLNPNYEDLLIRKSNHNFLVQAGNVQLRVIGHSMQNCVLKLKVDTANPKT 3277
+                 8************************************************************************************************* PP
+
+     3CLpro   99 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt 196 
+                 pkykfvriqpgqtfsvlacyngspsgvyqcamr nftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt
+  OP440368_ 3278 PKYKFVRIQPGQTFSVLACYNGSPSGVYQCAMRHNFTIKGSFLNGSCGSVGFNIDYDCVSFCYMHHMELPTGVHAGTDLEGNFYGPFVDRQTAQAAGT 3375
+                 ************************************************************************************************** PP
+
+     3CLpro  197 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf 294 
+                 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf
+  OP440368_ 3376 DTTITVNVLAWLYAAVINGDRWFLNRFTTTLNDFNLVAMKYNYEPLTQDHVDILGPLSAQTGIAVLDMCASLKELLQNGMNGRTILGSALLEDEFTPF 3473
+                 ************************************************************************************************** PP
+
+     3CLpro  295 dvvrqcsgvtfq 306 
+                 dvvrqcsgvtfq
+  OP440368_ 3474 DVVRQCSGVTFQ 3485
+                 ***********8 PP
+
+  == domain 2  score: -0.9 bits;  conditional E-value: 2.6
+     3CLpro  174 gtdlegnfygpfvdrqtaqaagtdttitvnvlawlyaavingdrwflnr 222 
+                 +  l+ n   p+  rq + aagt  t   +  a  y    +g r++l  
+  OP440368_ 4049 AVKLQNNELSPVALRQMSCAAGTTQTACTDDNALAYYNTTKGGRFVLAL 4097
+                 5678899999*************99999999999999999999998864 PP
+
+>> OY784472_  ORF1ab 518-13459;13459-21546
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  730.9   4.6  3.6e-223  3.6e-223       1     306 []    3180    3485 ..    3180    3485 .. 1.00
+   2 ?   -0.9   0.1       2.5       2.5     174     222 ..    4049    4097 ..    4041    4106 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 730.9 bits;  conditional E-value: 3.6e-223
+     3CLpro    1 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt 98  
+                 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt
+  OY784472_ 3180 SGFRKMAFPSGKVEGCMVQVTCGTTTLNGLWLDDVVYCPRHVICTSEDMLNPNYEDLLIRKSNHNFLVQAGNVQLRVIGHSMQNCVLKLKVDTANPKT 3277
+                 8************************************************************************************************* PP
+
+     3CLpro   99 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt 196 
+                 pkykfvriqpgqtfsvlacyngspsgvyqcamr nftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt
+  OY784472_ 3278 PKYKFVRIQPGQTFSVLACYNGSPSGVYQCAMRHNFTIKGSFLNGSCGSVGFNIDYDCVSFCYMHHMELPTGVHAGTDLEGNFYGPFVDRQTAQAAGT 3375
+                 ************************************************************************************************** PP
+
+     3CLpro  197 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf 294 
+                 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf
+  OY784472_ 3376 DTTITVNVLAWLYAAVINGDRWFLNRFTTTLNDFNLVAMKYNYEPLTQDHVDILGPLSAQTGIAVLDMCASLKELLQNGMNGRTILGSALLEDEFTPF 3473
+                 ************************************************************************************************** PP
+
+     3CLpro  295 dvvrqcsgvtfq 306 
+                 dvvrqcsgvtfq
+  OY784472_ 3474 DVVRQCSGVTFQ 3485
+                 ***********8 PP
+
+  == domain 2  score: -0.9 bits;  conditional E-value: 2.5
+     3CLpro  174 gtdlegnfygpfvdrqtaqaagtdttitvnvlawlyaavingdrwflnr 222 
+                 +  l+ n   p+  rq + aagt  t   +  a  y    +g r++l  
+  OY784472_ 4049 AVKLQNNELSPVALRQMSCAAGTTQTACTDDNALAYYNTTKGGRFVLAL 4097
+                 5678899999*************99999999999999999999998864 PP
+
+>> OV948634_  ORF1ab 266-13453;13453-21540
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  730.9   4.6  3.7e-223  3.7e-223       1     306 []    3262    3567 ..    3262    3567 .. 1.00
+   2 ?   -0.9   0.1       2.5       2.5     174     222 ..    4131    4179 ..    4123    4188 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 730.9 bits;  conditional E-value: 3.7e-223
+     3CLpro    1 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt 98  
+                 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt
+  OV948634_ 3262 SGFRKMAFPSGKVEGCMVQVTCGTTTLNGLWLDDVVYCPRHVICTSEDMLNPNYEDLLIRKSNHNFLVQAGNVQLRVIGHSMQNCVLKLKVDTANPKT 3359
+                 8************************************************************************************************* PP
+
+     3CLpro   99 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt 196 
+                 pkykfvriqpgqtfsvlacyngspsgvyqcamr nftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt
+  OV948634_ 3360 PKYKFVRIQPGQTFSVLACYNGSPSGVYQCAMRHNFTIKGSFLNGSCGSVGFNIDYDCVSFCYMHHMELPTGVHAGTDLEGNFYGPFVDRQTAQAAGT 3457
+                 ************************************************************************************************** PP
+
+     3CLpro  197 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf 294 
+                 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf
+  OV948634_ 3458 DTTITVNVLAWLYAAVINGDRWFLNRFTTTLNDFNLVAMKYNYEPLTQDHVDILGPLSAQTGIAVLDMCASLKELLQNGMNGRTILGSALLEDEFTPF 3555
+                 ************************************************************************************************** PP
+
+     3CLpro  295 dvvrqcsgvtfq 306 
+                 dvvrqcsgvtfq
+  OV948634_ 3556 DVVRQCSGVTFQ 3567
+                 ***********8 PP
+
+  == domain 2  score: -0.9 bits;  conditional E-value: 2.5
+     3CLpro  174 gtdlegnfygpfvdrqtaqaagtdttitvnvlawlyaavingdrwflnr 222 
+                 +  l+ n   p+  rq + aagt  t   +  a  y    +g r++l  
+  OV948634_ 4131 AVKLQNNELSPVALRQMSCAAGTTQTACTDDNALAYYNTTKGGRFVLAL 4179
+                 5678899999*************99999999999999999999998864 PP
+
+>> OY792307_  ORF1ab 266-13459;13459-21546
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  730.9   4.6  3.7e-223  3.7e-223       1     306 []    3264    3569 ..    3264    3569 .. 1.00
+   2 ?   -0.9   0.1       2.5       2.5     174     222 ..    4133    4181 ..    4125    4190 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 730.9 bits;  conditional E-value: 3.7e-223
+     3CLpro    1 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt 98  
+                 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt
+  OY792307_ 3264 SGFRKMAFPSGKVEGCMVQVTCGTTTLNGLWLDDVVYCPRHVICTSEDMLNPNYEDLLIRKSNHNFLVQAGNVQLRVIGHSMQNCVLKLKVDTANPKT 3361
+                 8************************************************************************************************* PP
+
+     3CLpro   99 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt 196 
+                 pkykfvriqpgqtfsvlacyngspsgvyqcamr nftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt
+  OY792307_ 3362 PKYKFVRIQPGQTFSVLACYNGSPSGVYQCAMRHNFTIKGSFLNGSCGSVGFNIDYDCVSFCYMHHMELPTGVHAGTDLEGNFYGPFVDRQTAQAAGT 3459
+                 ************************************************************************************************** PP
+
+     3CLpro  197 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf 294 
+                 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf
+  OY792307_ 3460 DTTITVNVLAWLYAAVINGDRWFLNRFTTTLNDFNLVAMKYNYEPLTQDHVDILGPLSAQTGIAVLDMCASLKELLQNGMNGRTILGSALLEDEFTPF 3557
+                 ************************************************************************************************** PP
+
+     3CLpro  295 dvvrqcsgvtfq 306 
+                 dvvrqcsgvtfq
+  OY792307_ 3558 DVVRQCSGVTFQ 3569
+                 ***********8 PP
+
+  == domain 2  score: -0.9 bits;  conditional E-value: 2.5
+     3CLpro  174 gtdlegnfygpfvdrqtaqaagtdttitvnvlawlyaavingdrwflnr 222 
+                 +  l+ n   p+  rq + aagt  t   +  a  y    +g r++l  
+  OY792307_ 4133 AVKLQNNELSPVALRQMSCAAGTTQTACTDDNALAYYNTTKGGRFVLAL 4181
+                 5678899999*************99999999999999999999998864 PP
+
+>> PQ391889_  ORF1ab 228-13421;13421-21508
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  730.9   4.6  3.7e-223  3.7e-223       1     306 []    3264    3569 ..    3264    3569 .. 1.00
+   2 ?   -0.9   0.1       2.5       2.5     174     222 ..    4133    4181 ..    4125    4190 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 730.9 bits;  conditional E-value: 3.7e-223
+     3CLpro    1 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt 98  
+                 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt
+  PQ391889_ 3264 SGFRKMAFPSGKVEGCMVQVTCGTTTLNGLWLDDVVYCPRHVICTSEDMLNPNYEDLLIRKSNHNFLVQAGNVQLRVIGHSMQNCVLKLKVDTANPKT 3361
+                 8************************************************************************************************* PP
+
+     3CLpro   99 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt 196 
+                 pkykfvriqpgqtfsvlacyngspsgvyqcamr nftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt
+  PQ391889_ 3362 PKYKFVRIQPGQTFSVLACYNGSPSGVYQCAMRHNFTIKGSFLNGSCGSVGFNIDYDCVSFCYMHHMELPTGVHAGTDLEGNFYGPFVDRQTAQAAGT 3459
+                 ************************************************************************************************** PP
+
+     3CLpro  197 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf 294 
+                 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf
+  PQ391889_ 3460 DTTITVNVLAWLYAAVINGDRWFLNRFTTTLNDFNLVAMKYNYEPLTQDHVDILGPLSAQTGIAVLDMCASLKELLQNGMNGRTILGSALLEDEFTPF 3557
+                 ************************************************************************************************** PP
+
+     3CLpro  295 dvvrqcsgvtfq 306 
+                 dvvrqcsgvtfq
+  PQ391889_ 3558 DVVRQCSGVTFQ 3569
+                 ***********8 PP
+
+  == domain 2  score: -0.9 bits;  conditional E-value: 2.5
+     3CLpro  174 gtdlegnfygpfvdrqtaqaagtdttitvnvlawlyaavingdrwflnr 222 
+                 +  l+ n   p+  rq + aagt  t   +  a  y    +g r++l  
+  PQ391889_ 4133 AVKLQNNELSPVALRQMSCAAGTTQTACTDDNALAYYNTTKGGRFVLAL 4181
+                 5678899999*************99999999999999999999998864 PP
+
+>> PX059619_  ORF1ab 188-13381;13381-21468
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  730.9   4.6  3.7e-223  3.7e-223       1     306 []    3264    3569 ..    3264    3569 .. 1.00
+   2 ?   -0.8   0.1       2.4       2.4     174     222 ..    4133    4181 ..    4125    4191 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 730.9 bits;  conditional E-value: 3.7e-223
+     3CLpro    1 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt 98  
+                 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt
+  PX059619_ 3264 SGFRKMAFPSGKVEGCMVQVTCGTTTLNGLWLDDVVYCPRHVICTSEDMLNPNYEDLLIRKSNHNFLVQAGNVQLRVIGHSMQNCVLKLKVDTANPKT 3361
+                 8************************************************************************************************* PP
+
+     3CLpro   99 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt 196 
+                 pkykfvriqpgqtfsvlacyngspsgvyqcamr nftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt
+  PX059619_ 3362 PKYKFVRIQPGQTFSVLACYNGSPSGVYQCAMRHNFTIKGSFLNGSCGSVGFNIDYDCVSFCYMHHMELPTGVHAGTDLEGNFYGPFVDRQTAQAAGT 3459
+                 ************************************************************************************************** PP
+
+     3CLpro  197 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf 294 
+                 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf
+  PX059619_ 3460 DTTITVNVLAWLYAAVINGDRWFLNRFTTTLNDFNLVAMKYNYEPLTQDHVDILGPLSAQTGIAVLDMCASLKELLQNGMNGRTILGSALLEDEFTPF 3557
+                 ************************************************************************************************** PP
+
+     3CLpro  295 dvvrqcsgvtfq 306 
+                 dvvrqcsgvtfq
+  PX059619_ 3558 DVVRQCSGVTFQ 3569
+                 ***********8 PP
+
+  == domain 2  score: -0.8 bits;  conditional E-value: 2.4
+     3CLpro  174 gtdlegnfygpfvdrqtaqaagtdttitvnvlawlyaavingdrwflnr 222 
+                 +  l+ n   p+  rq + aagt  t   +  a  y    +g r++l  
+  PX059619_ 4133 AVKLQNNELSPVALRQMSCAAGTTQTACTDDNALAYYNTTKGGRFVLAL 4181
+                 5678899999*************99999999999999999999998864 PP
+
+>> OP578130_  ORF1ab 216-13418;13418-21505
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  730.9   4.6  3.7e-223  3.7e-223       1     306 []    3264    3569 ..    3264    3569 .. 1.00
+   2 ?   -0.9   0.1       2.5       2.5     174     222 ..    4136    4184 ..    4128    4193 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 730.9 bits;  conditional E-value: 3.7e-223
+     3CLpro    1 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt 98  
+                 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt
+  OP578130_ 3264 SGFRKMAFPSGKVEGCMVQVTCGTTTLNGLWLDDVVYCPRHVICTSEDMLNPNYEDLLIRKSNHNFLVQAGNVQLRVIGHSMQNCVLKLKVDTANPKT 3361
+                 8************************************************************************************************* PP
+
+     3CLpro   99 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt 196 
+                 pkykfvriqpgqtfsvlacyngspsgvyqcamr nftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt
+  OP578130_ 3362 PKYKFVRIQPGQTFSVLACYNGSPSGVYQCAMRHNFTIKGSFLNGSCGSVGFNIDYDCVSFCYMHHMELPTGVHAGTDLEGNFYGPFVDRQTAQAAGT 3459
+                 ************************************************************************************************** PP
+
+     3CLpro  197 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf 294 
+                 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf
+  OP578130_ 3460 DTTITVNVLAWLYAAVINGDRWFLNRFTTTLNDFNLVAMKYNYEPLTQDHVDILGPLSAQTGIAVLDMCASLKELLQNGMNGRTILGSALLEDEFTPF 3557
+                 ************************************************************************************************** PP
+
+     3CLpro  295 dvvrqcsgvtfq 306 
+                 dvvrqcsgvtfq
+  OP578130_ 3558 DVVRQCSGVTFQ 3569
+                 ***********8 PP
+
+  == domain 2  score: -0.9 bits;  conditional E-value: 2.5
+     3CLpro  174 gtdlegnfygpfvdrqtaqaagtdttitvnvlawlyaavingdrwflnr 222 
+                 +  l+ n   p+  rq + aagt  t   +  a  y    +g r++l  
+  OP578130_ 4136 AVKLQNNELSPVALRQMSCAAGTTQTACTDDNALAYYNTTKGGRFVLAL 4184
+                 5678899999*************99999999999999999999998864 PP
+
+>> OR563456_  ORF1ab 241-13434;13434-21566
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  730.9   4.6  3.7e-223  3.7e-223       1     306 []    3264    3569 ..    3264    3569 .. 1.00
+   2 ?   -0.9   0.1       2.5       2.5     174     222 ..    4133    4181 ..    4125    4190 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 730.9 bits;  conditional E-value: 3.7e-223
+     3CLpro    1 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt 98  
+                 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt
+  OR563456_ 3264 SGFRKMAFPSGKVEGCMVQVTCGTTTLNGLWLDDVVYCPRHVICTSEDMLNPNYEDLLIRKSNHNFLVQAGNVQLRVIGHSMQNCVLKLKVDTANPKT 3361
+                 8************************************************************************************************* PP
+
+     3CLpro   99 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt 196 
+                 pkykfvriqpgqtfsvlacyngspsgvyqcamr nftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt
+  OR563456_ 3362 PKYKFVRIQPGQTFSVLACYNGSPSGVYQCAMRHNFTIKGSFLNGSCGSVGFNIDYDCVSFCYMHHMELPTGVHAGTDLEGNFYGPFVDRQTAQAAGT 3459
+                 ************************************************************************************************** PP
+
+     3CLpro  197 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf 294 
+                 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf
+  OR563456_ 3460 DTTITVNVLAWLYAAVINGDRWFLNRFTTTLNDFNLVAMKYNYEPLTQDHVDILGPLSAQTGIAVLDMCASLKELLQNGMNGRTILGSALLEDEFTPF 3557
+                 ************************************************************************************************** PP
+
+     3CLpro  295 dvvrqcsgvtfq 306 
+                 dvvrqcsgvtfq
+  OR563456_ 3558 DVVRQCSGVTFQ 3569
+                 ***********8 PP
+
+  == domain 2  score: -0.9 bits;  conditional E-value: 2.5
+     3CLpro  174 gtdlegnfygpfvdrqtaqaagtdttitvnvlawlyaavingdrwflnr 222 
+                 +  l+ n   p+  rq + aagt  t   +  a  y    +g r++l  
+  OR563456_ 4133 AVKLQNNELSPVALRQMSCAAGTTQTACTDDNALAYYNTTKGGRFVLAL 4181
+                 5678899999*************99999999999999999999998864 PP
+
+>> OQ896588_  ORF1ab 166-13368;13368-21455
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  730.8   3.8  3.9e-223  3.9e-223       1     306 []    3264    3569 ..    3264    3569 .. 1.00
+   2 ?   -0.9   0.1       2.5       2.5     174     222 ..    4136    4184 ..    4128    4193 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 730.8 bits;  conditional E-value: 3.9e-223
+     3CLpro    1 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt 98  
+                 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlkl+vdtanpkt
+  OQ896588_ 3264 SGFRKMAFPSGKVEGCMVQVTCGTTTLNGLWLDDVVYCPRHVICTSEDMLNPNYEDLLIRKSNHNFLVQAGNVQLRVIGHSMQNCVLKLRVDTANPKT 3361
+                 8************************************************************************************************* PP
+
+     3CLpro   99 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt 196 
+                 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt
+  OQ896588_ 3362 PKYKFVRIQPGQTFSVLACYNGSPSGVYQCAMRPNFTIKGSFLNGSCGSVGFNIDYDCVSFCYMHHMELPTGVHAGTDLEGNFYGPFVDRQTAQAAGT 3459
+                 ************************************************************************************************** PP
+
+     3CLpro  197 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf 294 
+                 dttitvnvlawlyaavingdrwflnrftttlndf lvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf
+  OQ896588_ 3460 DTTITVNVLAWLYAAVINGDRWFLNRFTTTLNDFXLVAMKYNYEPLTQDHVDILGPLSAQTGIAVLDMCASLKELLQNGMNGRTILGSALLEDEFTPF 3557
+                 ************************************************************************************************** PP
+
+     3CLpro  295 dvvrqcsgvtfq 306 
+                 dvvrqcsgvtfq
+  OQ896588_ 3558 DVVRQCSGVTFQ 3569
+                 ***********8 PP
+
+  == domain 2  score: -0.9 bits;  conditional E-value: 2.5
+     3CLpro  174 gtdlegnfygpfvdrqtaqaagtdttitvnvlawlyaavingdrwflnr 222 
+                 +  l+ n   p+  rq + aagt  t   +  a  y    +g r++l  
+  OQ896588_ 4136 AVKLQNNELSPVALRQMSCAAGTTQTACTDDNALAYYNTTKGGRFVLAL 4184
+                 5678899999*************99999999999999999999998864 PP
+
+>> PP630509_  ORF1ab 212-13414;13414-21501
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  730.6   4.6  4.5e-223  4.5e-223       1     306 []    3264    3569 ..    3264    3569 .. 1.00
+   2 ?   -0.9   0.1       2.5       2.5     174     222 ..    4136    4184 ..    4128    4193 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 730.6 bits;  conditional E-value: 4.5e-223
+     3CLpro    1 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt 98  
+                 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt
+  PP630509_ 3264 SGFRKMAFPSGKVEGCMVQVTCGTTTLNGLWLDDVVYCPRHVICTSEDMLNPNYEDLLIRKSNHNFLVQAGNVQLRVIGHSMQNCVLKLKVDTANPKT 3361
+                 8************************************************************************************************* PP
+
+     3CLpro   99 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt 196 
+                 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfyg fvdrqtaqaagt
+  PP630509_ 3362 PKYKFVRIQPGQTFSVLACYNGSPSGVYQCAMRPNFTIKGSFLNGSCGSVGFNIDYDCVSFCYMHHMELPTGVHAGTDLEGNFYGHFVDRQTAQAAGT 3459
+                 ************************************************************************************************** PP
+
+     3CLpro  197 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf 294 
+                 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf
+  PP630509_ 3460 DTTITVNVLAWLYAAVINGDRWFLNRFTTTLNDFNLVAMKYNYEPLTQDHVDILGPLSAQTGIAVLDMCASLKELLQNGMNGRTILGSALLEDEFTPF 3557
+                 ************************************************************************************************** PP
+
+     3CLpro  295 dvvrqcsgvtfq 306 
+                 dvvrqcsgvtfq
+  PP630509_ 3558 DVVRQCSGVTFQ 3569
+                 ***********8 PP
+
+  == domain 2  score: -0.9 bits;  conditional E-value: 2.5
+     3CLpro  174 gtdlegnfygpfvdrqtaqaagtdttitvnvlawlyaavingdrwflnr 222 
+                 +  l+ n   p+  rq + aagt  t   +  a  y    +g r++l  
+  PP630509_ 4136 AVKLQNNELSPVALRQMSCAAGTTQTACTDDNALAYYNTTKGGRFVLAL 4184
+                 5678899999*************99999999999999999999998864 PP
+
+>> PV497551_  ORF1ab 227-13417;13417-21504
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  729.9   4.5  7.5e-223  7.5e-223       1     306 []    3263    3568 ..    3263    3568 .. 1.00
+   2 ?   -0.9   0.1       2.5       2.5     174     222 ..    4132    4180 ..    4124    4189 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 729.9 bits;  conditional E-value: 7.5e-223
+     3CLpro    1 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt 98  
+                 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlkl+vdtanpkt
+  PV497551_ 3263 SGFRKMAFPSGKVEGCMVQVTCGTTTLNGLWLDDVVYCPRHVICTSEDMLNPNYEDLLIRKSNHNFLVQAGNVQLRVIGHSMQNCVLKLRVDTANPKT 3360
+                 8************************************************************************************************* PP
+
+     3CLpro   99 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt 196 
+                 pkykfvriqpgqtfsvlacyngspsgvyqcamr nftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt
+  PV497551_ 3361 PKYKFVRIQPGQTFSVLACYNGSPSGVYQCAMRHNFTIKGSFLNGSCGSVGFNIDYDCVSFCYMHHMELPTGVHAGTDLEGNFYGPFVDRQTAQAAGT 3458
+                 ************************************************************************************************** PP
+
+     3CLpro  197 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf 294 
+                 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf
+  PV497551_ 3459 DTTITVNVLAWLYAAVINGDRWFLNRFTTTLNDFNLVAMKYNYEPLTQDHVDILGPLSAQTGIAVLDMCASLKELLQNGMNGRTILGSALLEDEFTPF 3556
+                 ************************************************************************************************** PP
+
+     3CLpro  295 dvvrqcsgvtfq 306 
+                 dvvrqcsgvtfq
+  PV497551_ 3557 DVVRQCSGVTFQ 3568
+                 ***********8 PP
+
+  == domain 2  score: -0.9 bits;  conditional E-value: 2.5
+     3CLpro  174 gtdlegnfygpfvdrqtaqaagtdttitvnvlawlyaavingdrwflnr 222 
+                 +  l+ n   p+  rq + aagt  t   +  a  y    +g r++l  
+  PV497551_ 4132 AVKLQNNELSPVALRQMSCAAGTTQTACTDDNALAYYNTTKGGRFVLAL 4180
+                 5678899999*************99999999999999999999998864 PP
+
+>> MG772934_  ORF1ab 265-13389;13389-21476
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  729.2   3.9  1.2e-222  1.2e-222       1     306 []    3238    3543 ..    3238    3543 .. 1.00
+   2 ?   -2.8   0.0       9.3       9.3     175     220 ..    4111    4156 ..    4104    4161 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 729.2 bits;  conditional E-value: 1.2e-222
+     3CLpro    1 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt 98  
+                 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrv+ghsmqncvlklkvdtanpkt
+  MG772934_ 3238 SGFRKMAFPSGKVEGCMVQVTCGTTTLNGLWLDDVVYCPRHVICTSEDMLNPNYEDLLIRKSNHNFLVQAGNVQLRVVGHSMQNCVLKLKVDTANPKT 3335
+                 8************************************************************************************************* PP
+
+     3CLpro   99 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt 196 
+                 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdleg+fygpfvdrqtaqaagt
+  MG772934_ 3336 PKYKFVRIQPGQTFSVLACYNGSPSGVYQCAMRPNFTIKGSFLNGSCGSVGFNIDYDCVSFCYMHHMELPTGVHAGTDLEGTFYGPFVDRQTAQAAGT 3433
+                 ************************************************************************************************** PP
+
+     3CLpro  197 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf 294 
+                 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdh+dilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf
+  MG772934_ 3434 DTTITVNVLAWLYAAVINGDRWFLNRFTTTLNDFNLVAMKYNYEPLTQDHLDILGPLSAQTGIAVLDMCASLKELLQNGMNGRTILGSALLEDEFTPF 3531
+                 ************************************************************************************************** PP
+
+     3CLpro  295 dvvrqcsgvtfq 306 
+                 dvvrqcsgvtfq
+  MG772934_ 3532 DVVRQCSGVTFQ 3543
+                 ***********8 PP
+
+  == domain 2  score: -2.8 bits;  conditional E-value: 9.3
+     3CLpro  175 tdlegnfygpfvdrqtaqaagtdttitvnvlawlyaavingdrwfl 220 
+                   l+ n   p+  rq + aagt  t   +  a  y    +g r++l
+  MG772934_ 4111 VKLQNNELSPVALRQMSCAAGTTQTACTDDNALAYYNNSKGGRFVL 4156
+                 6788899999***********9999888888888877778888776 PP
+
+>> MG772933_  ORF1ab 265-13455;13455-21542
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  729.2   3.9  1.2e-222  1.2e-222       1     306 []    3260    3565 ..    3260    3565 .. 1.00
+   2 ?   -2.8   0.0       9.3       9.3     175     220 ..    4133    4178 ..    4126    4183 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 729.2 bits;  conditional E-value: 1.2e-222
+     3CLpro    1 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt 98  
+                 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrv+ghsmqncvlklkvdtanpkt
+  MG772933_ 3260 SGFRKMAFPSGKVEGCMVQVTCGTTTLNGLWLDDVVYCPRHVICTSEDMLNPNYEDLLIRKSNHNFLVQAGNVQLRVVGHSMQNCVLKLKVDTANPKT 3357
+                 8************************************************************************************************* PP
+
+     3CLpro   99 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt 196 
+                 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdleg+fygpfvdrqtaqaagt
+  MG772933_ 3358 PKYKFVRIQPGQTFSVLACYNGSPSGVYQCAMRPNFTIKGSFLNGSCGSVGFNIDYDCVSFCYMHHMELPTGVHAGTDLEGTFYGPFVDRQTAQAAGT 3455
+                 ************************************************************************************************** PP
+
+     3CLpro  197 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf 294 
+                 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdh+dilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf
+  MG772933_ 3456 DTTITVNVLAWLYAAVINGDRWFLNRFTTTLNDFNLVAMKYNYEPLTQDHLDILGPLSAQTGIAVLDMCASLKELLQNGMNGRTILGSALLEDEFTPF 3553
+                 ************************************************************************************************** PP
+
+     3CLpro  295 dvvrqcsgvtfq 306 
+                 dvvrqcsgvtfq
+  MG772933_ 3554 DVVRQCSGVTFQ 3565
+                 ***********8 PP
+
+  == domain 2  score: -2.8 bits;  conditional E-value: 9.3
+     3CLpro  175 tdlegnfygpfvdrqtaqaagtdttitvnvlawlyaavingdrwfl 220 
+                   l+ n   p+  rq + aagt  t   +  a  y    +g r++l
+  MG772933_ 4133 VKLQNNELSPVALRQMSCAAGTTQTACTDDNALAYYNNSKGGRFVL 4178
+                 6788899999***********9999888888888877778888776 PP
+
+>> OR020535_  ORF1ab 241-13431;13431-21563
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  728.6   4.5  1.8e-222  1.8e-222       1     306 []    3263    3568 ..    3263    3568 .. 1.00
+   2 ?   -0.9   0.1       2.5       2.5     174     222 ..    4132    4180 ..    4124    4189 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 728.6 bits;  conditional E-value: 1.8e-222
+     3CLpro    1 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt 98  
+                 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt
+  OR020535_ 3263 SGFRKMAFPSGKVEGCMVQVTCGTTTLNGLWLDDVVYCPRHVICTSEDMLNPNYEDLLIRKSNHNFLVQAGNVQLRVIGHSMQNCVLKLKVDTANPKT 3360
+                 8************************************************************************************************* PP
+
+     3CLpro   99 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt 196 
+                 pkykfvriqpgqtfsvlacyngspsgvyqcamr nftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt
+  OR020535_ 3361 PKYKFVRIQPGQTFSVLACYNGSPSGVYQCAMRHNFTIKGSFLNGSCGSVGFNIDYDCVSFCYMHHMELPTGVHAGTDLEGNFYGPFVDRQTAQAAGT 3458
+                 ************************************************************************************************** PP
+
+     3CLpro  197 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf 294 
+                 dttitvnvlawlyaavingdrwflnr+tttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf
+  OR020535_ 3459 DTTITVNVLAWLYAAVINGDRWFLNRLTTTLNDFNLVAMKYNYEPLTQDHVDILGPLSAQTGIAVLDMCASLKELLQNGMNGRTILGSALLEDEFTPF 3556
+                 ************************************************************************************************** PP
+
+     3CLpro  295 dvvrqcsgvtfq 306 
+                 dvvrqcsgvtfq
+  OR020535_ 3557 DVVRQCSGVTFQ 3568
+                 ***********8 PP
+
+  == domain 2  score: -0.9 bits;  conditional E-value: 2.5
+     3CLpro  174 gtdlegnfygpfvdrqtaqaagtdttitvnvlawlyaavingdrwflnr 222 
+                 +  l+ n   p+  rq + aagt  t   +  a  y    +g r++l  
+  OR020535_ 4132 AVKLQNNELSPVALRQMSCAAGTTQTACTDDNALAYYNTTKGGRFVLAL 4180
+                 5678899999*************99999999999999999999998864 PP
+
+>> PQ017244_  ORF1ab 211-13404;13404-21491
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  728.3   4.7  2.2e-222  2.2e-222       1     306 []    3264    3569 ..    3264    3569 .. 1.00
+   2 ?   -0.9   0.1       2.5       2.5     174     222 ..    4133    4181 ..    4125    4190 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 728.3 bits;  conditional E-value: 2.2e-222
+     3CLpro    1 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt 98  
+                 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt
+  PQ017244_ 3264 SGFRKMAFPSGKVEGCMVQVTCGTTTLNGLWLDDVVYCPRHVICTSEDMLNPNYEDLLIRKSNHNFLVQAGNVQLRVIGHSMQNCVLKLKVDTANPKT 3361
+                 8************************************************************************************************* PP
+
+     3CLpro   99 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt 196 
+                 pkykfvriqpgqtfsvlacyngspsgvyqcamr nftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt
+  PQ017244_ 3362 PKYKFVRIQPGQTFSVLACYNGSPSGVYQCAMRHNFTIKGSFLNGSCGSVGFNIDYDCVSFCYMHHMELPTGVHAGTDLEGNFYGPFVDRQTAQAAGT 3459
+                 ************************************************************************************************** PP
+
+     3CLpro  197 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf 294 
+                 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavld+caslkellqngmngrtilgsalledeftpf
+  PQ017244_ 3460 DTTITVNVLAWLYAAVINGDRWFLNRFTTTLNDFNLVAMKYNYEPLTQDHVDILGPLSAQTGIAVLDVCASLKELLQNGMNGRTILGSALLEDEFTPF 3557
+                 ************************************************************************************************** PP
+
+     3CLpro  295 dvvrqcsgvtfq 306 
+                 dvvrqcsgvtfq
+  PQ017244_ 3558 DVVRQCSGVTFQ 3569
+                 ***********8 PP
+
+  == domain 2  score: -0.9 bits;  conditional E-value: 2.5
+     3CLpro  174 gtdlegnfygpfvdrqtaqaagtdttitvnvlawlyaavingdrwflnr 222 
+                 +  l+ n   p+  rq + aagt  t   +  a  y    +g r++l  
+  PQ017244_ 4133 AVKLQNNELSPVALRQMSCAAGTTQTACTDDNALAYYNTTKGGRFVLAL 4181
+                 5678899999*************99999999999999999999998864 PP
+
+>> OL926066_  ORF1ab 241-13443;13443-21575
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  727.4   4.2  4.2e-222  4.2e-222       1     306 []    3264    3569 ..    3264    3569 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 727.4 bits;  conditional E-value: 4.2e-222
+     3CLpro    1 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt 98  
+                 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedlli ksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt
+  OL926066_ 3264 SGFRKMAFPSGKVEGCMVQVTCGTTTLNGLWLDDVVYCPRHVICTSEDMLNPNYEDLLIXKSNHNFLVQAGNVQLRVIGHSMQNCVLKLKVDTANPKT 3361
+                 8************************************************************************************************* PP
+
+     3CLpro   99 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt 196 
+                 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt
+  OL926066_ 3362 PKYKFVRIQPGQTFSVLACYNGSPSGVYQCAMRPNFTIKGSFLNGSCGSVGFNIDYDCVSFCYMHHMELPTGVHAGTDLEGNFYGPFVDRQTAQAAGT 3459
+                 ************************************************************************************************** PP
+
+     3CLpro  197 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf 294 
+                 dttitvnvlawl aavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf
+  OL926066_ 3460 DTTITVNVLAWLXAAVINGDRWFLNRFTTTLNDFNLVAMKYNYEPLTQDHVDILGPLSAQTGIAVLDMCASLKELLQNGMNGRTILGSALLEDEFTPF 3557
+                 ************************************************************************************************** PP
+
+     3CLpro  295 dvvrqcsgvtfq 306 
+                 dvvrqcsgvtfq
+  OL926066_ 3558 DVVRQCSGVTFQ 3569
+                 ***********8 PP
+
+>> MT040336_  ORF1ab 267-13445;13445-21532
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  719.4   3.9  1.2e-219  1.2e-219       1     306 []    3256    3561 ..    3256    3561 .. 1.00
+   2 ?   -2.5   0.0       7.7       7.7     175     221 ..    4129    4175 ..    4122    4184 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 719.4 bits;  conditional E-value: 1.2e-219
+     3CLpro    1 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt 98  
+                 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvict+edmlnpnyedllirksnhnflvqagnv+lrvighsmqncvlklkvd+anpkt
+  MT040336_ 3256 SGFRKMAFPSGKVEGCMVQVTCGTTTLNGLWLDDVVYCPRHVICTAEDMLNPNYEDLLIRKSNHNFLVQAGNVHLRVIGHSMQNCVLKLKVDAANPKT 3353
+                 8************************************************************************************************* PP
+
+     3CLpro   99 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt 196 
+                 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdleg+fygpfvdrqtaqaagt
+  MT040336_ 3354 PKYKFVRIQPGQTFSVLACYNGSPSGVYQCAMRPNFTIKGSFLNGSCGSVGFNIDYDCVSFCYMHHMELPTGVHAGTDLEGTFYGPFVDRQTAQAAGT 3451
+                 ************************************************************************************************** PP
+
+     3CLpro  197 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf 294 
+                 dt+it+nvlawlyaavingdrwflnr+tttlndfnlvamk+nyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsa+ledeftpf
+  MT040336_ 3452 DTVITINVLAWLYAAVINGDRWFLNRYTTTLNDFNLVAMKFNYEPLTQDHVDILGPLSAQTGIAVLDMCASLKELLQNGMNGRTILGSAILEDEFTPF 3549
+                 ************************************************************************************************** PP
+
+     3CLpro  295 dvvrqcsgvtfq 306 
+                 dvvrqcsgvtfq
+  MT040336_ 3550 DVVRQCSGVTFQ 3561
+                 ***********8 PP
+
+  == domain 2  score: -2.5 bits;  conditional E-value: 7.7
+     3CLpro  175 tdlegnfygpfvdrqtaqaagtdttitvnvlawlyaavingdrwfln 221 
+                   l+ n   p+  rq + aagt  t   +  a  y    +g r++l 
+  MT040336_ 4129 VKLQNNELSPVALRQMSCAAGTTQTACNEDNALAYYNTSKGGRFVLA 4175
+                 678889999*************9999998888888888899998876 PP
+
+>> MT040333_  ORF1ab 267-13445;13445-21532
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  719.4   3.9  1.2e-219  1.2e-219       1     306 []    3256    3561 ..    3256    3561 .. 1.00
+   2 ?   -2.5   0.0       7.7       7.7     175     221 ..    4129    4175 ..    4122    4184 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 719.4 bits;  conditional E-value: 1.2e-219
+     3CLpro    1 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt 98  
+                 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvict+edmlnpnyedllirksnhnflvqagnv+lrvighsmqncvlklkvd+anpkt
+  MT040333_ 3256 SGFRKMAFPSGKVEGCMVQVTCGTTTLNGLWLDDVVYCPRHVICTAEDMLNPNYEDLLIRKSNHNFLVQAGNVHLRVIGHSMQNCVLKLKVDAANPKT 3353
+                 8************************************************************************************************* PP
+
+     3CLpro   99 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt 196 
+                 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdleg+fygpfvdrqtaqaagt
+  MT040333_ 3354 PKYKFVRIQPGQTFSVLACYNGSPSGVYQCAMRPNFTIKGSFLNGSCGSVGFNIDYDCVSFCYMHHMELPTGVHAGTDLEGTFYGPFVDRQTAQAAGT 3451
+                 ************************************************************************************************** PP
+
+     3CLpro  197 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf 294 
+                 dt+it+nvlawlyaavingdrwflnr+tttlndfnlvamk+nyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsa+ledeftpf
+  MT040333_ 3452 DTVITINVLAWLYAAVINGDRWFLNRYTTTLNDFNLVAMKFNYEPLTQDHVDILGPLSAQTGIAVLDMCASLKELLQNGMNGRTILGSAILEDEFTPF 3549
+                 ************************************************************************************************** PP
+
+     3CLpro  295 dvvrqcsgvtfq 306 
+                 dvvrqcsgvtfq
+  MT040333_ 3550 DVVRQCSGVTFQ 3561
+                 ***********8 PP
+
+  == domain 2  score: -2.5 bits;  conditional E-value: 7.7
+     3CLpro  175 tdlegnfygpfvdrqtaqaagtdttitvnvlawlyaavingdrwfln 221 
+                   l+ n   p+  rq + aagt  t   +  a  y    +g r++l 
+  MT040333_ 4129 VKLQNNELSPVALRQMSCAAGTTQTACNEDNALAYYNTSKGGRFVLA 4175
+                 678889999*************9999998888888888899998876 PP
+
+>> MT040335_  ORF1ab 267-13445;13445-21532
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  719.4   3.9  1.2e-219  1.2e-219       1     306 []    3256    3561 ..    3256    3561 .. 1.00
+   2 ?   -2.5   0.0       7.7       7.7     175     221 ..    4129    4175 ..    4122    4184 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 719.4 bits;  conditional E-value: 1.2e-219
+     3CLpro    1 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt 98  
+                 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvict+edmlnpnyedllirksnhnflvqagnv+lrvighsmqncvlklkvd+anpkt
+  MT040335_ 3256 SGFRKMAFPSGKVEGCMVQVTCGTTTLNGLWLDDVVYCPRHVICTAEDMLNPNYEDLLIRKSNHNFLVQAGNVHLRVIGHSMQNCVLKLKVDAANPKT 3353
+                 8************************************************************************************************* PP
+
+     3CLpro   99 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt 196 
+                 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdleg+fygpfvdrqtaqaagt
+  MT040335_ 3354 PKYKFVRIQPGQTFSVLACYNGSPSGVYQCAMRPNFTIKGSFLNGSCGSVGFNIDYDCVSFCYMHHMELPTGVHAGTDLEGTFYGPFVDRQTAQAAGT 3451
+                 ************************************************************************************************** PP
+
+     3CLpro  197 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf 294 
+                 dt+it+nvlawlyaavingdrwflnr+tttlndfnlvamk+nyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsa+ledeftpf
+  MT040335_ 3452 DTVITINVLAWLYAAVINGDRWFLNRYTTTLNDFNLVAMKFNYEPLTQDHVDILGPLSAQTGIAVLDMCASLKELLQNGMNGRTILGSAILEDEFTPF 3549
+                 ************************************************************************************************** PP
+
+     3CLpro  295 dvvrqcsgvtfq 306 
+                 dvvrqcsgvtfq
+  MT040335_ 3550 DVVRQCSGVTFQ 3561
+                 ***********8 PP
+
+  == domain 2  score: -2.5 bits;  conditional E-value: 7.7
+     3CLpro  175 tdlegnfygpfvdrqtaqaagtdttitvnvlawlyaavingdrwfln 221 
+                   l+ n   p+  rq + aagt  t   +  a  y    +g r++l 
+  MT040335_ 4129 VKLQNNELSPVALRQMSCAAGTTQTACNEDNALAYYNTSKGGRFVLA 4175
+                 678889999*************9999998888888888899998876 PP
+
+>> MT040334_  ORF1ab 267-13445;13445-21532
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  718.2   4.1  2.7e-219  2.7e-219       1     306 []    3256    3561 ..    3256    3561 .. 1.00
+   2 ?   -2.5   0.0       7.7       7.7     175     221 ..    4129    4175 ..    4122    4184 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 718.2 bits;  conditional E-value: 2.7e-219
+     3CLpro    1 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt 98  
+                 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvict+edmlnpnyedllirksnhnflvqagnv+lrvighsmqncvlklkvd+anpkt
+  MT040334_ 3256 SGFRKMAFPSGKVEGCMVQVTCGTTTLNGLWLDDVVYCPRHVICTAEDMLNPNYEDLLIRKSNHNFLVQAGNVHLRVIGHSMQNCVLKLKVDAANPKT 3353
+                 8************************************************************************************************* PP
+
+     3CLpro   99 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt 196 
+                 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdleg+fygpfvdrqtaqaagt
+  MT040334_ 3354 PKYKFVRIQPGQTFSVLACYNGSPSGVYQCAMRPNFTIKGSFLNGSCGSVGFNIDYDCVSFCYMHHMELPTGVHAGTDLEGTFYGPFVDRQTAQAAGT 3451
+                 ************************************************************************************************** PP
+
+     3CLpro  197 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf 294 
+                 dt+it+nvlawlyaavingdrwflnr+tttlndfnlvamk+nyepltqdhvdilgplsaqtg+avldmcaslkellqngmngrtilgsa+ledeftpf
+  MT040334_ 3452 DTVITINVLAWLYAAVINGDRWFLNRYTTTLNDFNLVAMKFNYEPLTQDHVDILGPLSAQTGVAVLDMCASLKELLQNGMNGRTILGSAILEDEFTPF 3549
+                 ************************************************************************************************** PP
+
+     3CLpro  295 dvvrqcsgvtfq 306 
+                 dvvrqcsgvtfq
+  MT040334_ 3550 DVVRQCSGVTFQ 3561
+                 ***********8 PP
+
+  == domain 2  score: -2.5 bits;  conditional E-value: 7.7
+     3CLpro  175 tdlegnfygpfvdrqtaqaagtdttitvnvlawlyaavingdrwfln 221 
+                   l+ n   p+  rq + aagt  t   +  a  y    +g r++l 
+  MT040334_ 4129 VKLQNNELSPVALRQMSCAAGTTQTACNEDNALAYYNTSKGGRFVLA 4175
+                 678889999*************9999998888888888899998876 PP
+
+>> MT072864_  ORF1ab 249-13427;13427-21514
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  716.9   3.9  6.7e-219  6.7e-219       1     306 []    3256    3561 ..    3256    3561 .. 1.00
+   2 ?   -2.5   0.0       7.7       7.7     175     221 ..    4129    4175 ..    4122    4184 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 716.9 bits;  conditional E-value: 6.7e-219
+     3CLpro    1 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt 98  
+                 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvict+edmlnpnyedllirksnhnflvqagnv+lrvighsmqncvlklkvd+anpkt
+  MT072864_ 3256 SGFRKMAFPSGKVEGCMVQVTCGTTTLNGLWLDDVVYCPRHVICTAEDMLNPNYEDLLIRKSNHNFLVQAGNVHLRVIGHSMQNCVLKLKVDAANPKT 3353
+                 8************************************************************************************************* PP
+
+     3CLpro   99 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt 196 
+                 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdleg+fygpfvdrqtaqaagt
+  MT072864_ 3354 PKYKFVRIQPGQTFSVLACYNGSPSGVYQCAMRPNFTIKGSFLNGSCGSVGFNIDYDCVSFCYMHHMELPTGVHAGTDLEGTFYGPFVDRQTAQAAGT 3451
+                 ************************************************************************************************** PP
+
+     3CLpro  197 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf 294 
+                 dt+it+nvlawlyaavingdrwflnr+tttlndfnlvamk+nyepltqdhvdilgplsaqtgiavldmcaslkellqng+ngrtilgsa+ledeftpf
+  MT072864_ 3452 DTVITINVLAWLYAAVINGDRWFLNRYTTTLNDFNLVAMKFNYEPLTQDHVDILGPLSAQTGIAVLDMCASLKELLQNGVNGRTILGSAILEDEFTPF 3549
+                 ************************************************************************************************** PP
+
+     3CLpro  295 dvvrqcsgvtfq 306 
+                 dvvrqcsgvtfq
+  MT072864_ 3550 DVVRQCSGVTFQ 3561
+                 ***********8 PP
+
+  == domain 2  score: -2.5 bits;  conditional E-value: 7.7
+     3CLpro  175 tdlegnfygpfvdrqtaqaagtdttitvnvlawlyaavingdrwfln 221 
+                   l+ n   p+  rq + aagt  t   +  a  y    +g r++l 
+  MT072864_ 4129 VKLQNNELSPVALRQMSCAAGTTQTACNEDNALAYYNTSKGGRFVLA 4175
+                 678889999*************9999998888888888899998876 PP
+
+>> GQ153547_  ORF1ab 262-13377;13377-21464
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  711.9   3.3  2.2e-217  2.2e-217       1     306 []    3235    3540 ..    3235    3540 .. 1.00
+   2 ?   -2.1   0.0       5.8       5.8     174     221 ..    4107    4154 ..    4100    4159 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 711.9 bits;  conditional E-value: 2.2e-217
+     3CLpro    1 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt 98  
+                 sgfrkmafpsgkvegcmvqvtcgtttlnglwldd vycprhvict+edmlnpny+dllirksnh flvqagnvqlrvighsmqnc+l+lkvdt+npkt
+  GQ153547_ 3235 SGFRKMAFPSGKVEGCMVQVTCGTTTLNGLWLDDTVYCPRHVICTAEDMLNPNYDDLLIRKSNHSFLVQAGNVQLRVIGHSMQNCLLRLKVDTSNPKT 3332
+                 8************************************************************************************************* PP
+
+     3CLpro   99 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt 196 
+                 pkykfvriqpgqtfsvlacyngspsgvyqcamrpn+tikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdleg+fygpfvdrqtaqaagt
+  GQ153547_ 3333 PKYKFVRIQPGQTFSVLACYNGSPSGVYQCAMRPNYTIKGSFLNGSCGSVGFNIDYDCVSFCYMHHMELPTGVHAGTDLEGKFYGPFVDRQTAQAAGT 3430
+                 ************************************************************************************************** PP
+
+     3CLpro  197 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf 294 
+                 dttit+nvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmca+lkellqngmngrtilgs++ledeftpf
+  GQ153547_ 3431 DTTITLNVLAWLYAAVINGDRWFLNRFTTTLNDFNLVAMKYNYEPLTQDHVDILGPLSAQTGIAVLDMCAALKELLQNGMNGRTILGSTILEDEFTPF 3528
+                 ************************************************************************************************** PP
+
+     3CLpro  295 dvvrqcsgvtfq 306 
+                 dvvrqcsgvtfq
+  GQ153547_ 3529 DVVRQCSGVTFQ 3540
+                 ***********8 PP
+
+  == domain 2  score: -2.1 bits;  conditional E-value: 5.8
+     3CLpro  174 gtdlegnfygpfvdrqtaqaagtdttitvnvlawlyaavingdrwfln 221 
+                 +  l+ n   p+  rq + aagt  t   +  a  y    +g r++l 
+  GQ153547_ 4107 AVKLQNNELSPVALRQMSCAAGTTQTACTDDNALAYYNNAKGGRFVLA 4154
+                 5678899999*************9999888888888888888888775 PP
+
+>> GQ153542_  ORF1ab 262-13389;13389-21476
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.0   0.0       5.6       5.6      13      36 ..     686     709 ..     681     715 .. 0.87
+   2 !  711.9   3.3  2.2e-217  2.2e-217       1     306 []    3239    3544 ..    3239    3544 .. 1.00
+   3 ?   -2.0   0.0       5.6       5.6     174     221 ..    4111    4158 ..    4103    4163 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: -2.0 bits;  conditional E-value: 5.6
+     3CLpro  13 vegcmvqvtcgtttlnglwlddvv 36 
+                +e c+ qvt + ttl  l l +v 
+  GQ153542_ 686 LEMCLDQVTIAGTTLRALNLGEVF 709
+                699***************999886 PP
+
+  == domain 2  score: 711.9 bits;  conditional E-value: 2.2e-217
+     3CLpro    1 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt 98  
+                 sgfrkmafpsgkvegcmvqvtcgtttlnglwldd vycprhvict+edmlnpny+dllirksnh flvqagnvqlrvighsmqnc+l+lkvdt+npkt
+  GQ153542_ 3239 SGFRKMAFPSGKVEGCMVQVTCGTTTLNGLWLDDTVYCPRHVICTAEDMLNPNYDDLLIRKSNHSFLVQAGNVQLRVIGHSMQNCLLRLKVDTSNPKT 3336
+                 8************************************************************************************************* PP
+
+     3CLpro   99 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt 196 
+                 pkykfvriqpgqtfsvlacyngspsgvyqcamrpn+tikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdleg+fygpfvdrqtaqaagt
+  GQ153542_ 3337 PKYKFVRIQPGQTFSVLACYNGSPSGVYQCAMRPNYTIKGSFLNGSCGSVGFNIDYDCVSFCYMHHMELPTGVHAGTDLEGKFYGPFVDRQTAQAAGT 3434
+                 ************************************************************************************************** PP
+
+     3CLpro  197 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf 294 
+                 dttit+nvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmca+lkellqngmngrtilgs++ledeftpf
+  GQ153542_ 3435 DTTITLNVLAWLYAAVINGDRWFLNRFTTTLNDFNLVAMKYNYEPLTQDHVDILGPLSAQTGIAVLDMCAALKELLQNGMNGRTILGSTILEDEFTPF 3532
+                 ************************************************************************************************** PP
+
+     3CLpro  295 dvvrqcsgvtfq 306 
+                 dvvrqcsgvtfq
+  GQ153542_ 3533 DVVRQCSGVTFQ 3544
+                 ***********8 PP
+
+  == domain 3  score: -2.0 bits;  conditional E-value: 5.6
+     3CLpro  174 gtdlegnfygpfvdrqtaqaagtdttitvnvlawlyaavingdrwfln 221 
+                 +  l+ n   p+  rq + aagt  t   +  a  y    +g r++l 
+  GQ153542_ 4111 AVKLQNNELSPVALRQMSCAAGTTQTACTDDNALAYYNNAKGGRFVLA 4158
+                 5678899999*************9999888888888888888888775 PP
+
+>> KY352407_  ORF1ab 260-13324;13324-21411
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  710.2   3.4  7.3e-217  7.3e-217       1     306 []    3218    3523 ..    3218    3523 .. 1.00
+   2 ?   -1.5   0.0       3.8       3.8     174     222 ..    4090    4138 ..    4082    4144 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 710.2 bits;  conditional E-value: 7.3e-217
+     3CLpro    1 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt 98  
+                 sgfrkmafpsgkve+cmvqvtcgtttlnglwldd+vycprhvict edmlnpnyedllirksnhnflvqagnvqlrvighsmqnc+lklkv+tanpkt
+  KY352407_ 3218 SGFRKMAFPSGKVECCMVQVTCGTTTLNGLWLDDIVYCPRHVICTPEDMLNPNYEDLLIRKSNHNFLVQAGNVQLRVIGHSMQNCLLKLKVETANPKT 3315
+                 8************************************************************************************************* PP
+
+     3CLpro   99 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt 196 
+                 pkykfvriqpgqtfsvlacyng+psgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtd+egnfygpfvdrqtaqaagt
+  KY352407_ 3316 PKYKFVRIQPGQTFSVLACYNGAPSGVYQCAMRPNFTIKGSFLNGSCGSVGFNIDYDCVSFCYMHHMELPTGVHAGTDIEGNFYGPFVDRQTAQAAGT 3413
+                 ************************************************************************************************** PP
+
+     3CLpro  197 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf 294 
+                 d tit+nvlawlyaaving+rwflnrftttlndfnlvamkynyepl+qdhvdilgplsaqtgiavldmca+lkellqngmngrtilgs++ledeftpf
+  KY352407_ 3414 DITITLNVLAWLYAAVINGERWFLNRFTTTLNDFNLVAMKYNYEPLVQDHVDILGPLSAQTGIAVLDMCAALKELLQNGMNGRTILGSTILEDEFTPF 3511
+                 ************************************************************************************************** PP
+
+     3CLpro  295 dvvrqcsgvtfq 306 
+                 dvvrqcsgvtfq
+  KY352407_ 3512 DVVRQCSGVTFQ 3523
+                 ***********8 PP
+
+  == domain 2  score: -1.5 bits;  conditional E-value: 3.8
+     3CLpro  174 gtdlegnfygpfvdrqtaqaagtdttitvnvlawlyaavingdrwflnr 222 
+                 +  l+ n   p+  rq + aagt  t   +  a  y    +g r++l  
+  KY352407_ 4090 AVKLQNNELSPVALRQMSCAAGTTQTACTDDNALAYYNTSKGGRFVLAL 4138
+                 5678899999*************99999988888898899999998865 PP
+
+>> GQ153548_  ORF1ab 262-13350;13350-21437
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  709.1   3.4  1.5e-216  1.5e-216       1     306 []    3226    3531 ..    3226    3531 .. 1.00
+   2 ?   -2.1   0.0       5.8       5.8     174     221 ..    4098    4145 ..    4091    4150 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 709.1 bits;  conditional E-value: 1.5e-216
+     3CLpro    1 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt 98  
+                 sgfrkmafpsgkvegcmvqvtcgtttlnglwldd vycprhv+ct+edmlnpny+dllirksnh flvqagnvqlrvighsmqnc+l+lkvdt+npkt
+  GQ153548_ 3226 SGFRKMAFPSGKVEGCMVQVTCGTTTLNGLWLDDTVYCPRHVVCTAEDMLNPNYDDLLIRKSNHSFLVQAGNVQLRVIGHSMQNCLLRLKVDTSNPKT 3323
+                 8************************************************************************************************* PP
+
+     3CLpro   99 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt 196 
+                 pkykfvriqpgqtfsvlacyngspsgvyqcamrpn+tikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdleg+fygpfvdrqtaqaagt
+  GQ153548_ 3324 PKYKFVRIQPGQTFSVLACYNGSPSGVYQCAMRPNHTIKGSFLNGSCGSVGFNIDYDCVSFCYMHHMELPTGVHAGTDLEGKFYGPFVDRQTAQAAGT 3421
+                 ************************************************************************************************** PP
+
+     3CLpro  197 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf 294 
+                 dttit+nvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmca+lkellqngmngrtilgs++ledeftpf
+  GQ153548_ 3422 DTTITLNVLAWLYAAVINGDRWFLNRFTTTLNDFNLVAMKYNYEPLTQDHVDILGPLSAQTGIAVLDMCAALKELLQNGMNGRTILGSTILEDEFTPF 3519
+                 ************************************************************************************************** PP
+
+     3CLpro  295 dvvrqcsgvtfq 306 
+                 dvvrqcsgvtfq
+  GQ153548_ 3520 DVVRQCSGVTFQ 3531
+                 ***********8 PP
+
+  == domain 2  score: -2.1 bits;  conditional E-value: 5.8
+     3CLpro  174 gtdlegnfygpfvdrqtaqaagtdttitvnvlawlyaavingdrwfln 221 
+                 +  l+ n   p+  rq + aagt  t   +  a  y    +g r++l 
+  GQ153548_ 4098 AVKLQNNELSPVALRQMSCAAGTTQTACTDDNALAYYNNAKGGRFVLA 4145
+                 5678899999*************9999888888888888888888775 PP
+
+>> DQ022305_  ORF1ab 262-13377;13377-21464
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  709.1   3.4  1.5e-216  1.5e-216       1     306 []    3235    3540 ..    3235    3540 .. 1.00
+   2 ?   -2.1   0.0       5.8       5.8     174     221 ..    4107    4154 ..    4100    4159 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 709.1 bits;  conditional E-value: 1.5e-216
+     3CLpro    1 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt 98  
+                 sgfrkmafpsgkvegcmvqvtcgtttlnglwldd vycprhv+ct+edmlnpny+dllirksnh flvqagnvqlrvighsmqnc+l+lkvdt+npkt
+  DQ022305_ 3235 SGFRKMAFPSGKVEGCMVQVTCGTTTLNGLWLDDTVYCPRHVVCTAEDMLNPNYDDLLIRKSNHSFLVQAGNVQLRVIGHSMQNCLLRLKVDTSNPKT 3332
+                 8************************************************************************************************* PP
+
+     3CLpro   99 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt 196 
+                 pkykfvriqpgqtfsvlacyngspsgvyqcamrpn+tikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdleg+fygpfvdrqtaqaagt
+  DQ022305_ 3333 PKYKFVRIQPGQTFSVLACYNGSPSGVYQCAMRPNHTIKGSFLNGSCGSVGFNIDYDCVSFCYMHHMELPTGVHAGTDLEGKFYGPFVDRQTAQAAGT 3430
+                 ************************************************************************************************** PP
+
+     3CLpro  197 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf 294 
+                 dttit+nvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmca+lkellqngmngrtilgs++ledeftpf
+  DQ022305_ 3431 DTTITLNVLAWLYAAVINGDRWFLNRFTTTLNDFNLVAMKYNYEPLTQDHVDILGPLSAQTGIAVLDMCAALKELLQNGMNGRTILGSTILEDEFTPF 3528
+                 ************************************************************************************************** PP
+
+     3CLpro  295 dvvrqcsgvtfq 306 
+                 dvvrqcsgvtfq
+  DQ022305_ 3529 DVVRQCSGVTFQ 3540
+                 ***********8 PP
+
+  == domain 2  score: -2.1 bits;  conditional E-value: 5.8
+     3CLpro  174 gtdlegnfygpfvdrqtaqaagtdttitvnvlawlyaavingdrwfln 221 
+                 +  l+ n   p+  rq + aagt  t   +  a  y    +g r++l 
+  DQ022305_ 4107 AVKLQNNELSPVALRQMSCAAGTTQTACTDDNALAYYNNAKGGRFVLA 4154
+                 5678899999*************9999888888888888888888775 PP
+
+>> DQ084199_  ORF1ab 245-13360;13360-21447
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  709.1   3.4  1.5e-216  1.5e-216       1     306 []    3235    3540 ..    3235    3540 .. 1.00
+   2 ?   -2.1   0.0       5.8       5.8     174     221 ..    4107    4154 ..    4100    4159 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 709.1 bits;  conditional E-value: 1.5e-216
+     3CLpro    1 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt 98  
+                 sgfrkmafpsgkvegcmvqvtcgtttlnglwldd vycprhv+ct+edmlnpny+dllirksnh flvqagnvqlrvighsmqnc+l+lkvdt+npkt
+  DQ084199_ 3235 SGFRKMAFPSGKVEGCMVQVTCGTTTLNGLWLDDTVYCPRHVVCTAEDMLNPNYDDLLIRKSNHSFLVQAGNVQLRVIGHSMQNCLLRLKVDTSNPKT 3332
+                 8************************************************************************************************* PP
+
+     3CLpro   99 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt 196 
+                 pkykfvriqpgqtfsvlacyngspsgvyqcamrpn+tikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdleg+fygpfvdrqtaqaagt
+  DQ084199_ 3333 PKYKFVRIQPGQTFSVLACYNGSPSGVYQCAMRPNHTIKGSFLNGSCGSVGFNIDYDCVSFCYMHHMELPTGVHAGTDLEGKFYGPFVDRQTAQAAGT 3430
+                 ************************************************************************************************** PP
+
+     3CLpro  197 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf 294 
+                 dttit+nvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmca+lkellqngmngrtilgs++ledeftpf
+  DQ084199_ 3431 DTTITLNVLAWLYAAVINGDRWFLNRFTTTLNDFNLVAMKYNYEPLTQDHVDILGPLSAQTGIAVLDMCAALKELLQNGMNGRTILGSTILEDEFTPF 3528
+                 ************************************************************************************************** PP
+
+     3CLpro  295 dvvrqcsgvtfq 306 
+                 dvvrqcsgvtfq
+  DQ084199_ 3529 DVVRQCSGVTFQ 3540
+                 ***********8 PP
+
+  == domain 2  score: -2.1 bits;  conditional E-value: 5.8
+     3CLpro  174 gtdlegnfygpfvdrqtaqaagtdttitvnvlawlyaavingdrwfln 221 
+                 +  l+ n   p+  rq + aagt  t   +  a  y    +g r++l 
+  DQ084199_ 4107 AVKLQNNELSPVALRQMSCAAGTTQTACTDDNALAYYNNAKGGRFVLA 4154
+                 5678899999*************9999888888888888888888775 PP
+
+>> GQ153539_  ORF1ab 262-13377;13377-21464
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  709.1   3.4  1.5e-216  1.5e-216       1     306 []    3235    3540 ..    3235    3540 .. 1.00
+   2 ?   -2.1   0.0       5.8       5.8     174     221 ..    4107    4154 ..    4100    4159 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 709.1 bits;  conditional E-value: 1.5e-216
+     3CLpro    1 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt 98  
+                 sgfrkmafpsgkvegcmvqvtcgtttlnglwldd vycprhv+ct+edmlnpny+dllirksnh flvqagnvqlrvighsmqnc+l+lkvdt+npkt
+  GQ153539_ 3235 SGFRKMAFPSGKVEGCMVQVTCGTTTLNGLWLDDTVYCPRHVVCTAEDMLNPNYDDLLIRKSNHSFLVQAGNVQLRVIGHSMQNCLLRLKVDTSNPKT 3332
+                 8************************************************************************************************* PP
+
+     3CLpro   99 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt 196 
+                 pkykfvriqpgqtfsvlacyngspsgvyqcamrpn+tikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdleg+fygpfvdrqtaqaagt
+  GQ153539_ 3333 PKYKFVRIQPGQTFSVLACYNGSPSGVYQCAMRPNHTIKGSFLNGSCGSVGFNIDYDCVSFCYMHHMELPTGVHAGTDLEGKFYGPFVDRQTAQAAGT 3430
+                 ************************************************************************************************** PP
+
+     3CLpro  197 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf 294 
+                 dttit+nvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmca+lkellqngmngrtilgs++ledeftpf
+  GQ153539_ 3431 DTTITLNVLAWLYAAVINGDRWFLNRFTTTLNDFNLVAMKYNYEPLTQDHVDILGPLSAQTGIAVLDMCAALKELLQNGMNGRTILGSTILEDEFTPF 3528
+                 ************************************************************************************************** PP
+
+     3CLpro  295 dvvrqcsgvtfq 306 
+                 dvvrqcsgvtfq
+  GQ153539_ 3529 DVVRQCSGVTFQ 3540
+                 ***********8 PP
+
+  == domain 2  score: -2.1 bits;  conditional E-value: 5.8
+     3CLpro  174 gtdlegnfygpfvdrqtaqaagtdttitvnvlawlyaavingdrwfln 221 
+                 +  l+ n   p+  rq + aagt  t   +  a  y    +g r++l 
+  GQ153539_ 4107 AVKLQNNELSPVALRQMSCAAGTTQTACTDDNALAYYNNAKGGRFVLA 4154
+                 5678899999*************9999888888888888888888775 PP
+
+>> GQ153540_  ORF1ab 262-13377;13377-21464
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  709.1   3.4  1.5e-216  1.5e-216       1     306 []    3235    3540 ..    3235    3540 .. 1.00
+   2 ?   -2.1   0.0       5.8       5.8     174     221 ..    4107    4154 ..    4100    4159 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 709.1 bits;  conditional E-value: 1.5e-216
+     3CLpro    1 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt 98  
+                 sgfrkmafpsgkvegcmvqvtcgtttlnglwldd vycprhv+ct+edmlnpny+dllirksnh flvqagnvqlrvighsmqnc+l+lkvdt+npkt
+  GQ153540_ 3235 SGFRKMAFPSGKVEGCMVQVTCGTTTLNGLWLDDTVYCPRHVVCTAEDMLNPNYDDLLIRKSNHSFLVQAGNVQLRVIGHSMQNCLLRLKVDTSNPKT 3332
+                 8************************************************************************************************* PP
+
+     3CLpro   99 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt 196 
+                 pkykfvriqpgqtfsvlacyngspsgvyqcamrpn+tikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdleg+fygpfvdrqtaqaagt
+  GQ153540_ 3333 PKYKFVRIQPGQTFSVLACYNGSPSGVYQCAMRPNHTIKGSFLNGSCGSVGFNIDYDCVSFCYMHHMELPTGVHAGTDLEGKFYGPFVDRQTAQAAGT 3430
+                 ************************************************************************************************** PP
+
+     3CLpro  197 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf 294 
+                 dttit+nvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmca+lkellqngmngrtilgs++ledeftpf
+  GQ153540_ 3431 DTTITLNVLAWLYAAVINGDRWFLNRFTTTLNDFNLVAMKYNYEPLTQDHVDILGPLSAQTGIAVLDMCAALKELLQNGMNGRTILGSTILEDEFTPF 3528
+                 ************************************************************************************************** PP
+
+     3CLpro  295 dvvrqcsgvtfq 306 
+                 dvvrqcsgvtfq
+  GQ153540_ 3529 DVVRQCSGVTFQ 3540
+                 ***********8 PP
+
+  == domain 2  score: -2.1 bits;  conditional E-value: 5.8
+     3CLpro  174 gtdlegnfygpfvdrqtaqaagtdttitvnvlawlyaavingdrwfln 221 
+                 +  l+ n   p+  rq + aagt  t   +  a  y    +g r++l 
+  GQ153540_ 4107 AVKLQNNELSPVALRQMSCAAGTTQTACTDDNALAYYNNAKGGRFVLA 4154
+                 5678899999*************9999888888888888888888775 PP
+
+>> GQ153541_  ORF1ab 262-13377;13377-21464
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  709.1   3.4  1.5e-216  1.5e-216       1     306 []    3235    3540 ..    3235    3540 .. 1.00
+   2 ?   -2.1   0.0       5.8       5.8     174     221 ..    4107    4154 ..    4100    4159 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 709.1 bits;  conditional E-value: 1.5e-216
+     3CLpro    1 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt 98  
+                 sgfrkmafpsgkvegcmvqvtcgtttlnglwldd vycprhv+ct+edmlnpny+dllirksnh flvqagnvqlrvighsmqnc+l+lkvdt+npkt
+  GQ153541_ 3235 SGFRKMAFPSGKVEGCMVQVTCGTTTLNGLWLDDTVYCPRHVVCTAEDMLNPNYDDLLIRKSNHSFLVQAGNVQLRVIGHSMQNCLLRLKVDTSNPKT 3332
+                 8************************************************************************************************* PP
+
+     3CLpro   99 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt 196 
+                 pkykfvriqpgqtfsvlacyngspsgvyqcamrpn+tikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdleg+fygpfvdrqtaqaagt
+  GQ153541_ 3333 PKYKFVRIQPGQTFSVLACYNGSPSGVYQCAMRPNHTIKGSFLNGSCGSVGFNIDYDCVSFCYMHHMELPTGVHAGTDLEGKFYGPFVDRQTAQAAGT 3430
+                 ************************************************************************************************** PP
+
+     3CLpro  197 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf 294 
+                 dttit+nvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmca+lkellqngmngrtilgs++ledeftpf
+  GQ153541_ 3431 DTTITLNVLAWLYAAVINGDRWFLNRFTTTLNDFNLVAMKYNYEPLTQDHVDILGPLSAQTGIAVLDMCAALKELLQNGMNGRTILGSTILEDEFTPF 3528
+                 ************************************************************************************************** PP
+
+     3CLpro  295 dvvrqcsgvtfq 306 
+                 dvvrqcsgvtfq
+  GQ153541_ 3529 DVVRQCSGVTFQ 3540
+                 ***********8 PP
+
+  == domain 2  score: -2.1 bits;  conditional E-value: 5.8
+     3CLpro  174 gtdlegnfygpfvdrqtaqaagtdttitvnvlawlyaavingdrwfln 221 
+                 +  l+ n   p+  rq + aagt  t   +  a  y    +g r++l 
+  GQ153541_ 4107 AVKLQNNELSPVALRQMSCAAGTTQTACTDDNALAYYNNAKGGRFVLA 4154
+                 5678899999*************9999888888888888888888775 PP
+
+>> GQ153543_  ORF1ab 262-13389;13389-21476
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.0   0.0       5.6       5.6      13      36 ..     686     709 ..     681     715 .. 0.87
+   2 !  708.5   3.8  2.4e-216  2.4e-216       1     306 []    3239    3544 ..    3239    3544 .. 1.00
+   3 ?   -2.0   0.0       5.6       5.6     174     221 ..    4111    4158 ..    4103    4163 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: -2.0 bits;  conditional E-value: 5.6
+     3CLpro  13 vegcmvqvtcgtttlnglwlddvv 36 
+                +e c+ qvt + ttl  l l +v 
+  GQ153543_ 686 LEMCLDQVTIAGTTLRALNLGEVF 709
+                699***************999886 PP
+
+  == domain 2  score: 708.5 bits;  conditional E-value: 2.4e-216
+     3CLpro    1 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt 98  
+                 sgfrkmafpsgkvegcmvqvtcgtttlnglwldd vycprhvict+edmlnpny+dllirksnh flvqagnvqlrvighsmqnc+l+lkvdt+npkt
+  GQ153543_ 3239 SGFRKMAFPSGKVEGCMVQVTCGTTTLNGLWLDDTVYCPRHVICTAEDMLNPNYDDLLIRKSNHSFLVQAGNVQLRVIGHSMQNCLLRLKVDTSNPKT 3336
+                 8************************************************************************************************* PP
+
+     3CLpro   99 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt 196 
+                 pkykfvriqpgqtfsvlacyngspsgvyqcamrpn+tikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdleg+fyg fvdrqtaqaagt
+  GQ153543_ 3337 PKYKFVRIQPGQTFSVLACYNGSPSGVYQCAMRPNYTIKGSFLNGSCGSVGFNIDYDCVSFCYMHHMELPTGVHAGTDLEGKFYGSFVDRQTAQAAGT 3434
+                 ************************************************************************************************** PP
+
+     3CLpro  197 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf 294 
+                 dttit+nvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmca+lkellqngmngrtilgs++ledeftpf
+  GQ153543_ 3435 DTTITLNVLAWLYAAVINGDRWFLNRFTTTLNDFNLVAMKYNYEPLTQDHVDILGPLSAQTGIAVLDMCAALKELLQNGMNGRTILGSTILEDEFTPF 3532
+                 ************************************************************************************************** PP
+
+     3CLpro  295 dvvrqcsgvtfq 306 
+                 dvvrqcsgvtfq
+  GQ153543_ 3533 DVVRQCSGVTFQ 3544
+                 ***********8 PP
+
+  == domain 3  score: -2.0 bits;  conditional E-value: 5.6
+     3CLpro  174 gtdlegnfygpfvdrqtaqaagtdttitvnvlawlyaavingdrwfln 221 
+                 +  l+ n   p+  rq + aagt  t   +  a  y    +g r++l 
+  GQ153543_ 4111 AVKLQNNELSPVALRQMSCAAGTTQTACTDDNALAYYNNAKGGRFVLA 4158
+                 5678899999*************9999888888888888888888775 PP
+
+>> GQ153544_  ORF1ab 262-13368;13368-21455
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  705.3   2.8  2.3e-215  2.3e-215       1     306 []    3232    3537 ..    3232    3537 .. 1.00
+   2 ?   -2.1   0.0       5.8       5.8     174     221 ..    4104    4151 ..    4097    4156 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 705.3 bits;  conditional E-value: 2.3e-215
+     3CLpro    1 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt 98  
+                 sgfrkmafpsgkvegcmvqvtcgtttlnglwldd vycprhv+ct+edmlnpny+dllirksnh flvqagnvqlrvighsmqnc+l+lkvdt+npkt
+  GQ153544_ 3232 SGFRKMAFPSGKVEGCMVQVTCGTTTLNGLWLDDTVYCPRHVVCTAEDMLNPNYDDLLIRKSNHSFLVQAGNVQLRVIGHSMQNCLLRLKVDTSNPKT 3329
+                 8************************************************************************************************* PP
+
+     3CLpro   99 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt 196 
+                 pkykfvriqpgqtfsvlacyngspsgvyqcamrpn+tikgsflngscgsvgfnidyd vsfcymhhmelptgvhagtdleg+fygpfvdrqtaqaagt
+  GQ153544_ 3330 PKYKFVRIQPGQTFSVLACYNGSPSGVYQCAMRPNHTIKGSFLNGSCGSVGFNIDYDSVSFCYMHHMELPTGVHAGTDLEGKFYGPFVDRQTAQAAGT 3427
+                 ************************************************************************************************** PP
+
+     3CLpro  197 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf 294 
+                 dttit+nvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmca+lkellqngmngrtilgs++ledeftpf
+  GQ153544_ 3428 DTTITLNVLAWLYAAVINGDRWFLNRFTTTLNDFNLVAMKYNYEPLTQDHVDILGPLSAQTGIAVLDMCAALKELLQNGMNGRTILGSTILEDEFTPF 3525
+                 ************************************************************************************************** PP
+
+     3CLpro  295 dvvrqcsgvtfq 306 
+                 dvvrqcsgvtfq
+  GQ153544_ 3526 DVVRQCSGVTFQ 3537
+                 ***********8 PP
+
+  == domain 2  score: -2.1 bits;  conditional E-value: 5.8
+     3CLpro  174 gtdlegnfygpfvdrqtaqaagtdttitvnvlawlyaavingdrwfln 221 
+                 +  l+ n   p+  rq + aagt  t   +  a  y    +g r++l 
+  GQ153544_ 4104 AVKLQNNELSPVALRQMSCAAGTTQTACTDDNALAYYNNAKGGRFVLA 4151
+                 5678899999*************9999888888888888888888775 PP
+
+>> GQ153545_  ORF1ab 262-13368;13368-21455
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  705.3   2.8  2.3e-215  2.3e-215       1     306 []    3232    3537 ..    3232    3537 .. 1.00
+   2 ?   -2.1   0.0       5.8       5.8     174     221 ..    4104    4151 ..    4097    4156 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 705.3 bits;  conditional E-value: 2.3e-215
+     3CLpro    1 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt 98  
+                 sgfrkmafpsgkvegcmvqvtcgtttlnglwldd vycprhv+ct+edmlnpny+dllirksnh flvqagnvqlrvighsmqnc+l+lkvdt+npkt
+  GQ153545_ 3232 SGFRKMAFPSGKVEGCMVQVTCGTTTLNGLWLDDTVYCPRHVVCTAEDMLNPNYDDLLIRKSNHSFLVQAGNVQLRVIGHSMQNCLLRLKVDTSNPKT 3329
+                 8************************************************************************************************* PP
+
+     3CLpro   99 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt 196 
+                 pkykfvriqpgqtfsvlacyngspsgvyqcamrpn+tikgsflngscgsvgfnidyd vsfcymhhmelptgvhagtdleg+fygpfvdrqtaqaagt
+  GQ153545_ 3330 PKYKFVRIQPGQTFSVLACYNGSPSGVYQCAMRPNHTIKGSFLNGSCGSVGFNIDYDSVSFCYMHHMELPTGVHAGTDLEGKFYGPFVDRQTAQAAGT 3427
+                 ************************************************************************************************** PP
+
+     3CLpro  197 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf 294 
+                 dttit+nvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmca+lkellqngmngrtilgs++ledeftpf
+  GQ153545_ 3428 DTTITLNVLAWLYAAVINGDRWFLNRFTTTLNDFNLVAMKYNYEPLTQDHVDILGPLSAQTGIAVLDMCAALKELLQNGMNGRTILGSTILEDEFTPF 3525
+                 ************************************************************************************************** PP
+
+     3CLpro  295 dvvrqcsgvtfq 306 
+                 dvvrqcsgvtfq
+  GQ153545_ 3526 DVVRQCSGVTFQ 3537
+                 ***********8 PP
+
+  == domain 2  score: -2.1 bits;  conditional E-value: 5.8
+     3CLpro  174 gtdlegnfygpfvdrqtaqaagtdttitvnvlawlyaavingdrwfln 221 
+                 +  l+ n   p+  rq + aagt  t   +  a  y    +g r++l 
+  GQ153545_ 4104 AVKLQNNELSPVALRQMSCAAGTTQTACTDDNALAYYNNAKGGRFVLA 4151
+                 5678899999*************9999888888888888888888775 PP
+
+>> GQ153546_  ORF1ab 262-13368;13368-21455
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  705.3   2.8  2.3e-215  2.3e-215       1     306 []    3232    3537 ..    3232    3537 .. 1.00
+   2 ?   -2.1   0.0       5.8       5.8     174     221 ..    4104    4151 ..    4097    4156 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 705.3 bits;  conditional E-value: 2.3e-215
+     3CLpro    1 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt 98  
+                 sgfrkmafpsgkvegcmvqvtcgtttlnglwldd vycprhv+ct+edmlnpny+dllirksnh flvqagnvqlrvighsmqnc+l+lkvdt+npkt
+  GQ153546_ 3232 SGFRKMAFPSGKVEGCMVQVTCGTTTLNGLWLDDTVYCPRHVVCTAEDMLNPNYDDLLIRKSNHSFLVQAGNVQLRVIGHSMQNCLLRLKVDTSNPKT 3329
+                 8************************************************************************************************* PP
+
+     3CLpro   99 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt 196 
+                 pkykfvriqpgqtfsvlacyngspsgvyqcamrpn+tikgsflngscgsvgfnidyd vsfcymhhmelptgvhagtdleg+fygpfvdrqtaqaagt
+  GQ153546_ 3330 PKYKFVRIQPGQTFSVLACYNGSPSGVYQCAMRPNHTIKGSFLNGSCGSVGFNIDYDSVSFCYMHHMELPTGVHAGTDLEGKFYGPFVDRQTAQAAGT 3427
+                 ************************************************************************************************** PP
+
+     3CLpro  197 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf 294 
+                 dttit+nvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmca+lkellqngmngrtilgs++ledeftpf
+  GQ153546_ 3428 DTTITLNVLAWLYAAVINGDRWFLNRFTTTLNDFNLVAMKYNYEPLTQDHVDILGPLSAQTGIAVLDMCAALKELLQNGMNGRTILGSTILEDEFTPF 3525
+                 ************************************************************************************************** PP
+
+     3CLpro  295 dvvrqcsgvtfq 306 
+                 dvvrqcsgvtfq
+  GQ153546_ 3526 DVVRQCSGVTFQ 3537
+                 ***********8 PP
+
+  == domain 2  score: -2.1 bits;  conditional E-value: 5.8
+     3CLpro  174 gtdlegnfygpfvdrqtaqaagtdttitvnvlawlyaavingdrwfln 221 
+                 +  l+ n   p+  rq + aagt  t   +  a  y    +g r++l 
+  GQ153546_ 4104 AVKLQNNELSPVALRQMSCAAGTTQTACTDDNALAYYNNAKGGRFVLA 4151
+                 5678899999*************9999888888888888888888775 PP
+
+>> PQ304301_  ORF1ab 224-13417;13417-21504
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  681.4   4.7  4.2e-208  4.2e-208       1     306 []    3264    3569 ..    3264    3569 .. 1.00
+   2 ?    2.1   0.0      0.32      0.32     174     222 ..    4133    4181 ..    4124    4192 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 681.4 bits;  conditional E-value: 4.2e-208
+     3CLpro    1 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt 98  
+                 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt
+  PQ304301_ 3264 SGFRKMAFPSGKVEGCMVQVTCGTTTLNGLWLDDVVYCPRHVICTSEDMLNPNYEDLLIRKSNHNFLVQAGNVQLRVIGHSMQNCVLKLKVDTANPKT 3361
+                 8************************************************************************************************* PP
+
+     3CLpro   99 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt 196 
+                 pkykfvriqpgqtfsvlacyngspsgvyqcamr nftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfyg             
+  PQ304301_ 3362 PKYKFVRIQPGQTFSVLACYNGSPSGVYQCAMRHNFTIKGSFLNGSCGSVGFNIDYDCVSFCYMHHMELPTGVHAGTDLEGNFYGXXXXXXXXXXXXX 3459
+                 ************************************************************************************************** PP
+
+     3CLpro  197 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf 294 
+                      vnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf
+  PQ304301_ 3460 XXXXXVNVLAWLYAAVINGDRWFLNRFTTTLNDFNLVAMKYNYEPLTQDHVDILGPLSAQTGIAVLDMCASLKELLQNGMNGRTILGSALLEDEFTPF 3557
+                 ************************************************************************************************** PP
+
+     3CLpro  295 dvvrqcsgvtfq 306 
+                 dvvrqcsgvtfq
+  PQ304301_ 3558 DVVRQCSGVTFQ 3569
+                 ***********8 PP
+
+  == domain 2  score: 2.1 bits;  conditional E-value: 0.32
+     3CLpro  174 gtdlegnfygpfvdrqtaqaagtdttitvnvlawlyaavingdrwflnr 222 
+                 +  l+ n   p+  rq + aagt  t   +  a  y   i+g r++l  
+  PQ304301_ 4133 AVKLQNNELSPVALRQMSCAAGTTQTACTDDNALAYYNTIKGGRFVLAL 4181
+                 5678899999****************999999999*********99865 PP
+
+>> PX448754_  ORF1ab 224-13417;13417-21504
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  681.4   4.7  4.2e-208  4.2e-208       1     306 []    3264    3569 ..    3264    3569 .. 1.00
+   2 ?    2.1   0.0      0.32      0.32     174     222 ..    4133    4181 ..    4124    4192 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 681.4 bits;  conditional E-value: 4.2e-208
+     3CLpro    1 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt 98  
+                 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt
+  PX448754_ 3264 SGFRKMAFPSGKVEGCMVQVTCGTTTLNGLWLDDVVYCPRHVICTSEDMLNPNYEDLLIRKSNHNFLVQAGNVQLRVIGHSMQNCVLKLKVDTANPKT 3361
+                 8************************************************************************************************* PP
+
+     3CLpro   99 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt 196 
+                 pkykfvriqpgqtfsvlacyngspsgvyqcamr nftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfyg             
+  PX448754_ 3362 PKYKFVRIQPGQTFSVLACYNGSPSGVYQCAMRHNFTIKGSFLNGSCGSVGFNIDYDCVSFCYMHHMELPTGVHAGTDLEGNFYGXXXXXXXXXXXXX 3459
+                 ************************************************************************************************** PP
+
+     3CLpro  197 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf 294 
+                      vnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf
+  PX448754_ 3460 XXXXXVNVLAWLYAAVINGDRWFLNRFTTTLNDFNLVAMKYNYEPLTQDHVDILGPLSAQTGIAVLDMCASLKELLQNGMNGRTILGSALLEDEFTPF 3557
+                 ************************************************************************************************** PP
+
+     3CLpro  295 dvvrqcsgvtfq 306 
+                 dvvrqcsgvtfq
+  PX448754_ 3558 DVVRQCSGVTFQ 3569
+                 ***********8 PP
+
+  == domain 2  score: 2.1 bits;  conditional E-value: 0.32
+     3CLpro  174 gtdlegnfygpfvdrqtaqaagtdttitvnvlawlyaavingdrwflnr 222 
+                 +  l+ n   p+  rq + aagt  t   +  a  y   i+g r++l  
+  PX448754_ 4133 AVKLQNNELSPVALRQMSCAAGTTQTACTDDNALAYYNTIKGGRFVLAL 4181
+                 5678899999****************999999999*********99865 PP
+
+>> OR689160_  ORF1ab 224-13417;13417-21504
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  681.4   4.7  4.2e-208  4.2e-208       1     306 []    3264    3569 ..    3264    3569 .. 1.00
+   2 ?   -0.9   0.1       2.5       2.5     174     222 ..    4133    4181 ..    4125    4190 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 681.4 bits;  conditional E-value: 4.2e-208
+     3CLpro    1 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt 98  
+                 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt
+  OR689160_ 3264 SGFRKMAFPSGKVEGCMVQVTCGTTTLNGLWLDDVVYCPRHVICTSEDMLNPNYEDLLIRKSNHNFLVQAGNVQLRVIGHSMQNCVLKLKVDTANPKT 3361
+                 8************************************************************************************************* PP
+
+     3CLpro   99 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt 196 
+                 pkykfvriqpgqtfsvlacyngspsgvyqcamr nftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfyg             
+  OR689160_ 3362 PKYKFVRIQPGQTFSVLACYNGSPSGVYQCAMRHNFTIKGSFLNGSCGSVGFNIDYDCVSFCYMHHMELPTGVHAGTDLEGNFYGXXXXXXXXXXXXX 3459
+                 ************************************************************************************************** PP
+
+     3CLpro  197 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf 294 
+                      vnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf
+  OR689160_ 3460 XXXXXVNVLAWLYAAVINGDRWFLNRFTTTLNDFNLVAMKYNYEPLTQDHVDILGPLSAQTGIAVLDMCASLKELLQNGMNGRTILGSALLEDEFTPF 3557
+                 ************************************************************************************************** PP
+
+     3CLpro  295 dvvrqcsgvtfq 306 
+                 dvvrqcsgvtfq
+  OR689160_ 3558 DVVRQCSGVTFQ 3569
+                 ***********8 PP
+
+  == domain 2  score: -0.9 bits;  conditional E-value: 2.5
+     3CLpro  174 gtdlegnfygpfvdrqtaqaagtdttitvnvlawlyaavingdrwflnr 222 
+                 +  l+ n   p+  rq + aagt  t   +  a  y    +g r++l  
+  OR689160_ 4133 AVKLQNNELSPVALRQMSCAAGTTQTACTDDNALAYYNTTKGGRFVLAL 4181
+                 5678899999*************99999999999999999999998864 PP
+
+>> OD923885_  ORF1ab 266-13468;13468-21555
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  613.2   4.3  2.5e-187  2.5e-187       1     306 []    3264    3569 ..    3264    3569 .. 0.99
+   2 ?   -2.7   0.0       8.9       8.9     187     222 ..    4149    4184 ..    4147    4192 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 613.2 bits;  conditional E-value: 2.5e-187
+     3CLpro    1 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt 98  
+                 sgfrkmafpsgkve+cmvqvtcgtttlngl                                      qagnvqlrvighsmqncvlklkvdtanpkt
+  OD923885_ 3264 SGFRKMAFPSGKVESCMVQVTCGTTTLNGLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXQAGNVQLRVIGHSMQNCVLKLKVDTANPKT 3361
+                 8********************************99999999999999999999999999999999********************************* PP
+
+     3CLpro   99 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt 196 
+                 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt
+  OD923885_ 3362 PKYKFVRIQPGQTFSVLACYNGSPSGVYQCAMRPNFTIKGSFLNGSCGSVGFNIDYDCVSFCYMHHMELPTGVHAGTDLEGNFYGPFVDRQTAQAAGT 3459
+                 ************************************************************************************************** PP
+
+     3CLpro  197 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf 294 
+                 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf
+  OD923885_ 3460 DTTITVNVLAWLYAAVINGDRWFLNRFTTTLNDFNLVAMKYNYEPLTQDHVDILGPLSAQTGIAVLDMCASLKELLQNGMNGRTILGSALLEDEFTPF 3557
+                 ************************************************************************************************** PP
+
+     3CLpro  295 dvvrqcsgvtfq 306 
+                 dvvrqcsgvtfq
+  OD923885_ 3558 DVVRQCSGVTFQ 3569
+                 ***********8 PP
+
+  == domain 2  score: -2.7 bits;  conditional E-value: 8.9
+     3CLpro  187 drqtaqaagtdttitvnvlawlyaavingdrwflnr 222 
+                  rq + aagt  t   +  a  y   i+g r++l  
+  OD923885_ 4149 XRQMSCAAGTTQTACTDDNALAYYNTIKGGRFVLAL 4184
+                 589999*****9999999999999*******99864 PP
+
+>> NC025217_  ORF1ab 303-13931;13931-22045
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  498.0   1.6  2.9e-152  2.9e-152       1     306 []    3405    3710 ..    3405    3710 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 498.0 bits;  conditional E-value: 2.9e-152
+     3CLpro    1 sgfrkmafpsgkvegcmvqvtcgtttlnglwlddvvycprhvictsedmlnpnyedllirksnhnflvqagnvqlrvighsmqncvlklkvdtanpkt 98  
+                 sg+rkm+ p+gkve cmv+vtcgt tlnglwld+ vycprhv+ct e++l p+y+ +l+rk+ h f vq g   l+v+ + m  +vl+l vd  np+t
+  NC025217_ 3405 SGIRKMSCPTGKVERCMVRVTCGTMTLNGLWLDNTVYCPRHVMCTPEELLAPDYDSILLRKATHSFTVQYGTAYLKVVSYKMTGSVLQLGVDQINPET 3502
+                 89************************************************************************************************ PP
+
+     3CLpro   99 pkykfvriqpgqtfsvlacyngspsgvyqcamrpnftikgsflngscgsvgfnidydcvsfcymhhmelptgvhagtdlegnfygpfvdrqtaqaagt 196 
+                 pkykfvr +pg tfsvlacyng p+gvyq+amrpn+tikgsflngscgsvg+ + yd v fcymhhmelptgvh+gtdleg+fyg fvdrqt+q+ag+
+  NC025217_ 3503 PKYKFVRAKPGATFSVLACYNGMPAGVYQVAMRPNHTIKGSFLNGSCGSVGYTLGYDRVEFCYMHHMELPTGVHTGTDLEGTFYGDFVDRQTSQSAGS 3600
+                 ************************************************************************************************** PP
+
+     3CLpro  197 dttitvnvlawlyaavingdrwflnrftttlndfnlvamkynyepltqdhvdilgplsaqtgiavldmcaslkellqngmngrtilgsalledeftpf 294 
+                 d t+t+nvlawlyaaving+rwf+   t +l dfn   +ky y++lt+d v  l pl aqtgi+v  mcaslk+ll  gm gr il+s  ledeftpf
+  NC025217_ 3601 DNTLTLNVLAWLYAAVINGERWFIVPQTCALTDFNTAVLKYGYQSLTEDGVAALDPLVAQTGISVQTMCASLKDLLVHGMRGRCILSSPTLEDEFTPF 3698
+                 ************************************************************************************************** PP
+
+     3CLpro  295 dvvrqcsgvtfq 306 
+                 d+vrqcsgvt+q
+  NC025217_ 3699 DIVRQCSGVTLQ 3710
+                 **********97 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (306 nodes)
+Target sequences:                         69  (489168 residues searched)
+Passed MSV filter:                        69  (1); expected 1.4 (0.02)
+Passed bias filter:                       69  (1); expected 1.4 (0.02)
+Passed Vit filter:                        69  (1); expected 0.1 (0.001)
+Passed Fwd filter:                        69  (1); expected 0.0 (1e-05)
+Initial search space (Z):                 69  [actual number of targets]
+Domain search space  (domZ):              69  [number of targets reported over threshold]
+# CPU time: 0.63u 0.00s 00:00:00.63 Elapsed: 00:00:00.63
+# Mc/sec: 235.19
+//
+[ok]

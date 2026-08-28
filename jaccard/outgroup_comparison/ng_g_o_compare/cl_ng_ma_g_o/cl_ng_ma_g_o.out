@@ -1,0 +1,10 @@
+/users/omarne/small_alignments
+/users/omarne/.conda/envs/omkar/bin/python3
+Python 3.11.7
+All OK
+# Reading from clustal.fasta
+# Reading from mafft.fasta
+File1,File2,Shared,Uniq1,Uniq2,PreliminaryScore,FinalScore
+clustal.fasta,mafft.fasta,145,32695,30596,0.1085619682000905,0.05823875323636356
+File1,File2,Shared,Uniq1,Uniq2,PreliminaryScoreStates,FinalScoreStates
+clustal.fasta,mafft.fasta,6069,2335,2349,0.8395827243944158,0.747808036789964

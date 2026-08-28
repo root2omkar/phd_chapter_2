@@ -1,0 +1,26 @@
+#nexus
+begin sets;
+  charset ORF1ab = 1-22153;
+  charset S = 22154-26257;
+  charset ORF3a = 26258-27100;
+  charset E = 27101-27340;
+  charset M = 27341-28012;
+  charset ORF6 = 28013-28204;
+  charset ORF7a = 28205-28715;
+  charset ORF7b = 28716-28850;
+  charset ORF8 = 28851-29255;
+  charset N = 29256-30554;
+  charset ORF10 = 30555-30671;
+  charpartition mymodels =
+    TIM2+F+R2: ORF1ab,
+    TIM2+F+I+R4: S,
+    HKY+F+G4: ORF3a,
+    HKY+F+I: E,
+    TN+F+G4: M,
+    HKY+F: ORF6,
+    HKY+F+G4: ORF7a,
+    K3Pu+F+G4: ORF7b,
+    HKY+F+I: ORF8,
+    TIM2+F+G4: N,
+    HKY+F+G4: ORF10;
+end;

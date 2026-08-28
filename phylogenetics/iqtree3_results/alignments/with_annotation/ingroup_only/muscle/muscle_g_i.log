@@ -1,0 +1,330 @@
+IQ-TREE version 3.0.1 for MacOS ARM 64-bit built Jun 30 2025
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    CCI3QD19XJALT (SSE4.2, 16 GB RAM)
+Command: iqtree3 -s muscle_g_i.fasta -p partition.nexus -m MFP -B 1000 -bb 1000 -alrt 1000 -o MN908947_ -T 8 --rate --mlrate -seed 50 --prefix muscle_g_i
+Seed:    50 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sat Dec 27 15:38:43 2025
+Kernel:  SSE2 - 8 threads (10 CPU cores detected)
+
+Reading partition model file partition.nexus ...
+Reading alignment file muscle_g_i.fasta ... Fasta format detected
+Reading fasta file: done in 0.0129499 secs using 88.36% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.0129471 secs using 64.53% CPU
+WARNING: 1179 sites contain only gaps or ambiguous characters.
+Alignment has 48 sequences with 30671 columns, 1448 distinct patterns
+281 parsimony-informative, 657 singleton sites, 29733 constant sites
+           Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 6.60419e-05 secs using 225.6% CPU
+   1  PQ017244_    6.29%    passed     99.81%
+   2  PP615923_    6.20%    passed     93.84%
+   3  MZ412499_    6.24%    passed     99.61%
+   4  OR983979_    6.18%    passed     99.91%
+   5  PX059619_    5.77%    passed     99.06%
+   6  OZ014103_    5.73%    passed     99.49%
+   7  OK177352_    6.35%    passed     99.10%
+   8  MZ160298_    6.22%    passed     99.04%
+   9  OP578130_    6.29%    passed     99.95%
+  10  PV497551_    7.52%    passed     99.86%
+  11  PQ375771_    7.20%    passed     98.97%
+  12  PX393327_    6.31%    passed     99.47%
+  13  PP030571_    7.32%    passed     99.96%
+  14  OR689160_    6.30%    passed     99.25%
+  15  PQ279092_    6.09%    passed     98.73%
+  16  PQ279056_    6.19%    passed     99.64%
+  17  PQ304301_    6.18%    passed     98.29%
+  18  PP630509_    6.24%    passed     98.88%
+  19  PP601887_    6.46%    passed     99.28%
+  20  OY792307_    5.57%    passed     99.99%
+  21  OZ223682_    4.72%    passed     99.38%
+  22  PQ121865_    6.30%    passed     98.57%
+  23  MW183957_    4.58%    passed     98.50%
+  24  PQ899058_    5.05%    passed     99.58%
+  25  MW901580_    6.69%    passed     96.77%
+  26  PQ391889_    6.23%    passed     96.10%
+  27  OV948634_    4.91%    passed     99.97%
+  28  MN908947_    4.58%    passed     98.79%
+  29  OK204161_    6.37%    passed     98.76%
+  30  OQ896588_    6.15%    passed     98.83%
+  31  ON923618_    6.33%    passed     94.52%
+  32  OK433428_    4.64%    passed     99.60%
+  33  OP440368_    6.36%    passed     94.18%
+  34  OY784472_    6.70%    passed     99.06%
+  35  OQ558991_    6.39%    passed     99.78%
+  36  PX448754_    6.29%    passed     96.88%
+  37  OL926066_    7.25%    passed     95.50%
+  38  PV239625_    6.17%    passed     98.71%
+  39  OR563456_    8.63%    passed     94.42%
+  40  OU470855_    7.53%    passed     97.92%
+  41  PP023772_    8.33%    passed     98.60%
+  42  OL714154_    6.25%    passed     99.32%
+  43  OR020535_    7.46%    passed     99.23%
+  44  OK221016_    7.16%    passed     98.83%
+  45  PQ972523_    7.11%    passed     97.38%
+  46  OZ061529_    6.15%    passed     99.71%
+  47  MZ131148_    6.26%    passed     99.32%
+  48  OD923885_    5.75%    passed     99.70%
+****  TOTAL        6.31%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: No CharPartition defined, use all CharSets
+
+Loading 11 partitions...
+Identifying sites to remove: done in 7.10487e-05 secs using 90.08% CPU
+Identifying sites to remove: done in 5.38826e-05 secs using 89.08% CPU
+Identifying sites to remove: done in 0.000124931 secs using 94.45% CPU
+Subset	Type	Seqs	Sites	Infor	Invar	Model	Name
+1		48	22153	107	21664	MFP	ORF1ab
+2		48	4104	106	3901	MFP	S
+3		48	843	16	798	MFP	ORF3a
+4		48	240	3	210	MFP	E
+5		48	672	10	648	MFP	M
+6		46	192	4	187	MFP	ORF6
+7		48	511	13	482	MFP	ORF7a
+8		46	135	3	129	MFP	ORF7b
+9		42	405	4	371	MFP	ORF8
+10		48	1299	14	1232	MFP	N
+11		48	117	1	111	MFP	ORF10
+Degree of missing data: 0.002
+Info: multi-threading strategy over partitions
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.002 seconds
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Initial log-likelihood: -50612.310
+Current log-likelihood at step 1: -50016.156
+Current log-likelihood at step 2: -49852.822
+Current log-likelihood at step 3: -49802.936
+Current log-likelihood at step 4: -49802.622
+Parameters optimization took 3 rounds (0.453 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+Initial log-likelihood: -49795.199
+Current log-likelihood at step 1: -49794.773
+Partition-specific rates:  0.622 2.138 1.560 3.406 1.069 0.761 2.953 1.404 3.169 1.543 1.200
+Parameters optimization took 0 rounds (0.054 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+Time for fast ML tree search: 0.758 seconds
+
+NOTE: ModelFinder requires 30 MB RAM!
+Selecting individual models for 11 charsets using BIC...
+ No. Model        Score       TreeLen     Charset
+In ModelFinder: parallelization over partitions
++R3 reinitialized from +R2 with factor 0.500
++R3 reinitialized from +R2 with factor 0.250
++I+R3 reinitialized from +I+R2 with factor 0.500
++I+R3 reinitialized from +I+R2 with factor 0.250
+   1 HKY+F        1113.974    0.145       E
++I+R3 reinitialized from +I+R2 with factor 0.125
+   2 F81+F        438.385     0.051       ORF10
+   3 F81+F        627.186     0.032       ORF6
+   4 HKY+F        484.949     0.061       ORF7b
+   5 HKY+F+G4     1725.787    0.119       ORF8
+   6 F81+F+I      2024.780    0.125       ORF7a
+   7 HKY+F+I      2368.463    0.045       M
+   8 TN+F+I       4860.642    0.065       N
+   9 TN+F+I       3238.299    0.066       ORF3a
++R4 reinitialized from +R3 with factor 0.500
++R4 reinitialized from +R3 with factor 0.250
++R4 reinitialized from +R3 with factor 0.125
+  10 TIM+F+I      67847.014   0.026       ORF1ab	0h:0m:3s (0h:0m:0s left)
+  11 K3Pu+F+R3    15353.525   0.087       S	0h:0m:7s (0h:0m:0s left)
+Full partition model BIC score: 101266.783 (LnL: -49812.071  df:159)
+Partition information was printed to muscle_g_i.best_scheme.nex
+Partition information in Raxml format was printed to muscle_g_i.best_scheme
+
+All model information printed to muscle_g_i.model.gz
+CPU time for ModelFinder: 17.617 seconds (0h:0m:17s)
+Wall-clock time for ModelFinder: 7.809 seconds (0h:0m:7s)
+Generating 1000 samples for ultrafast bootstrap (seed: 50)...
+
+NOTE: 10 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -49811.909
+Current log-likelihood at step 1: -49810.483
+Current log-likelihood at step 2: -49810.405
+Partition-specific rates:  0.625 2.096 1.582 3.457 1.081 0.801 2.991 1.501 3.173 1.549 1.223
+Parameters optimization took 1 rounds (0.091 sec)
+
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.000121117 secs using 426.9% CPU
+Computing ML distances took 0.000306 sec (of wall-clock time) 0.000581 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000167847 secs using 141.2% CPU
+Constructing RapidNJ tree: done in 0.00767207 secs using 37.33% CPU
+Computing RapidNJ tree took 0.007918 sec (of wall-clock time) 0.003128 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -55373.681
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.348 second
+Computing log-likelihood of 98 initial trees ... 2.816 seconds
+Current best score: -49793.665
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -49792.829
+Current log-likelihood at step 1: -49792.360
+Current log-likelihood at step 2: -49792.208
+Current log-likelihood at step 3: -49792.098
+Current log-likelihood at step 4: -49792.003
+Parameters optimization took 3 rounds (0.142 sec)
+
+BETTER TREE FOUND at iteration 1: -49792.003
+BETTER TREE FOUND at iteration 2: -49792.000
+BETTER TREE FOUND at iteration 3: -49791.996
+Iteration 10 / LogL: -49792.769 / Time: 0h:0m:16s
+BETTER TREE FOUND at iteration 13: -49791.986
+Iteration 20 / LogL: -49792.807 / Time: 0h:0m:20s
+Finish initializing candidate tree set (14)
+Current best tree score: -49791.986 / CPU time: 12.676
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -49792.079 / Time: 0h:0m:29s (0h:1m:2s left)
+UPDATE BEST LOG-LIKELIHOOD: -49791.980
+Iteration 40 / LogL: -49791.980 / Time: 0h:0m:38s (0h:0m:57s left)
+Iteration 50 / LogL: -49796.440 / Time: 0h:0m:47s (0h:0m:51s left)
+Log-likelihood cutoff on original alignment: -49833.552
+Iteration 60 / LogL: -49792.047 / Time: 0h:0m:57s (0h:0m:44s left)
+Iteration 70 / LogL: -49807.876 / Time: 0h:1m:6s (0h:0m:36s left)
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -49791.968
+Current log-likelihood at step 1: -49791.850
+Current log-likelihood at step 2: -49791.742
+Current log-likelihood at step 3: -49791.636
+Current log-likelihood at step 4: -49791.531
+Current log-likelihood at step 5: -49791.425
+Current log-likelihood at step 6: -49791.320
+Current log-likelihood at step 7: -49791.215
+Current log-likelihood at step 8: -49791.112
+Current log-likelihood at step 9: -49791.009
+Current log-likelihood at step 10: -49790.908
+Current log-likelihood at step 11: -49790.809
+Parameters optimization took 10 rounds (0.477 sec)
+
+UPDATE BEST LOG-LIKELIHOOD: -49790.809
+UPDATE BEST LOG-LIKELIHOOD: -49790.805
+Iteration 80 / LogL: -49790.805 / Time: 0h:1m:16s (0h:0m:28s left)
+Iteration 90 / LogL: -49790.850 / Time: 0h:1m:24s (0h:0m:19s left)
+Iteration 100 / LogL: -49807.441 / Time: 0h:1m:34s (0h:0m:11s left)
+Log-likelihood cutoff on original alignment: -49834.131
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.994
+Iteration 110 / LogL: -49795.711 / Time: 0h:1m:44s (0h:1m:19s left)
+TREE SEARCH COMPLETED AFTER 114 ITERATIONS / Time: 0h:1m:48s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+Initial log-likelihood: -49790.805
+Current log-likelihood at step 1: -49790.709
+Current log-likelihood at step 2: -49790.615
+Current log-likelihood at step 3: -49790.524
+Current log-likelihood at step 4: -49790.437
+Current log-likelihood at step 5: -49790.353
+Current log-likelihood at step 6: -49790.274
+Current log-likelihood at step 7: -49790.199
+Current log-likelihood at step 8: -49790.128
+Current log-likelihood at step 9: -49790.062
+Current log-likelihood at step 10: -49790.000
+Current log-likelihood at step 11: -49789.942
+Current log-likelihood at step 12: -49789.889
+Current log-likelihood at step 13: -49789.841
+Current log-likelihood at step 14: -49789.797
+Current log-likelihood at step 15: -49789.757
+Current log-likelihood at step 16: -49789.721
+Current log-likelihood at step 17: -49789.689
+Current log-likelihood at step 18: -49789.661
+Current log-likelihood at step 19: -49789.636
+Current log-likelihood at step 20: -49789.613
+Current log-likelihood at step 21: -49789.594
+Current log-likelihood at step 22: -49789.577
+Current log-likelihood at step 23: -49789.562
+Current log-likelihood at step 24: -49789.549
+Current log-likelihood at step 25: -49789.537
+Current log-likelihood at step 26: -49789.528
+Partition-specific rates:  0.622 2.108 1.559 3.462 1.082 0.801 2.997 1.501 3.176 1.574 1.225
+Parameters optimization took 25 rounds (1.250 sec)
+
+Partition information was printed to muscle_g_i.best_model.nex
+BEST SCORE FOUND : -49789.528
+Empirical proportions for each category: 0.951 0.044 0.006
+Empirical proportions for each category: 0.835 0.022 0.000 0.143
+Site rates printed to muscle_g_i.rate
+Site rates printed to muscle_g_i.mlrate
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+0.937 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file muscle_g_i.splits.nex
+Total tree length: 0.042
+
+Total number of iterations: 114
+CPU time used for tree search: 65.499 sec (0h:1m:5s)
+Wall-clock time used for tree search: 99.984 sec (0h:1m:39s)
+Total CPU time used: 90.334 sec (0h:1m:30s)
+Total wall-clock time used: 110.686 sec (0h:1m:50s)
+
+Computing bootstrap consensus tree...
+Reading input file muscle_g_i.splits.nex...
+48 taxa and 308 splits.
+Consensus tree written to muscle_g_i.contree
+Reading input trees file muscle_g_i.contree
+Log-likelihood of consensus tree: -49789.725
+Identifying sites to remove: done in 0.00552201 secs using 351.3% CPU
+Identifying sites to remove: done in 0.0058701 secs using 346.1% CPU
+Identifying sites to remove: done in 0.00630999 secs using 295.8% CPU
+Identifying sites to remove: done in 0.00107098 secs using 574.5% CPU
+Identifying sites to remove: done in 0.00137401 secs using 487.3% CPU
+Identifying sites to remove: done in 0.00114799 secs using 433.9% CPU
+Identifying sites to remove: done in 0.000221968 secs using 645.1% CPU
+Identifying sites to remove: done in 0.000310898 secs using 639.4% CPU
+Identifying sites to remove: done in 0.000246048 secs using 477.1% CPU
+Identifying sites to remove: done in 7.08103e-05 secs using 611.5% CPU
+Identifying sites to remove: done in 8.58307e-05 secs using 469.5% CPU
+Identifying sites to remove: done in 7.08103e-05 secs using 327.6% CPU
+Identifying sites to remove: done in 0.000182152 secs using 654.4% CPU
+Identifying sites to remove: done in 0.000202894 secs using 725% CPU
+Identifying sites to remove: done in 0.00018692 secs using 544.1% CPU
+Identifying sites to remove: done in 5.19753e-05 secs using 765.7% CPU
+Identifying sites to remove: done in 0.000123024 secs using 661.7% CPU
+Identifying sites to remove: done in 0.000146866 secs using 757.8% CPU
+Identifying sites to remove: done in 0.000256777 secs using 621.2% CPU
+Identifying sites to remove: done in 0.000145912 secs using 372.1% CPU
+Identifying sites to remove: done in 4.22001e-05 secs using 597.2% CPU
+Identifying sites to remove: done in 5.60284e-05 secs using 995.9% CPU
+Identifying sites to remove: done in 0.000110149 secs using 580.1% CPU
+Identifying sites to remove: done in 0.000132084 secs using 558% CPU
+Identifying sites to remove: done in 0.000311136 secs using 479.2% CPU
+Identifying sites to remove: done in 0.000299215 secs using 396.4% CPU
+Identifying sites to remove: done in 0.000356913 secs using 266.5% CPU
+Identifying sites to remove: done in 3.38554e-05 secs using 395.8% CPU
+Identifying sites to remove: done in 3.50475e-05 secs using 741.8% CPU
+Identifying sites to remove: done in 3.69549e-05 secs using 422.1% CPU
+
+Analysis results written to: 
+  IQ-TREE report:                muscle_g_i.iqtree
+  Maximum-likelihood tree:       muscle_g_i.treefile
+  Likelihood distances:          muscle_g_i.mldist
+  Best partitioning scheme:      muscle_g_i.best_scheme.nex
+           in RAxML format:      muscle_g_i.best_scheme
+  Site-specific rates:           muscle_g_i.rate
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          muscle_g_i.splits.nex
+  Consensus tree:                muscle_g_i.contree
+  Screen log file:               muscle_g_i.log
+
+Date and Time: Sat Dec 27 15:40:34 2025

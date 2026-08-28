@@ -1,0 +1,10 @@
+/users/omarne/small_dataset/jaccard/ingroup_comparison/g_g_i_compare/cl_g_mu_g_i
+/users/omarne/.conda/envs/omkar/bin/python3
+Python 3.11.7
+All OK
+# Reading from clustal_g_i.fasta
+# Reading from muscle_g_i.fasta
+File1,File2,Shared,Uniq1,Uniq2,PreliminaryScore,FinalScore
+clustal_g_i.fasta,muscle_g_i.fasta,5314,24599,24559,0.644252016278506,0.3884923510874389
+File1,File2,Shared,Uniq1,Uniq2,PreliminaryScoreStates,FinalScoreStates
+clustal_g_i.fasta,muscle_g_i.fasta,1332,247,165,0.577736884389266,0.845585441768434

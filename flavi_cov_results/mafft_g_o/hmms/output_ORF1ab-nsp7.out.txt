@@ -1,0 +1,932 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /users/omarne/small_dataset//flavi-cov/database/ORF1ab/nsp7.hmm
+# target sequence database:        output_ORF1ab_prot.fasta
+# output directed to file:         output_ORF1ab-nsp7.out.txt
+# per-dom hits tabular output:     output_ORF1ab-nsp7.dom.txt
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       nsp7  [M=83]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence  Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------  -----------
+    1.2e-56  181.2   7.4    6.1e-56  178.9   7.7    2.2  1  OY784472_  ORF1ab 518-13459;13459-21546
+    1.2e-56  181.2   7.4    6.1e-56  178.9   7.7    2.2  1  OP440368_  ORF1ab 464-13405;13405-21492
+    1.2e-56  181.2   7.4    6.2e-56  178.9   7.7    2.2  1  PQ391889_  ORF1ab 228-13421;13421-21508
+    1.2e-56  181.2   7.4    6.1e-56  178.9   7.7    2.2  1  ON923618_  ORF1ab 493-13425;13425-21512
+    1.2e-56  181.2   7.4    6.2e-56  178.9   7.7    2.2  1  OK204161_  ORF1ab 229-13431;13431-21518
+    1.2e-56  181.2   7.4    6.2e-56  178.9   7.7    2.2  1  OY792307_  ORF1ab 266-13459;13459-21546
+    1.2e-56  181.2   7.4    6.2e-56  178.9   7.7    2.2  1  OK177352_  ORF1ab 220-13413;13413-21500
+    1.2e-56  181.2   7.4    6.2e-56  178.9   7.7    2.2  1  PP630509_  ORF1ab 212-13414;13414-21501
+    1.2e-56  181.2   7.4    6.2e-56  178.9   7.7    2.2  1  MW183957_  ORF1ab 227-13429;13429-21516
+    1.2e-56  181.2   7.4    6.2e-56  178.9   7.7    2.2  1  OR020535_  ORF1ab 241-13431;13431-21563
+    1.2e-56  181.2   7.4    6.2e-56  178.9   7.7    2.2  1  OV948634_  ORF1ab 266-13453;13453-21540
+    1.2e-56  181.2   7.4    6.2e-56  178.9   7.7    2.2  1  PP030571_  ORF1ab 216-13409;13409-21496
+    1.2e-56  181.2   7.4    6.2e-56  178.9   7.7    2.2  1  OR563456_  ORF1ab 241-13434;13434-21566
+    1.2e-56  181.2   7.4    6.2e-56  178.9   7.7    2.2  1  OR689160_  ORF1ab 224-13417;13417-21504
+    1.2e-56  181.2   7.4    6.2e-56  178.9   7.7    2.2  1  PP023772_  ORF1ab 241-13434;13434-21686
+    1.2e-56  181.2   7.4    6.2e-56  178.9   7.7    2.2  1  PP601887_  ORF1ab 212-13414;13414-21501
+    1.2e-56  181.2   7.4    6.2e-56  178.9   7.7    2.2  1  MN908947_  ORF1ab 266-13468;13468-21555
+    1.2e-56  181.2   7.4    6.2e-56  178.9   7.7    2.2  1  OR983979_  ORF1ab 216-13409;13409-21496
+    1.2e-56  181.2   7.4    6.2e-56  178.9   7.7    2.2  1  MW901580_  ORF1ab 212-13414;13414-21501
+    1.2e-56  181.2   7.4    6.2e-56  178.9   7.7    2.2  1  PV497551_  ORF1ab 227-13417;13417-21504
+    1.2e-56  181.2   7.4    6.2e-56  178.9   7.7    2.2  1  MZ131148_  ORF1ab 228-13421;13421-21508
+    1.2e-56  181.2   7.4    6.2e-56  178.9   7.7    2.2  1  MZ160298_  ORF1ab 181-13374;13374-21461
+    1.2e-56  181.2   7.4    6.2e-56  178.9   7.7    2.2  1  OQ558991_  ORF1ab 212-13414;13414-21501
+    1.2e-56  181.2   7.4    6.2e-56  178.9   7.7    2.2  1  PP615923_  ORF1ab 264-13466;13466-21553
+    1.3e-56  181.2   7.4    6.2e-56  178.9   7.7    2.2  1  OK221016_  ORF1ab 232-13425;13425-21512
+    1.3e-56  181.2   7.4    6.2e-56  178.9   7.7    2.2  1  PQ972523_  ORF1ab 217-13410;13410-21623
+    1.3e-56  181.2   7.4    6.2e-56  178.9   7.7    2.2  1  OL714154_  ORF1ab 245-13447;13447-21534
+    1.3e-56  181.1   7.4    6.2e-56  178.9   7.7    2.2  1  MZ412499_  ORF1ab 212-13405;13405-21492
+    1.3e-56  181.1   7.4    6.2e-56  178.9   7.7    2.2  1  OQ896588_  ORF1ab 166-13368;13368-21455
+    1.3e-56  181.1   7.4    6.2e-56  178.9   7.7    2.1  1  PQ017244_  ORF1ab 211-13404;13404-21491
+    1.3e-56  181.1   7.4    6.2e-56  178.9   7.7    2.1  1  OD923885_  ORF1ab 266-13468;13468-21555
+    1.3e-56  181.1   7.4    6.2e-56  178.9   7.7    2.1  1  PQ899058_  ORF1ab 227-13420;13420-21507
+    1.3e-56  181.1   7.4    6.2e-56  178.9   7.7    2.1  1  PQ121865_  ORF1ab 212-13405;13405-21492
+    1.3e-56  181.1   7.4    6.2e-56  178.9   7.7    2.1  1  OZ223682_  ORF1ab 266-13459;13459-21546
+    1.3e-56  181.1   7.4    6.2e-56  178.9   7.7    2.1  1  PQ279092_  ORF1ab 224-13417;13417-21504
+    1.3e-56  181.1   7.4    6.2e-56  178.9   7.7    2.1  1  PV239625_  ORF1ab 188-13381;13381-21468
+    1.3e-56  181.1   7.4    6.2e-56  178.9   7.7    2.1  1  PX448754_  ORF1ab 224-13417;13417-21504
+    1.3e-56  181.1   7.4    6.2e-56  178.9   7.7    2.1  1  OP578130_  ORF1ab 216-13418;13418-21505
+    1.3e-56  181.1   7.4    6.2e-56  178.9   7.7    2.1  1  PQ304301_  ORF1ab 224-13417;13417-21504
+    1.3e-56  181.1   7.4    6.2e-56  178.9   7.7    2.1  1  PQ279056_  ORF1ab 224-13417;13417-21504
+    1.3e-56  181.1   7.4    6.2e-56  178.9   7.7    2.1  1  OZ014103_  ORF1ab 266-13456;13456-21543
+    1.3e-56  181.1   7.4    6.2e-56  178.9   7.7    2.1  1  PQ375771_  ORF1ab 234-13427;13427-21514
+    1.3e-56  181.1   7.4    6.2e-56  178.9   7.7    2.1  1  PX393327_  ORF1ab 188-13381;13381-21468
+    1.3e-56  181.1   7.4    6.2e-56  178.9   7.7    2.1  1  OL926066_  ORF1ab 241-13443;13443-21575
+    1.3e-56  181.1   7.7    6.2e-56  178.9   7.7    2.2  1  PX059619_  ORF1ab 188-13381;13381-21468
+    1.6e-56  180.8   8.0    6.2e-56  178.9   7.7    2.2  1  MG772933_  ORF1ab 265-13455;13455-21542
+    1.9e-56  180.6   7.7    6.2e-56  178.9   7.7    2.0  1  MT040334_  ORF1ab 267-13445;13445-21532
+    1.9e-56  180.6   7.7    6.2e-56  178.9   7.7    2.0  1  MT040336_  ORF1ab 267-13445;13445-21532
+    1.9e-56  180.6   7.7    6.2e-56  178.9   7.7    2.0  1  MT040333_  ORF1ab 267-13445;13445-21532
+    1.9e-56  180.6   7.7    6.2e-56  178.9   7.7    2.0  1  MT040335_  ORF1ab 267-13445;13445-21532
+      2e-56  180.5   7.7    6.2e-56  178.9   7.7    2.0  1  GQ153548_  ORF1ab 262-13350;13350-21437
+      2e-56  180.5   7.7    6.2e-56  178.9   7.7    2.0  1  GQ153546_  ORF1ab 262-13368;13368-21455
+      2e-56  180.5   7.7    6.2e-56  178.9   7.7    2.0  1  GQ153544_  ORF1ab 262-13368;13368-21455
+      2e-56  180.5   7.7    6.2e-56  178.9   7.7    2.0  1  GQ153545_  ORF1ab 262-13368;13368-21455
+      2e-56  180.5   7.7    6.2e-56  178.9   7.7    2.0  1  GQ153540_  ORF1ab 262-13377;13377-21464
+      2e-56  180.5   7.7    6.2e-56  178.9   7.7    2.0  1  DQ084199_  ORF1ab 245-13360;13360-21447
+      2e-56  180.5   7.7    6.2e-56  178.9   7.7    2.0  1  GQ153539_  ORF1ab 262-13377;13377-21464
+      2e-56  180.5   7.7    6.2e-56  178.9   7.7    2.0  1  GQ153547_  ORF1ab 262-13377;13377-21464
+      2e-56  180.5   7.7    6.2e-56  178.9   7.7    2.0  1  GQ153541_  ORF1ab 262-13377;13377-21464
+      2e-56  180.5   7.7    6.2e-56  178.9   7.7    1.9  1  DQ022305_  ORF1ab 262-13377;13377-21464
+    2.1e-56  180.5   7.7    6.2e-56  178.9   7.7    1.9  1  GQ153543_  ORF1ab 262-13389;13389-21476
+    2.1e-56  180.5   7.7    6.2e-56  178.9   7.7    1.9  1  GQ153542_  ORF1ab 262-13389;13389-21476
+    2.5e-56  180.2   6.7    1.3e-55  177.9   6.9    2.2  1  OK433428_  ORF1ab 212-13414;13414-21501
+    6.1e-56  179.0   7.8      3e-55  176.7   7.9    2.2  1  MG772934_  ORF1ab 265-13389;13389-21476
+    6.7e-56  178.8   6.7    3.4e-55  176.6   6.9    2.2  1  OU470855_  ORF1ab 66-13268;13268-21400
+    8.3e-56  178.5   6.1    4.2e-55  176.3   6.4    2.2  1  OZ061529_  ORF1ab 228-13421;13421-21508
+    2.1e-55  177.2   7.2      7e-55  175.6   7.2    2.0  1  MT072864_  ORF1ab 249-13427;13427-21514
+    5.5e-54  172.7   7.3    1.5e-53  171.3   7.3    1.9  1  KY352407_  ORF1ab 260-13324;13324-21411
+    2.6e-41  132.1   2.3    7.2e-41  130.6   2.3    1.9  1  NC025217_  ORF1ab 303-13931;13931-22045
+
+
+Domain annotation for each sequence (and alignments):
+>> OY784472_  ORF1ab 518-13459;13459-21546
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  178.9   7.7   6.1e-56   6.1e-56       1      83 []    3773    3855 ..    3773    3855 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 178.9 bits;  conditional E-value: 6.1e-56
+       nsp7    1 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq 83  
+                 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq
+  OY784472_ 3773 SKMSDVKCTSVVLLSVLQQLRVESSSKLWAQCVQLHNDILLAKDTTEAFEKMVSLLSVLLSMQGAVDINKLCEEMLDNRATLQ 3855
+                 8*********************************************************************************9 PP
+
+>> OP440368_  ORF1ab 464-13405;13405-21492
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  178.9   7.7   6.1e-56   6.1e-56       1      83 []    3773    3855 ..    3773    3855 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 178.9 bits;  conditional E-value: 6.1e-56
+       nsp7    1 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq 83  
+                 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq
+  OP440368_ 3773 SKMSDVKCTSVVLLSVLQQLRVESSSKLWAQCVQLHNDILLAKDTTEAFEKMVSLLSVLLSMQGAVDINKLCEEMLDNRATLQ 3855
+                 8*********************************************************************************9 PP
+
+>> PQ391889_  ORF1ab 228-13421;13421-21508
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  178.9   7.7   6.2e-56   6.2e-56       1      83 []    3857    3939 ..    3857    3939 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 178.9 bits;  conditional E-value: 6.2e-56
+       nsp7    1 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq 83  
+                 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq
+  PQ391889_ 3857 SKMSDVKCTSVVLLSVLQQLRVESSSKLWAQCVQLHNDILLAKDTTEAFEKMVSLLSVLLSMQGAVDINKLCEEMLDNRATLQ 3939
+                 8*********************************************************************************9 PP
+
+>> ON923618_  ORF1ab 493-13425;13425-21512
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  178.9   7.7   6.1e-56   6.1e-56       1      83 []    3770    3852 ..    3770    3852 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 178.9 bits;  conditional E-value: 6.1e-56
+       nsp7    1 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq 83  
+                 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq
+  ON923618_ 3770 SKMSDVKCTSVVLLSVLQQLRVESSSKLWAQCVQLHNDILLAKDTTEAFEKMVSLLSVLLSMQGAVDINKLCEEMLDNRATLQ 3852
+                 8*********************************************************************************9 PP
+
+>> OK204161_  ORF1ab 229-13431;13431-21518
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  178.9   7.7   6.2e-56   6.2e-56       1      83 []    3860    3942 ..    3860    3942 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 178.9 bits;  conditional E-value: 6.2e-56
+       nsp7    1 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq 83  
+                 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq
+  OK204161_ 3860 SKMSDVKCTSVVLLSVLQQLRVESSSKLWAQCVQLHNDILLAKDTTEAFEKMVSLLSVLLSMQGAVDINKLCEEMLDNRATLQ 3942
+                 8*********************************************************************************9 PP
+
+>> OY792307_  ORF1ab 266-13459;13459-21546
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  178.9   7.7   6.2e-56   6.2e-56       1      83 []    3857    3939 ..    3857    3939 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 178.9 bits;  conditional E-value: 6.2e-56
+       nsp7    1 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq 83  
+                 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq
+  OY792307_ 3857 SKMSDVKCTSVVLLSVLQQLRVESSSKLWAQCVQLHNDILLAKDTTEAFEKMVSLLSVLLSMQGAVDINKLCEEMLDNRATLQ 3939
+                 8*********************************************************************************9 PP
+
+>> OK177352_  ORF1ab 220-13413;13413-21500
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  178.9   7.7   6.2e-56   6.2e-56       1      83 []    3857    3939 ..    3857    3939 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 178.9 bits;  conditional E-value: 6.2e-56
+       nsp7    1 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq 83  
+                 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq
+  OK177352_ 3857 SKMSDVKCTSVVLLSVLQQLRVESSSKLWAQCVQLHNDILLAKDTTEAFEKMVSLLSVLLSMQGAVDINKLCEEMLDNRATLQ 3939
+                 8*********************************************************************************9 PP
+
+>> PP630509_  ORF1ab 212-13414;13414-21501
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  178.9   7.7   6.2e-56   6.2e-56       1      83 []    3860    3942 ..    3860    3942 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 178.9 bits;  conditional E-value: 6.2e-56
+       nsp7    1 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq 83  
+                 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq
+  PP630509_ 3860 SKMSDVKCTSVVLLSVLQQLRVESSSKLWAQCVQLHNDILLAKDTTEAFEKMVSLLSVLLSMQGAVDINKLCEEMLDNRATLQ 3942
+                 8*********************************************************************************9 PP
+
+>> MW183957_  ORF1ab 227-13429;13429-21516
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  178.9   7.7   6.2e-56   6.2e-56       1      83 []    3860    3942 ..    3860    3942 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 178.9 bits;  conditional E-value: 6.2e-56
+       nsp7    1 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq 83  
+                 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq
+  MW183957_ 3860 SKMSDVKCTSVVLLSVLQQLRVESSSKLWAQCVQLHNDILLAKDTTEAFEKMVSLLSVLLSMQGAVDINKLCEEMLDNRATLQ 3942
+                 8*********************************************************************************9 PP
+
+>> OR020535_  ORF1ab 241-13431;13431-21563
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  178.9   7.7   6.2e-56   6.2e-56       1      83 []    3856    3938 ..    3856    3938 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 178.9 bits;  conditional E-value: 6.2e-56
+       nsp7    1 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq 83  
+                 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq
+  OR020535_ 3856 SKMSDVKCTSVVLLSVLQQLRVESSSKLWAQCVQLHNDILLAKDTTEAFEKMVSLLSVLLSMQGAVDINKLCEEMLDNRATLQ 3938
+                 8*********************************************************************************9 PP
+
+>> OV948634_  ORF1ab 266-13453;13453-21540
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  178.9   7.7   6.2e-56   6.2e-56       1      83 []    3855    3937 ..    3855    3937 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 178.9 bits;  conditional E-value: 6.2e-56
+       nsp7    1 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq 83  
+                 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq
+  OV948634_ 3855 SKMSDVKCTSVVLLSVLQQLRVESSSKLWAQCVQLHNDILLAKDTTEAFEKMVSLLSVLLSMQGAVDINKLCEEMLDNRATLQ 3937
+                 8*********************************************************************************9 PP
+
+>> PP030571_  ORF1ab 216-13409;13409-21496
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  178.9   7.7   6.2e-56   6.2e-56       1      83 []    3857    3939 ..    3857    3939 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 178.9 bits;  conditional E-value: 6.2e-56
+       nsp7    1 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq 83  
+                 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq
+  PP030571_ 3857 SKMSDVKCTSVVLLSVLQQLRVESSSKLWAQCVQLHNDILLAKDTTEAFEKMVSLLSVLLSMQGAVDINKLCEEMLDNRATLQ 3939
+                 8*********************************************************************************9 PP
+
+>> OR563456_  ORF1ab 241-13434;13434-21566
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  178.9   7.7   6.2e-56   6.2e-56       1      83 []    3857    3939 ..    3857    3939 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 178.9 bits;  conditional E-value: 6.2e-56
+       nsp7    1 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq 83  
+                 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq
+  OR563456_ 3857 SKMSDVKCTSVVLLSVLQQLRVESSSKLWAQCVQLHNDILLAKDTTEAFEKMVSLLSVLLSMQGAVDINKLCEEMLDNRATLQ 3939
+                 8*********************************************************************************9 PP
+
+>> OR689160_  ORF1ab 224-13417;13417-21504
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  178.9   7.7   6.2e-56   6.2e-56       1      83 []    3857    3939 ..    3857    3939 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 178.9 bits;  conditional E-value: 6.2e-56
+       nsp7    1 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq 83  
+                 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq
+  OR689160_ 3857 SKMSDVKCTSVVLLSVLQQLRVESSSKLWAQCVQLHNDILLAKDTTEAFEKMVSLLSVLLSMQGAVDINKLCEEMLDNRATLQ 3939
+                 8*********************************************************************************9 PP
+
+>> PP023772_  ORF1ab 241-13434;13434-21686
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  178.9   7.7   6.2e-56   6.2e-56       1      83 []    3857    3939 ..    3857    3939 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 178.9 bits;  conditional E-value: 6.2e-56
+       nsp7    1 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq 83  
+                 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq
+  PP023772_ 3857 SKMSDVKCTSVVLLSVLQQLRVESSSKLWAQCVQLHNDILLAKDTTEAFEKMVSLLSVLLSMQGAVDINKLCEEMLDNRATLQ 3939
+                 8*********************************************************************************9 PP
+
+>> PP601887_  ORF1ab 212-13414;13414-21501
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  178.9   7.7   6.2e-56   6.2e-56       1      83 []    3860    3942 ..    3860    3942 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 178.9 bits;  conditional E-value: 6.2e-56
+       nsp7    1 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq 83  
+                 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq
+  PP601887_ 3860 SKMSDVKCTSVVLLSVLQQLRVESSSKLWAQCVQLHNDILLAKDTTEAFEKMVSLLSVLLSMQGAVDINKLCEEMLDNRATLQ 3942
+                 8*********************************************************************************9 PP
+
+>> MN908947_  ORF1ab 266-13468;13468-21555
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  178.9   7.7   6.2e-56   6.2e-56       1      83 []    3860    3942 ..    3860    3942 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 178.9 bits;  conditional E-value: 6.2e-56
+       nsp7    1 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq 83  
+                 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq
+  MN908947_ 3860 SKMSDVKCTSVVLLSVLQQLRVESSSKLWAQCVQLHNDILLAKDTTEAFEKMVSLLSVLLSMQGAVDINKLCEEMLDNRATLQ 3942
+                 8*********************************************************************************9 PP
+
+>> OR983979_  ORF1ab 216-13409;13409-21496
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  178.9   7.7   6.2e-56   6.2e-56       1      83 []    3857    3939 ..    3857    3939 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 178.9 bits;  conditional E-value: 6.2e-56
+       nsp7    1 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq 83  
+                 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq
+  OR983979_ 3857 SKMSDVKCTSVVLLSVLQQLRVESSSKLWAQCVQLHNDILLAKDTTEAFEKMVSLLSVLLSMQGAVDINKLCEEMLDNRATLQ 3939
+                 8*********************************************************************************9 PP
+
+>> MW901580_  ORF1ab 212-13414;13414-21501
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  178.9   7.7   6.2e-56   6.2e-56       1      83 []    3860    3942 ..    3860    3942 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 178.9 bits;  conditional E-value: 6.2e-56
+       nsp7    1 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq 83  
+                 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq
+  MW901580_ 3860 SKMSDVKCTSVVLLSVLQQLRVESSSKLWAQCVQLHNDILLAKDTTEAFEKMVSLLSVLLSMQGAVDINKLCEEMLDNRATLQ 3942
+                 8*********************************************************************************9 PP
+
+>> PV497551_  ORF1ab 227-13417;13417-21504
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  178.9   7.7   6.2e-56   6.2e-56       1      83 []    3856    3938 ..    3856    3938 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 178.9 bits;  conditional E-value: 6.2e-56
+       nsp7    1 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq 83  
+                 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq
+  PV497551_ 3856 SKMSDVKCTSVVLLSVLQQLRVESSSKLWAQCVQLHNDILLAKDTTEAFEKMVSLLSVLLSMQGAVDINKLCEEMLDNRATLQ 3938
+                 8*********************************************************************************9 PP
+
+>> MZ131148_  ORF1ab 228-13421;13421-21508
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  178.9   7.7   6.2e-56   6.2e-56       1      83 []    3857    3939 ..    3857    3939 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 178.9 bits;  conditional E-value: 6.2e-56
+       nsp7    1 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq 83  
+                 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq
+  MZ131148_ 3857 SKMSDVKCTSVVLLSVLQQLRVESSSKLWAQCVQLHNDILLAKDTTEAFEKMVSLLSVLLSMQGAVDINKLCEEMLDNRATLQ 3939
+                 8*********************************************************************************9 PP
+
+>> MZ160298_  ORF1ab 181-13374;13374-21461
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  178.9   7.7   6.2e-56   6.2e-56       1      83 []    3857    3939 ..    3857    3939 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 178.9 bits;  conditional E-value: 6.2e-56
+       nsp7    1 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq 83  
+                 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq
+  MZ160298_ 3857 SKMSDVKCTSVVLLSVLQQLRVESSSKLWAQCVQLHNDILLAKDTTEAFEKMVSLLSVLLSMQGAVDINKLCEEMLDNRATLQ 3939
+                 8*********************************************************************************9 PP
+
+>> OQ558991_  ORF1ab 212-13414;13414-21501
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  178.9   7.7   6.2e-56   6.2e-56       1      83 []    3860    3942 ..    3860    3942 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 178.9 bits;  conditional E-value: 6.2e-56
+       nsp7    1 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq 83  
+                 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq
+  OQ558991_ 3860 SKMSDVKCTSVVLLSVLQQLRVESSSKLWAQCVQLHNDILLAKDTTEAFEKMVSLLSVLLSMQGAVDINKLCEEMLDNRATLQ 3942
+                 8*********************************************************************************9 PP
+
+>> PP615923_  ORF1ab 264-13466;13466-21553
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  178.9   7.7   6.2e-56   6.2e-56       1      83 []    3860    3942 ..    3860    3942 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 178.9 bits;  conditional E-value: 6.2e-56
+       nsp7    1 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq 83  
+                 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq
+  PP615923_ 3860 SKMSDVKCTSVVLLSVLQQLRVESSSKLWAQCVQLHNDILLAKDTTEAFEKMVSLLSVLLSMQGAVDINKLCEEMLDNRATLQ 3942
+                 8*********************************************************************************9 PP
+
+>> OK221016_  ORF1ab 232-13425;13425-21512
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  178.9   7.7   6.2e-56   6.2e-56       1      83 []    3857    3939 ..    3857    3939 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 178.9 bits;  conditional E-value: 6.2e-56
+       nsp7    1 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq 83  
+                 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq
+  OK221016_ 3857 SKMSDVKCTSVVLLSVLQQLRVESSSKLWAQCVQLHNDILLAKDTTEAFEKMVSLLSVLLSMQGAVDINKLCEEMLDNRATLQ 3939
+                 8*********************************************************************************9 PP
+
+>> PQ972523_  ORF1ab 217-13410;13410-21623
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  178.9   7.7   6.2e-56   6.2e-56       1      83 []    3857    3939 ..    3857    3939 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 178.9 bits;  conditional E-value: 6.2e-56
+       nsp7    1 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq 83  
+                 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq
+  PQ972523_ 3857 SKMSDVKCTSVVLLSVLQQLRVESSSKLWAQCVQLHNDILLAKDTTEAFEKMVSLLSVLLSMQGAVDINKLCEEMLDNRATLQ 3939
+                 8*********************************************************************************9 PP
+
+>> OL714154_  ORF1ab 245-13447;13447-21534
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  178.9   7.7   6.2e-56   6.2e-56       1      83 []    3860    3942 ..    3860    3942 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 178.9 bits;  conditional E-value: 6.2e-56
+       nsp7    1 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq 83  
+                 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq
+  OL714154_ 3860 SKMSDVKCTSVVLLSVLQQLRVESSSKLWAQCVQLHNDILLAKDTTEAFEKMVSLLSVLLSMQGAVDINKLCEEMLDNRATLQ 3942
+                 8*********************************************************************************9 PP
+
+>> MZ412499_  ORF1ab 212-13405;13405-21492
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  178.9   7.7   6.2e-56   6.2e-56       1      83 []    3857    3939 ..    3857    3939 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 178.9 bits;  conditional E-value: 6.2e-56
+       nsp7    1 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq 83  
+                 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq
+  MZ412499_ 3857 SKMSDVKCTSVVLLSVLQQLRVESSSKLWAQCVQLHNDILLAKDTTEAFEKMVSLLSVLLSMQGAVDINKLCEEMLDNRATLQ 3939
+                 8*********************************************************************************9 PP
+
+>> OQ896588_  ORF1ab 166-13368;13368-21455
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  178.9   7.7   6.2e-56   6.2e-56       1      83 []    3860    3942 ..    3860    3942 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 178.9 bits;  conditional E-value: 6.2e-56
+       nsp7    1 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq 83  
+                 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq
+  OQ896588_ 3860 SKMSDVKCTSVVLLSVLQQLRVESSSKLWAQCVQLHNDILLAKDTTEAFEKMVSLLSVLLSMQGAVDINKLCEEMLDNRATLQ 3942
+                 8*********************************************************************************9 PP
+
+>> PQ017244_  ORF1ab 211-13404;13404-21491
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  178.9   7.7   6.2e-56   6.2e-56       1      83 []    3857    3939 ..    3857    3939 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 178.9 bits;  conditional E-value: 6.2e-56
+       nsp7    1 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq 83  
+                 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq
+  PQ017244_ 3857 SKMSDVKCTSVVLLSVLQQLRVESSSKLWAQCVQLHNDILLAKDTTEAFEKMVSLLSVLLSMQGAVDINKLCEEMLDNRATLQ 3939
+                 8*********************************************************************************9 PP
+
+>> OD923885_  ORF1ab 266-13468;13468-21555
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  178.9   7.7   6.2e-56   6.2e-56       1      83 []    3860    3942 ..    3860    3942 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 178.9 bits;  conditional E-value: 6.2e-56
+       nsp7    1 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq 83  
+                 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq
+  OD923885_ 3860 SKMSDVKCTSVVLLSVLQQLRVESSSKLWAQCVQLHNDILLAKDTTEAFEKMVSLLSVLLSMQGAVDINKLCEEMLDNRATLQ 3942
+                 8*********************************************************************************9 PP
+
+>> PQ899058_  ORF1ab 227-13420;13420-21507
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  178.9   7.7   6.2e-56   6.2e-56       1      83 []    3857    3939 ..    3857    3939 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 178.9 bits;  conditional E-value: 6.2e-56
+       nsp7    1 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq 83  
+                 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq
+  PQ899058_ 3857 SKMSDVKCTSVVLLSVLQQLRVESSSKLWAQCVQLHNDILLAKDTTEAFEKMVSLLSVLLSMQGAVDINKLCEEMLDNRATLQ 3939
+                 8*********************************************************************************9 PP
+
+>> PQ121865_  ORF1ab 212-13405;13405-21492
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  178.9   7.7   6.2e-56   6.2e-56       1      83 []    3857    3939 ..    3857    3939 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 178.9 bits;  conditional E-value: 6.2e-56
+       nsp7    1 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq 83  
+                 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq
+  PQ121865_ 3857 SKMSDVKCTSVVLLSVLQQLRVESSSKLWAQCVQLHNDILLAKDTTEAFEKMVSLLSVLLSMQGAVDINKLCEEMLDNRATLQ 3939
+                 8*********************************************************************************9 PP
+
+>> OZ223682_  ORF1ab 266-13459;13459-21546
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  178.9   7.7   6.2e-56   6.2e-56       1      83 []    3857    3939 ..    3857    3939 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 178.9 bits;  conditional E-value: 6.2e-56
+       nsp7    1 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq 83  
+                 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq
+  OZ223682_ 3857 SKMSDVKCTSVVLLSVLQQLRVESSSKLWAQCVQLHNDILLAKDTTEAFEKMVSLLSVLLSMQGAVDINKLCEEMLDNRATLQ 3939
+                 8*********************************************************************************9 PP
+
+>> PQ279092_  ORF1ab 224-13417;13417-21504
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  178.9   7.7   6.2e-56   6.2e-56       1      83 []    3857    3939 ..    3857    3939 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 178.9 bits;  conditional E-value: 6.2e-56
+       nsp7    1 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq 83  
+                 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq
+  PQ279092_ 3857 SKMSDVKCTSVVLLSVLQQLRVESSSKLWAQCVQLHNDILLAKDTTEAFEKMVSLLSVLLSMQGAVDINKLCEEMLDNRATLQ 3939
+                 8*********************************************************************************9 PP
+
+>> PV239625_  ORF1ab 188-13381;13381-21468
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  178.9   7.7   6.2e-56   6.2e-56       1      83 []    3857    3939 ..    3857    3939 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 178.9 bits;  conditional E-value: 6.2e-56
+       nsp7    1 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq 83  
+                 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq
+  PV239625_ 3857 SKMSDVKCTSVVLLSVLQQLRVESSSKLWAQCVQLHNDILLAKDTTEAFEKMVSLLSVLLSMQGAVDINKLCEEMLDNRATLQ 3939
+                 8*********************************************************************************9 PP
+
+>> PX448754_  ORF1ab 224-13417;13417-21504
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  178.9   7.7   6.2e-56   6.2e-56       1      83 []    3857    3939 ..    3857    3939 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 178.9 bits;  conditional E-value: 6.2e-56
+       nsp7    1 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq 83  
+                 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq
+  PX448754_ 3857 SKMSDVKCTSVVLLSVLQQLRVESSSKLWAQCVQLHNDILLAKDTTEAFEKMVSLLSVLLSMQGAVDINKLCEEMLDNRATLQ 3939
+                 8*********************************************************************************9 PP
+
+>> OP578130_  ORF1ab 216-13418;13418-21505
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  178.9   7.7   6.2e-56   6.2e-56       1      83 []    3860    3942 ..    3860    3942 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 178.9 bits;  conditional E-value: 6.2e-56
+       nsp7    1 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq 83  
+                 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq
+  OP578130_ 3860 SKMSDVKCTSVVLLSVLQQLRVESSSKLWAQCVQLHNDILLAKDTTEAFEKMVSLLSVLLSMQGAVDINKLCEEMLDNRATLQ 3942
+                 8*********************************************************************************9 PP
+
+>> PQ304301_  ORF1ab 224-13417;13417-21504
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  178.9   7.7   6.2e-56   6.2e-56       1      83 []    3857    3939 ..    3857    3939 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 178.9 bits;  conditional E-value: 6.2e-56
+       nsp7    1 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq 83  
+                 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq
+  PQ304301_ 3857 SKMSDVKCTSVVLLSVLQQLRVESSSKLWAQCVQLHNDILLAKDTTEAFEKMVSLLSVLLSMQGAVDINKLCEEMLDNRATLQ 3939
+                 8*********************************************************************************9 PP
+
+>> PQ279056_  ORF1ab 224-13417;13417-21504
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  178.9   7.7   6.2e-56   6.2e-56       1      83 []    3857    3939 ..    3857    3939 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 178.9 bits;  conditional E-value: 6.2e-56
+       nsp7    1 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq 83  
+                 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq
+  PQ279056_ 3857 SKMSDVKCTSVVLLSVLQQLRVESSSKLWAQCVQLHNDILLAKDTTEAFEKMVSLLSVLLSMQGAVDINKLCEEMLDNRATLQ 3939
+                 8*********************************************************************************9 PP
+
+>> OZ014103_  ORF1ab 266-13456;13456-21543
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  178.9   7.7   6.2e-56   6.2e-56       1      83 []    3856    3938 ..    3856    3938 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 178.9 bits;  conditional E-value: 6.2e-56
+       nsp7    1 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq 83  
+                 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq
+  OZ014103_ 3856 SKMSDVKCTSVVLLSVLQQLRVESSSKLWAQCVQLHNDILLAKDTTEAFEKMVSLLSVLLSMQGAVDINKLCEEMLDNRATLQ 3938
+                 8*********************************************************************************9 PP
+
+>> PQ375771_  ORF1ab 234-13427;13427-21514
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  178.9   7.7   6.2e-56   6.2e-56       1      83 []    3857    3939 ..    3857    3939 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 178.9 bits;  conditional E-value: 6.2e-56
+       nsp7    1 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq 83  
+                 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq
+  PQ375771_ 3857 SKMSDVKCTSVVLLSVLQQLRVESSSKLWAQCVQLHNDILLAKDTTEAFEKMVSLLSVLLSMQGAVDINKLCEEMLDNRATLQ 3939
+                 8*********************************************************************************9 PP
+
+>> PX393327_  ORF1ab 188-13381;13381-21468
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  178.9   7.7   6.2e-56   6.2e-56       1      83 []    3857    3939 ..    3857    3939 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 178.9 bits;  conditional E-value: 6.2e-56
+       nsp7    1 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq 83  
+                 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq
+  PX393327_ 3857 SKMSDVKCTSVVLLSVLQQLRVESSSKLWAQCVQLHNDILLAKDTTEAFEKMVSLLSVLLSMQGAVDINKLCEEMLDNRATLQ 3939
+                 8*********************************************************************************9 PP
+
+>> OL926066_  ORF1ab 241-13443;13443-21575
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  178.9   7.7   6.2e-56   6.2e-56       1      83 []    3860    3942 ..    3860    3942 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 178.9 bits;  conditional E-value: 6.2e-56
+       nsp7    1 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq 83  
+                 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq
+  OL926066_ 3860 SKMSDVKCTSVVLLSVLQQLRVESSSKLWAQCVQLHNDILLAKDTTEAFEKMVSLLSVLLSMQGAVDINKLCEEMLDNRATLQ 3942
+                 8*********************************************************************************9 PP
+
+>> PX059619_  ORF1ab 188-13381;13381-21468
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  178.9   7.7   6.2e-56   6.2e-56       1      83 []    3857    3939 ..    3857    3939 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 178.9 bits;  conditional E-value: 6.2e-56
+       nsp7    1 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq 83  
+                 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq
+  PX059619_ 3857 SKMSDVKCTSVVLLSVLQQLRVESSSKLWAQCVQLHNDILLAKDTTEAFEKMVSLLSVLLSMQGAVDINKLCEEMLDNRATLQ 3939
+                 8*********************************************************************************9 PP
+
+>> MG772933_  ORF1ab 265-13455;13455-21542
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  178.9   7.7   6.2e-56   6.2e-56       1      83 []    3856    3938 ..    3856    3938 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 178.9 bits;  conditional E-value: 6.2e-56
+       nsp7    1 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq 83  
+                 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq
+  MG772933_ 3856 SKMSDVKCTSVVLLSVLQQLRVESSSKLWAQCVQLHNDILLAKDTTEAFEKMVSLLSVLLSMQGAVDINKLCEEMLDNRATLQ 3938
+                 8*********************************************************************************9 PP
+
+>> MT040334_  ORF1ab 267-13445;13445-21532
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  178.9   7.7   6.2e-56   6.2e-56       1      83 []    3852    3934 ..    3852    3934 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 178.9 bits;  conditional E-value: 6.2e-56
+       nsp7    1 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq 83  
+                 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq
+  MT040334_ 3852 SKMSDVKCTSVVLLSVLQQLRVESSSKLWAQCVQLHNDILLAKDTTEAFEKMVSLLSVLLSMQGAVDINKLCEEMLDNRATLQ 3934
+                 8*********************************************************************************9 PP
+
+>> MT040336_  ORF1ab 267-13445;13445-21532
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  178.9   7.7   6.2e-56   6.2e-56       1      83 []    3852    3934 ..    3852    3934 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 178.9 bits;  conditional E-value: 6.2e-56
+       nsp7    1 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq 83  
+                 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq
+  MT040336_ 3852 SKMSDVKCTSVVLLSVLQQLRVESSSKLWAQCVQLHNDILLAKDTTEAFEKMVSLLSVLLSMQGAVDINKLCEEMLDNRATLQ 3934
+                 8*********************************************************************************9 PP
+
+>> MT040333_  ORF1ab 267-13445;13445-21532
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  178.9   7.7   6.2e-56   6.2e-56       1      83 []    3852    3934 ..    3852    3934 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 178.9 bits;  conditional E-value: 6.2e-56
+       nsp7    1 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq 83  
+                 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq
+  MT040333_ 3852 SKMSDVKCTSVVLLSVLQQLRVESSSKLWAQCVQLHNDILLAKDTTEAFEKMVSLLSVLLSMQGAVDINKLCEEMLDNRATLQ 3934
+                 8*********************************************************************************9 PP
+
+>> MT040335_  ORF1ab 267-13445;13445-21532
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  178.9   7.7   6.2e-56   6.2e-56       1      83 []    3852    3934 ..    3852    3934 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 178.9 bits;  conditional E-value: 6.2e-56
+       nsp7    1 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq 83  
+                 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq
+  MT040335_ 3852 SKMSDVKCTSVVLLSVLQQLRVESSSKLWAQCVQLHNDILLAKDTTEAFEKMVSLLSVLLSMQGAVDINKLCEEMLDNRATLQ 3934
+                 8*********************************************************************************9 PP
+
+>> GQ153548_  ORF1ab 262-13350;13350-21437
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  178.9   7.7   6.2e-56   6.2e-56       1      83 []    3822    3904 ..    3822    3904 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 178.9 bits;  conditional E-value: 6.2e-56
+       nsp7    1 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq 83  
+                 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq
+  GQ153548_ 3822 SKMSDVKCTSVVLLSVLQQLRVESSSKLWAQCVQLHNDILLAKDTTEAFEKMVSLLSVLLSMQGAVDINKLCEEMLDNRATLQ 3904
+                 8*********************************************************************************9 PP
+
+>> GQ153546_  ORF1ab 262-13368;13368-21455
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  178.9   7.7   6.2e-56   6.2e-56       1      83 []    3828    3910 ..    3828    3910 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 178.9 bits;  conditional E-value: 6.2e-56
+       nsp7    1 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq 83  
+                 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq
+  GQ153546_ 3828 SKMSDVKCTSVVLLSVLQQLRVESSSKLWAQCVQLHNDILLAKDTTEAFEKMVSLLSVLLSMQGAVDINKLCEEMLDNRATLQ 3910
+                 8*********************************************************************************9 PP
+
+>> GQ153544_  ORF1ab 262-13368;13368-21455
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  178.9   7.7   6.2e-56   6.2e-56       1      83 []    3828    3910 ..    3828    3910 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 178.9 bits;  conditional E-value: 6.2e-56
+       nsp7    1 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq 83  
+                 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq
+  GQ153544_ 3828 SKMSDVKCTSVVLLSVLQQLRVESSSKLWAQCVQLHNDILLAKDTTEAFEKMVSLLSVLLSMQGAVDINKLCEEMLDNRATLQ 3910
+                 8*********************************************************************************9 PP
+
+>> GQ153545_  ORF1ab 262-13368;13368-21455
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  178.9   7.7   6.2e-56   6.2e-56       1      83 []    3828    3910 ..    3828    3910 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 178.9 bits;  conditional E-value: 6.2e-56
+       nsp7    1 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq 83  
+                 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq
+  GQ153545_ 3828 SKMSDVKCTSVVLLSVLQQLRVESSSKLWAQCVQLHNDILLAKDTTEAFEKMVSLLSVLLSMQGAVDINKLCEEMLDNRATLQ 3910
+                 8*********************************************************************************9 PP
+
+>> GQ153540_  ORF1ab 262-13377;13377-21464
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  178.9   7.7   6.2e-56   6.2e-56       1      83 []    3831    3913 ..    3831    3913 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 178.9 bits;  conditional E-value: 6.2e-56
+       nsp7    1 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq 83  
+                 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq
+  GQ153540_ 3831 SKMSDVKCTSVVLLSVLQQLRVESSSKLWAQCVQLHNDILLAKDTTEAFEKMVSLLSVLLSMQGAVDINKLCEEMLDNRATLQ 3913
+                 8*********************************************************************************9 PP
+
+>> DQ084199_  ORF1ab 245-13360;13360-21447
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  178.9   7.7   6.2e-56   6.2e-56       1      83 []    3831    3913 ..    3831    3913 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 178.9 bits;  conditional E-value: 6.2e-56
+       nsp7    1 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq 83  
+                 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq
+  DQ084199_ 3831 SKMSDVKCTSVVLLSVLQQLRVESSSKLWAQCVQLHNDILLAKDTTEAFEKMVSLLSVLLSMQGAVDINKLCEEMLDNRATLQ 3913
+                 8*********************************************************************************9 PP
+
+>> GQ153539_  ORF1ab 262-13377;13377-21464
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  178.9   7.7   6.2e-56   6.2e-56       1      83 []    3831    3913 ..    3831    3913 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 178.9 bits;  conditional E-value: 6.2e-56
+       nsp7    1 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq 83  
+                 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq
+  GQ153539_ 3831 SKMSDVKCTSVVLLSVLQQLRVESSSKLWAQCVQLHNDILLAKDTTEAFEKMVSLLSVLLSMQGAVDINKLCEEMLDNRATLQ 3913
+                 8*********************************************************************************9 PP
+
+>> GQ153547_  ORF1ab 262-13377;13377-21464
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  178.9   7.7   6.2e-56   6.2e-56       1      83 []    3831    3913 ..    3831    3913 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 178.9 bits;  conditional E-value: 6.2e-56
+       nsp7    1 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq 83  
+                 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq
+  GQ153547_ 3831 SKMSDVKCTSVVLLSVLQQLRVESSSKLWAQCVQLHNDILLAKDTTEAFEKMVSLLSVLLSMQGAVDINKLCEEMLDNRATLQ 3913
+                 8*********************************************************************************9 PP
+
+>> GQ153541_  ORF1ab 262-13377;13377-21464
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  178.9   7.7   6.2e-56   6.2e-56       1      83 []    3831    3913 ..    3831    3913 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 178.9 bits;  conditional E-value: 6.2e-56
+       nsp7    1 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq 83  
+                 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq
+  GQ153541_ 3831 SKMSDVKCTSVVLLSVLQQLRVESSSKLWAQCVQLHNDILLAKDTTEAFEKMVSLLSVLLSMQGAVDINKLCEEMLDNRATLQ 3913
+                 8*********************************************************************************9 PP
+
+>> DQ022305_  ORF1ab 262-13377;13377-21464
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  178.9   7.7   6.2e-56   6.2e-56       1      83 []    3831    3913 ..    3831    3913 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 178.9 bits;  conditional E-value: 6.2e-56
+       nsp7    1 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq 83  
+                 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq
+  DQ022305_ 3831 SKMSDVKCTSVVLLSVLQQLRVESSSKLWAQCVQLHNDILLAKDTTEAFEKMVSLLSVLLSMQGAVDINKLCEEMLDNRATLQ 3913
+                 8*********************************************************************************9 PP
+
+>> GQ153543_  ORF1ab 262-13389;13389-21476
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  178.9   7.7   6.2e-56   6.2e-56       1      83 []    3835    3917 ..    3835    3917 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 178.9 bits;  conditional E-value: 6.2e-56
+       nsp7    1 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq 83  
+                 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq
+  GQ153543_ 3835 SKMSDVKCTSVVLLSVLQQLRVESSSKLWAQCVQLHNDILLAKDTTEAFEKMVSLLSVLLSMQGAVDINKLCEEMLDNRATLQ 3917
+                 8*********************************************************************************9 PP
+
+>> GQ153542_  ORF1ab 262-13389;13389-21476
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  178.9   7.7   6.2e-56   6.2e-56       1      83 []    3835    3917 ..    3835    3917 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 178.9 bits;  conditional E-value: 6.2e-56
+       nsp7    1 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq 83  
+                 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq
+  GQ153542_ 3835 SKMSDVKCTSVVLLSVLQQLRVESSSKLWAQCVQLHNDILLAKDTTEAFEKMVSLLSVLLSMQGAVDINKLCEEMLDNRATLQ 3917
+                 8*********************************************************************************9 PP
+
+>> OK433428_  ORF1ab 212-13414;13414-21501
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  177.9   6.9   1.3e-55   1.3e-55       1      83 []    3860    3942 ..    3860    3942 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 177.9 bits;  conditional E-value: 1.3e-55
+       nsp7    1 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq 83  
+                 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdink+ceemldnratlq
+  OK433428_ 3860 SKMSDVKCTSVVLLSVLQQLRVESSSKLWAQCVQLHNDILLAKDTTEAFEKMVSLLSVLLSMQGAVDINKFCEEMLDNRATLQ 3942
+                 8*********************************************************************************9 PP
+
+>> MG772934_  ORF1ab 265-13389;13389-21476
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  176.7   7.9     3e-55     3e-55       1      83 []    3834    3916 ..    3834    3916 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 176.7 bits;  conditional E-value: 3e-55
+       nsp7    1 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq 83  
+                 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavd+nklceemldnratlq
+  MG772934_ 3834 SKMSDVKCTSVVLLSVLQQLRVESSSKLWAQCVQLHNDILLAKDTTEAFEKMVSLLSVLLSMQGAVDLNKLCEEMLDNRATLQ 3916
+                 8*********************************************************************************9 PP
+
+>> OU470855_  ORF1ab 66-13268;13268-21400
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  176.6   6.9   3.4e-55   3.4e-55       1      83 []    3860    3942 ..    3860    3942 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 176.6 bits;  conditional E-value: 3.4e-55
+       nsp7    1 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq 83  
+                 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteaf kmvsllsvllsmqgavdinklceemldnratlq
+  OU470855_ 3860 SKMSDVKCTSVVLLSVLQQLRVESSSKLWAQCVQLHNDILLAKDTTEAFGKMVSLLSVLLSMQGAVDINKLCEEMLDNRATLQ 3942
+                 8*********************************************************************************9 PP
+
+>> OZ061529_  ORF1ab 228-13421;13421-21508
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  176.3   6.4   4.2e-55   4.2e-55       1      83 []    3857    3939 ..    3857    3939 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 176.3 bits;  conditional E-value: 4.2e-55
+       nsp7    1 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq 83  
+                 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvslls llsmqgavdinklceemldnratlq
+  OZ061529_ 3857 SKMSDVKCTSVVLLSVLQQLRVESSSKLWAQCVQLHNDILLAKDTTEAFEKMVSLLSGLLSMQGAVDINKLCEEMLDNRATLQ 3939
+                 8*********************************************************************************9 PP
+
+>> MT072864_  ORF1ab 249-13427;13427-21514
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  175.6   7.2     7e-55     7e-55       1      83 []    3852    3934 ..    3852    3934 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 175.6 bits;  conditional E-value: 7e-55
+       nsp7    1 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq 83  
+                 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafek vsllsvllsmqgavdinklceemldnratlq
+  MT072864_ 3852 SKMSDVKCTSVVLLSVLQQLRVESSSKLWAQCVQLHNDILLAKDTTEAFEKXVSLLSVLLSMQGAVDINKLCEEMLDNRATLQ 3934
+                 8*********************************************************************************9 PP
+
+>> KY352407_  ORF1ab 260-13324;13324-21411
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  171.3   7.3   1.5e-53   1.5e-53       1      83 []    3814    3896 ..    3814    3896 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 171.3 bits;  conditional E-value: 1.5e-53
+       nsp7    1 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq 83  
+                 skmsd+kctsvvllsvlqqlr+esssklw+qcvqlhndillakdtteafekmvsllsvllsmqgavdinklc+eml+nratlq
+  KY352407_ 3814 SKMSDIKCTSVVLLSVLQQLRIESSSKLWTQCVQLHNDILLAKDTTEAFEKMVSLLSVLLSMQGAVDINKLCDEMLNNRATLQ 3896
+                 8*********************************************************************************9 PP
+
+>> NC025217_  ORF1ab 303-13931;13931-22045
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  130.6   2.3   7.2e-41   7.2e-41       1      83 []    4004    4086 ..    4004    4086 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 130.6 bits;  conditional E-value: 7.2e-41
+       nsp7    1 skmsdvkctsvvllsvlqqlrvesssklwaqcvqlhndillakdtteafekmvsllsvllsmqgavdinklceemldnratlq 83  
+                 skmsd+kctsvvllsvlqqlr+e+ s++w+ cv lhndillakd+teafek+ +llsvllsm gavd+ klc+++++n a lq
+  NC025217_ 4004 SKMSDIKCTSVVLLSVLQQLRIEANSRIWSLCVTLHNDILLAKDATEAFEKLTTLLSVLLSMPGAVDLTKLCDDVFENPAILQ 4086
+                 8*******************************************************************************998 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (83 nodes)
+Target sequences:                         69  (489168 residues searched)
+Passed MSV filter:                        69  (1); expected 1.4 (0.02)
+Passed bias filter:                       69  (1); expected 1.4 (0.02)
+Passed Vit filter:                        69  (1); expected 0.1 (0.001)
+Passed Fwd filter:                        69  (1); expected 0.0 (1e-05)
+Initial search space (Z):                 69  [actual number of targets]
+Domain search space  (domZ):              69  [number of targets reported over threshold]
+# CPU time: 0.18u 0.00s 00:00:00.18 Elapsed: 00:00:00.18
+# Mc/sec: 216.74
+//
+[ok]

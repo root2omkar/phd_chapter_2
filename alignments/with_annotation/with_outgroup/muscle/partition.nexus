@@ -1,0 +1,14 @@
+#NEXUS
+BEGIN SETS;
+	charset ORF1ab = 1-22153;
+	charset S = 22154-26257;
+	charset ORF3a = 26258-27100;
+	charset E = 27101-27340;
+	charset M = 27341-28012;
+	charset ORF6 = 28013-28204;
+	charset ORF7a = 28205-28715;
+	charset ORF7b = 28716-28850;
+	charset ORF8 = 28851-29255;
+	charset N = 29256-30554;
+	charset ORF10 = 30555-30671;
+END;

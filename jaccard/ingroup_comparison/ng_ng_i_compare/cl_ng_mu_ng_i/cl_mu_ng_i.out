@@ -1,0 +1,12 @@
+/users/omarne/small_dataset/jaccard/ingroup_comparison/ng_ng_i_compare/cl_ng_mu_ng_i
+/users/omarne/.conda/envs/omkar/bin/python3
+Python 3.11.7
+All OK
+# Reading from clustal_ng_i.fasta
+# Reading from muscle_ng_i.fasta
+# Comparing alignment positions in clustal_ng_i.fasta and muscle_ng_i.fasta
+# Comparing alignment states in clustal_ng_i.fasta and muscle_ng_i.fasta
+File1,File2,Shared,Uniq1,Uniq2,PreliminaryScore,FinalScore
+clustal_ng_i.fasta,muscle_ng_i.fasta,29446,498,487,0.913219115693672,0.9825764227141878
+File1,File2,Shared,Uniq1,Uniq2,PreliminaryScoreStates,FinalScoreStates
+clustal_ng_i.fasta,muscle_ng_i.fasta,1447,95,72,0.6720348381250083,0.9360863132725377

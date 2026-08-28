@@ -1,0 +1,10 @@
+/users/omarne/small_dataset/jaccard/outgroup_comparison/ng_g_o_compare/cl_ng_mu_g_o
+/users/omarne/.conda/envs/omkar/bin/python3
+Python 3.11.7
+All OK
+# Reading from clustal_ng_o.fasta
+# Reading from muscle_g_o.fasta
+File1,File2,Shared,Uniq1,Uniq2,PreliminaryScore,FinalScore
+clustal_ng_o.fasta,muscle_g_o.fasta,259,32581,30412,0.10516856872983694,0.05826688701996486
+File1,File2,Shared,Uniq1,Uniq2,PreliminaryScoreStates,FinalScoreStates
+clustal_ng_o.fasta,muscle_g_o.fasta,6129,2275,2267,0.84726103899251,0.7549919280018705

@@ -1,0 +1,12 @@
+/users/omarne/small_dataset/jaccard/ingroup_comparison/ng_ng_i_compare/ma_ng_mu_ng_i
+/users/omarne/.conda/envs/omkar/bin/python3
+Python 3.11.7
+All OK
+# Reading from mafft_ng_i.fasta
+# Reading from muscle_ng_i.fasta
+# Comparing alignment positions in mafft_ng_i.fasta and muscle_ng_i.fasta
+# Comparing alignment states in mafft_ng_i.fasta and muscle_ng_i.fasta
+File1,File2,Shared,Uniq1,Uniq2,PreliminaryScore,FinalScore
+mafft_ng_i.fasta,muscle_ng_i.fasta,29285,653,648,0.9286623425893544,0.9772908032992497
+File1,File2,Shared,Uniq1,Uniq2,PreliminaryScoreStates,FinalScoreStates
+mafft_ng_i.fasta,muscle_ng_i.fasta,1418,95,101,0.8422141381692819,0.9312661883241

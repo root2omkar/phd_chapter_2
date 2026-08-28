@@ -1,0 +1,333 @@
+IQ-TREE version 3.0.1 for MacOS ARM 64-bit built Jun 30 2025
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    CCI3QD19XJALT (SSE4.2, 16 GB RAM)
+Command: iqtree3 -s mafft_g_o.fasta -p partition.nexus -m MFP -B 1000 -bb 1000 -alrt 1000 -o DQ022305_,DQ084199_,GQ153539_,GQ153540_,GQ153541_,GQ153542_,GQ153543_,GQ153544_,GQ153545_,GQ153546_,GQ153547_,GQ153548_,KY352407_,MG772933_,MG772934_,MT040333_,MT040334_,MT040335_,MT040336_,MT072864_,NC025217_ -T 8 --rate --mlrate -seed 50 --prefix mafft_g_o
+Seed:    50 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sat Dec 27 15:36:53 2025
+Kernel:  SSE2 - 8 threads (10 CPU cores detected)
+
+Reading partition model file partition.nexus ...
+Reading alignment file mafft_g_o.fasta ... Fasta format detected
+Reading fasta file: done in 0.031821 secs using 88.95% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.021574 secs using 68.87% CPU
+Alignment has 69 sequences with 30741 columns, 8265 distinct patterns
+9472 parsimony-informative, 7010 singleton sites, 14259 constant sites
+           Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.000257969 secs using 460.9% CPU
+   1  DQ022305_    5.47%    failed      0.00%
+   2  DQ084199_    5.47%    failed      0.00%
+   3  GQ153539_    5.47%    failed      0.00%
+   4  GQ153540_    5.47%    failed      0.00%
+   5  GQ153541_    5.47%    failed      0.00%
+   6  GQ153542_    5.43%    failed      0.00%
+   7  GQ153543_    6.13%    failed      0.00%
+   8  GQ153544_    5.49%    failed      0.00%
+   9  GQ153545_    5.49%    failed      0.00%
+  10  GQ153546_    5.49%    failed      0.00%
+  11  GQ153547_    5.47%    failed      0.00%
+  12  GQ153548_    5.55%    failed      0.00%
+  13  KY352407_    6.82%    failed      0.01%
+  14  MG772933_    5.10%    passed     60.23%
+  15  MG772934_    5.52%    passed     80.22%
+  16  MN908947_    4.80%    passed     16.30%
+  17  MT040333_    5.18%    passed     47.48%
+  18  MT040334_    5.94%    passed     48.59%
+  19  MT040335_    4.96%    passed     51.27%
+  20  MT040336_    5.18%    passed     46.77%
+  21  MT072864_    4.97%    passed     50.49%
+  22  MW183957_    4.80%    passed     10.26%
+  23  MW901580_    6.90%    passed     11.57%
+  24  MZ131148_    6.47%    passed     15.12%
+  25  MZ160298_    6.44%    passed     17.12%
+  26  MZ412499_    6.45%    passed      9.05%
+  27  NC025217_    6.95%    failed      0.00%
+  28  OD923885_    5.96%    passed     12.20%
+  29  OK177352_    6.56%    passed     15.93%
+  30  OK204161_    6.58%    passed     20.03%
+  31  OK221016_    7.37%    passed     18.61%
+  32  OK433428_    4.86%    passed     11.16%
+  33  OL714154_    6.46%    passed     15.77%
+  34  OL926066_    7.47%    failed      2.68%
+  35  ON923618_    6.55%    failed      2.30%
+  36  OP440368_    6.57%    failed      2.18%
+  37  OP578130_    6.50%    passed      8.87%
+  38  OQ558991_    6.61%    passed     11.11%
+  39  OQ896588_    6.37%    passed     12.55%
+  40  OR020535_    7.67%    passed     14.38%
+  41  OR563456_    8.84%    passed     20.21%
+  42  OR689160_    6.52%    passed      7.34%
+  43  OR983979_    6.40%    passed     11.38%
+  44  OU470855_    7.74%    passed     20.03%
+  45  OV948634_    5.12%    passed      9.54%
+  46  OY784472_    6.91%    failed      4.77%
+  47  OY792307_    5.78%    passed      9.28%
+  48  OZ014103_    5.94%    passed      7.20%
+  49  OZ061529_    6.36%    passed      9.82%
+  50  OZ223682_    4.94%    passed      5.21%
+  51  PP023772_    8.54%    passed     14.80%
+  52  PP030571_    7.53%    passed     12.43%
+  53  PP601887_    6.68%    passed     15.41%
+  54  PP615923_    6.41%    passed     25.07%
+  55  PP630509_    6.46%    passed     12.51%
+  56  PQ017244_    6.50%    passed     10.36%
+  57  PQ121865_    6.51%    passed      5.76%
+  58  PQ279056_    6.41%    passed      6.19%
+  59  PQ279092_    6.30%    failed      4.88%
+  60  PQ304301_    6.40%    failed      4.52%
+  61  PQ375771_    7.41%    passed      5.24%
+  62  PQ391889_    6.44%    failed      3.20%
+  63  PQ899058_    5.27%    passed      5.58%
+  64  PQ972523_    7.33%    passed     20.90%
+  65  PV239625_    6.38%    passed      7.37%
+  66  PV497551_    7.73%    passed     13.28%
+  67  PX059619_    5.99%    failed      4.71%
+  68  PX393327_    6.52%    passed      6.48%
+  69  PX448754_    6.50%    failed      3.68%
+****  TOTAL        6.24%  23 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: No CharPartition defined, use all CharSets
+
+Loading 11 partitions...
+Identifying sites to remove: done in 0.000119209 secs using 90.6% CPU
+Identifying sites to remove: done in 0.00026989 secs using 91.52% CPU
+Identifying sites to remove: done in 8.39233e-05 secs using 90.56% CPU
+Identifying sites to remove: done in 0.00020504 secs using 92.66% CPU
+Identifying sites to remove: done in 5.98431e-05 secs using 98.59% CPU
+Subset	Type	Seqs	Sites	Infor	Invar	Model	Name
+1		69	22102	6699	10446	MFP	ORF1ab
+2		69	4171	1596	1696	MFP	S
+3		69	867	306	287	MFP	ORF3a
+4		69	243	27	139	MFP	E
+5		69	672	163	306	MFP	M
+6		66	192	59	91	MFP	ORF6
+7		68	517	110	332	MFP	ORF7a
+8		66	135	44	65	MFP	ORF7b
+9		61	405	163	216	MFP	ORF8
+10		69	1320	295	584	MFP	N
+11		68	117	10	97	MFP	ORF10
+Degree of missing data: 0.002
+Info: multi-threading strategy over partitions
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.027 seconds
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Initial log-likelihood: -160081.060
+Current log-likelihood at step 1: -155355.926
+Current log-likelihood at step 2: -154988.353
+Current log-likelihood at step 3: -154905.893
+Current log-likelihood at step 4: -154880.787
+Current log-likelihood at step 5: -154871.976
+Current log-likelihood at step 6: -154868.515
+Parameters optimization took 5 rounds (4.626 sec)
+
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+Initial log-likelihood: -154859.594
+Current log-likelihood at step 1: -154857.950
+Current log-likelihood at step 2: -154857.091
+Partition-specific rates:  0.899 1.670 1.017 0.355 0.634 0.843 1.140 1.115 1.605 0.682 0.415
+Parameters optimization took 1 rounds (0.669 sec)
+
+Time for fast ML tree search: 6.662 seconds
+
+NOTE: ModelFinder requires 234 MB RAM!
+Selecting individual models for 11 charsets using BIC...
+ No. Model        Score       TreeLen     Charset
+In ModelFinder: parallelization over partitions
++R3 reinitialized from +R2 with factor 0.500
+   1 HKY+F        1641.476    0.792       ORF6
++I+R3 reinitialized from +I+R2 with factor 0.500
++I+R3 reinitialized from +I+R2 with factor 0.250
++I+R3 reinitialized from +I+R2 with factor 0.500
+   2 HKY+F+G4     745.393     0.378       ORF10
+   3 K3Pu+F+G4    1269.561    1.088       ORF7b
++I+R3 reinitialized from +I+R2 with factor 0.500
+   4 HKY+F+G4     2179.781    1.198       E
+   5 HKY+F+G4     3719.477    1.046       ORF8
+   6 HKY+F+G4     4167.357    1.127       ORF7a
+   7 TN+F+G4      6495.393    2.182       M
+   8 TIM2+F+G4    13240.189   2.331       N
+   9 HKY+F+G4     9906.181    3.467       ORF3a
++R3 reinitialized from +R2 with factor 0.500
++R3 reinitialized from +R2 with factor 0.250
++R3 reinitialized from +R2 with factor 0.125
++R3 reinitialized from +R2 with factor 0.062
++R3 reinitialized from +R2 with factor 0.031
+WARNING: Log-likelihood -112237 of JC+R3 worse than JC+R2 -112236
++I+R5 reinitialized from +I+R4 with factor 0.500
+  10 TIM2+F+R2    217667.823  2.925       ORF1ab	0h:1m:30s (0h:0m:9s left)
+  11 TIM2+F+I+R4  49412.948   6.352       S	0h:1m:47s (0h:0m:0s left)
+Full partition model BIC score: 312110.870 (LnL: -154949.766  df:214)
+Partition information was printed to mafft_g_o.best_scheme.nex
+Partition information in Raxml format was printed to mafft_g_o.best_scheme
+
+All model information printed to mafft_g_o.model.gz
+CPU time for ModelFinder: 232.471 seconds (0h:3m:52s)
+Wall-clock time for ModelFinder: 114.458 seconds (0h:1m:54s)
+Generating 1000 samples for ultrafast bootstrap (seed: 50)...
+
+NOTE: 93 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -155361.238
+Current log-likelihood at step 1: -155024.142
+Current log-likelihood at step 2: -154947.106
+Current log-likelihood at step 3: -154945.089
+Current log-likelihood at step 4: -154944.425
+Current log-likelihood at step 5: -154944.020
+Current log-likelihood at step 6: -154943.775
+Current log-likelihood at step 7: -154943.625
+Current log-likelihood at step 8: -154943.527
+Partition-specific rates:  0.860 1.876 1.018 0.358 0.643 0.824 1.167 1.130 1.594 0.687 0.392
+Parameters optimization took 7 rounds (2.394 sec)
+
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.000255108 secs using 462.5% CPU
+Computing ML distances took 0.000431 sec (of wall-clock time) 0.001245 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000170946 secs using 149.8% CPU
+Constructing RapidNJ tree: done in 0.00916409 secs using 48.47% CPU
+Computing RapidNJ tree took 0.009444 sec (of wall-clock time) 0.004752 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -207770.630
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 4.398 second
+Computing log-likelihood of 98 initial trees ... 7.994 seconds
+Current best score: -154943.527
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -154943.500
+Current log-likelihood at step 1: -154943.425
+Parameters optimization took 0 rounds (0.298 sec)
+
+BETTER TREE FOUND at iteration 1: -154943.425
+Iteration 10 / LogL: -154951.193 / Time: 0h:2m:25s
+Iteration 20 / LogL: -154951.249 / Time: 0h:2m:42s
+Finish initializing candidate tree set (10)
+Current best tree score: -154943.425 / CPU time: 44.695
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -154971.656 / Time: 0h:3m:2s (0h:2m:47s left)
+UPDATE BEST LOG-LIKELIHOOD: -154943.424
+Iteration 40 / LogL: -154944.463 / Time: 0h:3m:22s (0h:2m:18s left)
+Iteration 50 / LogL: -154951.966 / Time: 0h:3m:43s (0h:1m:53s left)
+Log-likelihood cutoff on original alignment: -155000.130
+Iteration 60 / LogL: -154951.096 / Time: 0h:4m:0s (0h:1m:27s left)
+Iteration 70 / LogL: -155104.622 / Time: 0h:4m:17s (0h:1m:4s left)
+Iteration 80 / LogL: -154943.757 / Time: 0h:4m:32s (0h:0m:42s left)
+Iteration 90 / LogL: -155138.451 / Time: 0h:4m:48s (0h:0m:21s left)
+Iteration 100 / LogL: -154952.485 / Time: 0h:5m:4s (0h:0m:1s left)
+Log-likelihood cutoff on original alignment: -154997.438
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.994
+TREE SEARCH COMPLETED AFTER 102 ITERATIONS / Time: 0h:5m:7s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+Initial log-likelihood: -154943.424
+Current log-likelihood at step 1: -154943.387
+Current log-likelihood at step 2: -154943.360
+Current log-likelihood at step 3: -154943.344
+Current log-likelihood at step 4: -154943.334
+Partition-specific rates:  0.860 1.876 1.021 0.359 0.647 0.824 1.167 1.119 1.593 0.687 0.392
+Parameters optimization took 3 rounds (0.929 sec)
+
+Partition information was printed to mafft_g_o.best_model.nex
+BEST SCORE FOUND : -154943.334
+Empirical proportions for each category: 0.697 0.303
+Empirical proportions for each category: 0.761 0.235 0.000 0.004
+Empirical proportions for each category: 0.323 0.256 0.180 0.241
+Empirical proportions for each category: 0.551 0.000 0.214 0.235
+Empirical proportions for each category: 0.452 0.016 0.290 0.241
+Empirical proportions for each category: 0.474 0.000 0.199 0.327
+Empirical proportions for each category: 0.481 0.104 0.133 0.281
+Empirical proportions for each category: 0.472 0.000 0.247 0.281
+Empirical proportions for each category: 0.412 0.030 0.286 0.273
+Empirical proportions for each category: 0.829 0.000 0.000 0.171
+Site rates printed to mafft_g_o.rate
+Site rates printed to mafft_g_o.mlrate
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+2.858 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file mafft_g_o.splits.nex
+Total tree length: 3.101
+
+Total number of iterations: 102
+CPU time used for tree search: 297.445 sec (0h:4m:57s)
+Wall-clock time used for tree search: 190.119 sec (0h:3m:10s)
+Total CPU time used: 564.486 sec (0h:9m:24s)
+Total wall-clock time used: 312.976 sec (0h:5m:12s)
+
+Computing bootstrap consensus tree...
+Reading input file mafft_g_o.splits.nex...
+69 taxa and 313 splits.
+Consensus tree written to mafft_g_o.contree
+Reading input trees file mafft_g_o.contree
+Log-likelihood of consensus tree: -154943.515
+Identifying sites to remove: done in 0.0112221 secs using 616.9% CPU
+Identifying sites to remove: done in 0.0122211 secs using 607.2% CPU
+Identifying sites to remove: done in 0.015311 secs using 603.4% CPU
+Identifying sites to remove: done in 0.015934 secs using 600.2% CPU
+Identifying sites to remove: done in 0.010514 secs using 584.1% CPU
+Identifying sites to remove: done in 0.00238609 secs using 645.9% CPU
+Identifying sites to remove: done in 0.00280404 secs using 641.1% CPU
+Identifying sites to remove: done in 0.00331187 secs using 641.2% CPU
+Identifying sites to remove: done in 0.00387597 secs using 644.2% CPU
+Identifying sites to remove: done in 0.00179911 secs using 687.7% CPU
+Identifying sites to remove: done in 0.000551939 secs using 658.6% CPU
+Identifying sites to remove: done in 0.000837088 secs using 643.1% CPU
+Identifying sites to remove: done in 0.000910044 secs using 611.4% CPU
+Identifying sites to remove: done in 0.00100088 secs using 667.1% CPU
+Identifying sites to remove: done in 0.000431061 secs using 566.3% CPU
+Identifying sites to remove: done in 0.000137091 secs using 745.5% CPU
+Identifying sites to remove: done in 0.000175953 secs using 679.7% CPU
+Identifying sites to remove: done in 0.000170946 secs using 721.9% CPU
+Identifying sites to remove: done in 0.000226974 secs using 627.4% CPU
+Identifying sites to remove: done in 0.000113964 secs using 755.5% CPU
+Identifying sites to remove: done in 0.000389099 secs using 625.3% CPU
+Identifying sites to remove: done in 0.00041604 secs using 599.7% CPU
+Identifying sites to remove: done in 0.000427008 secs using 589.7% CPU
+Identifying sites to remove: done in 0.000591993 secs using 529.4% CPU
+Identifying sites to remove: done in 0.000313044 secs using 764.4% CPU
+Identifying sites to remove: done in 9.39369e-05 secs using 493.9% CPU
+Identifying sites to remove: done in 0.000211954 secs using 719.5% CPU
+Identifying sites to remove: done in 0.000224113 secs using 498.4% CPU
+Identifying sites to remove: done in 0.000536919 secs using 667.1% CPU
+Identifying sites to remove: done in 0.000292063 secs using 455.7% CPU
+Identifying sites to remove: done in 0.000123978 secs using 581.6% CPU
+Identifying sites to remove: done in 7.10487e-05 secs using 543.3% CPU
+Identifying sites to remove: done in 0.000159979 secs using 379.4% CPU
+Identifying sites to remove: done in 0.000156879 secs using 201.4% CPU
+Identifying sites to remove: done in 0.000669956 secs using 687.4% CPU
+Identifying sites to remove: done in 0.000739098 secs using 668.8% CPU
+Identifying sites to remove: done in 0.000758171 secs using 662.6% CPU
+Identifying sites to remove: done in 0.00106192 secs using 693.5% CPU
+Identifying sites to remove: done in 0.000545025 secs using 523.6% CPU
+Identifying sites to remove: done in 5.6982e-05 secs using 384.3% CPU
+Identifying sites to remove: done in 5.60284e-05 secs using 567.6% CPU
+Identifying sites to remove: done in 6.10352e-05 secs using 565.2% CPU
+
+Analysis results written to: 
+  IQ-TREE report:                mafft_g_o.iqtree
+  Maximum-likelihood tree:       mafft_g_o.treefile
+  Likelihood distances:          mafft_g_o.mldist
+  Best partitioning scheme:      mafft_g_o.best_scheme.nex
+           in RAxML format:      mafft_g_o.best_scheme
+  Site-specific rates:           mafft_g_o.rate
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          mafft_g_o.splits.nex
+  Consensus tree:                mafft_g_o.contree
+  Screen log file:               mafft_g_o.log
+
+Date and Time: Sat Dec 27 15:42:07 2025

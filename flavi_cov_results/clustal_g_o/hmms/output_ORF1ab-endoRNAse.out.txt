@@ -1,0 +1,1967 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /users/omarne/small_dataset//flavi-cov/database/ORF1ab/endoRNAse.hmm
+# target sequence database:        output_ORF1ab_prot.fasta
+# output directed to file:         output_ORF1ab-endoRNAse.out.txt
+# per-dom hits tabular output:     output_ORF1ab-endoRNAse.dom.txt
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       endoRNAse  [M=346]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence  Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------  -----------
+   3.3e-249  817.8   2.0   6.1e-249  816.9   2.0    1.5  1  OK433428_  ORF1ab 212-13414;13414-21501
+   3.3e-249  817.8   2.0   6.1e-249  816.9   2.0    1.5  1  MW901580_  ORF1ab 212-13414;13414-21501
+   3.3e-249  817.8   2.0   6.1e-249  816.9   2.0    1.5  1  MN908947_  ORF1ab 266-13468;13468-21555
+   3.3e-249  817.8   2.0   6.1e-249  816.9   2.0    1.5  1  OK204161_  ORF1ab 229-13431;13431-21518
+   3.3e-249  817.8   2.0   6.1e-249  816.9   2.0    1.5  1  OQ558991_  ORF1ab 212-13414;13414-21501
+   3.3e-249  817.8   2.0   6.1e-249  816.9   2.0    1.5  1  MW183957_  ORF1ab 227-13429;13429-21516
+   3.3e-249  817.8   2.0   6.1e-249  816.9   2.0    1.5  1  OK221016_  ORF1ab 232-13425;13425-21512
+   3.3e-249  817.8   2.0   6.1e-249  816.9   2.0    1.5  1  PP601887_  ORF1ab 212-13414;13414-21501
+   3.3e-249  817.8   2.0   6.1e-249  816.9   2.0    1.5  1  MZ160298_  ORF1ab 181-13374;13374-21461
+   3.3e-249  817.8   2.0   6.1e-249  816.9   2.0    1.5  1  PP630509_  ORF1ab 212-13414;13414-21501
+   3.3e-249  817.8   2.0   6.1e-249  816.9   2.0    1.5  1  MZ412499_  ORF1ab 212-13405;13405-21492
+   3.4e-249  817.8   2.0   6.1e-249  816.9   2.0    1.5  1  PP615923_  ORF1ab 264-13466;13466-21553
+   3.4e-249  817.8   2.0   6.1e-249  816.9   2.0    1.5  1  OD923885_  ORF1ab 266-13468;13468-21555
+   3.4e-249  817.8   2.0   6.1e-249  816.9   2.0    1.5  1  PQ972523_  ORF1ab 217-13410;13410-21623
+   3.4e-249  817.7   2.0   6.1e-249  816.9   2.0    1.5  1  OL714154_  ORF1ab 245-13447;13447-21534
+   3.4e-249  817.7   2.0   6.1e-249  816.9   2.0    1.4  1  OZ061529_  ORF1ab 228-13421;13421-21508
+   3.4e-249  817.7   2.0   6.1e-249  816.9   2.0    1.4  1  OK177352_  ORF1ab 220-13413;13413-21500
+   3.4e-249  817.7   2.0   6.1e-249  816.9   2.0    1.4  1  MZ131148_  ORF1ab 228-13421;13421-21508
+   1.8e-248  815.3   1.8   3.3e-248  814.5   1.8    1.5  1  OQ896588_  ORF1ab 166-13368;13368-21455
+     2e-248  815.2   2.3   3.6e-248  814.4   2.3    1.5  1  OV948634_  ORF1ab 266-13453;13453-21540
+     2e-248  815.2   2.1   3.9e-248  814.3   2.1    1.5  1  OY792307_  ORF1ab 266-13459;13459-21546
+   2.1e-248  815.2   2.1   3.8e-248  814.3   2.1    1.5  1  OY784472_  ORF1ab 518-13459;13459-21546
+   2.1e-248  815.2   2.1   3.8e-248  814.3   2.1    1.5  1  OP440368_  ORF1ab 464-13405;13405-21492
+   2.1e-248  815.2   2.1   3.8e-248  814.3   2.1    1.5  1  ON923618_  ORF1ab 493-13425;13425-21512
+   2.1e-248  815.1   2.1   3.9e-248  814.3   2.1    1.5  1  PQ375771_  ORF1ab 234-13427;13427-21514
+   2.1e-248  815.1   2.1   3.9e-248  814.3   2.1    1.5  1  PQ121865_  ORF1ab 212-13405;13405-21492
+   2.1e-248  815.1   2.1   3.9e-248  814.3   2.1    1.5  1  OZ223682_  ORF1ab 266-13459;13459-21546
+   2.1e-248  815.1   2.1   3.9e-248  814.3   2.1    1.5  1  PQ279092_  ORF1ab 224-13417;13417-21504
+   2.1e-248  815.1   2.1   3.9e-248  814.3   2.1    1.5  1  PQ391889_  ORF1ab 228-13421;13421-21508
+   2.1e-248  815.1   2.1   3.9e-248  814.3   2.1    1.5  1  PQ279056_  ORF1ab 224-13417;13417-21504
+   2.1e-248  815.1   2.1   3.9e-248  814.3   2.1    1.5  1  PQ304301_  ORF1ab 224-13417;13417-21504
+   2.1e-248  815.1   2.1   3.9e-248  814.3   2.1    1.5  1  OR689160_  ORF1ab 224-13417;13417-21504
+   2.1e-248  815.1   2.1   3.9e-248  814.3   2.1    1.5  1  OR563456_  ORF1ab 241-13434;13434-21566
+   2.1e-248  815.1   2.1   3.9e-248  814.3   2.1    1.5  1  OR983979_  ORF1ab 216-13409;13409-21496
+   2.1e-248  815.1   2.1   3.9e-248  814.3   2.1    1.5  1  PP030571_  ORF1ab 216-13409;13409-21496
+   2.1e-248  815.1   2.1   3.9e-248  814.3   2.1    1.5  1  OZ014103_  ORF1ab 266-13456;13456-21543
+   2.1e-248  815.1   2.1   3.9e-248  814.3   2.1    1.5  1  PV497551_  ORF1ab 227-13417;13417-21504
+   2.1e-248  815.1   2.1   3.9e-248  814.3   2.1    1.5  1  OP578130_  ORF1ab 216-13418;13418-21505
+   2.1e-248  815.1   2.1   3.9e-248  814.3   2.1    1.5  1  PV239625_  ORF1ab 188-13381;13381-21468
+   2.1e-248  815.1   2.1   3.9e-248  814.3   2.1    1.5  1  PQ017244_  ORF1ab 211-13404;13404-21491
+   2.1e-248  815.1   2.1   3.9e-248  814.3   2.1    1.5  1  PP023772_  ORF1ab 241-13434;13434-21686
+     4e-248  814.2   1.9   7.6e-248  813.3   1.9    1.5  1  PX059619_  ORF1ab 188-13381;13381-21468
+   1.5e-247  812.3   2.3   2.7e-247  811.5   2.3    1.5  1  PQ899058_  ORF1ab 227-13420;13420-21507
+   1.6e-247  812.3   1.5   2.7e-247  811.5   1.5    1.4  1  OL926066_  ORF1ab 241-13443;13443-21575
+   1.5e-238  782.8   1.4   2.7e-238  781.9   1.4    1.5  1  MT040334_  ORF1ab 267-13445;13445-21532
+   1.5e-238  782.8   1.4   2.7e-238  781.9   1.4    1.5  1  MT040335_  ORF1ab 267-13445;13445-21532
+   1.5e-238  782.8   1.4   2.7e-238  781.9   1.4    1.5  1  MT040333_  ORF1ab 267-13445;13445-21532
+   1.5e-238  782.8   1.4   2.7e-238  781.9   1.4    1.5  1  MT040336_  ORF1ab 267-13445;13445-21532
+   8.6e-238  780.2   1.5   1.6e-237  779.3   1.5    1.5  1  MT072864_  ORF1ab 249-13427;13427-21514
+   1.5e-237  779.4   1.1   2.8e-237  778.6   1.1    1.5  1  OU470855_  ORF1ab 66-13268;13268-21400
+   2.7e-235  772.0   4.1   4.9e-235  771.2   4.1    1.5  1  PX448754_  ORF1ab 224-13417;13417-21504
+     3e-227  745.6   1.3   5.4e-227  744.7   1.3    1.5  1  MG772933_  ORF1ab 265-13455;13455-21542
+   1.2e-225  740.3   1.1   2.2e-225  739.4   1.1    1.5  1  GQ153547_  ORF1ab 262-13377;13377-21464
+   5.3e-225  738.2   1.5   9.6e-225  737.3   1.5    1.5  1  GQ153542_  ORF1ab 262-13389;13389-21476
+   5.3e-225  738.2   1.5   9.6e-225  737.3   1.5    1.5  1  GQ153543_  ORF1ab 262-13389;13389-21476
+   6.7e-225  737.8   1.6   1.2e-224  737.0   1.6    1.5  1  DQ022305_  ORF1ab 262-13377;13377-21464
+   1.3e-224  736.9   1.0   2.4e-224  736.0   1.0    1.5  1  MG772934_  ORF1ab 265-13389;13389-21476
+   3.3e-223  732.3   2.1     6e-223  731.4   2.1    1.5  1  GQ153540_  ORF1ab 262-13377;13377-21464
+   3.3e-223  732.3   2.1     6e-223  731.4   2.1    1.5  1  GQ153539_  ORF1ab 262-13377;13377-21464
+   3.3e-223  732.3   2.1     6e-223  731.4   2.1    1.5  1  DQ084199_  ORF1ab 245-13360;13360-21447
+   3.3e-223  732.3   2.1     6e-223  731.4   2.1    1.5  1  GQ153546_  ORF1ab 262-13368;13368-21455
+   3.3e-223  732.3   2.1     6e-223  731.4   2.1    1.5  1  GQ153541_  ORF1ab 262-13377;13377-21464
+   3.3e-223  732.3   2.1     6e-223  731.4   2.1    1.5  1  GQ153548_  ORF1ab 262-13350;13350-21437
+   3.3e-223  732.3   2.1     6e-223  731.4   2.1    1.5  1  GQ153544_  ORF1ab 262-13368;13368-21455
+   3.3e-223  732.3   2.1     6e-223  731.4   2.1    1.5  1  GQ153545_  ORF1ab 262-13368;13368-21455
+   3.7e-223  732.1   2.2     7e-223  731.2   2.2    1.5  1  OR020535_  ORF1ab 241-13431;13431-21563
+   1.6e-219  720.1   2.0   3.4e-219  719.1   2.0    1.6  1  KY352407_  ORF1ab 260-13324;13324-21411
+   2.1e-207  680.3   3.8     5e-207  679.1   3.8    1.7  1  PX393327_  ORF1ab 188-13381;13381-21468
+   4.5e-149  488.5   2.4   1.2e-148  487.1   2.4    1.8  1  NC025217_  ORF1ab 303-13931;13931-22045
+
+
+Domain annotation for each sequence (and alignments):
+>> OK433428_  ORF1ab 212-13414;13414-21501
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  816.9   2.0  6.1e-249  6.1e-249       1     346 []    6453    6798 ..    6453    6798 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 816.9 bits;  conditional E-value: 6.1e-249
+  endoRNAse    1 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist 98  
+                 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist
+  OK433428_ 6453 SLENVAFNVVNKGHFDGQQGEVPVSIINNTVYTKVDGVDVELFENKTTLPVNVAFELWAKRNIKPVPEVKILNNLGVDIAANTVIWDYKRDAPAHIST 6550
+                 89************************************************************************************************ PP
+
+  endoRNAse   99 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq 196 
+                 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq
+  OK433428_ 6551 IGVCSMTDIAKKPTETICAPLTVFFDGRVDGQVDLFRNARNGVLITEGSVKGLQPSVGPKQASLNGVTLIGEAVKTQFNYYKKVDGVVQQLPETYFTQ 6648
+                 ************************************************************************************************** PP
+
+  endoRNAse  197 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv 294 
+                 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv
+  OK433428_ 6649 SRNLQEFKPRSQMEIDFLELAMDEFIERYKLEGYAFEHIVYGDFSHSQLGGLHLLIGLAKRFKESPFELEDFIPMDSTVKNYFITDAQTGSSKCVCSV 6746
+                 ************************************************************************************************** PP
+
+  endoRNAse  295 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq 346 
+                 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq
+  OK433428_ 6747 IDLLLDDFVEIIKSQDLSVVSKVVKVTIDYTEISFMLWCKDGHVETFYPKLQ 6798
+                 ***************************************************8 PP
+
+>> MW901580_  ORF1ab 212-13414;13414-21501
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  816.9   2.0  6.1e-249  6.1e-249       1     346 []    6453    6798 ..    6453    6798 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 816.9 bits;  conditional E-value: 6.1e-249
+  endoRNAse    1 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist 98  
+                 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist
+  MW901580_ 6453 SLENVAFNVVNKGHFDGQQGEVPVSIINNTVYTKVDGVDVELFENKTTLPVNVAFELWAKRNIKPVPEVKILNNLGVDIAANTVIWDYKRDAPAHIST 6550
+                 89************************************************************************************************ PP
+
+  endoRNAse   99 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq 196 
+                 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq
+  MW901580_ 6551 IGVCSMTDIAKKPTETICAPLTVFFDGRVDGQVDLFRNARNGVLITEGSVKGLQPSVGPKQASLNGVTLIGEAVKTQFNYYKKVDGVVQQLPETYFTQ 6648
+                 ************************************************************************************************** PP
+
+  endoRNAse  197 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv 294 
+                 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv
+  MW901580_ 6649 SRNLQEFKPRSQMEIDFLELAMDEFIERYKLEGYAFEHIVYGDFSHSQLGGLHLLIGLAKRFKESPFELEDFIPMDSTVKNYFITDAQTGSSKCVCSV 6746
+                 ************************************************************************************************** PP
+
+  endoRNAse  295 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq 346 
+                 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq
+  MW901580_ 6747 IDLLLDDFVEIIKSQDLSVVSKVVKVTIDYTEISFMLWCKDGHVETFYPKLQ 6798
+                 ***************************************************8 PP
+
+>> MN908947_  ORF1ab 266-13468;13468-21555
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  816.9   2.0  6.1e-249  6.1e-249       1     346 []    6453    6798 ..    6453    6798 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 816.9 bits;  conditional E-value: 6.1e-249
+  endoRNAse    1 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist 98  
+                 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist
+  MN908947_ 6453 SLENVAFNVVNKGHFDGQQGEVPVSIINNTVYTKVDGVDVELFENKTTLPVNVAFELWAKRNIKPVPEVKILNNLGVDIAANTVIWDYKRDAPAHIST 6550
+                 89************************************************************************************************ PP
+
+  endoRNAse   99 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq 196 
+                 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq
+  MN908947_ 6551 IGVCSMTDIAKKPTETICAPLTVFFDGRVDGQVDLFRNARNGVLITEGSVKGLQPSVGPKQASLNGVTLIGEAVKTQFNYYKKVDGVVQQLPETYFTQ 6648
+                 ************************************************************************************************** PP
+
+  endoRNAse  197 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv 294 
+                 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv
+  MN908947_ 6649 SRNLQEFKPRSQMEIDFLELAMDEFIERYKLEGYAFEHIVYGDFSHSQLGGLHLLIGLAKRFKESPFELEDFIPMDSTVKNYFITDAQTGSSKCVCSV 6746
+                 ************************************************************************************************** PP
+
+  endoRNAse  295 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq 346 
+                 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq
+  MN908947_ 6747 IDLLLDDFVEIIKSQDLSVVSKVVKVTIDYTEISFMLWCKDGHVETFYPKLQ 6798
+                 ***************************************************8 PP
+
+>> OK204161_  ORF1ab 229-13431;13431-21518
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  816.9   2.0  6.1e-249  6.1e-249       1     346 []    6453    6798 ..    6453    6798 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 816.9 bits;  conditional E-value: 6.1e-249
+  endoRNAse    1 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist 98  
+                 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist
+  OK204161_ 6453 SLENVAFNVVNKGHFDGQQGEVPVSIINNTVYTKVDGVDVELFENKTTLPVNVAFELWAKRNIKPVPEVKILNNLGVDIAANTVIWDYKRDAPAHIST 6550
+                 89************************************************************************************************ PP
+
+  endoRNAse   99 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq 196 
+                 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq
+  OK204161_ 6551 IGVCSMTDIAKKPTETICAPLTVFFDGRVDGQVDLFRNARNGVLITEGSVKGLQPSVGPKQASLNGVTLIGEAVKTQFNYYKKVDGVVQQLPETYFTQ 6648
+                 ************************************************************************************************** PP
+
+  endoRNAse  197 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv 294 
+                 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv
+  OK204161_ 6649 SRNLQEFKPRSQMEIDFLELAMDEFIERYKLEGYAFEHIVYGDFSHSQLGGLHLLIGLAKRFKESPFELEDFIPMDSTVKNYFITDAQTGSSKCVCSV 6746
+                 ************************************************************************************************** PP
+
+  endoRNAse  295 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq 346 
+                 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq
+  OK204161_ 6747 IDLLLDDFVEIIKSQDLSVVSKVVKVTIDYTEISFMLWCKDGHVETFYPKLQ 6798
+                 ***************************************************8 PP
+
+>> OQ558991_  ORF1ab 212-13414;13414-21501
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  816.9   2.0  6.1e-249  6.1e-249       1     346 []    6453    6798 ..    6453    6798 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 816.9 bits;  conditional E-value: 6.1e-249
+  endoRNAse    1 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist 98  
+                 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist
+  OQ558991_ 6453 SLENVAFNVVNKGHFDGQQGEVPVSIINNTVYTKVDGVDVELFENKTTLPVNVAFELWAKRNIKPVPEVKILNNLGVDIAANTVIWDYKRDAPAHIST 6550
+                 89************************************************************************************************ PP
+
+  endoRNAse   99 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq 196 
+                 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq
+  OQ558991_ 6551 IGVCSMTDIAKKPTETICAPLTVFFDGRVDGQVDLFRNARNGVLITEGSVKGLQPSVGPKQASLNGVTLIGEAVKTQFNYYKKVDGVVQQLPETYFTQ 6648
+                 ************************************************************************************************** PP
+
+  endoRNAse  197 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv 294 
+                 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv
+  OQ558991_ 6649 SRNLQEFKPRSQMEIDFLELAMDEFIERYKLEGYAFEHIVYGDFSHSQLGGLHLLIGLAKRFKESPFELEDFIPMDSTVKNYFITDAQTGSSKCVCSV 6746
+                 ************************************************************************************************** PP
+
+  endoRNAse  295 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq 346 
+                 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq
+  OQ558991_ 6747 IDLLLDDFVEIIKSQDLSVVSKVVKVTIDYTEISFMLWCKDGHVETFYPKLQ 6798
+                 ***************************************************8 PP
+
+>> MW183957_  ORF1ab 227-13429;13429-21516
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  816.9   2.0  6.1e-249  6.1e-249       1     346 []    6453    6798 ..    6453    6798 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 816.9 bits;  conditional E-value: 6.1e-249
+  endoRNAse    1 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist 98  
+                 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist
+  MW183957_ 6453 SLENVAFNVVNKGHFDGQQGEVPVSIINNTVYTKVDGVDVELFENKTTLPVNVAFELWAKRNIKPVPEVKILNNLGVDIAANTVIWDYKRDAPAHIST 6550
+                 89************************************************************************************************ PP
+
+  endoRNAse   99 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq 196 
+                 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq
+  MW183957_ 6551 IGVCSMTDIAKKPTETICAPLTVFFDGRVDGQVDLFRNARNGVLITEGSVKGLQPSVGPKQASLNGVTLIGEAVKTQFNYYKKVDGVVQQLPETYFTQ 6648
+                 ************************************************************************************************** PP
+
+  endoRNAse  197 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv 294 
+                 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv
+  MW183957_ 6649 SRNLQEFKPRSQMEIDFLELAMDEFIERYKLEGYAFEHIVYGDFSHSQLGGLHLLIGLAKRFKESPFELEDFIPMDSTVKNYFITDAQTGSSKCVCSV 6746
+                 ************************************************************************************************** PP
+
+  endoRNAse  295 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq 346 
+                 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq
+  MW183957_ 6747 IDLLLDDFVEIIKSQDLSVVSKVVKVTIDYTEISFMLWCKDGHVETFYPKLQ 6798
+                 ***************************************************8 PP
+
+>> OK221016_  ORF1ab 232-13425;13425-21512
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  816.9   2.0  6.1e-249  6.1e-249       1     346 []    6450    6795 ..    6450    6795 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 816.9 bits;  conditional E-value: 6.1e-249
+  endoRNAse    1 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist 98  
+                 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist
+  OK221016_ 6450 SLENVAFNVVNKGHFDGQQGEVPVSIINNTVYTKVDGVDVELFENKTTLPVNVAFELWAKRNIKPVPEVKILNNLGVDIAANTVIWDYKRDAPAHIST 6547
+                 89************************************************************************************************ PP
+
+  endoRNAse   99 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq 196 
+                 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq
+  OK221016_ 6548 IGVCSMTDIAKKPTETICAPLTVFFDGRVDGQVDLFRNARNGVLITEGSVKGLQPSVGPKQASLNGVTLIGEAVKTQFNYYKKVDGVVQQLPETYFTQ 6645
+                 ************************************************************************************************** PP
+
+  endoRNAse  197 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv 294 
+                 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv
+  OK221016_ 6646 SRNLQEFKPRSQMEIDFLELAMDEFIERYKLEGYAFEHIVYGDFSHSQLGGLHLLIGLAKRFKESPFELEDFIPMDSTVKNYFITDAQTGSSKCVCSV 6743
+                 ************************************************************************************************** PP
+
+  endoRNAse  295 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq 346 
+                 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq
+  OK221016_ 6744 IDLLLDDFVEIIKSQDLSVVSKVVKVTIDYTEISFMLWCKDGHVETFYPKLQ 6795
+                 ***************************************************8 PP
+
+>> PP601887_  ORF1ab 212-13414;13414-21501
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  816.9   2.0  6.1e-249  6.1e-249       1     346 []    6453    6798 ..    6453    6798 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 816.9 bits;  conditional E-value: 6.1e-249
+  endoRNAse    1 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist 98  
+                 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist
+  PP601887_ 6453 SLENVAFNVVNKGHFDGQQGEVPVSIINNTVYTKVDGVDVELFENKTTLPVNVAFELWAKRNIKPVPEVKILNNLGVDIAANTVIWDYKRDAPAHIST 6550
+                 89************************************************************************************************ PP
+
+  endoRNAse   99 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq 196 
+                 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq
+  PP601887_ 6551 IGVCSMTDIAKKPTETICAPLTVFFDGRVDGQVDLFRNARNGVLITEGSVKGLQPSVGPKQASLNGVTLIGEAVKTQFNYYKKVDGVVQQLPETYFTQ 6648
+                 ************************************************************************************************** PP
+
+  endoRNAse  197 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv 294 
+                 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv
+  PP601887_ 6649 SRNLQEFKPRSQMEIDFLELAMDEFIERYKLEGYAFEHIVYGDFSHSQLGGLHLLIGLAKRFKESPFELEDFIPMDSTVKNYFITDAQTGSSKCVCSV 6746
+                 ************************************************************************************************** PP
+
+  endoRNAse  295 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq 346 
+                 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq
+  PP601887_ 6747 IDLLLDDFVEIIKSQDLSVVSKVVKVTIDYTEISFMLWCKDGHVETFYPKLQ 6798
+                 ***************************************************8 PP
+
+>> MZ160298_  ORF1ab 181-13374;13374-21461
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  816.9   2.0  6.1e-249  6.1e-249       1     346 []    6450    6795 ..    6450    6795 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 816.9 bits;  conditional E-value: 6.1e-249
+  endoRNAse    1 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist 98  
+                 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist
+  MZ160298_ 6450 SLENVAFNVVNKGHFDGQQGEVPVSIINNTVYTKVDGVDVELFENKTTLPVNVAFELWAKRNIKPVPEVKILNNLGVDIAANTVIWDYKRDAPAHIST 6547
+                 89************************************************************************************************ PP
+
+  endoRNAse   99 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq 196 
+                 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq
+  MZ160298_ 6548 IGVCSMTDIAKKPTETICAPLTVFFDGRVDGQVDLFRNARNGVLITEGSVKGLQPSVGPKQASLNGVTLIGEAVKTQFNYYKKVDGVVQQLPETYFTQ 6645
+                 ************************************************************************************************** PP
+
+  endoRNAse  197 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv 294 
+                 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv
+  MZ160298_ 6646 SRNLQEFKPRSQMEIDFLELAMDEFIERYKLEGYAFEHIVYGDFSHSQLGGLHLLIGLAKRFKESPFELEDFIPMDSTVKNYFITDAQTGSSKCVCSV 6743
+                 ************************************************************************************************** PP
+
+  endoRNAse  295 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq 346 
+                 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq
+  MZ160298_ 6744 IDLLLDDFVEIIKSQDLSVVSKVVKVTIDYTEISFMLWCKDGHVETFYPKLQ 6795
+                 ***************************************************8 PP
+
+>> PP630509_  ORF1ab 212-13414;13414-21501
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  816.9   2.0  6.1e-249  6.1e-249       1     346 []    6453    6798 ..    6453    6798 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 816.9 bits;  conditional E-value: 6.1e-249
+  endoRNAse    1 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist 98  
+                 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist
+  PP630509_ 6453 SLENVAFNVVNKGHFDGQQGEVPVSIINNTVYTKVDGVDVELFENKTTLPVNVAFELWAKRNIKPVPEVKILNNLGVDIAANTVIWDYKRDAPAHIST 6550
+                 89************************************************************************************************ PP
+
+  endoRNAse   99 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq 196 
+                 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq
+  PP630509_ 6551 IGVCSMTDIAKKPTETICAPLTVFFDGRVDGQVDLFRNARNGVLITEGSVKGLQPSVGPKQASLNGVTLIGEAVKTQFNYYKKVDGVVQQLPETYFTQ 6648
+                 ************************************************************************************************** PP
+
+  endoRNAse  197 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv 294 
+                 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv
+  PP630509_ 6649 SRNLQEFKPRSQMEIDFLELAMDEFIERYKLEGYAFEHIVYGDFSHSQLGGLHLLIGLAKRFKESPFELEDFIPMDSTVKNYFITDAQTGSSKCVCSV 6746
+                 ************************************************************************************************** PP
+
+  endoRNAse  295 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq 346 
+                 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq
+  PP630509_ 6747 IDLLLDDFVEIIKSQDLSVVSKVVKVTIDYTEISFMLWCKDGHVETFYPKLQ 6798
+                 ***************************************************8 PP
+
+>> MZ412499_  ORF1ab 212-13405;13405-21492
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  816.9   2.0  6.1e-249  6.1e-249       1     346 []    6450    6795 ..    6450    6795 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 816.9 bits;  conditional E-value: 6.1e-249
+  endoRNAse    1 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist 98  
+                 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist
+  MZ412499_ 6450 SLENVAFNVVNKGHFDGQQGEVPVSIINNTVYTKVDGVDVELFENKTTLPVNVAFELWAKRNIKPVPEVKILNNLGVDIAANTVIWDYKRDAPAHIST 6547
+                 89************************************************************************************************ PP
+
+  endoRNAse   99 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq 196 
+                 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq
+  MZ412499_ 6548 IGVCSMTDIAKKPTETICAPLTVFFDGRVDGQVDLFRNARNGVLITEGSVKGLQPSVGPKQASLNGVTLIGEAVKTQFNYYKKVDGVVQQLPETYFTQ 6645
+                 ************************************************************************************************** PP
+
+  endoRNAse  197 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv 294 
+                 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv
+  MZ412499_ 6646 SRNLQEFKPRSQMEIDFLELAMDEFIERYKLEGYAFEHIVYGDFSHSQLGGLHLLIGLAKRFKESPFELEDFIPMDSTVKNYFITDAQTGSSKCVCSV 6743
+                 ************************************************************************************************** PP
+
+  endoRNAse  295 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq 346 
+                 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq
+  MZ412499_ 6744 IDLLLDDFVEIIKSQDLSVVSKVVKVTIDYTEISFMLWCKDGHVETFYPKLQ 6795
+                 ***************************************************8 PP
+
+>> PP615923_  ORF1ab 264-13466;13466-21553
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  816.9   2.0  6.1e-249  6.1e-249       1     346 []    6453    6798 ..    6453    6798 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 816.9 bits;  conditional E-value: 6.1e-249
+  endoRNAse    1 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist 98  
+                 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist
+  PP615923_ 6453 SLENVAFNVVNKGHFDGQQGEVPVSIINNTVYTKVDGVDVELFENKTTLPVNVAFELWAKRNIKPVPEVKILNNLGVDIAANTVIWDYKRDAPAHIST 6550
+                 89************************************************************************************************ PP
+
+  endoRNAse   99 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq 196 
+                 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq
+  PP615923_ 6551 IGVCSMTDIAKKPTETICAPLTVFFDGRVDGQVDLFRNARNGVLITEGSVKGLQPSVGPKQASLNGVTLIGEAVKTQFNYYKKVDGVVQQLPETYFTQ 6648
+                 ************************************************************************************************** PP
+
+  endoRNAse  197 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv 294 
+                 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv
+  PP615923_ 6649 SRNLQEFKPRSQMEIDFLELAMDEFIERYKLEGYAFEHIVYGDFSHSQLGGLHLLIGLAKRFKESPFELEDFIPMDSTVKNYFITDAQTGSSKCVCSV 6746
+                 ************************************************************************************************** PP
+
+  endoRNAse  295 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq 346 
+                 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq
+  PP615923_ 6747 IDLLLDDFVEIIKSQDLSVVSKVVKVTIDYTEISFMLWCKDGHVETFYPKLQ 6798
+                 ***************************************************8 PP
+
+>> OD923885_  ORF1ab 266-13468;13468-21555
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  816.9   2.0  6.1e-249  6.1e-249       1     346 []    6453    6798 ..    6453    6798 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 816.9 bits;  conditional E-value: 6.1e-249
+  endoRNAse    1 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist 98  
+                 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist
+  OD923885_ 6453 SLENVAFNVVNKGHFDGQQGEVPVSIINNTVYTKVDGVDVELFENKTTLPVNVAFELWAKRNIKPVPEVKILNNLGVDIAANTVIWDYKRDAPAHIST 6550
+                 89************************************************************************************************ PP
+
+  endoRNAse   99 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq 196 
+                 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq
+  OD923885_ 6551 IGVCSMTDIAKKPTETICAPLTVFFDGRVDGQVDLFRNARNGVLITEGSVKGLQPSVGPKQASLNGVTLIGEAVKTQFNYYKKVDGVVQQLPETYFTQ 6648
+                 ************************************************************************************************** PP
+
+  endoRNAse  197 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv 294 
+                 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv
+  OD923885_ 6649 SRNLQEFKPRSQMEIDFLELAMDEFIERYKLEGYAFEHIVYGDFSHSQLGGLHLLIGLAKRFKESPFELEDFIPMDSTVKNYFITDAQTGSSKCVCSV 6746
+                 ************************************************************************************************** PP
+
+  endoRNAse  295 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq 346 
+                 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq
+  OD923885_ 6747 IDLLLDDFVEIIKSQDLSVVSKVVKVTIDYTEISFMLWCKDGHVETFYPKLQ 6798
+                 ***************************************************8 PP
+
+>> PQ972523_  ORF1ab 217-13410;13410-21623
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  816.9   2.0  6.1e-249  6.1e-249       1     346 []    6450    6795 ..    6450    6795 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 816.9 bits;  conditional E-value: 6.1e-249
+  endoRNAse    1 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist 98  
+                 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist
+  PQ972523_ 6450 SLENVAFNVVNKGHFDGQQGEVPVSIINNTVYTKVDGVDVELFENKTTLPVNVAFELWAKRNIKPVPEVKILNNLGVDIAANTVIWDYKRDAPAHIST 6547
+                 89************************************************************************************************ PP
+
+  endoRNAse   99 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq 196 
+                 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq
+  PQ972523_ 6548 IGVCSMTDIAKKPTETICAPLTVFFDGRVDGQVDLFRNARNGVLITEGSVKGLQPSVGPKQASLNGVTLIGEAVKTQFNYYKKVDGVVQQLPETYFTQ 6645
+                 ************************************************************************************************** PP
+
+  endoRNAse  197 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv 294 
+                 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv
+  PQ972523_ 6646 SRNLQEFKPRSQMEIDFLELAMDEFIERYKLEGYAFEHIVYGDFSHSQLGGLHLLIGLAKRFKESPFELEDFIPMDSTVKNYFITDAQTGSSKCVCSV 6743
+                 ************************************************************************************************** PP
+
+  endoRNAse  295 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq 346 
+                 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq
+  PQ972523_ 6744 IDLLLDDFVEIIKSQDLSVVSKVVKVTIDYTEISFMLWCKDGHVETFYPKLQ 6795
+                 ***************************************************8 PP
+
+>> OL714154_  ORF1ab 245-13447;13447-21534
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  816.9   2.0  6.1e-249  6.1e-249       1     346 []    6453    6798 ..    6453    6798 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 816.9 bits;  conditional E-value: 6.1e-249
+  endoRNAse    1 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist 98  
+                 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist
+  OL714154_ 6453 SLENVAFNVVNKGHFDGQQGEVPVSIINNTVYTKVDGVDVELFENKTTLPVNVAFELWAKRNIKPVPEVKILNNLGVDIAANTVIWDYKRDAPAHIST 6550
+                 89************************************************************************************************ PP
+
+  endoRNAse   99 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq 196 
+                 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq
+  OL714154_ 6551 IGVCSMTDIAKKPTETICAPLTVFFDGRVDGQVDLFRNARNGVLITEGSVKGLQPSVGPKQASLNGVTLIGEAVKTQFNYYKKVDGVVQQLPETYFTQ 6648
+                 ************************************************************************************************** PP
+
+  endoRNAse  197 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv 294 
+                 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv
+  OL714154_ 6649 SRNLQEFKPRSQMEIDFLELAMDEFIERYKLEGYAFEHIVYGDFSHSQLGGLHLLIGLAKRFKESPFELEDFIPMDSTVKNYFITDAQTGSSKCVCSV 6746
+                 ************************************************************************************************** PP
+
+  endoRNAse  295 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq 346 
+                 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq
+  OL714154_ 6747 IDLLLDDFVEIIKSQDLSVVSKVVKVTIDYTEISFMLWCKDGHVETFYPKLQ 6798
+                 ***************************************************8 PP
+
+>> OZ061529_  ORF1ab 228-13421;13421-21508
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  816.9   2.0  6.1e-249  6.1e-249       1     346 []    6450    6795 ..    6450    6795 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 816.9 bits;  conditional E-value: 6.1e-249
+  endoRNAse    1 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist 98  
+                 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist
+  OZ061529_ 6450 SLENVAFNVVNKGHFDGQQGEVPVSIINNTVYTKVDGVDVELFENKTTLPVNVAFELWAKRNIKPVPEVKILNNLGVDIAANTVIWDYKRDAPAHIST 6547
+                 89************************************************************************************************ PP
+
+  endoRNAse   99 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq 196 
+                 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq
+  OZ061529_ 6548 IGVCSMTDIAKKPTETICAPLTVFFDGRVDGQVDLFRNARNGVLITEGSVKGLQPSVGPKQASLNGVTLIGEAVKTQFNYYKKVDGVVQQLPETYFTQ 6645
+                 ************************************************************************************************** PP
+
+  endoRNAse  197 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv 294 
+                 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv
+  OZ061529_ 6646 SRNLQEFKPRSQMEIDFLELAMDEFIERYKLEGYAFEHIVYGDFSHSQLGGLHLLIGLAKRFKESPFELEDFIPMDSTVKNYFITDAQTGSSKCVCSV 6743
+                 ************************************************************************************************** PP
+
+  endoRNAse  295 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq 346 
+                 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq
+  OZ061529_ 6744 IDLLLDDFVEIIKSQDLSVVSKVVKVTIDYTEISFMLWCKDGHVETFYPKLQ 6795
+                 ***************************************************8 PP
+
+>> OK177352_  ORF1ab 220-13413;13413-21500
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  816.9   2.0  6.1e-249  6.1e-249       1     346 []    6450    6795 ..    6450    6795 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 816.9 bits;  conditional E-value: 6.1e-249
+  endoRNAse    1 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist 98  
+                 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist
+  OK177352_ 6450 SLENVAFNVVNKGHFDGQQGEVPVSIINNTVYTKVDGVDVELFENKTTLPVNVAFELWAKRNIKPVPEVKILNNLGVDIAANTVIWDYKRDAPAHIST 6547
+                 89************************************************************************************************ PP
+
+  endoRNAse   99 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq 196 
+                 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq
+  OK177352_ 6548 IGVCSMTDIAKKPTETICAPLTVFFDGRVDGQVDLFRNARNGVLITEGSVKGLQPSVGPKQASLNGVTLIGEAVKTQFNYYKKVDGVVQQLPETYFTQ 6645
+                 ************************************************************************************************** PP
+
+  endoRNAse  197 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv 294 
+                 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv
+  OK177352_ 6646 SRNLQEFKPRSQMEIDFLELAMDEFIERYKLEGYAFEHIVYGDFSHSQLGGLHLLIGLAKRFKESPFELEDFIPMDSTVKNYFITDAQTGSSKCVCSV 6743
+                 ************************************************************************************************** PP
+
+  endoRNAse  295 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq 346 
+                 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq
+  OK177352_ 6744 IDLLLDDFVEIIKSQDLSVVSKVVKVTIDYTEISFMLWCKDGHVETFYPKLQ 6795
+                 ***************************************************8 PP
+
+>> MZ131148_  ORF1ab 228-13421;13421-21508
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  816.9   2.0  6.1e-249  6.1e-249       1     346 []    6450    6795 ..    6450    6795 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 816.9 bits;  conditional E-value: 6.1e-249
+  endoRNAse    1 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist 98  
+                 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist
+  MZ131148_ 6450 SLENVAFNVVNKGHFDGQQGEVPVSIINNTVYTKVDGVDVELFENKTTLPVNVAFELWAKRNIKPVPEVKILNNLGVDIAANTVIWDYKRDAPAHIST 6547
+                 89************************************************************************************************ PP
+
+  endoRNAse   99 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq 196 
+                 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq
+  MZ131148_ 6548 IGVCSMTDIAKKPTETICAPLTVFFDGRVDGQVDLFRNARNGVLITEGSVKGLQPSVGPKQASLNGVTLIGEAVKTQFNYYKKVDGVVQQLPETYFTQ 6645
+                 ************************************************************************************************** PP
+
+  endoRNAse  197 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv 294 
+                 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv
+  MZ131148_ 6646 SRNLQEFKPRSQMEIDFLELAMDEFIERYKLEGYAFEHIVYGDFSHSQLGGLHLLIGLAKRFKESPFELEDFIPMDSTVKNYFITDAQTGSSKCVCSV 6743
+                 ************************************************************************************************** PP
+
+  endoRNAse  295 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq 346 
+                 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq
+  MZ131148_ 6744 IDLLLDDFVEIIKSQDLSVVSKVVKVTIDYTEISFMLWCKDGHVETFYPKLQ 6795
+                 ***************************************************8 PP
+
+>> OQ896588_  ORF1ab 166-13368;13368-21455
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  814.5   1.8  3.3e-248  3.3e-248       1     346 []    6453    6798 ..    6453    6798 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 814.5 bits;  conditional E-value: 3.3e-248
+  endoRNAse    1 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist 98  
+                 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist
+  OQ896588_ 6453 SLENVAFNVVNKGHFDGQQGEVPVSIINNTVYTKVDGVDVELFENKTTLPVNVAFELWAKRNIKPVPEVKILNNLGVDIAANTVIWDYKRDAPAHIST 6550
+                 89************************************************************************************************ PP
+
+  endoRNAse   99 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq 196 
+                 igvcsmtdiakkpteticapltvffdgr dgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq
+  OQ896588_ 6551 IGVCSMTDIAKKPTETICAPLTVFFDGRFDGQVDLFRNARNGVLITEGSVKGLQPSVGPKQASLNGVTLIGEAVKTQFNYYKKVDGVVQQLPETYFTQ 6648
+                 ************************************************************************************************** PP
+
+  endoRNAse  197 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv 294 
+                 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv
+  OQ896588_ 6649 SRNLQEFKPRSQMEIDFLELAMDEFIERYKLEGYAFEHIVYGDFSHSQLGGLHLLIGLAKRFKESPFELEDFIPMDSTVKNYFITDAQTGSSKCVCSV 6746
+                 ************************************************************************************************** PP
+
+  endoRNAse  295 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq 346 
+                 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq
+  OQ896588_ 6747 IDLLLDDFVEIIKSQDLSVVSKVVKVTIDYTEISFMLWCKDGHVETFYPKLQ 6798
+                 ***************************************************8 PP
+
+>> OV948634_  ORF1ab 266-13453;13453-21540
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  814.4   2.3  3.6e-248  3.6e-248       1     346 []    6448    6793 ..    6448    6793 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 814.4 bits;  conditional E-value: 3.6e-248
+  endoRNAse    1 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist 98  
+                 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdap hist
+  OV948634_ 6448 SLENVAFNVVNKGHFDGQQGEVPVSIINNTVYTKVDGVDVELFENKTTLPVNVAFELWAKRNIKPVPEVKILNNLGVDIAANTVIWDYKRDAPVHIST 6545
+                 89************************************************************************************************ PP
+
+  endoRNAse   99 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq 196 
+                 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq
+  OV948634_ 6546 IGVCSMTDIAKKPTETICAPLTVFFDGRVDGQVDLFRNARNGVLITEGSVKGLQPSVGPKQASLNGVTLIGEAVKTQFNYYKKVDGVVQQLPETYFTQ 6643
+                 ************************************************************************************************** PP
+
+  endoRNAse  197 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv 294 
+                 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv
+  OV948634_ 6644 SRNLQEFKPRSQMEIDFLELAMDEFIERYKLEGYAFEHIVYGDFSHSQLGGLHLLIGLAKRFKESPFELEDFIPMDSTVKNYFITDAQTGSSKCVCSV 6741
+                 ************************************************************************************************** PP
+
+  endoRNAse  295 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq 346 
+                 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq
+  OV948634_ 6742 IDLLLDDFVEIIKSQDLSVVSKVVKVTIDYTEISFMLWCKDGHVETFYPKLQ 6793
+                 ***************************************************8 PP
+
+>> OY792307_  ORF1ab 266-13459;13459-21546
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  814.3   2.1  3.9e-248  3.9e-248       1     346 []    6450    6795 ..    6450    6795 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 814.3 bits;  conditional E-value: 3.9e-248
+  endoRNAse    1 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist 98  
+                 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist
+  OY792307_ 6450 SLENVAFNVVNKGHFDGQQGEVPVSIINNTVYTKVDGVDVELFENKTTLPVNVAFELWAKRNIKPVPEVKILNNLGVDIAANTVIWDYKRDAPAHIST 6547
+                 89************************************************************************************************ PP
+
+  endoRNAse   99 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq 196 
+                 igvcsmtdiakkp eticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq
+  OY792307_ 6548 IGVCSMTDIAKKPIETICAPLTVFFDGRVDGQVDLFRNARNGVLITEGSVKGLQPSVGPKQASLNGVTLIGEAVKTQFNYYKKVDGVVQQLPETYFTQ 6645
+                 ************************************************************************************************** PP
+
+  endoRNAse  197 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv 294 
+                 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv
+  OY792307_ 6646 SRNLQEFKPRSQMEIDFLELAMDEFIERYKLEGYAFEHIVYGDFSHSQLGGLHLLIGLAKRFKESPFELEDFIPMDSTVKNYFITDAQTGSSKCVCSV 6743
+                 ************************************************************************************************** PP
+
+  endoRNAse  295 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq 346 
+                 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq
+  OY792307_ 6744 IDLLLDDFVEIIKSQDLSVVSKVVKVTIDYTEISFMLWCKDGHVETFYPKLQ 6795
+                 ***************************************************8 PP
+
+>> OY784472_  ORF1ab 518-13459;13459-21546
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  814.3   2.1  3.8e-248  3.8e-248       1     346 []    6366    6711 ..    6366    6711 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 814.3 bits;  conditional E-value: 3.8e-248
+  endoRNAse    1 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist 98  
+                 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist
+  OY784472_ 6366 SLENVAFNVVNKGHFDGQQGEVPVSIINNTVYTKVDGVDVELFENKTTLPVNVAFELWAKRNIKPVPEVKILNNLGVDIAANTVIWDYKRDAPAHIST 6463
+                 89************************************************************************************************ PP
+
+  endoRNAse   99 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq 196 
+                 igvcsmtdiakkp eticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq
+  OY784472_ 6464 IGVCSMTDIAKKPIETICAPLTVFFDGRVDGQVDLFRNARNGVLITEGSVKGLQPSVGPKQASLNGVTLIGEAVKTQFNYYKKVDGVVQQLPETYFTQ 6561
+                 ************************************************************************************************** PP
+
+  endoRNAse  197 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv 294 
+                 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv
+  OY784472_ 6562 SRNLQEFKPRSQMEIDFLELAMDEFIERYKLEGYAFEHIVYGDFSHSQLGGLHLLIGLAKRFKESPFELEDFIPMDSTVKNYFITDAQTGSSKCVCSV 6659
+                 ************************************************************************************************** PP
+
+  endoRNAse  295 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq 346 
+                 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq
+  OY784472_ 6660 IDLLLDDFVEIIKSQDLSVVSKVVKVTIDYTEISFMLWCKDGHVETFYPKLQ 6711
+                 ***************************************************8 PP
+
+>> OP440368_  ORF1ab 464-13405;13405-21492
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  814.3   2.1  3.8e-248  3.8e-248       1     346 []    6366    6711 ..    6366    6711 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 814.3 bits;  conditional E-value: 3.8e-248
+  endoRNAse    1 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist 98  
+                 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist
+  OP440368_ 6366 SLENVAFNVVNKGHFDGQQGEVPVSIINNTVYTKVDGVDVELFENKTTLPVNVAFELWAKRNIKPVPEVKILNNLGVDIAANTVIWDYKRDAPAHIST 6463
+                 89************************************************************************************************ PP
+
+  endoRNAse   99 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq 196 
+                 igvcsmtdiakkp eticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq
+  OP440368_ 6464 IGVCSMTDIAKKPIETICAPLTVFFDGRVDGQVDLFRNARNGVLITEGSVKGLQPSVGPKQASLNGVTLIGEAVKTQFNYYKKVDGVVQQLPETYFTQ 6561
+                 ************************************************************************************************** PP
+
+  endoRNAse  197 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv 294 
+                 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv
+  OP440368_ 6562 SRNLQEFKPRSQMEIDFLELAMDEFIERYKLEGYAFEHIVYGDFSHSQLGGLHLLIGLAKRFKESPFELEDFIPMDSTVKNYFITDAQTGSSKCVCSV 6659
+                 ************************************************************************************************** PP
+
+  endoRNAse  295 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq 346 
+                 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq
+  OP440368_ 6660 IDLLLDDFVEIIKSQDLSVVSKVVKVTIDYTEISFMLWCKDGHVETFYPKLQ 6711
+                 ***************************************************8 PP
+
+>> ON923618_  ORF1ab 493-13425;13425-21512
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  814.3   2.1  3.8e-248  3.8e-248       1     346 []    6363    6708 ..    6363    6708 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 814.3 bits;  conditional E-value: 3.8e-248
+  endoRNAse    1 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist 98  
+                 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist
+  ON923618_ 6363 SLENVAFNVVNKGHFDGQQGEVPVSIINNTVYTKVDGVDVELFENKTTLPVNVAFELWAKRNIKPVPEVKILNNLGVDIAANTVIWDYKRDAPAHIST 6460
+                 89************************************************************************************************ PP
+
+  endoRNAse   99 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq 196 
+                 igvcsmtdiakkp eticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq
+  ON923618_ 6461 IGVCSMTDIAKKPIETICAPLTVFFDGRVDGQVDLFRNARNGVLITEGSVKGLQPSVGPKQASLNGVTLIGEAVKTQFNYYKKVDGVVQQLPETYFTQ 6558
+                 ************************************************************************************************** PP
+
+  endoRNAse  197 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv 294 
+                 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv
+  ON923618_ 6559 SRNLQEFKPRSQMEIDFLELAMDEFIERYKLEGYAFEHIVYGDFSHSQLGGLHLLIGLAKRFKESPFELEDFIPMDSTVKNYFITDAQTGSSKCVCSV 6656
+                 ************************************************************************************************** PP
+
+  endoRNAse  295 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq 346 
+                 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq
+  ON923618_ 6657 IDLLLDDFVEIIKSQDLSVVSKVVKVTIDYTEISFMLWCKDGHVETFYPKLQ 6708
+                 ***************************************************8 PP
+
+>> PQ375771_  ORF1ab 234-13427;13427-21514
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  814.3   2.1  3.9e-248  3.9e-248       1     346 []    6450    6795 ..    6450    6795 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 814.3 bits;  conditional E-value: 3.9e-248
+  endoRNAse    1 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist 98  
+                 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist
+  PQ375771_ 6450 SLENVAFNVVNKGHFDGQQGEVPVSIINNTVYTKVDGVDVELFENKTTLPVNVAFELWAKRNIKPVPEVKILNNLGVDIAANTVIWDYKRDAPAHIST 6547
+                 89************************************************************************************************ PP
+
+  endoRNAse   99 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq 196 
+                 igvcsmtdiakkp eticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq
+  PQ375771_ 6548 IGVCSMTDIAKKPIETICAPLTVFFDGRVDGQVDLFRNARNGVLITEGSVKGLQPSVGPKQASLNGVTLIGEAVKTQFNYYKKVDGVVQQLPETYFTQ 6645
+                 ************************************************************************************************** PP
+
+  endoRNAse  197 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv 294 
+                 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv
+  PQ375771_ 6646 SRNLQEFKPRSQMEIDFLELAMDEFIERYKLEGYAFEHIVYGDFSHSQLGGLHLLIGLAKRFKESPFELEDFIPMDSTVKNYFITDAQTGSSKCVCSV 6743
+                 ************************************************************************************************** PP
+
+  endoRNAse  295 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq 346 
+                 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq
+  PQ375771_ 6744 IDLLLDDFVEIIKSQDLSVVSKVVKVTIDYTEISFMLWCKDGHVETFYPKLQ 6795
+                 ***************************************************8 PP
+
+>> PQ121865_  ORF1ab 212-13405;13405-21492
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  814.3   2.1  3.9e-248  3.9e-248       1     346 []    6450    6795 ..    6450    6795 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 814.3 bits;  conditional E-value: 3.9e-248
+  endoRNAse    1 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist 98  
+                 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist
+  PQ121865_ 6450 SLENVAFNVVNKGHFDGQQGEVPVSIINNTVYTKVDGVDVELFENKTTLPVNVAFELWAKRNIKPVPEVKILNNLGVDIAANTVIWDYKRDAPAHIST 6547
+                 89************************************************************************************************ PP
+
+  endoRNAse   99 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq 196 
+                 igvcsmtdiakkp eticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq
+  PQ121865_ 6548 IGVCSMTDIAKKPIETICAPLTVFFDGRVDGQVDLFRNARNGVLITEGSVKGLQPSVGPKQASLNGVTLIGEAVKTQFNYYKKVDGVVQQLPETYFTQ 6645
+                 ************************************************************************************************** PP
+
+  endoRNAse  197 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv 294 
+                 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv
+  PQ121865_ 6646 SRNLQEFKPRSQMEIDFLELAMDEFIERYKLEGYAFEHIVYGDFSHSQLGGLHLLIGLAKRFKESPFELEDFIPMDSTVKNYFITDAQTGSSKCVCSV 6743
+                 ************************************************************************************************** PP
+
+  endoRNAse  295 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq 346 
+                 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq
+  PQ121865_ 6744 IDLLLDDFVEIIKSQDLSVVSKVVKVTIDYTEISFMLWCKDGHVETFYPKLQ 6795
+                 ***************************************************8 PP
+
+>> OZ223682_  ORF1ab 266-13459;13459-21546
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  814.3   2.1  3.9e-248  3.9e-248       1     346 []    6450    6795 ..    6450    6795 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 814.3 bits;  conditional E-value: 3.9e-248
+  endoRNAse    1 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist 98  
+                 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist
+  OZ223682_ 6450 SLENVAFNVVNKGHFDGQQGEVPVSIINNTVYTKVDGVDVELFENKTTLPVNVAFELWAKRNIKPVPEVKILNNLGVDIAANTVIWDYKRDAPAHIST 6547
+                 89************************************************************************************************ PP
+
+  endoRNAse   99 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq 196 
+                 igvcsmtdiakkp eticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq
+  OZ223682_ 6548 IGVCSMTDIAKKPIETICAPLTVFFDGRVDGQVDLFRNARNGVLITEGSVKGLQPSVGPKQASLNGVTLIGEAVKTQFNYYKKVDGVVQQLPETYFTQ 6645
+                 ************************************************************************************************** PP
+
+  endoRNAse  197 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv 294 
+                 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv
+  OZ223682_ 6646 SRNLQEFKPRSQMEIDFLELAMDEFIERYKLEGYAFEHIVYGDFSHSQLGGLHLLIGLAKRFKESPFELEDFIPMDSTVKNYFITDAQTGSSKCVCSV 6743
+                 ************************************************************************************************** PP
+
+  endoRNAse  295 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq 346 
+                 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq
+  OZ223682_ 6744 IDLLLDDFVEIIKSQDLSVVSKVVKVTIDYTEISFMLWCKDGHVETFYPKLQ 6795
+                 ***************************************************8 PP
+
+>> PQ279092_  ORF1ab 224-13417;13417-21504
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  814.3   2.1  3.9e-248  3.9e-248       1     346 []    6450    6795 ..    6450    6795 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 814.3 bits;  conditional E-value: 3.9e-248
+  endoRNAse    1 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist 98  
+                 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist
+  PQ279092_ 6450 SLENVAFNVVNKGHFDGQQGEVPVSIINNTVYTKVDGVDVELFENKTTLPVNVAFELWAKRNIKPVPEVKILNNLGVDIAANTVIWDYKRDAPAHIST 6547
+                 89************************************************************************************************ PP
+
+  endoRNAse   99 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq 196 
+                 igvcsmtdiakkp eticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq
+  PQ279092_ 6548 IGVCSMTDIAKKPIETICAPLTVFFDGRVDGQVDLFRNARNGVLITEGSVKGLQPSVGPKQASLNGVTLIGEAVKTQFNYYKKVDGVVQQLPETYFTQ 6645
+                 ************************************************************************************************** PP
+
+  endoRNAse  197 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv 294 
+                 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv
+  PQ279092_ 6646 SRNLQEFKPRSQMEIDFLELAMDEFIERYKLEGYAFEHIVYGDFSHSQLGGLHLLIGLAKRFKESPFELEDFIPMDSTVKNYFITDAQTGSSKCVCSV 6743
+                 ************************************************************************************************** PP
+
+  endoRNAse  295 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq 346 
+                 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq
+  PQ279092_ 6744 IDLLLDDFVEIIKSQDLSVVSKVVKVTIDYTEISFMLWCKDGHVETFYPKLQ 6795
+                 ***************************************************8 PP
+
+>> PQ391889_  ORF1ab 228-13421;13421-21508
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  814.3   2.1  3.9e-248  3.9e-248       1     346 []    6450    6795 ..    6450    6795 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 814.3 bits;  conditional E-value: 3.9e-248
+  endoRNAse    1 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist 98  
+                 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist
+  PQ391889_ 6450 SLENVAFNVVNKGHFDGQQGEVPVSIINNTVYTKVDGVDVELFENKTTLPVNVAFELWAKRNIKPVPEVKILNNLGVDIAANTVIWDYKRDAPAHIST 6547
+                 89************************************************************************************************ PP
+
+  endoRNAse   99 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq 196 
+                 igvcsmtdiakkp eticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq
+  PQ391889_ 6548 IGVCSMTDIAKKPIETICAPLTVFFDGRVDGQVDLFRNARNGVLITEGSVKGLQPSVGPKQASLNGVTLIGEAVKTQFNYYKKVDGVVQQLPETYFTQ 6645
+                 ************************************************************************************************** PP
+
+  endoRNAse  197 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv 294 
+                 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv
+  PQ391889_ 6646 SRNLQEFKPRSQMEIDFLELAMDEFIERYKLEGYAFEHIVYGDFSHSQLGGLHLLIGLAKRFKESPFELEDFIPMDSTVKNYFITDAQTGSSKCVCSV 6743
+                 ************************************************************************************************** PP
+
+  endoRNAse  295 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq 346 
+                 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq
+  PQ391889_ 6744 IDLLLDDFVEIIKSQDLSVVSKVVKVTIDYTEISFMLWCKDGHVETFYPKLQ 6795
+                 ***************************************************8 PP
+
+>> PQ279056_  ORF1ab 224-13417;13417-21504
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  814.3   2.1  3.9e-248  3.9e-248       1     346 []    6450    6795 ..    6450    6795 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 814.3 bits;  conditional E-value: 3.9e-248
+  endoRNAse    1 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist 98  
+                 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist
+  PQ279056_ 6450 SLENVAFNVVNKGHFDGQQGEVPVSIINNTVYTKVDGVDVELFENKTTLPVNVAFELWAKRNIKPVPEVKILNNLGVDIAANTVIWDYKRDAPAHIST 6547
+                 89************************************************************************************************ PP
+
+  endoRNAse   99 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq 196 
+                 igvcsmtdiakkp eticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq
+  PQ279056_ 6548 IGVCSMTDIAKKPIETICAPLTVFFDGRVDGQVDLFRNARNGVLITEGSVKGLQPSVGPKQASLNGVTLIGEAVKTQFNYYKKVDGVVQQLPETYFTQ 6645
+                 ************************************************************************************************** PP
+
+  endoRNAse  197 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv 294 
+                 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv
+  PQ279056_ 6646 SRNLQEFKPRSQMEIDFLELAMDEFIERYKLEGYAFEHIVYGDFSHSQLGGLHLLIGLAKRFKESPFELEDFIPMDSTVKNYFITDAQTGSSKCVCSV 6743
+                 ************************************************************************************************** PP
+
+  endoRNAse  295 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq 346 
+                 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq
+  PQ279056_ 6744 IDLLLDDFVEIIKSQDLSVVSKVVKVTIDYTEISFMLWCKDGHVETFYPKLQ 6795
+                 ***************************************************8 PP
+
+>> PQ304301_  ORF1ab 224-13417;13417-21504
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  814.3   2.1  3.9e-248  3.9e-248       1     346 []    6450    6795 ..    6450    6795 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 814.3 bits;  conditional E-value: 3.9e-248
+  endoRNAse    1 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist 98  
+                 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist
+  PQ304301_ 6450 SLENVAFNVVNKGHFDGQQGEVPVSIINNTVYTKVDGVDVELFENKTTLPVNVAFELWAKRNIKPVPEVKILNNLGVDIAANTVIWDYKRDAPAHIST 6547
+                 89************************************************************************************************ PP
+
+  endoRNAse   99 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq 196 
+                 igvcsmtdiakkp eticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq
+  PQ304301_ 6548 IGVCSMTDIAKKPIETICAPLTVFFDGRVDGQVDLFRNARNGVLITEGSVKGLQPSVGPKQASLNGVTLIGEAVKTQFNYYKKVDGVVQQLPETYFTQ 6645
+                 ************************************************************************************************** PP
+
+  endoRNAse  197 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv 294 
+                 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv
+  PQ304301_ 6646 SRNLQEFKPRSQMEIDFLELAMDEFIERYKLEGYAFEHIVYGDFSHSQLGGLHLLIGLAKRFKESPFELEDFIPMDSTVKNYFITDAQTGSSKCVCSV 6743
+                 ************************************************************************************************** PP
+
+  endoRNAse  295 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq 346 
+                 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq
+  PQ304301_ 6744 IDLLLDDFVEIIKSQDLSVVSKVVKVTIDYTEISFMLWCKDGHVETFYPKLQ 6795
+                 ***************************************************8 PP
+
+>> OR689160_  ORF1ab 224-13417;13417-21504
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  814.3   2.1  3.9e-248  3.9e-248       1     346 []    6450    6795 ..    6450    6795 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 814.3 bits;  conditional E-value: 3.9e-248
+  endoRNAse    1 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist 98  
+                 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist
+  OR689160_ 6450 SLENVAFNVVNKGHFDGQQGEVPVSIINNTVYTKVDGVDVELFENKTTLPVNVAFELWAKRNIKPVPEVKILNNLGVDIAANTVIWDYKRDAPAHIST 6547
+                 89************************************************************************************************ PP
+
+  endoRNAse   99 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq 196 
+                 igvcsmtdiakkp eticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq
+  OR689160_ 6548 IGVCSMTDIAKKPIETICAPLTVFFDGRVDGQVDLFRNARNGVLITEGSVKGLQPSVGPKQASLNGVTLIGEAVKTQFNYYKKVDGVVQQLPETYFTQ 6645
+                 ************************************************************************************************** PP
+
+  endoRNAse  197 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv 294 
+                 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv
+  OR689160_ 6646 SRNLQEFKPRSQMEIDFLELAMDEFIERYKLEGYAFEHIVYGDFSHSQLGGLHLLIGLAKRFKESPFELEDFIPMDSTVKNYFITDAQTGSSKCVCSV 6743
+                 ************************************************************************************************** PP
+
+  endoRNAse  295 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq 346 
+                 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq
+  OR689160_ 6744 IDLLLDDFVEIIKSQDLSVVSKVVKVTIDYTEISFMLWCKDGHVETFYPKLQ 6795
+                 ***************************************************8 PP
+
+>> OR563456_  ORF1ab 241-13434;13434-21566
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  814.3   2.1  3.9e-248  3.9e-248       1     346 []    6450    6795 ..    6450    6795 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 814.3 bits;  conditional E-value: 3.9e-248
+  endoRNAse    1 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist 98  
+                 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist
+  OR563456_ 6450 SLENVAFNVVNKGHFDGQQGEVPVSIINNTVYTKVDGVDVELFENKTTLPVNVAFELWAKRNIKPVPEVKILNNLGVDIAANTVIWDYKRDAPAHIST 6547
+                 89************************************************************************************************ PP
+
+  endoRNAse   99 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq 196 
+                 igvcsmtdiakkp eticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq
+  OR563456_ 6548 IGVCSMTDIAKKPIETICAPLTVFFDGRVDGQVDLFRNARNGVLITEGSVKGLQPSVGPKQASLNGVTLIGEAVKTQFNYYKKVDGVVQQLPETYFTQ 6645
+                 ************************************************************************************************** PP
+
+  endoRNAse  197 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv 294 
+                 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv
+  OR563456_ 6646 SRNLQEFKPRSQMEIDFLELAMDEFIERYKLEGYAFEHIVYGDFSHSQLGGLHLLIGLAKRFKESPFELEDFIPMDSTVKNYFITDAQTGSSKCVCSV 6743
+                 ************************************************************************************************** PP
+
+  endoRNAse  295 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq 346 
+                 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq
+  OR563456_ 6744 IDLLLDDFVEIIKSQDLSVVSKVVKVTIDYTEISFMLWCKDGHVETFYPKLQ 6795
+                 ***************************************************8 PP
+
+>> OR983979_  ORF1ab 216-13409;13409-21496
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  814.3   2.1  3.9e-248  3.9e-248       1     346 []    6450    6795 ..    6450    6795 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 814.3 bits;  conditional E-value: 3.9e-248
+  endoRNAse    1 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist 98  
+                 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist
+  OR983979_ 6450 SLENVAFNVVNKGHFDGQQGEVPVSIINNTVYTKVDGVDVELFENKTTLPVNVAFELWAKRNIKPVPEVKILNNLGVDIAANTVIWDYKRDAPAHIST 6547
+                 89************************************************************************************************ PP
+
+  endoRNAse   99 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq 196 
+                 igvcsmtdiakkp eticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq
+  OR983979_ 6548 IGVCSMTDIAKKPIETICAPLTVFFDGRVDGQVDLFRNARNGVLITEGSVKGLQPSVGPKQASLNGVTLIGEAVKTQFNYYKKVDGVVQQLPETYFTQ 6645
+                 ************************************************************************************************** PP
+
+  endoRNAse  197 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv 294 
+                 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv
+  OR983979_ 6646 SRNLQEFKPRSQMEIDFLELAMDEFIERYKLEGYAFEHIVYGDFSHSQLGGLHLLIGLAKRFKESPFELEDFIPMDSTVKNYFITDAQTGSSKCVCSV 6743
+                 ************************************************************************************************** PP
+
+  endoRNAse  295 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq 346 
+                 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq
+  OR983979_ 6744 IDLLLDDFVEIIKSQDLSVVSKVVKVTIDYTEISFMLWCKDGHVETFYPKLQ 6795
+                 ***************************************************8 PP
+
+>> PP030571_  ORF1ab 216-13409;13409-21496
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  814.3   2.1  3.9e-248  3.9e-248       1     346 []    6450    6795 ..    6450    6795 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 814.3 bits;  conditional E-value: 3.9e-248
+  endoRNAse    1 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist 98  
+                 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist
+  PP030571_ 6450 SLENVAFNVVNKGHFDGQQGEVPVSIINNTVYTKVDGVDVELFENKTTLPVNVAFELWAKRNIKPVPEVKILNNLGVDIAANTVIWDYKRDAPAHIST 6547
+                 89************************************************************************************************ PP
+
+  endoRNAse   99 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq 196 
+                 igvcsmtdiakkp eticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq
+  PP030571_ 6548 IGVCSMTDIAKKPIETICAPLTVFFDGRVDGQVDLFRNARNGVLITEGSVKGLQPSVGPKQASLNGVTLIGEAVKTQFNYYKKVDGVVQQLPETYFTQ 6645
+                 ************************************************************************************************** PP
+
+  endoRNAse  197 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv 294 
+                 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv
+  PP030571_ 6646 SRNLQEFKPRSQMEIDFLELAMDEFIERYKLEGYAFEHIVYGDFSHSQLGGLHLLIGLAKRFKESPFELEDFIPMDSTVKNYFITDAQTGSSKCVCSV 6743
+                 ************************************************************************************************** PP
+
+  endoRNAse  295 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq 346 
+                 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq
+  PP030571_ 6744 IDLLLDDFVEIIKSQDLSVVSKVVKVTIDYTEISFMLWCKDGHVETFYPKLQ 6795
+                 ***************************************************8 PP
+
+>> OZ014103_  ORF1ab 266-13456;13456-21543
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  814.3   2.1  3.9e-248  3.9e-248       1     346 []    6449    6794 ..    6449    6794 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 814.3 bits;  conditional E-value: 3.9e-248
+  endoRNAse    1 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist 98  
+                 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist
+  OZ014103_ 6449 SLENVAFNVVNKGHFDGQQGEVPVSIINNTVYTKVDGVDVELFENKTTLPVNVAFELWAKRNIKPVPEVKILNNLGVDIAANTVIWDYKRDAPAHIST 6546
+                 89************************************************************************************************ PP
+
+  endoRNAse   99 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq 196 
+                 igvcsmtdiakkp eticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq
+  OZ014103_ 6547 IGVCSMTDIAKKPIETICAPLTVFFDGRVDGQVDLFRNARNGVLITEGSVKGLQPSVGPKQASLNGVTLIGEAVKTQFNYYKKVDGVVQQLPETYFTQ 6644
+                 ************************************************************************************************** PP
+
+  endoRNAse  197 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv 294 
+                 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv
+  OZ014103_ 6645 SRNLQEFKPRSQMEIDFLELAMDEFIERYKLEGYAFEHIVYGDFSHSQLGGLHLLIGLAKRFKESPFELEDFIPMDSTVKNYFITDAQTGSSKCVCSV 6742
+                 ************************************************************************************************** PP
+
+  endoRNAse  295 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq 346 
+                 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq
+  OZ014103_ 6743 IDLLLDDFVEIIKSQDLSVVSKVVKVTIDYTEISFMLWCKDGHVETFYPKLQ 6794
+                 ***************************************************8 PP
+
+>> PV497551_  ORF1ab 227-13417;13417-21504
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  814.3   2.1  3.9e-248  3.9e-248       1     346 []    6449    6794 ..    6449    6794 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 814.3 bits;  conditional E-value: 3.9e-248
+  endoRNAse    1 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist 98  
+                 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist
+  PV497551_ 6449 SLENVAFNVVNKGHFDGQQGEVPVSIINNTVYTKVDGVDVELFENKTTLPVNVAFELWAKRNIKPVPEVKILNNLGVDIAANTVIWDYKRDAPAHIST 6546
+                 89************************************************************************************************ PP
+
+  endoRNAse   99 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq 196 
+                 igvcsmtdiakkp eticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq
+  PV497551_ 6547 IGVCSMTDIAKKPIETICAPLTVFFDGRVDGQVDLFRNARNGVLITEGSVKGLQPSVGPKQASLNGVTLIGEAVKTQFNYYKKVDGVVQQLPETYFTQ 6644
+                 ************************************************************************************************** PP
+
+  endoRNAse  197 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv 294 
+                 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv
+  PV497551_ 6645 SRNLQEFKPRSQMEIDFLELAMDEFIERYKLEGYAFEHIVYGDFSHSQLGGLHLLIGLAKRFKESPFELEDFIPMDSTVKNYFITDAQTGSSKCVCSV 6742
+                 ************************************************************************************************** PP
+
+  endoRNAse  295 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq 346 
+                 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq
+  PV497551_ 6743 IDLLLDDFVEIIKSQDLSVVSKVVKVTIDYTEISFMLWCKDGHVETFYPKLQ 6794
+                 ***************************************************8 PP
+
+>> OP578130_  ORF1ab 216-13418;13418-21505
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  814.3   2.1  3.9e-248  3.9e-248       1     346 []    6453    6798 ..    6453    6798 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 814.3 bits;  conditional E-value: 3.9e-248
+  endoRNAse    1 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist 98  
+                 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist
+  OP578130_ 6453 SLENVAFNVVNKGHFDGQQGEVPVSIINNTVYTKVDGVDVELFENKTTLPVNVAFELWAKRNIKPVPEVKILNNLGVDIAANTVIWDYKRDAPAHIST 6550
+                 89************************************************************************************************ PP
+
+  endoRNAse   99 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq 196 
+                 igvcsmtdiakkp eticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq
+  OP578130_ 6551 IGVCSMTDIAKKPIETICAPLTVFFDGRVDGQVDLFRNARNGVLITEGSVKGLQPSVGPKQASLNGVTLIGEAVKTQFNYYKKVDGVVQQLPETYFTQ 6648
+                 ************************************************************************************************** PP
+
+  endoRNAse  197 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv 294 
+                 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv
+  OP578130_ 6649 SRNLQEFKPRSQMEIDFLELAMDEFIERYKLEGYAFEHIVYGDFSHSQLGGLHLLIGLAKRFKESPFELEDFIPMDSTVKNYFITDAQTGSSKCVCSV 6746
+                 ************************************************************************************************** PP
+
+  endoRNAse  295 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq 346 
+                 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq
+  OP578130_ 6747 IDLLLDDFVEIIKSQDLSVVSKVVKVTIDYTEISFMLWCKDGHVETFYPKLQ 6798
+                 ***************************************************8 PP
+
+>> PV239625_  ORF1ab 188-13381;13381-21468
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  814.3   2.1  3.9e-248  3.9e-248       1     346 []    6450    6795 ..    6450    6795 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 814.3 bits;  conditional E-value: 3.9e-248
+  endoRNAse    1 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist 98  
+                 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist
+  PV239625_ 6450 SLENVAFNVVNKGHFDGQQGEVPVSIINNTVYTKVDGVDVELFENKTTLPVNVAFELWAKRNIKPVPEVKILNNLGVDIAANTVIWDYKRDAPAHIST 6547
+                 89************************************************************************************************ PP
+
+  endoRNAse   99 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq 196 
+                 igvcsmtdiakkp eticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq
+  PV239625_ 6548 IGVCSMTDIAKKPIETICAPLTVFFDGRVDGQVDLFRNARNGVLITEGSVKGLQPSVGPKQASLNGVTLIGEAVKTQFNYYKKVDGVVQQLPETYFTQ 6645
+                 ************************************************************************************************** PP
+
+  endoRNAse  197 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv 294 
+                 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv
+  PV239625_ 6646 SRNLQEFKPRSQMEIDFLELAMDEFIERYKLEGYAFEHIVYGDFSHSQLGGLHLLIGLAKRFKESPFELEDFIPMDSTVKNYFITDAQTGSSKCVCSV 6743
+                 ************************************************************************************************** PP
+
+  endoRNAse  295 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq 346 
+                 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq
+  PV239625_ 6744 IDLLLDDFVEIIKSQDLSVVSKVVKVTIDYTEISFMLWCKDGHVETFYPKLQ 6795
+                 ***************************************************8 PP
+
+>> PQ017244_  ORF1ab 211-13404;13404-21491
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  814.3   2.1  3.9e-248  3.9e-248       1     346 []    6450    6795 ..    6450    6795 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 814.3 bits;  conditional E-value: 3.9e-248
+  endoRNAse    1 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist 98  
+                 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist
+  PQ017244_ 6450 SLENVAFNVVNKGHFDGQQGEVPVSIINNTVYTKVDGVDVELFENKTTLPVNVAFELWAKRNIKPVPEVKILNNLGVDIAANTVIWDYKRDAPAHIST 6547
+                 89************************************************************************************************ PP
+
+  endoRNAse   99 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq 196 
+                 igvcsmtdiakkp eticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq
+  PQ017244_ 6548 IGVCSMTDIAKKPIETICAPLTVFFDGRVDGQVDLFRNARNGVLITEGSVKGLQPSVGPKQASLNGVTLIGEAVKTQFNYYKKVDGVVQQLPETYFTQ 6645
+                 ************************************************************************************************** PP
+
+  endoRNAse  197 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv 294 
+                 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv
+  PQ017244_ 6646 SRNLQEFKPRSQMEIDFLELAMDEFIERYKLEGYAFEHIVYGDFSHSQLGGLHLLIGLAKRFKESPFELEDFIPMDSTVKNYFITDAQTGSSKCVCSV 6743
+                 ************************************************************************************************** PP
+
+  endoRNAse  295 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq 346 
+                 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq
+  PQ017244_ 6744 IDLLLDDFVEIIKSQDLSVVSKVVKVTIDYTEISFMLWCKDGHVETFYPKLQ 6795
+                 ***************************************************8 PP
+
+>> PP023772_  ORF1ab 241-13434;13434-21686
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  814.3   2.1  3.9e-248  3.9e-248       1     346 []    6450    6795 ..    6450    6795 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 814.3 bits;  conditional E-value: 3.9e-248
+  endoRNAse    1 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist 98  
+                 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist
+  PP023772_ 6450 SLENVAFNVVNKGHFDGQQGEVPVSIINNTVYTKVDGVDVELFENKTTLPVNVAFELWAKRNIKPVPEVKILNNLGVDIAANTVIWDYKRDAPAHIST 6547
+                 89************************************************************************************************ PP
+
+  endoRNAse   99 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq 196 
+                 igvcsmtdiakkp eticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq
+  PP023772_ 6548 IGVCSMTDIAKKPIETICAPLTVFFDGRVDGQVDLFRNARNGVLITEGSVKGLQPSVGPKQASLNGVTLIGEAVKTQFNYYKKVDGVVQQLPETYFTQ 6645
+                 ************************************************************************************************** PP
+
+  endoRNAse  197 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv 294 
+                 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv
+  PP023772_ 6646 SRNLQEFKPRSQMEIDFLELAMDEFIERYKLEGYAFEHIVYGDFSHSQLGGLHLLIGLAKRFKESPFELEDFIPMDSTVKNYFITDAQTGSSKCVCSV 6743
+                 ************************************************************************************************** PP
+
+  endoRNAse  295 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq 346 
+                 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq
+  PP023772_ 6744 IDLLLDDFVEIIKSQDLSVVSKVVKVTIDYTEISFMLWCKDGHVETFYPKLQ 6795
+                 ***************************************************8 PP
+
+>> PX059619_  ORF1ab 188-13381;13381-21468
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  813.3   1.9  7.6e-248  7.6e-248       1     346 []    6450    6795 ..    6450    6795 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 813.3 bits;  conditional E-value: 7.6e-248
+  endoRNAse    1 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist 98  
+                 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist
+  PX059619_ 6450 SLENVAFNVVNKGHFDGQQGEVPVSIINNTVYTKVDGVDVELFENKTTLPVNVAFELWAKRNIKPVPEVKILNNLGVDIAANTVIWDYKRDAPAHIST 6547
+                 89************************************************************************************************ PP
+
+  endoRNAse   99 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq 196 
+                 igvcsmtdiakkp eticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgv+qqlpetyftq
+  PX059619_ 6548 IGVCSMTDIAKKPIETICAPLTVFFDGRVDGQVDLFRNARNGVLITEGSVKGLQPSVGPKQASLNGVTLIGEAVKTQFNYYKKVDGVIQQLPETYFTQ 6645
+                 ************************************************************************************************** PP
+
+  endoRNAse  197 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv 294 
+                 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv
+  PX059619_ 6646 SRNLQEFKPRSQMEIDFLELAMDEFIERYKLEGYAFEHIVYGDFSHSQLGGLHLLIGLAKRFKESPFELEDFIPMDSTVKNYFITDAQTGSSKCVCSV 6743
+                 ************************************************************************************************** PP
+
+  endoRNAse  295 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq 346 
+                 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq
+  PX059619_ 6744 IDLLLDDFVEIIKSQDLSVVSKVVKVTIDYTEISFMLWCKDGHVETFYPKLQ 6795
+                 ***************************************************8 PP
+
+>> PQ899058_  ORF1ab 227-13420;13420-21507
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  811.5   2.3  2.7e-247  2.7e-247       1     346 []    6450    6795 ..    6450    6795 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 811.5 bits;  conditional E-value: 2.7e-247
+  endoRNAse    1 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist 98  
+                 slenvafnvvnkghfdgqqgevpvsiinntvytkvd vdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist
+  PQ899058_ 6450 SLENVAFNVVNKGHFDGQQGEVPVSIINNTVYTKVDSVDVELFENKTTLPVNVAFELWAKRNIKPVPEVKILNNLGVDIAANTVIWDYKRDAPAHIST 6547
+                 89************************************************************************************************ PP
+
+  endoRNAse   99 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq 196 
+                 igvcsmtdiakkp eticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq
+  PQ899058_ 6548 IGVCSMTDIAKKPIETICAPLTVFFDGRVDGQVDLFRNARNGVLITEGSVKGLQPSVGPKQASLNGVTLIGEAVKTQFNYYKKVDGVVQQLPETYFTQ 6645
+                 ************************************************************************************************** PP
+
+  endoRNAse  197 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv 294 
+                 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv
+  PQ899058_ 6646 SRNLQEFKPRSQMEIDFLELAMDEFIERYKLEGYAFEHIVYGDFSHSQLGGLHLLIGLAKRFKESPFELEDFIPMDSTVKNYFITDAQTGSSKCVCSV 6743
+                 ************************************************************************************************** PP
+
+  endoRNAse  295 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq 346 
+                 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq
+  PQ899058_ 6744 IDLLLDDFVEIIKSQDLSVVSKVVKVTIDYTEISFMLWCKDGHVETFYPKLQ 6795
+                 ***************************************************8 PP
+
+>> OL926066_  ORF1ab 241-13443;13443-21575
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  811.5   1.5  2.7e-247  2.7e-247       1     346 []    6453    6798 ..    6453    6798 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 811.5 bits;  conditional E-value: 2.7e-247
+  endoRNAse    1 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist 98  
+                 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist
+  OL926066_ 6453 SLENVAFNVVNKGHFDGQQGEVPVSIINNTVYTKVDGVDVELFENKTTLPVNVAFELWAKRNIKPVPEVKILNNLGVDIAANTVIWDYKRDAPAHIST 6550
+                 89************************************************************************************************ PP
+
+  endoRNAse   99 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq 196 
+                 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq
+  OL926066_ 6551 IGVCSMTDIAKKPTETICAPLTVFFDGRVDGQVDLFRNARNGVLITEGSVKGLQPSVGPKQASLNGVTLIGEAVKTQFNYYKKVDGVVQQLPETYFTQ 6648
+                 ************************************************************************************************** PP
+
+  endoRNAse  197 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv 294 
+                 srnlqefkprsqmeidflelamdefieryklegyafeh  ygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv
+  OL926066_ 6649 SRNLQEFKPRSQMEIDFLELAMDEFIERYKLEGYAFEHXXYGDFSHSQLGGLHLLIGLAKRFKESPFELEDFIPMDSTVKNYFITDAQTGSSKCVCSV 6746
+                 ************************************************************************************************** PP
+
+  endoRNAse  295 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq 346 
+                 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq
+  OL926066_ 6747 IDLLLDDFVEIIKSQDLSVVSKVVKVTIDYTEISFMLWCKDGHVETFYPKLQ 6798
+                 ***************************************************8 PP
+
+>> MT040334_  ORF1ab 267-13445;13445-21532
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  781.9   1.4  2.7e-238  2.7e-238       1     346 []    6445    6790 ..    6445    6790 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 781.9 bits;  conditional E-value: 2.7e-238
+  endoRNAse    1 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist 98  
+                 slenvafnv+nkghfdgqqge pvsi+nntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykr+apah+st
+  MT040334_ 6445 SLENVAFNVINKGHFDGQQGETPVSIVNNTVYTKVDGVDVELFENKTTLPVNVAFELWAKRNIKPVPEVKILNNLGVDIAANTVIWDYKREAPAHVST 6542
+                 89************************************************************************************************ PP
+
+  endoRNAse   99 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq 196 
+                 igvc+mtdiakk+tet c+plt++fdgrv+gqvdlfrnarngvliteg+vkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq
+  MT040334_ 6543 IGVCTMTDIAKKSTETACSPLTILFDGRVEGQVDLFRNARNGVLITEGNVKGLQPSVGPKQASLNGVTLIGEAVKTQFNYYKKVDGVVQQLPETYFTQ 6640
+                 ************************************************************************************************** PP
+
+  endoRNAse  197 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv 294 
+                 srnlqefkprsqmeidflelamdefieryklegyafehivygdfsh qlgglhlliglakr k+sp+eledfipmdstvknyfitdaqtgsskcvcsv
+  MT040334_ 6641 SRNLQEFKPRSQMEIDFLELAMDEFIERYKLEGYAFEHIVYGDFSHGQLGGLHLLIGLAKRSKDSPLELEDFIPMDSTVKNYFITDAQTGSSKCVCSV 6738
+                 ************************************************************************************************** PP
+
+  endoRNAse  295 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq 346 
+                 idlllddfveiiksqdlsvvskvvkvtidy+ei+fmlwckdghvetfypklq
+  MT040334_ 6739 IDLLLDDFVEIIKSQDLSVVSKVVKVTIDYAEIAFMLWCKDGHVETFYPKLQ 6790
+                 ***************************************************8 PP
+
+>> MT040335_  ORF1ab 267-13445;13445-21532
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  781.9   1.4  2.7e-238  2.7e-238       1     346 []    6445    6790 ..    6445    6790 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 781.9 bits;  conditional E-value: 2.7e-238
+  endoRNAse    1 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist 98  
+                 slenvafnv+nkghfdgqqge pvsi+nntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykr+apah+st
+  MT040335_ 6445 SLENVAFNVINKGHFDGQQGETPVSIVNNTVYTKVDGVDVELFENKTTLPVNVAFELWAKRNIKPVPEVKILNNLGVDIAANTVIWDYKREAPAHVST 6542
+                 89************************************************************************************************ PP
+
+  endoRNAse   99 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq 196 
+                 igvc+mtdiakk+tet c+plt++fdgrv+gqvdlfrnarngvliteg+vkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq
+  MT040335_ 6543 IGVCTMTDIAKKSTETACSPLTILFDGRVEGQVDLFRNARNGVLITEGNVKGLQPSVGPKQASLNGVTLIGEAVKTQFNYYKKVDGVVQQLPETYFTQ 6640
+                 ************************************************************************************************** PP
+
+  endoRNAse  197 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv 294 
+                 srnlqefkprsqmeidflelamdefieryklegyafehivygdfsh qlgglhlliglakr k+sp+eledfipmdstvknyfitdaqtgsskcvcsv
+  MT040335_ 6641 SRNLQEFKPRSQMEIDFLELAMDEFIERYKLEGYAFEHIVYGDFSHGQLGGLHLLIGLAKRSKDSPLELEDFIPMDSTVKNYFITDAQTGSSKCVCSV 6738
+                 ************************************************************************************************** PP
+
+  endoRNAse  295 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq 346 
+                 idlllddfveiiksqdlsvvskvvkvtidy+ei+fmlwckdghvetfypklq
+  MT040335_ 6739 IDLLLDDFVEIIKSQDLSVVSKVVKVTIDYAEIAFMLWCKDGHVETFYPKLQ 6790
+                 ***************************************************8 PP
+
+>> MT040333_  ORF1ab 267-13445;13445-21532
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  781.9   1.4  2.7e-238  2.7e-238       1     346 []    6445    6790 ..    6445    6790 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 781.9 bits;  conditional E-value: 2.7e-238
+  endoRNAse    1 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist 98  
+                 slenvafnv+nkghfdgqqge pvsi+nntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykr+apah+st
+  MT040333_ 6445 SLENVAFNVINKGHFDGQQGETPVSIVNNTVYTKVDGVDVELFENKTTLPVNVAFELWAKRNIKPVPEVKILNNLGVDIAANTVIWDYKREAPAHVST 6542
+                 89************************************************************************************************ PP
+
+  endoRNAse   99 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq 196 
+                 igvc+mtdiakk+tet c+plt++fdgrv+gqvdlfrnarngvliteg+vkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq
+  MT040333_ 6543 IGVCTMTDIAKKSTETACSPLTILFDGRVEGQVDLFRNARNGVLITEGNVKGLQPSVGPKQASLNGVTLIGEAVKTQFNYYKKVDGVVQQLPETYFTQ 6640
+                 ************************************************************************************************** PP
+
+  endoRNAse  197 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv 294 
+                 srnlqefkprsqmeidflelamdefieryklegyafehivygdfsh qlgglhlliglakr k+sp+eledfipmdstvknyfitdaqtgsskcvcsv
+  MT040333_ 6641 SRNLQEFKPRSQMEIDFLELAMDEFIERYKLEGYAFEHIVYGDFSHGQLGGLHLLIGLAKRSKDSPLELEDFIPMDSTVKNYFITDAQTGSSKCVCSV 6738
+                 ************************************************************************************************** PP
+
+  endoRNAse  295 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq 346 
+                 idlllddfveiiksqdlsvvskvvkvtidy+ei+fmlwckdghvetfypklq
+  MT040333_ 6739 IDLLLDDFVEIIKSQDLSVVSKVVKVTIDYAEIAFMLWCKDGHVETFYPKLQ 6790
+                 ***************************************************8 PP
+
+>> MT040336_  ORF1ab 267-13445;13445-21532
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  781.9   1.4  2.7e-238  2.7e-238       1     346 []    6445    6790 ..    6445    6790 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 781.9 bits;  conditional E-value: 2.7e-238
+  endoRNAse    1 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist 98  
+                 slenvafnv+nkghfdgqqge pvsi+nntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykr+apah+st
+  MT040336_ 6445 SLENVAFNVINKGHFDGQQGETPVSIVNNTVYTKVDGVDVELFENKTTLPVNVAFELWAKRNIKPVPEVKILNNLGVDIAANTVIWDYKREAPAHVST 6542
+                 89************************************************************************************************ PP
+
+  endoRNAse   99 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq 196 
+                 igvc+mtdiakk+tet c+plt++fdgrv+gqvdlfrnarngvliteg+vkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq
+  MT040336_ 6543 IGVCTMTDIAKKSTETACSPLTILFDGRVEGQVDLFRNARNGVLITEGNVKGLQPSVGPKQASLNGVTLIGEAVKTQFNYYKKVDGVVQQLPETYFTQ 6640
+                 ************************************************************************************************** PP
+
+  endoRNAse  197 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv 294 
+                 srnlqefkprsqmeidflelamdefieryklegyafehivygdfsh qlgglhlliglakr k+sp+eledfipmdstvknyfitdaqtgsskcvcsv
+  MT040336_ 6641 SRNLQEFKPRSQMEIDFLELAMDEFIERYKLEGYAFEHIVYGDFSHGQLGGLHLLIGLAKRSKDSPLELEDFIPMDSTVKNYFITDAQTGSSKCVCSV 6738
+                 ************************************************************************************************** PP
+
+  endoRNAse  295 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq 346 
+                 idlllddfveiiksqdlsvvskvvkvtidy+ei+fmlwckdghvetfypklq
+  MT040336_ 6739 IDLLLDDFVEIIKSQDLSVVSKVVKVTIDYAEIAFMLWCKDGHVETFYPKLQ 6790
+                 ***************************************************8 PP
+
+>> MT072864_  ORF1ab 249-13427;13427-21514
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  779.3   1.5  1.6e-237  1.6e-237       1     346 []    6445    6790 ..    6445    6790 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 779.3 bits;  conditional E-value: 1.6e-237
+  endoRNAse    1 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist 98  
+                 slenvafnv+nkghfdgqqge pvsi+nntvytkvdgvdvelfenkt lpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykr+apah+st
+  MT072864_ 6445 SLENVAFNVINKGHFDGQQGETPVSIVNNTVYTKVDGVDVELFENKTILPVNVAFELWAKRNIKPVPEVKILNNLGVDIAANTVIWDYKREAPAHVST 6542
+                 89************************************************************************************************ PP
+
+  endoRNAse   99 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq 196 
+                 igvc+mtdiakk+tet c+plt++fdgrv+gqvdlfrnarngvliteg+vkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq
+  MT072864_ 6543 IGVCTMTDIAKKSTETACSPLTILFDGRVEGQVDLFRNARNGVLITEGNVKGLQPSVGPKQASLNGVTLIGEAVKTQFNYYKKVDGVVQQLPETYFTQ 6640
+                 ************************************************************************************************** PP
+
+  endoRNAse  197 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv 294 
+                 srnlqefkprsqmeidflelamdefieryklegyafehivygdfsh qlgglhlliglakr k+sp+eledfipmdstvknyfitdaqtgsskcvcsv
+  MT072864_ 6641 SRNLQEFKPRSQMEIDFLELAMDEFIERYKLEGYAFEHIVYGDFSHGQLGGLHLLIGLAKRSKDSPLELEDFIPMDSTVKNYFITDAQTGSSKCVCSV 6738
+                 ************************************************************************************************** PP
+
+  endoRNAse  295 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq 346 
+                 idlllddfveiiksqdlsvvskvvkvtidy+ei+fmlwckdghvetfypklq
+  MT072864_ 6739 IDLLLDDFVEIIKSQDLSVVSKVVKVTIDYAEIAFMLWCKDGHVETFYPKLQ 6790
+                 ***************************************************8 PP
+
+>> OU470855_  ORF1ab 66-13268;13268-21400
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  778.6   1.1  2.8e-237  2.8e-237       1     346 []    6453    6798 ..    6453    6798 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 778.6 bits;  conditional E-value: 2.8e-237
+  endoRNAse    1 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist 98  
+                 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist
+  OU470855_ 6453 SLENVAFNVVNKGHFDGQQGEVPVSIINNTVYTKVDGVDVELFENKTTLPVNVAFELWAKRNIKPVPEVKILNNLGVDIAANTVIWDYKRDAPAHIST 6550
+                 89************************************************************************************************ PP
+
+  endoRNAse   99 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq 196 
+                 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq
+  OU470855_ 6551 IGVCSMTDIAKKPTETICAPLTVFFDGRVDGQVDLFRNARNGVLITEGSVKGLQPSVGPKQASLNGVTLIGEAVKTQFNYYKKVDGVVQQLPETYFTQ 6648
+                 ************************************************************************************************** PP
+
+  endoRNAse  197 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv 294 
+                 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv
+  OU470855_ 6649 SRNLQEFKPRSQMEIDFLELAMDEFIERYKLEGYAFEHIVYGDFSHSQLGGLHLLIGLAKRFKESPFELEDFIPMDSTVKNYFITDAQTGSSKCVCSV 6746
+                 ************************************************************************************************** PP
+
+  endoRNAse  295 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq 346 
+                 idlllddfveiiksqdlsvvskvv             wckdghvetfypklq
+  OU470855_ 6747 IDLLLDDFVEIIKSQDLSVVSKVVXXXXXXXXXXXXXWCKDGHVETFYPKLQ 6798
+                 ***************************************************8 PP
+
+>> PX448754_  ORF1ab 224-13417;13417-21504
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  771.2   4.1  4.9e-235  4.9e-235       1     346 []    6450    6795 ..    6450    6795 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 771.2 bits;  conditional E-value: 4.9e-235
+  endoRNAse    1 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist 98  
+                 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist
+  PX448754_ 6450 SLENVAFNVVNKGHFDGQQGEVPVSIINNTVYTKVDGVDVELFENKTTLPVNVAFELWAKRNIKPVPEVKILNNLGVDIAANTVIWDYKRDAPAHIST 6547
+                 89************************************************************************************************ PP
+
+  endoRNAse   99 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq 196 
+                 igvcsmtdiakkp eticapltvffdgrvdgqvdlfrnarngvlitegsvk               vtligeavktqfnyykkvdgvvqqlpetyftq
+  PX448754_ 6548 IGVCSMTDIAKKPIETICAPLTVFFDGRVDGQVDLFRNARNGVLITEGSVKXXXXXXXXXXXXXXXVTLIGEAVKTQFNYYKKVDGVVQQLPETYFTQ 6645
+                 ************************************************************************************************** PP
+
+  endoRNAse  197 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv 294 
+                 srnlqefk+rsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv
+  PX448754_ 6646 SRNLQEFKSRSQMEIDFLELAMDEFIERYKLEGYAFEHIVYGDFSHSQLGGLHLLIGLAKRFKESPFELEDFIPMDSTVKNYFITDAQTGSSKCVCSV 6743
+                 ************************************************************************************************** PP
+
+  endoRNAse  295 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq 346 
+                 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq
+  PX448754_ 6744 IDLLLDDFVEIIKSQDLSVVSKVVKVTIDYTEISFMLWCKDGHVETFYPKLQ 6795
+                 ***************************************************8 PP
+
+>> MG772933_  ORF1ab 265-13455;13455-21542
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  744.7   1.3  5.4e-227  5.4e-227       1     346 []    6449    6794 ..    6449    6794 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 744.7 bits;  conditional E-value: 5.4e-227
+  endoRNAse    1 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist 98  
+                 slenva+nv+nkghfdgq+ge pvsi+nn+vytk+dgvdve+fenkttlpvnvafelwakrnikpvpe+kilnnlgvdiaantviwdykr+apah+st
+  MG772933_ 6449 SLENVAYNVINKGHFDGQNGEAPVSIVNNAVYTKLDGVDVEIFENKTTLPVNVAFELWAKRNIKPVPEIKILNNLGVDIAANTVIWDYKREAPAHVST 6546
+                 89************************************************************************************************ PP
+
+  endoRNAse   99 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq 196 
+                 igvc+mtdiakkpte+ c++ltv+fdgrv+gqvdlfrnarngvlitegsvkgl ps gp qas+ngvtlige+vktqfny+kkvdg++qqlpetyftq
+  MG772933_ 6547 IGVCTMTDIAKKPTESACSSLTVLFDGRVEGQVDLFRNARNGVLITEGSVKGLTPSKGPAQASVNGVTLIGESVKTQFNYFKKVDGIIQQLPETYFTQ 6644
+                 ************************************************************************************************** PP
+
+  endoRNAse  197 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv 294 
+                 sr+l++fkprsqme dflelamdefierykl+gyafehivygdfsh qlgglhlliglakr ++s ++ledfipmdstvknyfitdaqtgsskcvcsv
+  MG772933_ 6645 SRDLEDFKPRSQMETDFLELAMDEFIERYKLDGYAFEHIVYGDFSHGQLGGLHLLIGLAKRSQDSLLKLEDFIPMDSTVKNYFITDAQTGSSKCVCSV 6742
+                 ************************************************************************************************** PP
+
+  endoRNAse  295 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq 346 
+                 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq
+  MG772933_ 6743 IDLLLDDFVEIIKSQDLSVVSKVVKVTIDYTEISFMLWCKDGHVETFYPKLQ 6794
+                 ***************************************************8 PP
+
+>> GQ153547_  ORF1ab 262-13377;13377-21464
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  739.4   1.1  2.2e-225  2.2e-225       1     346 []    6424    6769 ..    6424    6769 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 739.4 bits;  conditional E-value: 2.2e-225
+  endoRNAse    1 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist 98  
+                 slenva+nvvnkghfdgq ge pvsiinn+vytkvdg+dve+fenkttlpvnvafelwakrnikpvpe+kilnnlgvdiaantviwdykr+apah+st
+  GQ153547_ 6424 SLENVAYNVVNKGHFDGQSGEAPVSIINNAVYTKVDGIDVEIFENKTTLPVNVAFELWAKRNIKPVPEIKILNNLGVDIAANTVIWDYKREAPAHVST 6521
+                 89************************************************************************************************ PP
+
+  endoRNAse   99 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq 196 
+                 igvc+mtdiakkpte  c++ltv+fdgrv+gqvdlfrnarngvlitegsv+gl ps gp qas+ngvtlige+vktqfny+kkvdg++qqlpetyftq
+  GQ153547_ 6522 IGVCTMTDIAKKPTENACSSLTVLFDGRVEGQVDLFRNARNGVLITEGSVRGLIPSKGPIQASVNGVTLIGESVKTQFNYFKKVDGIIQQLPETYFTQ 6619
+                 ************************************************************************************************** PP
+
+  endoRNAse  197 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv 294 
+                 sr+l++fkprsqme dflela+defi+ryklegyafehivygdfsh qlgglhl+iglakr ++sp++ledfipmdstvknyfitdaqtgsskcvcsv
+  GQ153547_ 6620 SRDLEDFKPRSQMETDFLELAIDEFIQRYKLEGYAFEHIVYGDFSHGQLGGLHLMIGLAKRSQDSPLKLEDFIPMDSTVKNYFITDAQTGSSKCVCSV 6717
+                 ************************************************************************************************** PP
+
+  endoRNAse  295 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq 346 
+                 idlllddfveiik+qdlsv+skvvkvtidy+eisfmlwckdghvetfypklq
+  GQ153547_ 6718 IDLLLDDFVEIIKAQDLSVISKVVKVTIDYAEISFMLWCKDGHVETFYPKLQ 6769
+                 ***************************************************8 PP
+
+>> GQ153542_  ORF1ab 262-13389;13389-21476
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  737.3   1.5  9.6e-225  9.6e-225       1     346 []    6428    6773 ..    6428    6773 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 737.3 bits;  conditional E-value: 9.6e-225
+  endoRNAse    1 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist 98  
+                 slenva+nvvnkghfdgq ge pvsiinn+vytkvdg+dve+fenkttlpvnvafelwakrnikpvpe+kilnnlgvdiaantviwdyk++apa++st
+  GQ153542_ 6428 SLENVAYNVVNKGHFDGQSGEAPVSIINNAVYTKVDGIDVEIFENKTTLPVNVAFELWAKRNIKPVPEIKILNNLGVDIAANTVIWDYKKEAPAYVST 6525
+                 89************************************************************************************************ PP
+
+  endoRNAse   99 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq 196 
+                 igvc+mtdiakkpte+ c++ltv+fdgrv+gqvdlfrnarngvlitegsvkgl ps gp qas+ngvtlige+vktqfny+kkvdg++qqlpetyftq
+  GQ153542_ 6526 IGVCTMTDIAKKPTESACSSLTVLFDGRVEGQVDLFRNARNGVLITEGSVKGLTPSKGPIQASVNGVTLIGESVKTQFNYFKKVDGIIQQLPETYFTQ 6623
+                 ************************************************************************************************** PP
+
+  endoRNAse  197 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv 294 
+                 sr+l++fkprsqme dflelamdefi+ryklegyafehivygdfsh qlgglhl+iglakr ++sp++ledfipmdstvknyfitdaqtgsskcvcsv
+  GQ153542_ 6624 SRDLEDFKPRSQMETDFLELAMDEFIQRYKLEGYAFEHIVYGDFSHGQLGGLHLMIGLAKRSQDSPLKLEDFIPMDSTVKNYFITDAQTGSSKCVCSV 6721
+                 ************************************************************************************************** PP
+
+  endoRNAse  295 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq 346 
+                 idlllddfveiik+qdlsv+skvvkvtidy+eisfmlwck+ghvetfypklq
+  GQ153542_ 6722 IDLLLDDFVEIIKAQDLSVISKVVKVTIDYAEISFMLWCKNGHVETFYPKLQ 6773
+                 ***************************************************8 PP
+
+>> GQ153543_  ORF1ab 262-13389;13389-21476
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  737.3   1.5  9.6e-225  9.6e-225       1     346 []    6428    6773 ..    6428    6773 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 737.3 bits;  conditional E-value: 9.6e-225
+  endoRNAse    1 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist 98  
+                 slenva+nvvnkghfdgq ge pvsiinn+vytkvdg+dve+fenkttlpvnvafelwakrnikpvpe+kilnnlgvdiaantviwdyk++apa++st
+  GQ153543_ 6428 SLENVAYNVVNKGHFDGQSGEAPVSIINNAVYTKVDGIDVEIFENKTTLPVNVAFELWAKRNIKPVPEIKILNNLGVDIAANTVIWDYKKEAPAYVST 6525
+                 89************************************************************************************************ PP
+
+  endoRNAse   99 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq 196 
+                 igvc+mtdiakkpte+ c++ltv+fdgrv+gqvdlfrnarngvlitegsvkgl ps gp qas+ngvtlige+vktqfny+kkvdg++qqlpetyftq
+  GQ153543_ 6526 IGVCTMTDIAKKPTESACSSLTVLFDGRVEGQVDLFRNARNGVLITEGSVKGLTPSKGPIQASVNGVTLIGESVKTQFNYFKKVDGIIQQLPETYFTQ 6623
+                 ************************************************************************************************** PP
+
+  endoRNAse  197 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv 294 
+                 sr+l++fkprsqme dflelamdefi+ryklegyafehivygdfsh qlgglhl+iglakr ++sp++ledfipmdstvknyfitdaqtgsskcvcsv
+  GQ153543_ 6624 SRDLEDFKPRSQMETDFLELAMDEFIQRYKLEGYAFEHIVYGDFSHGQLGGLHLMIGLAKRSQDSPLKLEDFIPMDSTVKNYFITDAQTGSSKCVCSV 6721
+                 ************************************************************************************************** PP
+
+  endoRNAse  295 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq 346 
+                 idlllddfveiik+qdlsv+skvvkvtidy+eisfmlwck+ghvetfypklq
+  GQ153543_ 6722 IDLLLDDFVEIIKAQDLSVISKVVKVTIDYAEISFMLWCKNGHVETFYPKLQ 6773
+                 ***************************************************8 PP
+
+>> DQ022305_  ORF1ab 262-13377;13377-21464
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  737.0   1.6  1.2e-224  1.2e-224       1     346 []    6424    6769 ..    6424    6769 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 737.0 bits;  conditional E-value: 1.2e-224
+  endoRNAse    1 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist 98  
+                 slenva+nvvnkghfdgq ge pvsiinn+vytkvdg+dve+fenkttlpvnvafelwakrnikpvpe+kilnnlgvdiaan viwdykr+apah+st
+  DQ022305_ 6424 SLENVAYNVVNKGHFDGQSGEAPVSIINNAVYTKVDGIDVEIFENKTTLPVNVAFELWAKRNIKPVPEIKILNNLGVDIAANNVIWDYKREAPAHVST 6521
+                 89************************************************************************************************ PP
+
+  endoRNAse   99 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq 196 
+                 igvc+mtdiakkpte+ c++l v+fdgrv+gqvd+frnarngvlitegsvkgl ps gp qas+ngvtlige+vktqfny+kkvdg++qqlpetyftq
+  DQ022305_ 6522 IGVCTMTDIAKKPTESACSSLIVLFDGRVEGQVDFFRNARNGVLITEGSVKGLTPSKGPAQASVNGVTLIGESVKTQFNYFKKVDGIIQQLPETYFTQ 6619
+                 ************************************************************************************************** PP
+
+  endoRNAse  197 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv 294 
+                 sr+l++fkprsqme dflelamdefi+ryklegyafehivygdfsh qlgglhl+iglakr ++s ++ledfipmdstvknyfitdaqtgsskcvcsv
+  DQ022305_ 6620 SRDLEDFKPRSQMETDFLELAMDEFIQRYKLEGYAFEHIVYGDFSHGQLGGLHLMIGLAKRSQDSLLKLEDFIPMDSTVKNYFITDAQTGSSKCVCSV 6717
+                 ************************************************************************************************** PP
+
+  endoRNAse  295 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq 346 
+                 idlllddfveiiksqdlsvvskvvkvtidy+eisfmlwckdghvetfypklq
+  DQ022305_ 6718 IDLLLDDFVEIIKSQDLSVVSKVVKVTIDYAEISFMLWCKDGHVETFYPKLQ 6769
+                 ***************************************************8 PP
+
+>> MG772934_  ORF1ab 265-13389;13389-21476
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  736.0   1.0  2.4e-224  2.4e-224       1     346 []    6427    6772 ..    6427    6772 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 736.0 bits;  conditional E-value: 2.4e-224
+  endoRNAse    1 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist 98  
+                 slenva+nv+nkghfdgq ge pvsiinn+vytkvdg+dve+fenkttlpvnvafelwakrnikpvpe+kilnnlgvdiaantviwd+kr+apah+st
+  MG772934_ 6427 SLENVAYNVINKGHFDGQSGEAPVSIINNAVYTKVDGIDVEIFENKTTLPVNVAFELWAKRNIKPVPEIKILNNLGVDIAANTVIWDHKREAPAHVST 6524
+                 89************************************************************************************************ PP
+
+  endoRNAse   99 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq 196 
+                 igvc+mtdia+kpte  c++ltv+fdgrv+gq +lfrnarngvlitegsvkgl ps gp qas+ngvtlige+vktqfny+kkvdg++qqlpetyftq
+  MG772934_ 6525 IGVCTMTDIAEKPTENACSSLTVLFDGRVEGQANLFRNARNGVLITEGSVKGLTPSKGPAQASVNGVTLIGESVKTQFNYFKKVDGIIQQLPETYFTQ 6622
+                 ************************************************************************************************** PP
+
+  endoRNAse  197 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv 294 
+                 sr+l++fkprsqme dflelamdefierykl+gyafehivygdfsh qlgglhlliglakr ++s ++ledfipmdstvknyfitdaqtgsskcvcsv
+  MG772934_ 6623 SRDLEDFKPRSQMETDFLELAMDEFIERYKLDGYAFEHIVYGDFSHGQLGGLHLLIGLAKRSQDSLLKLEDFIPMDSTVKNYFITDAQTGSSKCVCSV 6720
+                 ************************************************************************************************** PP
+
+  endoRNAse  295 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq 346 
+                 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq
+  MG772934_ 6721 IDLLLDDFVEIIKSQDLSVVSKVVKVTIDYTEISFMLWCKDGHVETFYPKLQ 6772
+                 ***************************************************8 PP
+
+>> GQ153540_  ORF1ab 262-13377;13377-21464
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  731.4   2.1    6e-223    6e-223       1     346 []    6424    6769 ..    6424    6769 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 731.4 bits;  conditional E-value: 6e-223
+  endoRNAse    1 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist 98  
+                 slenva+nvvnkghfdgq ge pvsiinn+vytkvdg+dve+fenkttlpvnvafelwakrnikpvpe+kilnnlgvdi an viwdykr+apah+st
+  GQ153540_ 6424 SLENVAYNVVNKGHFDGQSGEAPVSIINNAVYTKVDGIDVEIFENKTTLPVNVAFELWAKRNIKPVPEIKILNNLGVDIVANNVIWDYKREAPAHVST 6521
+                 89************************************************************************************************ PP
+
+  endoRNAse   99 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq 196 
+                 igvc+mtdiakkpte+ c++l v+fdgrv+gqvd+frnarngvlitegsvkgl ps gp qas+ngvtlige+vktqfny+kkvdg++qqlpetyftq
+  GQ153540_ 6522 IGVCTMTDIAKKPTESACSSLIVLFDGRVEGQVDFFRNARNGVLITEGSVKGLTPSKGPAQASVNGVTLIGESVKTQFNYFKKVDGIIQQLPETYFTQ 6619
+                 ************************************************************************************************** PP
+
+  endoRNAse  197 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv 294 
+                 sr+l++fkprsqme dflelamdefi+ryklegyafehivygdfs+ qlgglhl+iglakr ++s ++ledfipmdstvknyfitdaqtgsskcvcsv
+  GQ153540_ 6620 SRDLEDFKPRSQMETDFLELAMDEFIQRYKLEGYAFEHIVYGDFSYGQLGGLHLMIGLAKRSQDSLLKLEDFIPMDSTVKNYFITDAQTGSSKCVCSV 6717
+                 ************************************************************************************************** PP
+
+  endoRNAse  295 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq 346 
+                 idlllddfveiiksqdlsvvskvvkvtidy+eisfmlwckdghvetfypklq
+  GQ153540_ 6718 IDLLLDDFVEIIKSQDLSVVSKVVKVTIDYAEISFMLWCKDGHVETFYPKLQ 6769
+                 ***************************************************8 PP
+
+>> GQ153539_  ORF1ab 262-13377;13377-21464
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  731.4   2.1    6e-223    6e-223       1     346 []    6424    6769 ..    6424    6769 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 731.4 bits;  conditional E-value: 6e-223
+  endoRNAse    1 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist 98  
+                 slenva+nvvnkghfdgq ge pvsiinn+vytkvdg+dve+fenkttlpvnvafelwakrnikpvpe+kilnnlgvdi an viwdykr+apah+st
+  GQ153539_ 6424 SLENVAYNVVNKGHFDGQSGEAPVSIINNAVYTKVDGIDVEIFENKTTLPVNVAFELWAKRNIKPVPEIKILNNLGVDIVANNVIWDYKREAPAHVST 6521
+                 89************************************************************************************************ PP
+
+  endoRNAse   99 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq 196 
+                 igvc+mtdiakkpte+ c++l v+fdgrv+gqvd+frnarngvlitegsvkgl ps gp qas+ngvtlige+vktqfny+kkvdg++qqlpetyftq
+  GQ153539_ 6522 IGVCTMTDIAKKPTESACSSLIVLFDGRVEGQVDFFRNARNGVLITEGSVKGLTPSKGPAQASVNGVTLIGESVKTQFNYFKKVDGIIQQLPETYFTQ 6619
+                 ************************************************************************************************** PP
+
+  endoRNAse  197 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv 294 
+                 sr+l++fkprsqme dflelamdefi+ryklegyafehivygdfs+ qlgglhl+iglakr ++s ++ledfipmdstvknyfitdaqtgsskcvcsv
+  GQ153539_ 6620 SRDLEDFKPRSQMETDFLELAMDEFIQRYKLEGYAFEHIVYGDFSYGQLGGLHLMIGLAKRSQDSLLKLEDFIPMDSTVKNYFITDAQTGSSKCVCSV 6717
+                 ************************************************************************************************** PP
+
+  endoRNAse  295 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq 346 
+                 idlllddfveiiksqdlsvvskvvkvtidy+eisfmlwckdghvetfypklq
+  GQ153539_ 6718 IDLLLDDFVEIIKSQDLSVVSKVVKVTIDYAEISFMLWCKDGHVETFYPKLQ 6769
+                 ***************************************************8 PP
+
+>> DQ084199_  ORF1ab 245-13360;13360-21447
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  731.4   2.1    6e-223    6e-223       1     346 []    6424    6769 ..    6424    6769 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 731.4 bits;  conditional E-value: 6e-223
+  endoRNAse    1 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist 98  
+                 slenva+nvvnkghfdgq ge pvsiinn+vytkvdg+dve+fenkttlpvnvafelwakrnikpvpe+kilnnlgvdi an viwdykr+apah+st
+  DQ084199_ 6424 SLENVAYNVVNKGHFDGQSGEAPVSIINNAVYTKVDGIDVEIFENKTTLPVNVAFELWAKRNIKPVPEIKILNNLGVDIVANNVIWDYKREAPAHVST 6521
+                 89************************************************************************************************ PP
+
+  endoRNAse   99 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq 196 
+                 igvc+mtdiakkpte+ c++l v+fdgrv+gqvd+frnarngvlitegsvkgl ps gp qas+ngvtlige+vktqfny+kkvdg++qqlpetyftq
+  DQ084199_ 6522 IGVCTMTDIAKKPTESACSSLIVLFDGRVEGQVDFFRNARNGVLITEGSVKGLTPSKGPAQASVNGVTLIGESVKTQFNYFKKVDGIIQQLPETYFTQ 6619
+                 ************************************************************************************************** PP
+
+  endoRNAse  197 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv 294 
+                 sr+l++fkprsqme dflelamdefi+ryklegyafehivygdfs+ qlgglhl+iglakr ++s ++ledfipmdstvknyfitdaqtgsskcvcsv
+  DQ084199_ 6620 SRDLEDFKPRSQMETDFLELAMDEFIQRYKLEGYAFEHIVYGDFSYGQLGGLHLMIGLAKRSQDSLLKLEDFIPMDSTVKNYFITDAQTGSSKCVCSV 6717
+                 ************************************************************************************************** PP
+
+  endoRNAse  295 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq 346 
+                 idlllddfveiiksqdlsvvskvvkvtidy+eisfmlwckdghvetfypklq
+  DQ084199_ 6718 IDLLLDDFVEIIKSQDLSVVSKVVKVTIDYAEISFMLWCKDGHVETFYPKLQ 6769
+                 ***************************************************8 PP
+
+>> GQ153546_  ORF1ab 262-13368;13368-21455
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  731.4   2.1    6e-223    6e-223       1     346 []    6421    6766 ..    6421    6766 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 731.4 bits;  conditional E-value: 6e-223
+  endoRNAse    1 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist 98  
+                 slenva+nvvnkghfdgq ge pvsiinn+vytkvdg+dve+fenkttlpvnvafelwakrnikpvpe+kilnnlgvdi an viwdykr+apah+st
+  GQ153546_ 6421 SLENVAYNVVNKGHFDGQSGEAPVSIINNAVYTKVDGIDVEIFENKTTLPVNVAFELWAKRNIKPVPEIKILNNLGVDIVANNVIWDYKREAPAHVST 6518
+                 89************************************************************************************************ PP
+
+  endoRNAse   99 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq 196 
+                 igvc+mtdiakkpte+ c++l v+fdgrv+gqvd+frnarngvlitegsvkgl ps gp qas+ngvtlige+vktqfny+kkvdg++qqlpetyftq
+  GQ153546_ 6519 IGVCTMTDIAKKPTESACSSLIVLFDGRVEGQVDFFRNARNGVLITEGSVKGLTPSKGPAQASVNGVTLIGESVKTQFNYFKKVDGIIQQLPETYFTQ 6616
+                 ************************************************************************************************** PP
+
+  endoRNAse  197 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv 294 
+                 sr+l++fkprsqme dflelamdefi+ryklegyafehivygdfs+ qlgglhl+iglakr ++s ++ledfipmdstvknyfitdaqtgsskcvcsv
+  GQ153546_ 6617 SRDLEDFKPRSQMETDFLELAMDEFIQRYKLEGYAFEHIVYGDFSYGQLGGLHLMIGLAKRSQDSLLKLEDFIPMDSTVKNYFITDAQTGSSKCVCSV 6714
+                 ************************************************************************************************** PP
+
+  endoRNAse  295 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq 346 
+                 idlllddfveiiksqdlsvvskvvkvtidy+eisfmlwckdghvetfypklq
+  GQ153546_ 6715 IDLLLDDFVEIIKSQDLSVVSKVVKVTIDYAEISFMLWCKDGHVETFYPKLQ 6766
+                 ***************************************************8 PP
+
+>> GQ153541_  ORF1ab 262-13377;13377-21464
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  731.4   2.1    6e-223    6e-223       1     346 []    6424    6769 ..    6424    6769 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 731.4 bits;  conditional E-value: 6e-223
+  endoRNAse    1 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist 98  
+                 slenva+nvvnkghfdgq ge pvsiinn+vytkvdg+dve+fenkttlpvnvafelwakrnikpvpe+kilnnlgvdi an viwdykr+apah+st
+  GQ153541_ 6424 SLENVAYNVVNKGHFDGQSGEAPVSIINNAVYTKVDGIDVEIFENKTTLPVNVAFELWAKRNIKPVPEIKILNNLGVDIVANNVIWDYKREAPAHVST 6521
+                 89************************************************************************************************ PP
+
+  endoRNAse   99 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq 196 
+                 igvc+mtdiakkpte+ c++l v+fdgrv+gqvd+frnarngvlitegsvkgl ps gp qas+ngvtlige+vktqfny+kkvdg++qqlpetyftq
+  GQ153541_ 6522 IGVCTMTDIAKKPTESACSSLIVLFDGRVEGQVDFFRNARNGVLITEGSVKGLTPSKGPAQASVNGVTLIGESVKTQFNYFKKVDGIIQQLPETYFTQ 6619
+                 ************************************************************************************************** PP
+
+  endoRNAse  197 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv 294 
+                 sr+l++fkprsqme dflelamdefi+ryklegyafehivygdfs+ qlgglhl+iglakr ++s ++ledfipmdstvknyfitdaqtgsskcvcsv
+  GQ153541_ 6620 SRDLEDFKPRSQMETDFLELAMDEFIQRYKLEGYAFEHIVYGDFSYGQLGGLHLMIGLAKRSQDSLLKLEDFIPMDSTVKNYFITDAQTGSSKCVCSV 6717
+                 ************************************************************************************************** PP
+
+  endoRNAse  295 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq 346 
+                 idlllddfveiiksqdlsvvskvvkvtidy+eisfmlwckdghvetfypklq
+  GQ153541_ 6718 IDLLLDDFVEIIKSQDLSVVSKVVKVTIDYAEISFMLWCKDGHVETFYPKLQ 6769
+                 ***************************************************8 PP
+
+>> GQ153548_  ORF1ab 262-13350;13350-21437
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  731.4   2.1    6e-223    6e-223       1     346 []    6415    6760 ..    6415    6760 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 731.4 bits;  conditional E-value: 6e-223
+  endoRNAse    1 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist 98  
+                 slenva+nvvnkghfdgq ge pvsiinn+vytkvdg+dve+fenkttlpvnvafelwakrnikpvpe+kilnnlgvdi an viwdykr+apah+st
+  GQ153548_ 6415 SLENVAYNVVNKGHFDGQSGEAPVSIINNAVYTKVDGIDVEIFENKTTLPVNVAFELWAKRNIKPVPEIKILNNLGVDIVANNVIWDYKREAPAHVST 6512
+                 89************************************************************************************************ PP
+
+  endoRNAse   99 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq 196 
+                 igvc+mtdiakkpte+ c++l v+fdgrv+gqvd+frnarngvlitegsvkgl ps gp qas+ngvtlige+vktqfny+kkvdg++qqlpetyftq
+  GQ153548_ 6513 IGVCTMTDIAKKPTESACSSLIVLFDGRVEGQVDFFRNARNGVLITEGSVKGLTPSKGPAQASVNGVTLIGESVKTQFNYFKKVDGIIQQLPETYFTQ 6610
+                 ************************************************************************************************** PP
+
+  endoRNAse  197 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv 294 
+                 sr+l++fkprsqme dflelamdefi+ryklegyafehivygdfs+ qlgglhl+iglakr ++s ++ledfipmdstvknyfitdaqtgsskcvcsv
+  GQ153548_ 6611 SRDLEDFKPRSQMETDFLELAMDEFIQRYKLEGYAFEHIVYGDFSYGQLGGLHLMIGLAKRSQDSLLKLEDFIPMDSTVKNYFITDAQTGSSKCVCSV 6708
+                 ************************************************************************************************** PP
+
+  endoRNAse  295 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq 346 
+                 idlllddfveiiksqdlsvvskvvkvtidy+eisfmlwckdghvetfypklq
+  GQ153548_ 6709 IDLLLDDFVEIIKSQDLSVVSKVVKVTIDYAEISFMLWCKDGHVETFYPKLQ 6760
+                 ***************************************************8 PP
+
+>> GQ153544_  ORF1ab 262-13368;13368-21455
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  731.4   2.1    6e-223    6e-223       1     346 []    6421    6766 ..    6421    6766 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 731.4 bits;  conditional E-value: 6e-223
+  endoRNAse    1 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist 98  
+                 slenva+nvvnkghfdgq ge pvsiinn+vytkvdg+dve+fenkttlpvnvafelwakrnikpvpe+kilnnlgvdi an viwdykr+apah+st
+  GQ153544_ 6421 SLENVAYNVVNKGHFDGQSGEAPVSIINNAVYTKVDGIDVEIFENKTTLPVNVAFELWAKRNIKPVPEIKILNNLGVDIVANNVIWDYKREAPAHVST 6518
+                 89************************************************************************************************ PP
+
+  endoRNAse   99 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq 196 
+                 igvc+mtdiakkpte+ c++l v+fdgrv+gqvd+frnarngvlitegsvkgl ps gp qas+ngvtlige+vktqfny+kkvdg++qqlpetyftq
+  GQ153544_ 6519 IGVCTMTDIAKKPTESACSSLIVLFDGRVEGQVDFFRNARNGVLITEGSVKGLTPSKGPAQASVNGVTLIGESVKTQFNYFKKVDGIIQQLPETYFTQ 6616
+                 ************************************************************************************************** PP
+
+  endoRNAse  197 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv 294 
+                 sr+l++fkprsqme dflelamdefi+ryklegyafehivygdfs+ qlgglhl+iglakr ++s ++ledfipmdstvknyfitdaqtgsskcvcsv
+  GQ153544_ 6617 SRDLEDFKPRSQMETDFLELAMDEFIQRYKLEGYAFEHIVYGDFSYGQLGGLHLMIGLAKRSQDSLLKLEDFIPMDSTVKNYFITDAQTGSSKCVCSV 6714
+                 ************************************************************************************************** PP
+
+  endoRNAse  295 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq 346 
+                 idlllddfveiiksqdlsvvskvvkvtidy+eisfmlwckdghvetfypklq
+  GQ153544_ 6715 IDLLLDDFVEIIKSQDLSVVSKVVKVTIDYAEISFMLWCKDGHVETFYPKLQ 6766
+                 ***************************************************8 PP
+
+>> GQ153545_  ORF1ab 262-13368;13368-21455
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  731.4   2.1    6e-223    6e-223       1     346 []    6421    6766 ..    6421    6766 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 731.4 bits;  conditional E-value: 6e-223
+  endoRNAse    1 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist 98  
+                 slenva+nvvnkghfdgq ge pvsiinn+vytkvdg+dve+fenkttlpvnvafelwakrnikpvpe+kilnnlgvdi an viwdykr+apah+st
+  GQ153545_ 6421 SLENVAYNVVNKGHFDGQSGEAPVSIINNAVYTKVDGIDVEIFENKTTLPVNVAFELWAKRNIKPVPEIKILNNLGVDIVANNVIWDYKREAPAHVST 6518
+                 89************************************************************************************************ PP
+
+  endoRNAse   99 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq 196 
+                 igvc+mtdiakkpte+ c++l v+fdgrv+gqvd+frnarngvlitegsvkgl ps gp qas+ngvtlige+vktqfny+kkvdg++qqlpetyftq
+  GQ153545_ 6519 IGVCTMTDIAKKPTESACSSLIVLFDGRVEGQVDFFRNARNGVLITEGSVKGLTPSKGPAQASVNGVTLIGESVKTQFNYFKKVDGIIQQLPETYFTQ 6616
+                 ************************************************************************************************** PP
+
+  endoRNAse  197 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv 294 
+                 sr+l++fkprsqme dflelamdefi+ryklegyafehivygdfs+ qlgglhl+iglakr ++s ++ledfipmdstvknyfitdaqtgsskcvcsv
+  GQ153545_ 6617 SRDLEDFKPRSQMETDFLELAMDEFIQRYKLEGYAFEHIVYGDFSYGQLGGLHLMIGLAKRSQDSLLKLEDFIPMDSTVKNYFITDAQTGSSKCVCSV 6714
+                 ************************************************************************************************** PP
+
+  endoRNAse  295 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq 346 
+                 idlllddfveiiksqdlsvvskvvkvtidy+eisfmlwckdghvetfypklq
+  GQ153545_ 6715 IDLLLDDFVEIIKSQDLSVVSKVVKVTIDYAEISFMLWCKDGHVETFYPKLQ 6766
+                 ***************************************************8 PP
+
+>> OR020535_  ORF1ab 241-13431;13431-21563
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  731.2   2.2    7e-223    7e-223       1     346 []    6449    6794 ..    6449    6794 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 731.2 bits;  conditional E-value: 7e-223
+  endoRNAse    1 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist 98  
+                 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist
+  OR020535_ 6449 SLENVAFNVVNKGHFDGQQGEVPVSIINNTVYTKVDGVDVELFENKTTLPVNVAFELWAKRNIKPVPEVKILNNLGVDIAANTVIWDYKRDAPAHIST 6546
+                 89************************************************************************************************ PP
+
+  endoRNAse   99 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq 196 
+                 igvcsmtdiakkp eticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq
+  OR020535_ 6547 IGVCSMTDIAKKPIETICAPLTVFFDGRVDGQVDLFRNARNGVLITEGSVKGLQPSVGPKQASLNGVTLIGEAVKTQFNYYKKVDGVVQQLPETYFTQ 6644
+                 ************************************************************************************************** PP
+
+  endoRNAse  197 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv 294 
+                 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhl                            fitd+qtgsskcvcsv
+  OR020535_ 6645 SRNLQEFKPRSQMEIDFLELAMDEFIERYKLEGYAFEHIVYGDFSHSQLGGLHLXXXXXXXXXXXXXXXXXXXXXXXXXXXXFITDSQTGSSKCVCSV 6742
+                 ***********************************************************999999999999999999********************* PP
+
+  endoRNAse  295 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq 346 
+                 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq
+  OR020535_ 6743 IDLLLDDFVEIIKSQDLSVVSKVVKVTIDYTEISFMLWCKDGHVETFYPKLQ 6794
+                 ***************************************************8 PP
+
+>> KY352407_  ORF1ab 260-13324;13324-21411
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  719.1   2.0  3.4e-219  3.4e-219       1     346 []    6407    6752 ..    6407    6752 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 719.1 bits;  conditional E-value: 3.4e-219
+  endoRNAse    1 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist 98  
+                 slenva+nvvnkghfdg+ ge pvsiinn+vytk+dgvdve+fenkttlpvnvafelwakr ikpvpe+kil+nlgvdiaantviwd++r+apa+ist
+  KY352407_ 6407 SLENVAYNVVNKGHFDGDVGEKPVSIINNAVYTKMDGVDVEIFENKTTLPVNVAFELWAKRCIKPVPEMKILQNLGVDIAANTVIWDFNREAPAYIST 6504
+                 89************************************************************************************************ PP
+
+  endoRNAse   99 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq 196 
+                 ig+c+mtdiakkpte  c++l v+fdgrvdgqvdlfrnarngvlitegsvkgl +s gpkqaslngvtlige+vktqfny+kkvdgvvqqlpetyftq
+  KY352407_ 6505 IGICAMTDIAKKPTEHACSSLNVLFDGRVDGQVDLFRNARNGVLITEGSVKGLIASKGPKQASLNGVTLIGESVKTQFNYFKKVDGVVQQLPETYFTQ 6602
+                 ************************************************************************************************** PP
+
+  endoRNAse  197 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv 294 
+                 srnl+ fkprsqme+dflelamdefi+rykle+yafehivygdfsh qlgglhl+iglakr  esp++ledf+p+dstvknyfitda+tg+skcvcsv
+  KY352407_ 6603 SRNLESFKPRSQMEVDFLELAMDEFIQRYKLESYAFEHIVYGDFSHQQLGGLHLMIGLAKRSLESPLKLEDFLPIDSTVKNYFITDAKTGASKCVCSV 6700
+                 ************************************************************************************************** PP
+
+  endoRNAse  295 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq 346 
+                 idlllddfveiiksqdlsvvskvv+vtidy eisfmlwckdghvetfypklq
+  KY352407_ 6701 IDLLLDDFVEIIKSQDLSVVSKVVQVTIDYIEISFMLWCKDGHVETFYPKLQ 6752
+                 ***************************************************8 PP
+
+>> PX393327_  ORF1ab 188-13381;13381-21468
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  679.1   3.8    5e-207    5e-207       1     346 []    6450    6795 ..    6450    6795 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 679.1 bits;  conditional E-value: 5e-207
+  endoRNAse    1 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist 98  
+                 slenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahist
+  PX393327_ 6450 SLENVAFNVVNKGHFDGQQGEVPVSIINNTVYTKVDGVDVELFENKTTLPVNVAFELWAKRNIKPVPEVKILNNLGVDIAANTVIWDYKRDAPAHIST 6547
+                 89************************************************************************************************ PP
+
+  endoRNAse   99 igvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq 196 
+                                                                gsvkglqpsvgpkqaslngvtligeavktqfnyykkvdgvvqqlpetyftq
+  PX393327_ 6548 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXGSVKGLQPSVGPKQASLNGVTLIGEAVKTQFNYYKKVDGVVQQLPETYFTQ 6645
+                 **9999999998888888888888888888888888999999999***************************************************** PP
+
+  endoRNAse  197 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv 294 
+                 srnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgsskcvcsv
+  PX393327_ 6646 SRNLQEFKPRSQMEIDFLELAMDEFIERYKLEGYAFEHIVYGDFSHSQLGGLHLLIGLAKRFKESPFELEDFIPMDSTVKNYFITDAQTGSSKCVCSV 6743
+                 ************************************************************************************************** PP
+
+  endoRNAse  295 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq 346 
+                 idlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq
+  PX393327_ 6744 IDLLLDDFVEIIKSQDLSVVSKVVKVTIDYTEISFMLWCKDGHVETFYPKLQ 6795
+                 ***************************************************8 PP
+
+>> NC025217_  ORF1ab 303-13931;13931-22045
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  487.1   2.4  1.2e-148  1.2e-148       2     346 .]    6597    6948 ..    6596    6948 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 487.1 bits;  conditional E-value: 1.2e-148
+  endoRNAse    2 lenvafnvvnkghfdgqqgevpvsiinntvytkvdgvdvelfenkttlpvnvafelwakrnikpvpevkilnnlgvdiaantviwdykrdapahisti 99  
+                 lenva+nvvnkghfdg qge+p ++i + v++k +gvdv +f n+ttlp nvafel+akrn++pvpevk+l n+gvdi+    +wdy+++ap   sti
+  NC025217_ 6597 LENVAYNVVNKGHFDGTQGEIPTAVIGDKVFVKREGVDVCVFTNNTTLPTNVAFELYAKRNVNPVPEVKLLRNIGVDICNGFTLWDYEQQAPVFNSTI 6694
+                 8************************************************************************************************* PP
+
+  endoRNAse  100 gvcsmtdiakkpteticapltvffdgrvdgqvdlfrnarngvlitegsvkglqpsvgpkqaslngvtli.....ge..avktqfnyykkvdgvvqqlp 190 
+                 gvc  tdia k +e  c plt++fd+r+ g++d f na n+vl ++  +k lq s gp+++s+ngv +      ge  a++  f +yk+ +g + ++ 
+  NC025217_ 6695 GVCKYTDIAAKFSEKNCKPLTILFDARLSGHIDQFCNADNAVLYSDYPIKRLQGSKGPEHCSINGVIVNstpdgGEkpAINCTFYFYKRENGQLVNVG 6792
+                 ******************************************************************98633332335589****************** PP
+
+  endoRNAse  191 etyftqsrnlqefkprsqmeidflelamdefieryklegyafehivygdfshsqlgglhlliglakrfkespfeledfipmdstvknyfitdaqtgss 288 
+                 ++yftqsr    f+pr+ me dflel m  fi+ry+le yafehivygdfsh q+gglhlligl kr +es +++e+f+ mdst++nyf+td +tgss
+  NC025217_ 6793 NSYFTQSRVKSSFEPRTTMERDFLELDMHGFIQRYNLEKYAFEHIVYGDFSHKQIGGLHLLIGLIKRCNESTIDIEEFLTMDSTIHNYFVTDQNTGSS 6890
+                 ************************************************************************************************** PP
+
+  endoRNAse  289 kcvcsvidlllddfveiiksqdlsvvskvvkvtidyteisfmlwckdghvetfypklq 346 
+                 k+vcsvidlllddfveiiksqdl+vvskvvkv id+ +  fmlwckdg v+tfyp+lq
+  NC025217_ 6891 KAVCSVIDLLLDDFVEIIKSQDLTVVSKVVKVFIDFRDFDFMLWCKDGVVQTFYPRLQ 6948
+                 ********************************************************98 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (346 nodes)
+Target sequences:                         69  (489168 residues searched)
+Passed MSV filter:                        69  (1); expected 1.4 (0.02)
+Passed bias filter:                       69  (1); expected 1.4 (0.02)
+Passed Vit filter:                        69  (1); expected 0.1 (0.001)
+Passed Fwd filter:                        69  (1); expected 0.0 (1e-05)
+Initial search space (Z):                 69  [actual number of targets]
+Domain search space  (domZ):              69  [number of targets reported over threshold]
+# CPU time: 0.71u 0.00s 00:00:00.71 Elapsed: 00:00:00.71
+# Mc/sec: 235.61
+//
+[ok]

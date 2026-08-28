@@ -1,0 +1,12 @@
+/users/omarne/small_alignments
+/users/omarne/.conda/envs/omkar/bin/python3
+Python 3.11.7
+All OK
+# Reading from clustal.fasta
+# Reading from muscle.fasta
+# Comparing alignment positions in clustal.fasta and muscle.fasta
+# Comparing alignment states in clustal.fasta and muscle.fasta
+File1,File2,Shared,Uniq1,Uniq2,PreliminaryScore,FinalScore
+clustal.fasta,muscle.fasta,24449,8391,8583,0.9241304869006177,0.7817109327926032
+File1,File2,Shared,Uniq1,Uniq2,PreliminaryScoreStates,FinalScoreStates
+clustal.fasta,muscle.fasta,6320,2084,2198,0.8861706227847055,0.7798342792756822

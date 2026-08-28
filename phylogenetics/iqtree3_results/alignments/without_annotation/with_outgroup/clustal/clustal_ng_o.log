@@ -1,0 +1,280 @@
+IQ-TREE version 3.0.1 for MacOS ARM 64-bit built Jun 30 2025
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    CCI3QD19XJALT (SSE4.2, 16 GB RAM)
+Command: iqtree3 -s clustal_ng_o.fasta -m MFP -B 1000 -bb 1000 -alrt 1000 -o DQ022305_,DQ084199_,GQ153539_,GQ153540_,GQ153541_,GQ153542_,GQ153543_,GQ153544_,GQ153545_,GQ153546_,GQ153547_,GQ153548_,KY352407_,MG772933_,MG772934_,MT040333_,MT040334_,MT040335_,MT040336_,MT072864_,NC025217_ -T 8 --rate --mlrate -seed 50 --prefix clustal_ng_o
+Seed:    50 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sat Dec 27 15:52:00 2025
+Kernel:  SSE2 - 8 threads (10 CPU cores detected)
+
+Reading alignment file clustal_ng_o.fasta ... Fasta format detected
+Reading fasta file: done in 0.0331461 secs using 87.75% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.02299 secs using 69.01% CPU
+WARNING: 18 sites contain only gaps or ambiguous characters.
+Alignment has 69 sequences with 32840 columns, 8390 distinct patterns
+9642 parsimony-informative, 7307 singleton sites, 15891 constant sites
+           Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.000272036 secs using 399.9% CPU
+   1  NC025217_    4.11%    failed      0.00%
+   2  KY352407_   10.86%    failed      0.01%
+   3  GQ153542_    9.51%    failed      0.00%
+   4  GQ153543_    9.62%    failed      0.00%
+   5  GQ153547_    9.55%    failed      0.00%
+   6  GQ153548_    9.63%    failed      0.00%
+   7  GQ153546_    9.58%    failed      0.00%
+   8  GQ153544_    9.58%    failed      0.00%
+   9  GQ153545_    9.58%    failed      0.00%
+  10  DQ022305_    9.48%    failed      0.00%
+  11  DQ084199_    9.60%    failed      0.00%
+  12  GQ153541_    9.55%    failed      0.00%
+  13  GQ153539_    9.55%    failed      0.00%
+  14  GQ153540_    9.55%    failed      0.00%
+  15  MG772933_    9.25%    passed     66.64%
+  16  MG772934_    9.46%    passed     85.79%
+  17  MT072864_    9.30%    passed     53.93%
+  18  MT040334_    9.25%    passed     52.13%
+  19  MT040333_    9.24%    passed     53.14%
+  20  MT040335_    9.24%    passed     54.24%
+  21  MT040336_    9.25%    passed     52.56%
+  22  OK177352_   10.61%    passed     14.89%
+  23  PP615923_   10.82%    passed     32.01%
+  24  OR689160_   10.94%    passed      7.88%
+  25  PQ279092_   10.74%    passed      5.37%
+  26  PX448754_   10.93%    failed      4.08%
+  27  PQ279056_   10.93%    passed      6.30%
+  28  PQ304301_   10.92%    failed      4.60%
+  29  PQ972523_   10.79%    passed     17.95%
+  30  OK204161_   10.78%    passed     24.02%
+  31  PP601887_   10.85%    passed     15.32%
+  32  OL714154_   10.57%    passed     14.27%
+  33  OK221016_   10.63%    passed     15.50%
+  34  PP630509_   10.86%    passed     15.26%
+  35  MZ412499_   10.84%    passed     11.84%
+  36  OQ558991_   10.85%    passed     15.09%
+  37  MZ131148_   10.78%    passed     17.87%
+  38  OU470855_   11.57%    passed     15.82%
+  39  OZ061529_   10.62%    passed      9.67%
+  40  MW901580_   10.83%    passed     16.32%
+  41  MZ160298_   10.94%    passed     22.83%
+  42  OY792307_   10.31%    passed     10.11%
+  43  OQ896588_   11.02%    passed     17.00%
+  44  OL926066_   10.53%    failed      2.44%
+  45  OD923885_   10.40%    passed     15.65%
+  46  OK433428_    9.37%    passed     14.19%
+  47  MN908947_    8.94%    passed     14.70%
+  48  MW183957_    9.21%    passed     12.88%
+  49  OR020535_   10.68%    passed     10.13%
+  50  OR563456_   10.86%    passed     13.70%
+  51  PP023772_   10.78%    passed      9.52%
+  52  OP578130_   11.00%    passed      8.96%
+  53  PP030571_   10.85%    passed      9.27%
+  54  OY784472_   10.41%    failed      4.63%
+  55  ON923618_   10.97%    failed      2.69%
+  56  OP440368_   11.01%    failed      3.04%
+  57  OR983979_   10.92%    passed     10.87%
+  58  PX393327_   11.06%    passed      7.31%
+  59  OZ014103_   10.58%    passed      8.12%
+  60  PX059619_   10.56%    passed      5.50%
+  61  PV497551_   10.77%    passed      7.70%
+  62  PQ017244_   11.03%    passed     10.77%
+  63  PQ121865_   11.22%    passed      6.25%
+  64  PQ375771_   10.93%    failed      4.68%
+  65  PV239625_   10.93%    passed      8.46%
+  66  PQ391889_   10.91%    failed      3.78%
+  67  OV948634_    9.57%    passed      9.14%
+  68  OZ223682_    9.24%    failed      4.03%
+  69  PQ899058_    9.76%    passed      6.39%
+****  TOTAL       10.22%  23 sequences failed composition chi2 test (p-value<5%; df=3)
+Checking for duplicate sequences: done in 0.00129199 secs using 95.28% CPU
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.030 seconds
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -160465.356
+2. Current log-likelihood: -160462.709
+3. Current log-likelihood: -160460.646
+4. Current log-likelihood: -160459.239
+5. Current log-likelihood: -160458.114
+Optimal log-likelihood: -160456.955
+Rate parameters:  A-C: 1.47315  A-G: 3.80666  A-T: 1.85095  C-G: 0.96034  C-T: 6.41306  G-T: 1.00000
+Base frequencies:  A: 0.296  C: 0.187  G: 0.199  T: 0.318
+Proportion of invariable sites: 0.213
+Gamma shape alpha: 0.805
+Parameters optimization took 5 rounds (0.449 sec)
+Time for fast ML tree search: 1.760 seconds
+
+NOTE: ModelFinder requires 219 MB RAM!
+ModelFinder will test up to 968 DNA models (sample size: 32840 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  JC            168338.879   135 336947.758   336948.881   338081.678
+  2  JC+I          165669.362   136 331610.724   331611.863   332753.043
+  3  JC+G4         165053.927   136 330379.854   330380.993   331522.173
+  4  JC+I+G4       165067.791   137 330409.582   330410.738   331560.300
+  5  JC+R2         165042.314   137 330358.628   330359.785   331509.346
+  6  JC+R3         165038.418   139 330354.835   330356.026   331522.352
+ 14  JC+I+R2       165031.147   138 330338.294   330339.467   331497.411
++I+R3 reinitialized from +I+R2 with factor 0.500
++I+R3 reinitialized from +I+R2 with factor 0.250
++I+R3 reinitialized from +I+R2 with factor 0.125
++I+R3 reinitialized from +I+R2 with factor 0.062
++I+R3 reinitialized from +I+R2 with factor 0.031
+ 15  JC+I+R3       165031.740   140 330343.480   330344.687   331519.396
+ 36  JC+I+R2       165031.147   138 330338.294   330339.467   331497.412
+ 58  F81+I+R2      165031.120   138 330338.240   330339.414   331497.358
+ 80  F81+F+I+R2    163595.564   141 327473.129   327474.354   328657.445
+102  K2P+I+R2      162597.180   139 325472.360   325473.550   326639.877
+124  K2P+I+R2      162597.180   139 325472.360   325473.550   326639.877
+146  HKY+I+R2      162597.102   139 325472.203   325473.393   326639.720
+168  HKY+F+I+R2    160754.454   142 321792.909   321794.151   322985.624
+190  TNe+I+R2      162411.143   140 325102.285   325103.493   326278.202
+212  TNe+I+R2      162411.143   140 325102.285   325103.493   326278.202
+234  TN+I+R2       162411.064   140 325102.128   325103.335   326278.044
+256  TN+F+I+R2     160560.154   143 321406.308   321407.568   322607.423
+278  K3P+I+R2      162476.391   140 325232.783   325233.990   326408.699
+300  K3P+I+R2      162476.391   140 325232.783   325233.990   326408.699
+322  K3Pu+I+R2     162476.312   140 325232.624   325233.831   326408.540
+344  K3Pu+F+I+R2   160716.350   143 321718.699   321719.959   322919.814
+366  TPM2+I+R2     162123.587   140 324527.174   324528.381   325703.090
+388  TPM2+I+R2     162123.587   140 324527.174   324528.381   325703.090
+410  TPM2u+I+R2    162123.559   140 324527.119   324528.326   325703.035
+432  TPM2u+F+I+R2  160614.062   143 321514.125   321515.384   322715.239
+454  TPM3+I+R2     162406.253   140 325092.506   325093.714   326268.423
+476  TPM3+I+R2     162406.253   140 325092.506   325093.714   326268.423
+498  TPM3u+I+R2    162406.180   140 325092.359   325093.566   326268.275
+520  TPM3u+F+I+R2  160746.812   143 321779.625   321780.884   322980.739
+542  TIMe+I+R2     162291.450   141 324864.901   324866.125   326049.216
+564  TIMe+I+R2     162291.450   141 324864.901   324866.125   326049.217
+586  TIM+I+R2      162291.381   141 324864.761   324865.986   326049.077
+608  TIM+F+I+R2    160518.414   144 321324.828   321326.106   322534.342
+630  TIM2e+I+R2    161936.549   141 324155.098   324156.323   325339.414
+652  TIM2e+I+R2    161936.549   141 324155.098   324156.323   325339.414
+674  TIM2+I+R2     161936.511   141 324155.023   324156.247   325339.338
+696  TIM2+F+I+R2   160404.856   144 321097.712   321098.989   322307.226
+718  TIM3e+I+R2    162205.490   141 324692.980   324694.205   325877.296
+740  TIM3e+I+R2    162205.490   141 324692.980   324694.205   325877.296
+762  TIM3+I+R2     162205.452   141 324692.904   324694.129   325877.220
+784  TIM3+F+I+R2   160553.470   144 321394.941   321396.218   322604.455
+806  TVMe+I+R2     161911.033   142 324106.066   324107.308   325298.781
+828  TVMe+I+R2     161911.033   142 324106.066   324107.308   325298.781
+850  TVM+I+R2      161911.021   142 324106.043   324107.285   325298.758
+872  TVM+F+I+R2    160602.431   145 321494.862   321496.157   322712.775
+894  SYM+I+R2      161707.985   143 323701.969   323703.229   324903.084
+916  SYM+I+R2      161707.985   143 323701.969   323703.229   324903.084
+938  GTR+I+R2      161707.907   143 323701.814   323703.074   324902.929
+960  GTR+F+I+R2    160393.787   146 321079.574   321080.887   322305.887
+Akaike Information Criterion:           GTR+F+I+R2
+Corrected Akaike Information Criterion: GTR+F+I+R2
+Bayesian Information Criterion:         GTR+F+I+R2
+Best-fit model: GTR+F+I+R2 chosen according to BIC
+
+All model information printed to clustal_ng_o.model.gz
+CPU time for ModelFinder: 188.220 seconds (0h:3m:8s)
+Wall-clock time for ModelFinder: 50.550 seconds (0h:0m:50s)
+Generating 1000 samples for ultrafast bootstrap (seed: 50)...
+
+NOTE: 69 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -160393.787
+Optimal log-likelihood: -160393.730
+Rate parameters:  A-C: 1.52037  A-G: 3.83940  A-T: 1.87824  C-G: 1.00565  C-T: 6.73168  G-T: 1.00000
+Base frequencies:  A: 0.296  C: 0.187  G: 0.199  T: 0.318
+Proportion of invariable sites: 0.288
+Site proportion and rates:  (0.493,0.540) (0.218,3.359)
+Parameters optimization took 1 rounds (0.112 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.00679207 secs using 739.5% CPU
+Computing ML distances took 0.007442 sec (of wall-clock time) 0.051893 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000381947 secs using 123.3% CPU
+Constructing RapidNJ tree: done in 0.0159659 secs using 31.5% CPU
+Computing RapidNJ tree took 0.016410 sec (of wall-clock time) 0.005533 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -161361.424
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 4.470 second
+Computing log-likelihood of 98 initial trees ... 5.721 seconds
+Current best score: -160393.730
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -160390.035
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -160382.124
+Iteration 10 / LogL: -160383.782 / Time: 0h:1m:11s
+Iteration 20 / LogL: -160385.176 / Time: 0h:1m:23s
+Finish initializing candidate tree set (13)
+Current best tree score: -160382.124 / CPU time: 31.795
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -160381.401
+Iteration 30 / LogL: -160388.145 / Time: 0h:1m:40s (0h:2m:3s left)
+Iteration 40 / LogL: -160384.940 / Time: 0h:1m:57s (0h:1m:45s left)
+Iteration 50 / LogL: -160409.857 / Time: 0h:2m:9s (0h:1m:23s left)
+Log-likelihood cutoff on original alignment: -160427.337
+Iteration 60 / LogL: -160386.534 / Time: 0h:2m:17s (0h:1m:2s left)
+Iteration 70 / LogL: -160384.134 / Time: 0h:2m:26s (0h:0m:44s left)
+Iteration 80 / LogL: -160386.030 / Time: 0h:2m:36s (0h:0m:29s left)
+Iteration 90 / LogL: -160388.779 / Time: 0h:2m:45s (0h:0m:15s left)
+Iteration 100 / LogL: -160440.784 / Time: 0h:2m:55s (0h:0m:2s left)
+Log-likelihood cutoff on original alignment: -160427.551
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.998
+TREE SEARCH COMPLETED AFTER 103 ITERATIONS / Time: 0h:2m:58s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -160381.401
+Optimal log-likelihood: -160381.390
+Rate parameters:  A-C: 1.51615  A-G: 3.84208  A-T: 1.88337  C-G: 0.99808  C-T: 6.74464  G-T: 1.00000
+Base frequencies:  A: 0.296  C: 0.187  G: 0.199  T: 0.318
+Proportion of invariable sites: 0.290
+Site proportion and rates:  (0.495,0.548) (0.215,3.386)
+Parameters optimization took 1 rounds (0.078 sec)
+BEST SCORE FOUND : -160381.390
+Empirical proportions for each category: 0.837 0.163
+Site rates printed to clustal_ng_o.rate
+Site rates printed to clustal_ng_o.mlrate
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+2.837 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file clustal_ng_o.splits.nex
+Total tree length: 3.207
+
+Total number of iterations: 103
+CPU time used for tree search: 188.555 sec (0h:3m:8s)
+Wall-clock time used for tree search: 127.233 sec (0h:2m:7s)
+Total CPU time used: 403.982 sec (0h:6m:43s)
+Total wall-clock time used: 182.607 sec (0h:3m:2s)
+
+Computing bootstrap consensus tree...
+Reading input file clustal_ng_o.splits.nex...
+69 taxa and 315 splits.
+Consensus tree written to clustal_ng_o.contree
+Reading input trees file clustal_ng_o.contree
+Log-likelihood of consensus tree: -160381.626
+
+Analysis results written to: 
+  IQ-TREE report:                clustal_ng_o.iqtree
+  Maximum-likelihood tree:       clustal_ng_o.treefile
+  Likelihood distances:          clustal_ng_o.mldist
+  Site-specific rates:           clustal_ng_o.rate
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          clustal_ng_o.splits.nex
+  Consensus tree:                clustal_ng_o.contree
+  Screen log file:               clustal_ng_o.log
+
+Date and Time: Sat Dec 27 15:55:03 2025

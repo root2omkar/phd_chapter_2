@@ -1,0 +1,932 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /Users/omarne/Documents/chapter_2/flavi-cov/database/S/HR2.hmm
+# target sequence database:        output_S_prot.fasta
+# output directed to file:         output_S-HR2.out.txt
+# per-dom hits tabular output:     output_S-HR2.dom.txt
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       HR2  [M=40]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence  Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------  -----------
+    1.7e-30   97.1   7.4    3.8e-30   96.0   7.4    1.7  1  OR020535_  S 21973-25338
+    1.7e-30   97.1   7.4    3.8e-30   96.0   7.4    1.7  1  PQ972523_  S 21952-25317
+    1.7e-30   97.1   7.4    3.8e-30   96.0   7.4    1.7  1  OU470855_  S 21819-25184
+    1.7e-30   97.1   7.4    3.8e-30   96.0   7.4    1.7  1  PP023772_  S 21982-25347
+    1.7e-30   97.1   7.4    3.8e-30   96.0   7.4    1.6  1  OR563456_  S 21973-25338
+    1.8e-30   97.0   7.4    4.2e-30   95.8   7.4    1.7  1  GQ153539_  S 21471-25199
+    1.8e-30   97.0   7.4    4.2e-30   95.8   7.4    1.7  1  GQ153540_  S 21471-25199
+    1.8e-30   97.0   7.4    4.2e-30   95.8   7.4    1.7  1  GQ153541_  S 21471-25199
+    1.8e-30   97.0   7.4    4.2e-30   95.8   7.4    1.7  1  GQ153544_  S 21462-25190
+    1.8e-30   97.0   7.4    4.2e-30   95.8   7.4    1.7  1  GQ153545_  S 21462-25190
+    1.8e-30   97.0   7.4    4.2e-30   95.8   7.4    1.7  1  GQ153546_  S 21462-25190
+    1.8e-30   97.0   7.4    4.2e-30   95.8   7.4    1.7  1  DQ022305_  S 21471-25199
+    1.8e-30   97.0   7.4    4.2e-30   95.8   7.4    1.7  1  GQ153548_  S 21444-25172
+    1.8e-30   97.0   7.4    4.2e-30   95.8   7.4    1.7  1  GQ153547_  S 21471-25199
+    1.8e-30   97.0   7.4    4.2e-30   95.8   7.4    1.7  1  GQ153542_  S 21483-25211
+    1.8e-30   97.0   7.4    4.2e-30   95.8   7.4    1.7  1  DQ084199_  S 21454-25182
+    1.8e-30   97.0   7.4    4.2e-30   95.8   7.4    1.7  1  GQ153543_  S 21483-25211
+    1.9e-30   96.9   7.4    4.3e-30   95.8   7.4    1.7  1  OZ223682_  S 21554-25351
+    1.9e-30   96.9   7.4    4.3e-30   95.8   7.4    1.7  1  OZ014103_  S 21551-25363
+    1.9e-30   96.9   7.4    4.3e-30   95.8   7.4    1.7  1  ON923618_  S 21520-25326
+    1.9e-30   96.9   7.4    4.3e-30   95.8   7.4    1.7  1  PQ017244_  S 21499-25305
+    1.9e-30   96.9   7.4    4.3e-30   95.8   7.4    1.7  1  PQ391889_  S 21516-25313
+    1.9e-30   96.9   7.4    4.3e-30   95.8   7.4    1.7  1  OP578130_  S 21513-25319
+    1.9e-30   96.9   7.4    4.3e-30   95.8   7.4    1.7  1  PQ899058_  S 21515-25312
+    1.9e-30   96.9   7.4    4.3e-30   95.8   7.4    1.7  1  OZ061529_  S 21516-25316
+    1.9e-30   96.9   7.4    4.3e-30   95.8   7.4    1.7  1  PQ375771_  S 21522-25328
+    1.9e-30   96.9   7.4    4.3e-30   95.8   7.4    1.6  1  OK221016_  S 21520-25332
+    1.9e-30   96.9   7.4    4.3e-30   95.8   7.4    1.6  1  PV239625_  S 21476-25282
+    1.9e-30   96.9   7.4    4.3e-30   95.8   7.4    1.6  1  PX393327_  S 21476-25285
+      2e-30   96.9   7.4    4.3e-30   95.8   7.4    1.6  1  PX059619_  S 21476-25273
+      2e-30   96.9   7.4    4.3e-30   95.8   7.4    1.6  1  OV948634_  S 21548-25351
+      2e-30   96.9   7.4    4.3e-30   95.8   7.4    1.6  1  PX448754_  S 21512-25318
+      2e-30   96.9   7.4    4.3e-30   95.8   7.4    1.6  1  OR689160_  S 21512-25318
+      2e-30   96.9   7.4    4.3e-30   95.8   7.4    1.6  1  OR983979_  S 21504-25313
+      2e-30   96.9   7.4    4.3e-30   95.8   7.4    1.6  1  OY784472_  S 21554-25363
+      2e-30   96.9   7.4    4.3e-30   95.8   7.4    1.6  1  PQ279056_  S 21512-25321
+      2e-30   96.9   7.4    4.4e-30   95.8   7.4    1.6  1  MW183957_  S 21524-25345
+      2e-30   96.9   7.4    4.4e-30   95.8   7.4    1.6  1  PP601887_  S 21509-25330
+      2e-30   96.9   7.4    4.4e-30   95.8   7.4    1.6  1  PP615923_  S 21561-25382
+      2e-30   96.9   7.4    4.4e-30   95.8   7.4    1.6  1  OD923885_  S 21563-25384
+      2e-30   96.9   7.4    4.3e-30   95.8   7.4    1.6  1  MZ131148_  S 21516-25328
+      2e-30   96.9   7.4    4.4e-30   95.8   7.4    1.6  1  MN908947_  S 21563-25384
+      2e-30   96.9   7.4    4.3e-30   95.8   7.4    1.6  1  PQ304301_  S 21512-25321
+      2e-30   96.9   7.4    4.4e-30   95.8   7.4    1.6  1  OQ896588_  S 21463-25284
+      2e-30   96.9   7.4    4.3e-30   95.8   7.4    1.6  1  MT040334_  S 21540-25337
+      2e-30   96.9   7.4    4.4e-30   95.8   7.4    1.6  1  OL714154_  S 21542-25357
+      2e-30   96.9   7.4    4.3e-30   95.8   7.4    1.6  1  MT040335_  S 21540-25343
+      2e-30   96.9   7.4    4.3e-30   95.8   7.4    1.6  1  MT040336_  S 21540-25343
+      2e-30   96.9   7.4    4.4e-30   95.8   7.4    1.6  1  OK177352_  S 21508-25329
+      2e-30   96.9   7.4    4.4e-30   95.8   7.4    1.6  1  MZ160298_  S 21469-25290
+      2e-30   96.9   7.4    4.3e-30   95.8   7.4    1.6  1  MT072864_  S 21522-25331
+      2e-30   96.9   7.4    4.3e-30   95.8   7.4    1.6  1  OP440368_  S 21500-25312
+      2e-30   96.9   7.4    4.3e-30   95.8   7.4    1.6  1  PV497551_  S 21512-25321
+      2e-30   96.9   7.4    4.3e-30   95.8   7.4    1.6  1  PP030571_  S 21504-25313
+      2e-30   96.9   7.4    4.4e-30   95.8   7.4    1.6  1  PP630509_  S 21509-25324
+      2e-30   96.9   7.4    4.4e-30   95.8   7.4    1.6  1  MW901580_  S 21509-25330
+      2e-30   96.9   7.4    4.3e-30   95.8   7.4    1.6  1  PQ279092_  S 21512-25321
+      2e-30   96.9   7.4    4.3e-30   95.8   7.4    1.6  1  OY792307_  S 21554-25366
+      2e-30   96.9   7.4    4.4e-30   95.8   7.4    1.6  1  OK204161_  S 21526-25341
+    2.3e-30   96.7   7.4    4.4e-30   95.8   7.4    1.5  1  OQ558991_  S 21509-25327
+    2.4e-30   96.6   7.4    4.3e-30   95.8   7.4    1.4  1  PQ121865_  S 21500-25309
+    5.4e-30   95.5   5.6    1.2e-29   94.4   5.6    1.6  1  OK433428_  S 21509-25315
+    5.5e-30   95.5   5.6    1.2e-29   94.4   5.6    1.6  1  MZ412499_  S 21500-25321
+    2.3e-29   93.5   7.2    6.3e-29   92.1   7.2    1.8  1  MG772934_  S 21483-25220
+    2.8e-29   93.2   7.2    6.3e-29   92.1   7.2    1.7  1  MG772933_  S 21549-25289
+    2.9e-29   93.2   5.3    6.3e-29   92.1   5.3    1.6  1  MT040333_  S 21540-25343
+    4.3e-29   92.6   7.8    9.8e-29   91.5   7.8    1.7  1  OL926066_  S 21994-25359
+    1.1e-25   81.7   4.4    2.5e-25   80.6   4.4    1.6  1  KY352407_  S 21418-25191
+      2e-11   36.1   1.2    6.8e-11   34.4   1.2    1.9  1  NC025217_  S 23563-27516
+
+
+Domain annotation for each sequence (and alignments):
+>> OR020535_  S 21973-25338
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   96.0   7.4   3.8e-30   3.8e-30       1      40 []    1011    1050 ..    1011    1050 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 96.0 bits;  conditional E-value: 3.8e-30
+        HR2    1 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe 40  
+                 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe
+  OR020535_ 1011 DVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDLQE 1050
+                 9**************************************9 PP
+
+>> PQ972523_  S 21952-25317
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   96.0   7.4   3.8e-30   3.8e-30       1      40 []    1011    1050 ..    1011    1050 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 96.0 bits;  conditional E-value: 3.8e-30
+        HR2    1 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe 40  
+                 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe
+  PQ972523_ 1011 DVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDLQE 1050
+                 9**************************************9 PP
+
+>> OU470855_  S 21819-25184
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   96.0   7.4   3.8e-30   3.8e-30       1      40 []    1011    1050 ..    1011    1050 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 96.0 bits;  conditional E-value: 3.8e-30
+        HR2    1 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe 40  
+                 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe
+  OU470855_ 1011 DVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDLQE 1050
+                 9**************************************9 PP
+
+>> PP023772_  S 21982-25347
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   96.0   7.4   3.8e-30   3.8e-30       1      40 []    1011    1050 ..    1011    1050 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 96.0 bits;  conditional E-value: 3.8e-30
+        HR2    1 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe 40  
+                 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe
+  PP023772_ 1011 DVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDLQE 1050
+                 9**************************************9 PP
+
+>> OR563456_  S 21973-25338
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   96.0   7.4   3.8e-30   3.8e-30       1      40 []    1011    1050 ..    1011    1050 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 96.0 bits;  conditional E-value: 3.8e-30
+        HR2    1 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe 40  
+                 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe
+  OR563456_ 1011 DVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDLQE 1050
+                 9**************************************9 PP
+
+>> GQ153539_  S 21471-25199
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   95.8   7.4   4.2e-30   4.2e-30       1      40 []    1132    1171 ..    1132    1171 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 95.8 bits;  conditional E-value: 4.2e-30
+        HR2    1 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe 40  
+                 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe
+  GQ153539_ 1132 DVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDLQE 1171
+                 9**************************************9 PP
+
+>> GQ153540_  S 21471-25199
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   95.8   7.4   4.2e-30   4.2e-30       1      40 []    1132    1171 ..    1132    1171 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 95.8 bits;  conditional E-value: 4.2e-30
+        HR2    1 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe 40  
+                 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe
+  GQ153540_ 1132 DVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDLQE 1171
+                 9**************************************9 PP
+
+>> GQ153541_  S 21471-25199
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   95.8   7.4   4.2e-30   4.2e-30       1      40 []    1132    1171 ..    1132    1171 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 95.8 bits;  conditional E-value: 4.2e-30
+        HR2    1 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe 40  
+                 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe
+  GQ153541_ 1132 DVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDLQE 1171
+                 9**************************************9 PP
+
+>> GQ153544_  S 21462-25190
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   95.8   7.4   4.2e-30   4.2e-30       1      40 []    1132    1171 ..    1132    1171 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 95.8 bits;  conditional E-value: 4.2e-30
+        HR2    1 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe 40  
+                 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe
+  GQ153544_ 1132 DVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDLQE 1171
+                 9**************************************9 PP
+
+>> GQ153545_  S 21462-25190
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   95.8   7.4   4.2e-30   4.2e-30       1      40 []    1132    1171 ..    1132    1171 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 95.8 bits;  conditional E-value: 4.2e-30
+        HR2    1 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe 40  
+                 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe
+  GQ153545_ 1132 DVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDLQE 1171
+                 9**************************************9 PP
+
+>> GQ153546_  S 21462-25190
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   95.8   7.4   4.2e-30   4.2e-30       1      40 []    1132    1171 ..    1132    1171 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 95.8 bits;  conditional E-value: 4.2e-30
+        HR2    1 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe 40  
+                 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe
+  GQ153546_ 1132 DVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDLQE 1171
+                 9**************************************9 PP
+
+>> DQ022305_  S 21471-25199
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   95.8   7.4   4.2e-30   4.2e-30       1      40 []    1132    1171 ..    1132    1171 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 95.8 bits;  conditional E-value: 4.2e-30
+        HR2    1 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe 40  
+                 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe
+  DQ022305_ 1132 DVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDLQE 1171
+                 9**************************************9 PP
+
+>> GQ153548_  S 21444-25172
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   95.8   7.4   4.2e-30   4.2e-30       1      40 []    1132    1171 ..    1132    1171 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 95.8 bits;  conditional E-value: 4.2e-30
+        HR2    1 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe 40  
+                 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe
+  GQ153548_ 1132 DVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDLQE 1171
+                 9**************************************9 PP
+
+>> GQ153547_  S 21471-25199
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   95.8   7.4   4.2e-30   4.2e-30       1      40 []    1132    1171 ..    1132    1171 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 95.8 bits;  conditional E-value: 4.2e-30
+        HR2    1 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe 40  
+                 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe
+  GQ153547_ 1132 DVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDLQE 1171
+                 9**************************************9 PP
+
+>> GQ153542_  S 21483-25211
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   95.8   7.4   4.2e-30   4.2e-30       1      40 []    1132    1171 ..    1132    1171 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 95.8 bits;  conditional E-value: 4.2e-30
+        HR2    1 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe 40  
+                 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe
+  GQ153542_ 1132 DVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDLQE 1171
+                 9**************************************9 PP
+
+>> DQ084199_  S 21454-25182
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   95.8   7.4   4.2e-30   4.2e-30       1      40 []    1132    1171 ..    1132    1171 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 95.8 bits;  conditional E-value: 4.2e-30
+        HR2    1 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe 40  
+                 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe
+  DQ084199_ 1132 DVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDLQE 1171
+                 9**************************************9 PP
+
+>> GQ153543_  S 21483-25211
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   95.8   7.4   4.2e-30   4.2e-30       1      40 []    1132    1171 ..    1132    1171 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 95.8 bits;  conditional E-value: 4.2e-30
+        HR2    1 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe 40  
+                 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe
+  GQ153543_ 1132 DVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDLQE 1171
+                 9**************************************9 PP
+
+>> OZ223682_  S 21554-25351
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   95.8   7.4   4.3e-30   4.3e-30       1      40 []    1155    1194 ..    1155    1194 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 95.8 bits;  conditional E-value: 4.3e-30
+        HR2    1 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe 40  
+                 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe
+  OZ223682_ 1155 DVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDLQE 1194
+                 9**************************************9 PP
+
+>> OZ014103_  S 21551-25363
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   95.8   7.4   4.3e-30   4.3e-30       1      40 []    1160    1199 ..    1160    1199 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 95.8 bits;  conditional E-value: 4.3e-30
+        HR2    1 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe 40  
+                 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe
+  OZ014103_ 1160 DVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDLQE 1199
+                 9**************************************9 PP
+
+>> ON923618_  S 21520-25326
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   95.8   7.4   4.3e-30   4.3e-30       1      40 []    1158    1197 ..    1158    1197 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 95.8 bits;  conditional E-value: 4.3e-30
+        HR2    1 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe 40  
+                 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe
+  ON923618_ 1158 DVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDLQE 1197
+                 9**************************************9 PP
+
+>> PQ017244_  S 21499-25305
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   95.8   7.4   4.3e-30   4.3e-30       1      40 []    1158    1197 ..    1158    1197 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 95.8 bits;  conditional E-value: 4.3e-30
+        HR2    1 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe 40  
+                 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe
+  PQ017244_ 1158 DVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDLQE 1197
+                 9**************************************9 PP
+
+>> PQ391889_  S 21516-25313
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   95.8   7.4   4.3e-30   4.3e-30       1      40 []    1155    1194 ..    1155    1194 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 95.8 bits;  conditional E-value: 4.3e-30
+        HR2    1 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe 40  
+                 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe
+  PQ391889_ 1155 DVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDLQE 1194
+                 9**************************************9 PP
+
+>> OP578130_  S 21513-25319
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   95.8   7.4   4.3e-30   4.3e-30       1      40 []    1158    1197 ..    1158    1197 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 95.8 bits;  conditional E-value: 4.3e-30
+        HR2    1 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe 40  
+                 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe
+  OP578130_ 1158 DVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDLQE 1197
+                 9**************************************9 PP
+
+>> PQ899058_  S 21515-25312
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   95.8   7.4   4.3e-30   4.3e-30       1      40 []    1155    1194 ..    1155    1194 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 95.8 bits;  conditional E-value: 4.3e-30
+        HR2    1 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe 40  
+                 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe
+  PQ899058_ 1155 DVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDLQE 1194
+                 9**************************************9 PP
+
+>> OZ061529_  S 21516-25316
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   95.8   7.4   4.3e-30   4.3e-30       1      40 []    1156    1195 ..    1156    1195 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 95.8 bits;  conditional E-value: 4.3e-30
+        HR2    1 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe 40  
+                 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe
+  OZ061529_ 1156 DVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDLQE 1195
+                 9**************************************9 PP
+
+>> PQ375771_  S 21522-25328
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   95.8   7.4   4.3e-30   4.3e-30       1      40 []    1158    1197 ..    1158    1197 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 95.8 bits;  conditional E-value: 4.3e-30
+        HR2    1 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe 40  
+                 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe
+  PQ375771_ 1158 DVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDLQE 1197
+                 9**************************************9 PP
+
+>> OK221016_  S 21520-25332
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   95.8   7.4   4.3e-30   4.3e-30       1      40 []    1160    1199 ..    1160    1199 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 95.8 bits;  conditional E-value: 4.3e-30
+        HR2    1 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe 40  
+                 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe
+  OK221016_ 1160 DVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDLQE 1199
+                 9**************************************9 PP
+
+>> PV239625_  S 21476-25282
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   95.8   7.4   4.3e-30   4.3e-30       1      40 []    1158    1197 ..    1158    1197 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 95.8 bits;  conditional E-value: 4.3e-30
+        HR2    1 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe 40  
+                 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe
+  PV239625_ 1158 DVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDLQE 1197
+                 9**************************************9 PP
+
+>> PX393327_  S 21476-25285
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   95.8   7.4   4.3e-30   4.3e-30       1      40 []    1159    1198 ..    1159    1198 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 95.8 bits;  conditional E-value: 4.3e-30
+        HR2    1 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe 40  
+                 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe
+  PX393327_ 1159 DVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDLQE 1198
+                 9**************************************9 PP
+
+>> PX059619_  S 21476-25273
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   95.8   7.4   4.3e-30   4.3e-30       1      40 []    1155    1194 ..    1155    1194 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 95.8 bits;  conditional E-value: 4.3e-30
+        HR2    1 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe 40  
+                 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe
+  PX059619_ 1155 DVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDLQE 1194
+                 9**************************************9 PP
+
+>> OV948634_  S 21548-25351
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   95.8   7.4   4.3e-30   4.3e-30       1      40 []    1157    1196 ..    1157    1196 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 95.8 bits;  conditional E-value: 4.3e-30
+        HR2    1 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe 40  
+                 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe
+  OV948634_ 1157 DVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDLQE 1196
+                 9**************************************9 PP
+
+>> PX448754_  S 21512-25318
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   95.8   7.4   4.3e-30   4.3e-30       1      40 []    1158    1197 ..    1158    1197 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 95.8 bits;  conditional E-value: 4.3e-30
+        HR2    1 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe 40  
+                 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe
+  PX448754_ 1158 DVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDLQE 1197
+                 9**************************************9 PP
+
+>> OR689160_  S 21512-25318
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   95.8   7.4   4.3e-30   4.3e-30       1      40 []    1158    1197 ..    1158    1197 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 95.8 bits;  conditional E-value: 4.3e-30
+        HR2    1 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe 40  
+                 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe
+  OR689160_ 1158 DVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDLQE 1197
+                 9**************************************9 PP
+
+>> OR983979_  S 21504-25313
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   95.8   7.4   4.3e-30   4.3e-30       1      40 []    1159    1198 ..    1159    1198 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 95.8 bits;  conditional E-value: 4.3e-30
+        HR2    1 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe 40  
+                 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe
+  OR983979_ 1159 DVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDLQE 1198
+                 9**************************************9 PP
+
+>> OY784472_  S 21554-25363
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   95.8   7.4   4.3e-30   4.3e-30       1      40 []    1159    1198 ..    1159    1198 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 95.8 bits;  conditional E-value: 4.3e-30
+        HR2    1 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe 40  
+                 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe
+  OY784472_ 1159 DVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDLQE 1198
+                 9**************************************9 PP
+
+>> PQ279056_  S 21512-25321
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   95.8   7.4   4.3e-30   4.3e-30       1      40 []    1159    1198 ..    1159    1198 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 95.8 bits;  conditional E-value: 4.3e-30
+        HR2    1 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe 40  
+                 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe
+  PQ279056_ 1159 DVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDLQE 1198
+                 9**************************************9 PP
+
+>> MW183957_  S 21524-25345
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   95.8   7.4   4.4e-30   4.4e-30       1      40 []    1163    1202 ..    1163    1202 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 95.8 bits;  conditional E-value: 4.4e-30
+        HR2    1 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe 40  
+                 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe
+  MW183957_ 1163 DVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDLQE 1202
+                 9**************************************9 PP
+
+>> PP601887_  S 21509-25330
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   95.8   7.4   4.4e-30   4.4e-30       1      40 []    1163    1202 ..    1163    1202 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 95.8 bits;  conditional E-value: 4.4e-30
+        HR2    1 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe 40  
+                 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe
+  PP601887_ 1163 DVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDLQE 1202
+                 9**************************************9 PP
+
+>> PP615923_  S 21561-25382
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   95.8   7.4   4.4e-30   4.4e-30       1      40 []    1163    1202 ..    1163    1202 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 95.8 bits;  conditional E-value: 4.4e-30
+        HR2    1 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe 40  
+                 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe
+  PP615923_ 1163 DVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDLQE 1202
+                 9**************************************9 PP
+
+>> OD923885_  S 21563-25384
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   95.8   7.4   4.4e-30   4.4e-30       1      40 []    1163    1202 ..    1163    1202 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 95.8 bits;  conditional E-value: 4.4e-30
+        HR2    1 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe 40  
+                 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe
+  OD923885_ 1163 DVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDLQE 1202
+                 9**************************************9 PP
+
+>> MZ131148_  S 21516-25328
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   95.8   7.4   4.3e-30   4.3e-30       1      40 []    1160    1199 ..    1160    1199 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 95.8 bits;  conditional E-value: 4.3e-30
+        HR2    1 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe 40  
+                 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe
+  MZ131148_ 1160 DVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDLQE 1199
+                 9**************************************9 PP
+
+>> MN908947_  S 21563-25384
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   95.8   7.4   4.4e-30   4.4e-30       1      40 []    1163    1202 ..    1163    1202 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 95.8 bits;  conditional E-value: 4.4e-30
+        HR2    1 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe 40  
+                 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe
+  MN908947_ 1163 DVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDLQE 1202
+                 9**************************************9 PP
+
+>> PQ304301_  S 21512-25321
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   95.8   7.4   4.3e-30   4.3e-30       1      40 []    1159    1198 ..    1159    1198 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 95.8 bits;  conditional E-value: 4.3e-30
+        HR2    1 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe 40  
+                 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe
+  PQ304301_ 1159 DVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDLQE 1198
+                 9**************************************9 PP
+
+>> OQ896588_  S 21463-25284
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   95.8   7.4   4.4e-30   4.4e-30       1      40 []    1163    1202 ..    1163    1202 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 95.8 bits;  conditional E-value: 4.4e-30
+        HR2    1 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe 40  
+                 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe
+  OQ896588_ 1163 DVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDLQE 1202
+                 9**************************************9 PP
+
+>> MT040334_  S 21540-25337
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   95.8   7.4   4.3e-30   4.3e-30       1      40 []    1155    1194 ..    1155    1194 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 95.8 bits;  conditional E-value: 4.3e-30
+        HR2    1 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe 40  
+                 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe
+  MT040334_ 1155 DVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDLQE 1194
+                 9**************************************9 PP
+
+>> OL714154_  S 21542-25357
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   95.8   7.4   4.4e-30   4.4e-30       1      40 []    1161    1200 ..    1161    1200 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 95.8 bits;  conditional E-value: 4.4e-30
+        HR2    1 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe 40  
+                 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe
+  OL714154_ 1161 DVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDLQE 1200
+                 9**************************************9 PP
+
+>> MT040335_  S 21540-25343
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   95.8   7.4   4.3e-30   4.3e-30       1      40 []    1157    1196 ..    1157    1196 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 95.8 bits;  conditional E-value: 4.3e-30
+        HR2    1 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe 40  
+                 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe
+  MT040335_ 1157 DVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDLQE 1196
+                 9**************************************9 PP
+
+>> MT040336_  S 21540-25343
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   95.8   7.4   4.3e-30   4.3e-30       1      40 []    1157    1196 ..    1157    1196 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 95.8 bits;  conditional E-value: 4.3e-30
+        HR2    1 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe 40  
+                 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe
+  MT040336_ 1157 DVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDLQE 1196
+                 9**************************************9 PP
+
+>> OK177352_  S 21508-25329
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   95.8   7.4   4.4e-30   4.4e-30       1      40 []    1163    1202 ..    1163    1202 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 95.8 bits;  conditional E-value: 4.4e-30
+        HR2    1 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe 40  
+                 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe
+  OK177352_ 1163 DVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDLQE 1202
+                 9**************************************9 PP
+
+>> MZ160298_  S 21469-25290
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   95.8   7.4   4.4e-30   4.4e-30       1      40 []    1163    1202 ..    1163    1202 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 95.8 bits;  conditional E-value: 4.4e-30
+        HR2    1 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe 40  
+                 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe
+  MZ160298_ 1163 DVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDLQE 1202
+                 9**************************************9 PP
+
+>> MT072864_  S 21522-25331
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   95.8   7.4   4.3e-30   4.3e-30       1      40 []    1159    1198 ..    1159    1198 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 95.8 bits;  conditional E-value: 4.3e-30
+        HR2    1 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe 40  
+                 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe
+  MT072864_ 1159 DVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDLQE 1198
+                 9**************************************9 PP
+
+>> OP440368_  S 21500-25312
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   95.8   7.4   4.3e-30   4.3e-30       1      40 []    1160    1199 ..    1160    1199 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 95.8 bits;  conditional E-value: 4.3e-30
+        HR2    1 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe 40  
+                 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe
+  OP440368_ 1160 DVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDLQE 1199
+                 9**************************************9 PP
+
+>> PV497551_  S 21512-25321
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   95.8   7.4   4.3e-30   4.3e-30       1      40 []    1159    1198 ..    1159    1198 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 95.8 bits;  conditional E-value: 4.3e-30
+        HR2    1 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe 40  
+                 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe
+  PV497551_ 1159 DVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDLQE 1198
+                 9**************************************9 PP
+
+>> PP030571_  S 21504-25313
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   95.8   7.4   4.3e-30   4.3e-30       1      40 []    1159    1198 ..    1159    1198 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 95.8 bits;  conditional E-value: 4.3e-30
+        HR2    1 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe 40  
+                 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe
+  PP030571_ 1159 DVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDLQE 1198
+                 9**************************************9 PP
+
+>> PP630509_  S 21509-25324
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   95.8   7.4   4.4e-30   4.4e-30       1      40 []    1161    1200 ..    1161    1200 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 95.8 bits;  conditional E-value: 4.4e-30
+        HR2    1 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe 40  
+                 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe
+  PP630509_ 1161 DVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDLQE 1200
+                 9**************************************9 PP
+
+>> MW901580_  S 21509-25330
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   95.8   7.4   4.4e-30   4.4e-30       1      40 []    1163    1202 ..    1163    1202 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 95.8 bits;  conditional E-value: 4.4e-30
+        HR2    1 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe 40  
+                 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe
+  MW901580_ 1163 DVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDLQE 1202
+                 9**************************************9 PP
+
+>> PQ279092_  S 21512-25321
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   95.8   7.4   4.3e-30   4.3e-30       1      40 []    1159    1198 ..    1159    1198 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 95.8 bits;  conditional E-value: 4.3e-30
+        HR2    1 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe 40  
+                 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe
+  PQ279092_ 1159 DVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDLQE 1198
+                 9**************************************9 PP
+
+>> OY792307_  S 21554-25366
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   95.8   7.4   4.3e-30   4.3e-30       1      40 []    1160    1199 ..    1160    1199 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 95.8 bits;  conditional E-value: 4.3e-30
+        HR2    1 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe 40  
+                 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe
+  OY792307_ 1160 DVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDLQE 1199
+                 9**************************************9 PP
+
+>> OK204161_  S 21526-25341
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   95.8   7.4   4.4e-30   4.4e-30       1      40 []    1161    1200 ..    1161    1200 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 95.8 bits;  conditional E-value: 4.4e-30
+        HR2    1 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe 40  
+                 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe
+  OK204161_ 1161 DVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDLQE 1200
+                 9**************************************9 PP
+
+>> OQ558991_  S 21509-25327
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   95.8   7.4   4.4e-30   4.4e-30       1      40 []    1162    1201 ..    1162    1201 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 95.8 bits;  conditional E-value: 4.4e-30
+        HR2    1 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe 40  
+                 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe
+  OQ558991_ 1162 DVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDLQE 1201
+                 9**************************************9 PP
+
+>> PQ121865_  S 21500-25309
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   95.8   7.4   4.3e-30   4.3e-30       1      40 []    1159    1198 ..    1159    1198 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 95.8 bits;  conditional E-value: 4.3e-30
+        HR2    1 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe 40  
+                 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe
+  PQ121865_ 1159 DVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDLQE 1198
+                 9**************************************9 PP
+
+>> OK433428_  S 21509-25315
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   94.4   5.6   1.2e-29   1.2e-29       1      40 []    1158    1197 ..    1158    1197 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 94.4 bits;  conditional E-value: 1.2e-29
+        HR2    1 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe 40  
+                 dVDLGDISGInAS VnIqKEIDrLneVAKnLneSLIDLqe
+  OK433428_ 1158 DVDLGDISGINASFVNIQKEIDRLNEVAKNLNESLIDLQE 1197
+                 9**************************************9 PP
+
+>> MZ412499_  S 21500-25321
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   94.4   5.6   1.2e-29   1.2e-29       1      40 []    1163    1202 ..    1163    1202 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 94.4 bits;  conditional E-value: 1.2e-29
+        HR2    1 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe 40  
+                 dVDLGDISGInAS VnIqKEIDrLneVAKnLneSLIDLqe
+  MZ412499_ 1163 DVDLGDISGINASFVNIQKEIDRLNEVAKNLNESLIDLQE 1202
+                 9**************************************9 PP
+
+>> MG772934_  S 21483-25220
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   92.1   7.2   6.3e-29   6.3e-29       1      40 []    1135    1174 ..    1135    1174 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 92.1 bits;  conditional E-value: 6.3e-29
+        HR2    1 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe 40  
+                 d+DLGDISGInASVVnIqKEIDrLneVA+nLneSLIDLqe
+  MG772934_ 1135 DIDLGDISGINASVVNIQKEIDRLNEVARNLNESLIDLQE 1174
+                 9**************************************9 PP
+
+>> MG772933_  S 21549-25289
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   92.1   7.2   6.3e-29   6.3e-29       1      40 []    1136    1175 ..    1136    1175 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 92.1 bits;  conditional E-value: 6.3e-29
+        HR2    1 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe 40  
+                 d+DLGDISGInASVVnIqKEIDrLneVA+nLneSLIDLqe
+  MG772933_ 1136 DIDLGDISGINASVVNIQKEIDRLNEVARNLNESLIDLQE 1175
+                 9**************************************9 PP
+
+>> MT040333_  S 21540-25343
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   92.1   5.3   6.3e-29   6.3e-29       1      40 []    1157    1196 ..    1157    1196 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 92.1 bits;  conditional E-value: 6.3e-29
+        HR2    1 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe 40  
+                 dVDLGDISGInASVVnIqKEIDrLneVAKnLneS IDLqe
+  MT040333_ 1157 DVDLGDISGINASVVNIQKEIDRLNEVAKNLNESPIDLQE 1196
+                 9**************************************9 PP
+
+>> OL926066_  S 21994-25359
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   91.5   7.8   9.8e-29   9.8e-29       1      40 []    1011    1050 ..    1011    1050 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 91.5 bits;  conditional E-value: 9.8e-29
+        HR2    1 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe 40  
+                 dVDLGDISGInASVVnIqKEID LneVAKnLneSLIDLqe
+  OL926066_ 1011 DVDLGDISGINASVVNIQKEIDXLNEVAKNLNESLIDLQE 1050
+                 9**************************************9 PP
+
+>> KY352407_  S 21418-25191
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   80.6   4.4   2.5e-25   2.5e-25       1      40 []    1148    1187 ..    1148    1187 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 80.6 bits;  conditional E-value: 2.5e-25
+        HR2    1 dVDLGDISGInASVVnIqKEIDrLneVAKnLneSLIDLqe 40  
+                 dVD+GDISGInASVV+I+KEI  Lne+AKnLneSLIDLqe
+  KY352407_ 1148 DVDFGDISGINASVVDIKKEIAHLNEIAKNLNESLIDLQE 1187
+                 9**************************************9 PP
+
+>> NC025217_  S 23563-27516
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.4   1.2   6.8e-11   6.8e-11       8      40 .]    1218    1250 ..    1213    1250 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 34.4 bits;  conditional E-value: 6.8e-11
+        HR2    8 SGInASVVnIqKEIDrLneVAKnLneSLIDLqe 40  
+                  GInAS+V+   E+  Ln+V K+Ln SLI+Lqe
+  NC025217_ 1218 EGINASMVDLSEEVKILNDVVKELNASLINLQE 1250
+                 6*******************************9 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (40 nodes)
+Target sequences:                         69  (86422 residues searched)
+Passed MSV filter:                        69  (1); expected 1.4 (0.02)
+Passed bias filter:                       69  (1); expected 1.4 (0.02)
+Passed Vit filter:                        69  (1); expected 0.1 (0.001)
+Passed Fwd filter:                        69  (1); expected 0.0 (1e-05)
+Initial search space (Z):                 69  [actual number of targets]
+Domain search space  (domZ):              69  [number of targets reported over threshold]
+# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.02
+# Mc/sec: 149.67
+//
+[ok]

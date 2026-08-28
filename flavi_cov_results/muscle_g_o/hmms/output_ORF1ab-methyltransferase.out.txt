@@ -1,0 +1,1969 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /Users/omarne/Documents/chapter_2/flavi-cov/database/ORF1ab/methyltransferase.hmm
+# target sequence database:        output_ORF1ab_prot.fasta
+# output directed to file:         output_ORF1ab-methyltransferase.out.txt
+# per-dom hits tabular output:     output_ORF1ab-methyltransferase.dom.txt
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       methyltransferase  [M=298]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence  Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------  -----------
+   1.5e-217  712.6   1.8   3.3e-217  711.4   1.8    1.6  1  PX448754_  ORF1ab 224-13417;13417-21504
+   1.5e-217  712.5   1.8   3.3e-217  711.4   1.8    1.6  1  PV497551_  ORF1ab 227-13417;13417-21504
+   1.6e-217  712.5   1.8   3.2e-217  711.5   1.8    1.6  1  OY784472_  ORF1ab 518-13459;13459-21546
+   1.6e-217  712.5   1.8   3.2e-217  711.5   1.8    1.6  1  ON923618_  ORF1ab 493-13425;13425-21512
+   1.6e-217  712.5   1.8   3.2e-217  711.5   1.8    1.6  1  OP440368_  ORF1ab 464-13405;13405-21492
+   1.6e-217  712.5   1.8   3.3e-217  711.4   1.8    1.6  1  OV948634_  ORF1ab 266-13453;13453-21540
+   1.6e-217  712.5   1.8   3.3e-217  711.4   1.8    1.6  1  MW183957_  ORF1ab 227-13429;13429-21516
+   1.6e-217  712.5   1.8   3.3e-217  711.4   1.8    1.6  1  MW901580_  ORF1ab 212-13414;13414-21501
+   1.6e-217  712.5   1.8   3.3e-217  711.4   1.8    1.6  1  MN908947_  ORF1ab 266-13468;13468-21555
+   1.6e-217  712.5   1.8   3.3e-217  711.4   1.8    1.6  1  PQ391889_  ORF1ab 228-13421;13421-21508
+   1.6e-217  712.5   1.8   3.3e-217  711.4   1.8    1.6  1  OQ558991_  ORF1ab 212-13414;13414-21501
+   1.6e-217  712.5   1.8   3.3e-217  711.4   1.8    1.6  1  PQ899058_  ORF1ab 227-13420;13420-21507
+   1.6e-217  712.5   1.8   3.3e-217  711.4   1.8    1.6  1  OK204161_  ORF1ab 229-13431;13431-21518
+   1.6e-217  712.4   1.8   3.3e-217  711.4   1.8    1.6  1  PQ121865_  ORF1ab 212-13405;13405-21492
+   1.6e-217  712.4   1.8   3.3e-217  711.4   1.8    1.6  1  OZ223682_  ORF1ab 266-13459;13459-21546
+   1.6e-217  712.4   1.8   3.3e-217  711.4   1.8    1.6  1  MZ412499_  ORF1ab 212-13405;13405-21492
+   1.6e-217  712.4   1.8   3.3e-217  711.4   1.8    1.6  1  PX059619_  ORF1ab 188-13381;13381-21468
+   1.6e-217  712.4   1.8   3.3e-217  711.4   1.8    1.6  1  MZ160298_  ORF1ab 181-13374;13374-21461
+   1.6e-217  712.4   1.8   3.3e-217  711.4   1.8    1.6  1  PQ375771_  ORF1ab 234-13427;13427-21514
+   1.6e-217  712.4   1.8   3.3e-217  711.4   1.8    1.6  1  PP630509_  ORF1ab 212-13414;13414-21501
+   1.6e-217  712.4   1.8   3.3e-217  711.4   1.8    1.6  1  OZ014103_  ORF1ab 266-13456;13456-21543
+   1.6e-217  712.4   1.8   3.3e-217  711.4   1.8    1.6  1  OP578130_  ORF1ab 216-13418;13418-21505
+   1.6e-217  712.4   1.8   3.3e-217  711.4   1.8    1.6  1  PQ279056_  ORF1ab 224-13417;13417-21504
+   1.6e-217  712.4   1.8   3.3e-217  711.4   1.8    1.6  1  PQ279092_  ORF1ab 224-13417;13417-21504
+   1.6e-217  712.4   1.8   3.3e-217  711.4   1.8    1.6  1  PX393327_  ORF1ab 188-13381;13381-21468
+   1.6e-217  712.4   1.8   3.3e-217  711.4   1.8    1.6  1  PQ304301_  ORF1ab 224-13417;13417-21504
+   1.6e-217  712.4   1.8   3.3e-217  711.4   1.8    1.6  1  OK433428_  ORF1ab 212-13414;13414-21501
+   1.6e-217  712.4   1.8   3.3e-217  711.4   1.8    1.5  1  OQ896588_  ORF1ab 166-13368;13368-21455
+   1.6e-217  712.4   1.8   3.3e-217  711.4   1.8    1.5  1  OR689160_  ORF1ab 224-13417;13417-21504
+   1.6e-217  712.4   1.8   3.3e-217  711.4   1.8    1.5  1  PQ017244_  ORF1ab 211-13404;13404-21491
+   1.7e-217  712.4   1.8   3.3e-217  711.4   1.8    1.5  1  OK177352_  ORF1ab 220-13413;13413-21500
+   1.7e-217  712.4   1.8   3.3e-217  711.4   1.8    1.5  1  PP615923_  ORF1ab 264-13466;13466-21553
+   1.7e-217  712.4   1.8   3.3e-217  711.4   1.8    1.5  1  OL714154_  ORF1ab 245-13447;13447-21534
+   1.7e-217  712.3   1.8   3.3e-217  711.4   1.8    1.5  1  OR983979_  ORF1ab 216-13409;13409-21496
+   1.7e-217  712.3   1.8   3.3e-217  711.4   1.8    1.5  1  OD923885_  ORF1ab 266-13468;13468-21555
+   3.8e-217  711.2   1.6   7.8e-217  710.2   1.6    1.6  1  PP030571_  ORF1ab 216-13409;13409-21496
+   6.6e-217  710.4   1.6   1.4e-216  709.4   1.6    1.6  1  OZ061529_  ORF1ab 228-13421;13421-21508
+   6.8e-217  710.4   1.6   1.3e-216  709.4   1.6    1.6  1  OY792307_  ORF1ab 266-13459;13459-21546
+   1.1e-216  709.7   2.0   2.3e-216  708.7   2.0    1.6  1  PP601887_  ORF1ab 212-13414;13414-21501
+     2e-214  702.3   2.0   3.6e-214  701.4   2.0    1.5  1  MG772933_  ORF1ab 265-13455;13455-21542
+   2.4e-214  702.0   1.6   4.2e-214  701.2   1.6    1.4  1  MT072864_  ORF1ab 249-13427;13427-21514
+   2.5e-214  702.0   2.2   4.8e-214  701.0   2.2    1.5  1  MG772934_  ORF1ab 265-13389;13389-21476
+   4.8e-214  701.0   1.6   8.7e-214  700.2   1.6    1.5  1  MT040334_  ORF1ab 267-13445;13445-21532
+   4.8e-214  701.0   1.6   8.7e-214  700.2   1.6    1.5  1  MT040336_  ORF1ab 267-13445;13445-21532
+   4.9e-214  701.0   1.6   8.7e-214  700.2   1.6    1.5  1  MT040333_  ORF1ab 267-13445;13445-21532
+   4.9e-214  701.0   1.6   8.7e-214  700.2   1.6    1.4  1  MT040335_  ORF1ab 267-13445;13445-21532
+   4.8e-213  697.7   1.3     1e-212  696.7   1.3    1.5  1  OL926066_  ORF1ab 241-13443;13443-21575
+   2.9e-209  685.3   1.2   6.3e-209  684.2   1.2    1.6  1  OU470855_  ORF1ab 66-13268;13268-21400
+   2.9e-209  685.3   1.2   6.3e-209  684.2   1.2    1.6  1  PP023772_  ORF1ab 241-13434;13434-21686
+   2.9e-209  685.3   1.2   6.3e-209  684.2   1.2    1.5  1  OR020535_  ORF1ab 241-13431;13431-21563
+   1.6e-208  682.9   1.0   1.6e-208  682.9   1.0    2.0  2  OR563456_  ORF1ab 241-13434;13434-21566
+   1.4e-207  679.8   2.1   2.5e-207  679.0   2.1    1.4  1  GQ153543_  ORF1ab 262-13389;13389-21476
+   1.4e-207  679.8   2.1   2.5e-207  679.0   2.1    1.4  1  GQ153542_  ORF1ab 262-13389;13389-21476
+   4.2e-206  675.0   2.3   7.2e-206  674.2   2.3    1.4  1  GQ153547_  ORF1ab 262-13377;13377-21464
+   4.2e-206  675.0   2.3   7.2e-206  674.2   2.3    1.4  1  DQ022305_  ORF1ab 262-13377;13377-21464
+   4.2e-206  675.0   2.3   7.2e-206  674.2   2.3    1.4  1  GQ153546_  ORF1ab 262-13368;13368-21455
+   4.2e-206  675.0   2.3   7.2e-206  674.2   2.3    1.4  1  GQ153544_  ORF1ab 262-13368;13368-21455
+   4.2e-206  675.0   2.3   7.2e-206  674.2   2.3    1.4  1  GQ153545_  ORF1ab 262-13368;13368-21455
+   4.2e-206  674.9   2.3   7.2e-206  674.2   2.3    1.4  1  GQ153541_  ORF1ab 262-13377;13377-21464
+   4.2e-206  674.9   2.3   7.2e-206  674.2   2.3    1.4  1  GQ153540_  ORF1ab 262-13377;13377-21464
+   4.2e-206  674.9   2.3   7.2e-206  674.2   2.3    1.4  1  DQ084199_  ORF1ab 245-13360;13360-21447
+   4.2e-206  674.9   2.3   7.2e-206  674.2   2.3    1.4  1  GQ153548_  ORF1ab 262-13350;13350-21437
+   4.2e-206  674.9   2.3   7.2e-206  674.2   2.3    1.4  1  GQ153539_  ORF1ab 262-13377;13377-21464
+   1.7e-200  656.5   3.4   3.3e-200  655.6   3.4    1.5  1  KY352407_  ORF1ab 260-13324;13324-21411
+   3.3e-197  645.8   2.7   6.7e-197  644.7   2.7    1.6  1  PV239625_  ORF1ab 188-13381;13381-21468
+   6.1e-195  638.3   1.6   1.3e-194  637.2   1.6    1.6  1  PQ972523_  ORF1ab 217-13410;13410-21623
+   1.7e-194  636.9   2.6   3.4e-194  635.9   2.6    1.6  1  MZ131148_  ORF1ab 228-13421;13421-21508
+   1.1e-179  588.2   1.4   2.6e-179  587.0   1.4    1.6  1  OK221016_  ORF1ab 232-13425;13425-21512
+   9.9e-149  486.6   1.9   1.9e-148  485.7   1.9    1.5  1  NC025217_  ORF1ab 303-13931;13931-22045
+
+
+Domain annotation for each sequence (and alignments):
+>> PX448754_  ORF1ab 224-13417;13417-21504
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  711.4   1.8  3.3e-217  3.3e-217       1     298 []    6796    7093 ..    6796    7093 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 711.4 bits;  conditional E-value: 3.3e-217
+  methyltransferase    1 ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp 90  
+                         ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp
+          PX448754_ 6796 SSQAWQPGVAMPNLYKMQRMLLEKCDLQNYGDSATLPKGIMMNVAKYTQLCQYLNTLTLAVPYNMRVIHFGAGSDKGVAPGTAVLRQWLP 6885
+                         89**************************************************************************************** PP
+
+  methyltransferase   91 tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl 180 
+                         tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl
+          PX448754_ 6886 TGTLLVDSDLNDFVSDADSTLIGDCATVHTANKWDLIISDMYDPKTKNVTKENDSKEGFFTYICGFIQQKLALGGSVAIKITEHSWNADL 6975
+                         ****************************************************************************************** PP
+
+  methyltransferase  181 yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm 270 
+                         yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm
+          PX448754_ 6976 YKLMGHFAWWTAFVTNVNASSSEAFLIGCNYLGKPREQIDGYVMHANYIFWRNTNPIQLSSYSLFDMSKFPLKLRGTAVMSLKEGQINDM 7065
+                         ****************************************************************************************** PP
+
+  methyltransferase  271 ilsllskgrliirennrvvissdvlvnn 298 
+                         ilsllskgrliirennrvvissdvlvnn
+          PX448754_ 7066 ILSLLSKGRLIIRENNRVVISSDVLVNN 7093
+                         ***************************8 PP
+
+>> PV497551_  ORF1ab 227-13417;13417-21504
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  711.4   1.8  3.3e-217  3.3e-217       1     298 []    6795    7092 ..    6795    7092 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 711.4 bits;  conditional E-value: 3.3e-217
+  methyltransferase    1 ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp 90  
+                         ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp
+          PV497551_ 6795 SSQAWQPGVAMPNLYKMQRMLLEKCDLQNYGDSATLPKGIMMNVAKYTQLCQYLNTLTLAVPYNMRVIHFGAGSDKGVAPGTAVLRQWLP 6884
+                         89**************************************************************************************** PP
+
+  methyltransferase   91 tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl 180 
+                         tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl
+          PV497551_ 6885 TGTLLVDSDLNDFVSDADSTLIGDCATVHTANKWDLIISDMYDPKTKNVTKENDSKEGFFTYICGFIQQKLALGGSVAIKITEHSWNADL 6974
+                         ****************************************************************************************** PP
+
+  methyltransferase  181 yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm 270 
+                         yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm
+          PV497551_ 6975 YKLMGHFAWWTAFVTNVNASSSEAFLIGCNYLGKPREQIDGYVMHANYIFWRNTNPIQLSSYSLFDMSKFPLKLRGTAVMSLKEGQINDM 7064
+                         ****************************************************************************************** PP
+
+  methyltransferase  271 ilsllskgrliirennrvvissdvlvnn 298 
+                         ilsllskgrliirennrvvissdvlvnn
+          PV497551_ 7065 ILSLLSKGRLIIRENNRVVISSDVLVNN 7092
+                         ***************************8 PP
+
+>> OY784472_  ORF1ab 518-13459;13459-21546
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  711.5   1.8  3.2e-217  3.2e-217       1     298 []    6712    7009 ..    6712    7009 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 711.5 bits;  conditional E-value: 3.2e-217
+  methyltransferase    1 ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp 90  
+                         ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp
+          OY784472_ 6712 SSQAWQPGVAMPNLYKMQRMLLEKCDLQNYGDSATLPKGIMMNVAKYTQLCQYLNTLTLAVPYNMRVIHFGAGSDKGVAPGTAVLRQWLP 6801
+                         89**************************************************************************************** PP
+
+  methyltransferase   91 tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl 180 
+                         tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl
+          OY784472_ 6802 TGTLLVDSDLNDFVSDADSTLIGDCATVHTANKWDLIISDMYDPKTKNVTKENDSKEGFFTYICGFIQQKLALGGSVAIKITEHSWNADL 6891
+                         ****************************************************************************************** PP
+
+  methyltransferase  181 yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm 270 
+                         yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm
+          OY784472_ 6892 YKLMGHFAWWTAFVTNVNASSSEAFLIGCNYLGKPREQIDGYVMHANYIFWRNTNPIQLSSYSLFDMSKFPLKLRGTAVMSLKEGQINDM 6981
+                         ****************************************************************************************** PP
+
+  methyltransferase  271 ilsllskgrliirennrvvissdvlvnn 298 
+                         ilsllskgrliirennrvvissdvlvnn
+          OY784472_ 6982 ILSLLSKGRLIIRENNRVVISSDVLVNN 7009
+                         ***************************8 PP
+
+>> ON923618_  ORF1ab 493-13425;13425-21512
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  711.5   1.8  3.2e-217  3.2e-217       1     298 []    6709    7006 ..    6709    7006 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 711.5 bits;  conditional E-value: 3.2e-217
+  methyltransferase    1 ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp 90  
+                         ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp
+          ON923618_ 6709 SSQAWQPGVAMPNLYKMQRMLLEKCDLQNYGDSATLPKGIMMNVAKYTQLCQYLNTLTLAVPYNMRVIHFGAGSDKGVAPGTAVLRQWLP 6798
+                         89**************************************************************************************** PP
+
+  methyltransferase   91 tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl 180 
+                         tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl
+          ON923618_ 6799 TGTLLVDSDLNDFVSDADSTLIGDCATVHTANKWDLIISDMYDPKTKNVTKENDSKEGFFTYICGFIQQKLALGGSVAIKITEHSWNADL 6888
+                         ****************************************************************************************** PP
+
+  methyltransferase  181 yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm 270 
+                         yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm
+          ON923618_ 6889 YKLMGHFAWWTAFVTNVNASSSEAFLIGCNYLGKPREQIDGYVMHANYIFWRNTNPIQLSSYSLFDMSKFPLKLRGTAVMSLKEGQINDM 6978
+                         ****************************************************************************************** PP
+
+  methyltransferase  271 ilsllskgrliirennrvvissdvlvnn 298 
+                         ilsllskgrliirennrvvissdvlvnn
+          ON923618_ 6979 ILSLLSKGRLIIRENNRVVISSDVLVNN 7006
+                         ***************************8 PP
+
+>> OP440368_  ORF1ab 464-13405;13405-21492
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  711.5   1.8  3.2e-217  3.2e-217       1     298 []    6712    7009 ..    6712    7009 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 711.5 bits;  conditional E-value: 3.2e-217
+  methyltransferase    1 ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp 90  
+                         ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp
+          OP440368_ 6712 SSQAWQPGVAMPNLYKMQRMLLEKCDLQNYGDSATLPKGIMMNVAKYTQLCQYLNTLTLAVPYNMRVIHFGAGSDKGVAPGTAVLRQWLP 6801
+                         89**************************************************************************************** PP
+
+  methyltransferase   91 tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl 180 
+                         tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl
+          OP440368_ 6802 TGTLLVDSDLNDFVSDADSTLIGDCATVHTANKWDLIISDMYDPKTKNVTKENDSKEGFFTYICGFIQQKLALGGSVAIKITEHSWNADL 6891
+                         ****************************************************************************************** PP
+
+  methyltransferase  181 yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm 270 
+                         yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm
+          OP440368_ 6892 YKLMGHFAWWTAFVTNVNASSSEAFLIGCNYLGKPREQIDGYVMHANYIFWRNTNPIQLSSYSLFDMSKFPLKLRGTAVMSLKEGQINDM 6981
+                         ****************************************************************************************** PP
+
+  methyltransferase  271 ilsllskgrliirennrvvissdvlvnn 298 
+                         ilsllskgrliirennrvvissdvlvnn
+          OP440368_ 6982 ILSLLSKGRLIIRENNRVVISSDVLVNN 7009
+                         ***************************8 PP
+
+>> OV948634_  ORF1ab 266-13453;13453-21540
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  711.4   1.8  3.3e-217  3.3e-217       1     298 []    6794    7091 ..    6794    7091 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 711.4 bits;  conditional E-value: 3.3e-217
+  methyltransferase    1 ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp 90  
+                         ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp
+          OV948634_ 6794 SSQAWQPGVAMPNLYKMQRMLLEKCDLQNYGDSATLPKGIMMNVAKYTQLCQYLNTLTLAVPYNMRVIHFGAGSDKGVAPGTAVLRQWLP 6883
+                         89**************************************************************************************** PP
+
+  methyltransferase   91 tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl 180 
+                         tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl
+          OV948634_ 6884 TGTLLVDSDLNDFVSDADSTLIGDCATVHTANKWDLIISDMYDPKTKNVTKENDSKEGFFTYICGFIQQKLALGGSVAIKITEHSWNADL 6973
+                         ****************************************************************************************** PP
+
+  methyltransferase  181 yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm 270 
+                         yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm
+          OV948634_ 6974 YKLMGHFAWWTAFVTNVNASSSEAFLIGCNYLGKPREQIDGYVMHANYIFWRNTNPIQLSSYSLFDMSKFPLKLRGTAVMSLKEGQINDM 7063
+                         ****************************************************************************************** PP
+
+  methyltransferase  271 ilsllskgrliirennrvvissdvlvnn 298 
+                         ilsllskgrliirennrvvissdvlvnn
+          OV948634_ 7064 ILSLLSKGRLIIRENNRVVISSDVLVNN 7091
+                         ***************************8 PP
+
+>> MW183957_  ORF1ab 227-13429;13429-21516
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  711.4   1.8  3.3e-217  3.3e-217       1     298 []    6799    7096 ..    6799    7096 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 711.4 bits;  conditional E-value: 3.3e-217
+  methyltransferase    1 ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp 90  
+                         ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp
+          MW183957_ 6799 SSQAWQPGVAMPNLYKMQRMLLEKCDLQNYGDSATLPKGIMMNVAKYTQLCQYLNTLTLAVPYNMRVIHFGAGSDKGVAPGTAVLRQWLP 6888
+                         89**************************************************************************************** PP
+
+  methyltransferase   91 tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl 180 
+                         tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl
+          MW183957_ 6889 TGTLLVDSDLNDFVSDADSTLIGDCATVHTANKWDLIISDMYDPKTKNVTKENDSKEGFFTYICGFIQQKLALGGSVAIKITEHSWNADL 6978
+                         ****************************************************************************************** PP
+
+  methyltransferase  181 yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm 270 
+                         yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm
+          MW183957_ 6979 YKLMGHFAWWTAFVTNVNASSSEAFLIGCNYLGKPREQIDGYVMHANYIFWRNTNPIQLSSYSLFDMSKFPLKLRGTAVMSLKEGQINDM 7068
+                         ****************************************************************************************** PP
+
+  methyltransferase  271 ilsllskgrliirennrvvissdvlvnn 298 
+                         ilsllskgrliirennrvvissdvlvnn
+          MW183957_ 7069 ILSLLSKGRLIIRENNRVVISSDVLVNN 7096
+                         ***************************8 PP
+
+>> MW901580_  ORF1ab 212-13414;13414-21501
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  711.4   1.8  3.3e-217  3.3e-217       1     298 []    6799    7096 ..    6799    7096 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 711.4 bits;  conditional E-value: 3.3e-217
+  methyltransferase    1 ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp 90  
+                         ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp
+          MW901580_ 6799 SSQAWQPGVAMPNLYKMQRMLLEKCDLQNYGDSATLPKGIMMNVAKYTQLCQYLNTLTLAVPYNMRVIHFGAGSDKGVAPGTAVLRQWLP 6888
+                         89**************************************************************************************** PP
+
+  methyltransferase   91 tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl 180 
+                         tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl
+          MW901580_ 6889 TGTLLVDSDLNDFVSDADSTLIGDCATVHTANKWDLIISDMYDPKTKNVTKENDSKEGFFTYICGFIQQKLALGGSVAIKITEHSWNADL 6978
+                         ****************************************************************************************** PP
+
+  methyltransferase  181 yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm 270 
+                         yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm
+          MW901580_ 6979 YKLMGHFAWWTAFVTNVNASSSEAFLIGCNYLGKPREQIDGYVMHANYIFWRNTNPIQLSSYSLFDMSKFPLKLRGTAVMSLKEGQINDM 7068
+                         ****************************************************************************************** PP
+
+  methyltransferase  271 ilsllskgrliirennrvvissdvlvnn 298 
+                         ilsllskgrliirennrvvissdvlvnn
+          MW901580_ 7069 ILSLLSKGRLIIRENNRVVISSDVLVNN 7096
+                         ***************************8 PP
+
+>> MN908947_  ORF1ab 266-13468;13468-21555
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  711.4   1.8  3.3e-217  3.3e-217       1     298 []    6799    7096 ..    6799    7096 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 711.4 bits;  conditional E-value: 3.3e-217
+  methyltransferase    1 ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp 90  
+                         ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp
+          MN908947_ 6799 SSQAWQPGVAMPNLYKMQRMLLEKCDLQNYGDSATLPKGIMMNVAKYTQLCQYLNTLTLAVPYNMRVIHFGAGSDKGVAPGTAVLRQWLP 6888
+                         89**************************************************************************************** PP
+
+  methyltransferase   91 tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl 180 
+                         tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl
+          MN908947_ 6889 TGTLLVDSDLNDFVSDADSTLIGDCATVHTANKWDLIISDMYDPKTKNVTKENDSKEGFFTYICGFIQQKLALGGSVAIKITEHSWNADL 6978
+                         ****************************************************************************************** PP
+
+  methyltransferase  181 yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm 270 
+                         yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm
+          MN908947_ 6979 YKLMGHFAWWTAFVTNVNASSSEAFLIGCNYLGKPREQIDGYVMHANYIFWRNTNPIQLSSYSLFDMSKFPLKLRGTAVMSLKEGQINDM 7068
+                         ****************************************************************************************** PP
+
+  methyltransferase  271 ilsllskgrliirennrvvissdvlvnn 298 
+                         ilsllskgrliirennrvvissdvlvnn
+          MN908947_ 7069 ILSLLSKGRLIIRENNRVVISSDVLVNN 7096
+                         ***************************8 PP
+
+>> PQ391889_  ORF1ab 228-13421;13421-21508
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  711.4   1.8  3.3e-217  3.3e-217       1     298 []    6796    7093 ..    6796    7093 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 711.4 bits;  conditional E-value: 3.3e-217
+  methyltransferase    1 ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp 90  
+                         ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp
+          PQ391889_ 6796 SSQAWQPGVAMPNLYKMQRMLLEKCDLQNYGDSATLPKGIMMNVAKYTQLCQYLNTLTLAVPYNMRVIHFGAGSDKGVAPGTAVLRQWLP 6885
+                         89**************************************************************************************** PP
+
+  methyltransferase   91 tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl 180 
+                         tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl
+          PQ391889_ 6886 TGTLLVDSDLNDFVSDADSTLIGDCATVHTANKWDLIISDMYDPKTKNVTKENDSKEGFFTYICGFIQQKLALGGSVAIKITEHSWNADL 6975
+                         ****************************************************************************************** PP
+
+  methyltransferase  181 yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm 270 
+                         yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm
+          PQ391889_ 6976 YKLMGHFAWWTAFVTNVNASSSEAFLIGCNYLGKPREQIDGYVMHANYIFWRNTNPIQLSSYSLFDMSKFPLKLRGTAVMSLKEGQINDM 7065
+                         ****************************************************************************************** PP
+
+  methyltransferase  271 ilsllskgrliirennrvvissdvlvnn 298 
+                         ilsllskgrliirennrvvissdvlvnn
+          PQ391889_ 7066 ILSLLSKGRLIIRENNRVVISSDVLVNN 7093
+                         ***************************8 PP
+
+>> OQ558991_  ORF1ab 212-13414;13414-21501
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  711.4   1.8  3.3e-217  3.3e-217       1     298 []    6799    7096 ..    6799    7096 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 711.4 bits;  conditional E-value: 3.3e-217
+  methyltransferase    1 ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp 90  
+                         ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp
+          OQ558991_ 6799 SSQAWQPGVAMPNLYKMQRMLLEKCDLQNYGDSATLPKGIMMNVAKYTQLCQYLNTLTLAVPYNMRVIHFGAGSDKGVAPGTAVLRQWLP 6888
+                         89**************************************************************************************** PP
+
+  methyltransferase   91 tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl 180 
+                         tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl
+          OQ558991_ 6889 TGTLLVDSDLNDFVSDADSTLIGDCATVHTANKWDLIISDMYDPKTKNVTKENDSKEGFFTYICGFIQQKLALGGSVAIKITEHSWNADL 6978
+                         ****************************************************************************************** PP
+
+  methyltransferase  181 yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm 270 
+                         yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm
+          OQ558991_ 6979 YKLMGHFAWWTAFVTNVNASSSEAFLIGCNYLGKPREQIDGYVMHANYIFWRNTNPIQLSSYSLFDMSKFPLKLRGTAVMSLKEGQINDM 7068
+                         ****************************************************************************************** PP
+
+  methyltransferase  271 ilsllskgrliirennrvvissdvlvnn 298 
+                         ilsllskgrliirennrvvissdvlvnn
+          OQ558991_ 7069 ILSLLSKGRLIIRENNRVVISSDVLVNN 7096
+                         ***************************8 PP
+
+>> PQ899058_  ORF1ab 227-13420;13420-21507
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  711.4   1.8  3.3e-217  3.3e-217       1     298 []    6796    7093 ..    6796    7093 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 711.4 bits;  conditional E-value: 3.3e-217
+  methyltransferase    1 ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp 90  
+                         ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp
+          PQ899058_ 6796 SSQAWQPGVAMPNLYKMQRMLLEKCDLQNYGDSATLPKGIMMNVAKYTQLCQYLNTLTLAVPYNMRVIHFGAGSDKGVAPGTAVLRQWLP 6885
+                         89**************************************************************************************** PP
+
+  methyltransferase   91 tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl 180 
+                         tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl
+          PQ899058_ 6886 TGTLLVDSDLNDFVSDADSTLIGDCATVHTANKWDLIISDMYDPKTKNVTKENDSKEGFFTYICGFIQQKLALGGSVAIKITEHSWNADL 6975
+                         ****************************************************************************************** PP
+
+  methyltransferase  181 yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm 270 
+                         yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm
+          PQ899058_ 6976 YKLMGHFAWWTAFVTNVNASSSEAFLIGCNYLGKPREQIDGYVMHANYIFWRNTNPIQLSSYSLFDMSKFPLKLRGTAVMSLKEGQINDM 7065
+                         ****************************************************************************************** PP
+
+  methyltransferase  271 ilsllskgrliirennrvvissdvlvnn 298 
+                         ilsllskgrliirennrvvissdvlvnn
+          PQ899058_ 7066 ILSLLSKGRLIIRENNRVVISSDVLVNN 7093
+                         ***************************8 PP
+
+>> OK204161_  ORF1ab 229-13431;13431-21518
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  711.4   1.8  3.3e-217  3.3e-217       1     298 []    6799    7096 ..    6799    7096 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 711.4 bits;  conditional E-value: 3.3e-217
+  methyltransferase    1 ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp 90  
+                         ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp
+          OK204161_ 6799 SSQAWQPGVAMPNLYKMQRMLLEKCDLQNYGDSATLPKGIMMNVAKYTQLCQYLNTLTLAVPYNMRVIHFGAGSDKGVAPGTAVLRQWLP 6888
+                         89**************************************************************************************** PP
+
+  methyltransferase   91 tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl 180 
+                         tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl
+          OK204161_ 6889 TGTLLVDSDLNDFVSDADSTLIGDCATVHTANKWDLIISDMYDPKTKNVTKENDSKEGFFTYICGFIQQKLALGGSVAIKITEHSWNADL 6978
+                         ****************************************************************************************** PP
+
+  methyltransferase  181 yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm 270 
+                         yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm
+          OK204161_ 6979 YKLMGHFAWWTAFVTNVNASSSEAFLIGCNYLGKPREQIDGYVMHANYIFWRNTNPIQLSSYSLFDMSKFPLKLRGTAVMSLKEGQINDM 7068
+                         ****************************************************************************************** PP
+
+  methyltransferase  271 ilsllskgrliirennrvvissdvlvnn 298 
+                         ilsllskgrliirennrvvissdvlvnn
+          OK204161_ 7069 ILSLLSKGRLIIRENNRVVISSDVLVNN 7096
+                         ***************************8 PP
+
+>> PQ121865_  ORF1ab 212-13405;13405-21492
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  711.4   1.8  3.3e-217  3.3e-217       1     298 []    6796    7093 ..    6796    7093 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 711.4 bits;  conditional E-value: 3.3e-217
+  methyltransferase    1 ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp 90  
+                         ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp
+          PQ121865_ 6796 SSQAWQPGVAMPNLYKMQRMLLEKCDLQNYGDSATLPKGIMMNVAKYTQLCQYLNTLTLAVPYNMRVIHFGAGSDKGVAPGTAVLRQWLP 6885
+                         89**************************************************************************************** PP
+
+  methyltransferase   91 tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl 180 
+                         tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl
+          PQ121865_ 6886 TGTLLVDSDLNDFVSDADSTLIGDCATVHTANKWDLIISDMYDPKTKNVTKENDSKEGFFTYICGFIQQKLALGGSVAIKITEHSWNADL 6975
+                         ****************************************************************************************** PP
+
+  methyltransferase  181 yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm 270 
+                         yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm
+          PQ121865_ 6976 YKLMGHFAWWTAFVTNVNASSSEAFLIGCNYLGKPREQIDGYVMHANYIFWRNTNPIQLSSYSLFDMSKFPLKLRGTAVMSLKEGQINDM 7065
+                         ****************************************************************************************** PP
+
+  methyltransferase  271 ilsllskgrliirennrvvissdvlvnn 298 
+                         ilsllskgrliirennrvvissdvlvnn
+          PQ121865_ 7066 ILSLLSKGRLIIRENNRVVISSDVLVNN 7093
+                         ***************************8 PP
+
+>> OZ223682_  ORF1ab 266-13459;13459-21546
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  711.4   1.8  3.3e-217  3.3e-217       1     298 []    6796    7093 ..    6796    7093 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 711.4 bits;  conditional E-value: 3.3e-217
+  methyltransferase    1 ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp 90  
+                         ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp
+          OZ223682_ 6796 SSQAWQPGVAMPNLYKMQRMLLEKCDLQNYGDSATLPKGIMMNVAKYTQLCQYLNTLTLAVPYNMRVIHFGAGSDKGVAPGTAVLRQWLP 6885
+                         89**************************************************************************************** PP
+
+  methyltransferase   91 tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl 180 
+                         tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl
+          OZ223682_ 6886 TGTLLVDSDLNDFVSDADSTLIGDCATVHTANKWDLIISDMYDPKTKNVTKENDSKEGFFTYICGFIQQKLALGGSVAIKITEHSWNADL 6975
+                         ****************************************************************************************** PP
+
+  methyltransferase  181 yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm 270 
+                         yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm
+          OZ223682_ 6976 YKLMGHFAWWTAFVTNVNASSSEAFLIGCNYLGKPREQIDGYVMHANYIFWRNTNPIQLSSYSLFDMSKFPLKLRGTAVMSLKEGQINDM 7065
+                         ****************************************************************************************** PP
+
+  methyltransferase  271 ilsllskgrliirennrvvissdvlvnn 298 
+                         ilsllskgrliirennrvvissdvlvnn
+          OZ223682_ 7066 ILSLLSKGRLIIRENNRVVISSDVLVNN 7093
+                         ***************************8 PP
+
+>> MZ412499_  ORF1ab 212-13405;13405-21492
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  711.4   1.8  3.3e-217  3.3e-217       1     298 []    6796    7093 ..    6796    7093 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 711.4 bits;  conditional E-value: 3.3e-217
+  methyltransferase    1 ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp 90  
+                         ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp
+          MZ412499_ 6796 SSQAWQPGVAMPNLYKMQRMLLEKCDLQNYGDSATLPKGIMMNVAKYTQLCQYLNTLTLAVPYNMRVIHFGAGSDKGVAPGTAVLRQWLP 6885
+                         89**************************************************************************************** PP
+
+  methyltransferase   91 tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl 180 
+                         tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl
+          MZ412499_ 6886 TGTLLVDSDLNDFVSDADSTLIGDCATVHTANKWDLIISDMYDPKTKNVTKENDSKEGFFTYICGFIQQKLALGGSVAIKITEHSWNADL 6975
+                         ****************************************************************************************** PP
+
+  methyltransferase  181 yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm 270 
+                         yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm
+          MZ412499_ 6976 YKLMGHFAWWTAFVTNVNASSSEAFLIGCNYLGKPREQIDGYVMHANYIFWRNTNPIQLSSYSLFDMSKFPLKLRGTAVMSLKEGQINDM 7065
+                         ****************************************************************************************** PP
+
+  methyltransferase  271 ilsllskgrliirennrvvissdvlvnn 298 
+                         ilsllskgrliirennrvvissdvlvnn
+          MZ412499_ 7066 ILSLLSKGRLIIRENNRVVISSDVLVNN 7093
+                         ***************************8 PP
+
+>> PX059619_  ORF1ab 188-13381;13381-21468
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  711.4   1.8  3.3e-217  3.3e-217       1     298 []    6796    7093 ..    6796    7093 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 711.4 bits;  conditional E-value: 3.3e-217
+  methyltransferase    1 ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp 90  
+                         ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp
+          PX059619_ 6796 SSQAWQPGVAMPNLYKMQRMLLEKCDLQNYGDSATLPKGIMMNVAKYTQLCQYLNTLTLAVPYNMRVIHFGAGSDKGVAPGTAVLRQWLP 6885
+                         89**************************************************************************************** PP
+
+  methyltransferase   91 tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl 180 
+                         tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl
+          PX059619_ 6886 TGTLLVDSDLNDFVSDADSTLIGDCATVHTANKWDLIISDMYDPKTKNVTKENDSKEGFFTYICGFIQQKLALGGSVAIKITEHSWNADL 6975
+                         ****************************************************************************************** PP
+
+  methyltransferase  181 yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm 270 
+                         yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm
+          PX059619_ 6976 YKLMGHFAWWTAFVTNVNASSSEAFLIGCNYLGKPREQIDGYVMHANYIFWRNTNPIQLSSYSLFDMSKFPLKLRGTAVMSLKEGQINDM 7065
+                         ****************************************************************************************** PP
+
+  methyltransferase  271 ilsllskgrliirennrvvissdvlvnn 298 
+                         ilsllskgrliirennrvvissdvlvnn
+          PX059619_ 7066 ILSLLSKGRLIIRENNRVVISSDVLVNN 7093
+                         ***************************8 PP
+
+>> MZ160298_  ORF1ab 181-13374;13374-21461
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  711.4   1.8  3.3e-217  3.3e-217       1     298 []    6796    7093 ..    6796    7093 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 711.4 bits;  conditional E-value: 3.3e-217
+  methyltransferase    1 ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp 90  
+                         ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp
+          MZ160298_ 6796 SSQAWQPGVAMPNLYKMQRMLLEKCDLQNYGDSATLPKGIMMNVAKYTQLCQYLNTLTLAVPYNMRVIHFGAGSDKGVAPGTAVLRQWLP 6885
+                         89**************************************************************************************** PP
+
+  methyltransferase   91 tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl 180 
+                         tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl
+          MZ160298_ 6886 TGTLLVDSDLNDFVSDADSTLIGDCATVHTANKWDLIISDMYDPKTKNVTKENDSKEGFFTYICGFIQQKLALGGSVAIKITEHSWNADL 6975
+                         ****************************************************************************************** PP
+
+  methyltransferase  181 yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm 270 
+                         yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm
+          MZ160298_ 6976 YKLMGHFAWWTAFVTNVNASSSEAFLIGCNYLGKPREQIDGYVMHANYIFWRNTNPIQLSSYSLFDMSKFPLKLRGTAVMSLKEGQINDM 7065
+                         ****************************************************************************************** PP
+
+  methyltransferase  271 ilsllskgrliirennrvvissdvlvnn 298 
+                         ilsllskgrliirennrvvissdvlvnn
+          MZ160298_ 7066 ILSLLSKGRLIIRENNRVVISSDVLVNN 7093
+                         ***************************8 PP
+
+>> PQ375771_  ORF1ab 234-13427;13427-21514
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  711.4   1.8  3.3e-217  3.3e-217       1     298 []    6796    7093 ..    6796    7093 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 711.4 bits;  conditional E-value: 3.3e-217
+  methyltransferase    1 ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp 90  
+                         ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp
+          PQ375771_ 6796 SSQAWQPGVAMPNLYKMQRMLLEKCDLQNYGDSATLPKGIMMNVAKYTQLCQYLNTLTLAVPYNMRVIHFGAGSDKGVAPGTAVLRQWLP 6885
+                         89**************************************************************************************** PP
+
+  methyltransferase   91 tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl 180 
+                         tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl
+          PQ375771_ 6886 TGTLLVDSDLNDFVSDADSTLIGDCATVHTANKWDLIISDMYDPKTKNVTKENDSKEGFFTYICGFIQQKLALGGSVAIKITEHSWNADL 6975
+                         ****************************************************************************************** PP
+
+  methyltransferase  181 yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm 270 
+                         yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm
+          PQ375771_ 6976 YKLMGHFAWWTAFVTNVNASSSEAFLIGCNYLGKPREQIDGYVMHANYIFWRNTNPIQLSSYSLFDMSKFPLKLRGTAVMSLKEGQINDM 7065
+                         ****************************************************************************************** PP
+
+  methyltransferase  271 ilsllskgrliirennrvvissdvlvnn 298 
+                         ilsllskgrliirennrvvissdvlvnn
+          PQ375771_ 7066 ILSLLSKGRLIIRENNRVVISSDVLVNN 7093
+                         ***************************8 PP
+
+>> PP630509_  ORF1ab 212-13414;13414-21501
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  711.4   1.8  3.3e-217  3.3e-217       1     298 []    6799    7096 ..    6799    7096 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 711.4 bits;  conditional E-value: 3.3e-217
+  methyltransferase    1 ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp 90  
+                         ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp
+          PP630509_ 6799 SSQAWQPGVAMPNLYKMQRMLLEKCDLQNYGDSATLPKGIMMNVAKYTQLCQYLNTLTLAVPYNMRVIHFGAGSDKGVAPGTAVLRQWLP 6888
+                         89**************************************************************************************** PP
+
+  methyltransferase   91 tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl 180 
+                         tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl
+          PP630509_ 6889 TGTLLVDSDLNDFVSDADSTLIGDCATVHTANKWDLIISDMYDPKTKNVTKENDSKEGFFTYICGFIQQKLALGGSVAIKITEHSWNADL 6978
+                         ****************************************************************************************** PP
+
+  methyltransferase  181 yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm 270 
+                         yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm
+          PP630509_ 6979 YKLMGHFAWWTAFVTNVNASSSEAFLIGCNYLGKPREQIDGYVMHANYIFWRNTNPIQLSSYSLFDMSKFPLKLRGTAVMSLKEGQINDM 7068
+                         ****************************************************************************************** PP
+
+  methyltransferase  271 ilsllskgrliirennrvvissdvlvnn 298 
+                         ilsllskgrliirennrvvissdvlvnn
+          PP630509_ 7069 ILSLLSKGRLIIRENNRVVISSDVLVNN 7096
+                         ***************************8 PP
+
+>> OZ014103_  ORF1ab 266-13456;13456-21543
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  711.4   1.8  3.3e-217  3.3e-217       1     298 []    6795    7092 ..    6795    7092 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 711.4 bits;  conditional E-value: 3.3e-217
+  methyltransferase    1 ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp 90  
+                         ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp
+          OZ014103_ 6795 SSQAWQPGVAMPNLYKMQRMLLEKCDLQNYGDSATLPKGIMMNVAKYTQLCQYLNTLTLAVPYNMRVIHFGAGSDKGVAPGTAVLRQWLP 6884
+                         89**************************************************************************************** PP
+
+  methyltransferase   91 tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl 180 
+                         tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl
+          OZ014103_ 6885 TGTLLVDSDLNDFVSDADSTLIGDCATVHTANKWDLIISDMYDPKTKNVTKENDSKEGFFTYICGFIQQKLALGGSVAIKITEHSWNADL 6974
+                         ****************************************************************************************** PP
+
+  methyltransferase  181 yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm 270 
+                         yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm
+          OZ014103_ 6975 YKLMGHFAWWTAFVTNVNASSSEAFLIGCNYLGKPREQIDGYVMHANYIFWRNTNPIQLSSYSLFDMSKFPLKLRGTAVMSLKEGQINDM 7064
+                         ****************************************************************************************** PP
+
+  methyltransferase  271 ilsllskgrliirennrvvissdvlvnn 298 
+                         ilsllskgrliirennrvvissdvlvnn
+          OZ014103_ 7065 ILSLLSKGRLIIRENNRVVISSDVLVNN 7092
+                         ***************************8 PP
+
+>> OP578130_  ORF1ab 216-13418;13418-21505
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  711.4   1.8  3.3e-217  3.3e-217       1     298 []    6799    7096 ..    6799    7096 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 711.4 bits;  conditional E-value: 3.3e-217
+  methyltransferase    1 ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp 90  
+                         ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp
+          OP578130_ 6799 SSQAWQPGVAMPNLYKMQRMLLEKCDLQNYGDSATLPKGIMMNVAKYTQLCQYLNTLTLAVPYNMRVIHFGAGSDKGVAPGTAVLRQWLP 6888
+                         89**************************************************************************************** PP
+
+  methyltransferase   91 tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl 180 
+                         tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl
+          OP578130_ 6889 TGTLLVDSDLNDFVSDADSTLIGDCATVHTANKWDLIISDMYDPKTKNVTKENDSKEGFFTYICGFIQQKLALGGSVAIKITEHSWNADL 6978
+                         ****************************************************************************************** PP
+
+  methyltransferase  181 yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm 270 
+                         yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm
+          OP578130_ 6979 YKLMGHFAWWTAFVTNVNASSSEAFLIGCNYLGKPREQIDGYVMHANYIFWRNTNPIQLSSYSLFDMSKFPLKLRGTAVMSLKEGQINDM 7068
+                         ****************************************************************************************** PP
+
+  methyltransferase  271 ilsllskgrliirennrvvissdvlvnn 298 
+                         ilsllskgrliirennrvvissdvlvnn
+          OP578130_ 7069 ILSLLSKGRLIIRENNRVVISSDVLVNN 7096
+                         ***************************8 PP
+
+>> PQ279056_  ORF1ab 224-13417;13417-21504
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  711.4   1.8  3.3e-217  3.3e-217       1     298 []    6796    7093 ..    6796    7093 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 711.4 bits;  conditional E-value: 3.3e-217
+  methyltransferase    1 ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp 90  
+                         ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp
+          PQ279056_ 6796 SSQAWQPGVAMPNLYKMQRMLLEKCDLQNYGDSATLPKGIMMNVAKYTQLCQYLNTLTLAVPYNMRVIHFGAGSDKGVAPGTAVLRQWLP 6885
+                         89**************************************************************************************** PP
+
+  methyltransferase   91 tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl 180 
+                         tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl
+          PQ279056_ 6886 TGTLLVDSDLNDFVSDADSTLIGDCATVHTANKWDLIISDMYDPKTKNVTKENDSKEGFFTYICGFIQQKLALGGSVAIKITEHSWNADL 6975
+                         ****************************************************************************************** PP
+
+  methyltransferase  181 yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm 270 
+                         yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm
+          PQ279056_ 6976 YKLMGHFAWWTAFVTNVNASSSEAFLIGCNYLGKPREQIDGYVMHANYIFWRNTNPIQLSSYSLFDMSKFPLKLRGTAVMSLKEGQINDM 7065
+                         ****************************************************************************************** PP
+
+  methyltransferase  271 ilsllskgrliirennrvvissdvlvnn 298 
+                         ilsllskgrliirennrvvissdvlvnn
+          PQ279056_ 7066 ILSLLSKGRLIIRENNRVVISSDVLVNN 7093
+                         ***************************8 PP
+
+>> PQ279092_  ORF1ab 224-13417;13417-21504
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  711.4   1.8  3.3e-217  3.3e-217       1     298 []    6796    7093 ..    6796    7093 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 711.4 bits;  conditional E-value: 3.3e-217
+  methyltransferase    1 ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp 90  
+                         ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp
+          PQ279092_ 6796 SSQAWQPGVAMPNLYKMQRMLLEKCDLQNYGDSATLPKGIMMNVAKYTQLCQYLNTLTLAVPYNMRVIHFGAGSDKGVAPGTAVLRQWLP 6885
+                         89**************************************************************************************** PP
+
+  methyltransferase   91 tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl 180 
+                         tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl
+          PQ279092_ 6886 TGTLLVDSDLNDFVSDADSTLIGDCATVHTANKWDLIISDMYDPKTKNVTKENDSKEGFFTYICGFIQQKLALGGSVAIKITEHSWNADL 6975
+                         ****************************************************************************************** PP
+
+  methyltransferase  181 yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm 270 
+                         yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm
+          PQ279092_ 6976 YKLMGHFAWWTAFVTNVNASSSEAFLIGCNYLGKPREQIDGYVMHANYIFWRNTNPIQLSSYSLFDMSKFPLKLRGTAVMSLKEGQINDM 7065
+                         ****************************************************************************************** PP
+
+  methyltransferase  271 ilsllskgrliirennrvvissdvlvnn 298 
+                         ilsllskgrliirennrvvissdvlvnn
+          PQ279092_ 7066 ILSLLSKGRLIIRENNRVVISSDVLVNN 7093
+                         ***************************8 PP
+
+>> PX393327_  ORF1ab 188-13381;13381-21468
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  711.4   1.8  3.3e-217  3.3e-217       1     298 []    6796    7093 ..    6796    7093 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 711.4 bits;  conditional E-value: 3.3e-217
+  methyltransferase    1 ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp 90  
+                         ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp
+          PX393327_ 6796 SSQAWQPGVAMPNLYKMQRMLLEKCDLQNYGDSATLPKGIMMNVAKYTQLCQYLNTLTLAVPYNMRVIHFGAGSDKGVAPGTAVLRQWLP 6885
+                         89**************************************************************************************** PP
+
+  methyltransferase   91 tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl 180 
+                         tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl
+          PX393327_ 6886 TGTLLVDSDLNDFVSDADSTLIGDCATVHTANKWDLIISDMYDPKTKNVTKENDSKEGFFTYICGFIQQKLALGGSVAIKITEHSWNADL 6975
+                         ****************************************************************************************** PP
+
+  methyltransferase  181 yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm 270 
+                         yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm
+          PX393327_ 6976 YKLMGHFAWWTAFVTNVNASSSEAFLIGCNYLGKPREQIDGYVMHANYIFWRNTNPIQLSSYSLFDMSKFPLKLRGTAVMSLKEGQINDM 7065
+                         ****************************************************************************************** PP
+
+  methyltransferase  271 ilsllskgrliirennrvvissdvlvnn 298 
+                         ilsllskgrliirennrvvissdvlvnn
+          PX393327_ 7066 ILSLLSKGRLIIRENNRVVISSDVLVNN 7093
+                         ***************************8 PP
+
+>> PQ304301_  ORF1ab 224-13417;13417-21504
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  711.4   1.8  3.3e-217  3.3e-217       1     298 []    6796    7093 ..    6796    7093 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 711.4 bits;  conditional E-value: 3.3e-217
+  methyltransferase    1 ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp 90  
+                         ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp
+          PQ304301_ 6796 SSQAWQPGVAMPNLYKMQRMLLEKCDLQNYGDSATLPKGIMMNVAKYTQLCQYLNTLTLAVPYNMRVIHFGAGSDKGVAPGTAVLRQWLP 6885
+                         89**************************************************************************************** PP
+
+  methyltransferase   91 tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl 180 
+                         tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl
+          PQ304301_ 6886 TGTLLVDSDLNDFVSDADSTLIGDCATVHTANKWDLIISDMYDPKTKNVTKENDSKEGFFTYICGFIQQKLALGGSVAIKITEHSWNADL 6975
+                         ****************************************************************************************** PP
+
+  methyltransferase  181 yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm 270 
+                         yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm
+          PQ304301_ 6976 YKLMGHFAWWTAFVTNVNASSSEAFLIGCNYLGKPREQIDGYVMHANYIFWRNTNPIQLSSYSLFDMSKFPLKLRGTAVMSLKEGQINDM 7065
+                         ****************************************************************************************** PP
+
+  methyltransferase  271 ilsllskgrliirennrvvissdvlvnn 298 
+                         ilsllskgrliirennrvvissdvlvnn
+          PQ304301_ 7066 ILSLLSKGRLIIRENNRVVISSDVLVNN 7093
+                         ***************************8 PP
+
+>> OK433428_  ORF1ab 212-13414;13414-21501
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  711.4   1.8  3.3e-217  3.3e-217       1     298 []    6799    7096 ..    6799    7096 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 711.4 bits;  conditional E-value: 3.3e-217
+  methyltransferase    1 ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp 90  
+                         ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp
+          OK433428_ 6799 SSQAWQPGVAMPNLYKMQRMLLEKCDLQNYGDSATLPKGIMMNVAKYTQLCQYLNTLTLAVPYNMRVIHFGAGSDKGVAPGTAVLRQWLP 6888
+                         89**************************************************************************************** PP
+
+  methyltransferase   91 tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl 180 
+                         tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl
+          OK433428_ 6889 TGTLLVDSDLNDFVSDADSTLIGDCATVHTANKWDLIISDMYDPKTKNVTKENDSKEGFFTYICGFIQQKLALGGSVAIKITEHSWNADL 6978
+                         ****************************************************************************************** PP
+
+  methyltransferase  181 yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm 270 
+                         yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm
+          OK433428_ 6979 YKLMGHFAWWTAFVTNVNASSSEAFLIGCNYLGKPREQIDGYVMHANYIFWRNTNPIQLSSYSLFDMSKFPLKLRGTAVMSLKEGQINDM 7068
+                         ****************************************************************************************** PP
+
+  methyltransferase  271 ilsllskgrliirennrvvissdvlvnn 298 
+                         ilsllskgrliirennrvvissdvlvnn
+          OK433428_ 7069 ILSLLSKGRLIIRENNRVVISSDVLVNN 7096
+                         ***************************8 PP
+
+>> OQ896588_  ORF1ab 166-13368;13368-21455
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  711.4   1.8  3.3e-217  3.3e-217       1     298 []    6799    7096 ..    6799    7096 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 711.4 bits;  conditional E-value: 3.3e-217
+  methyltransferase    1 ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp 90  
+                         ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp
+          OQ896588_ 6799 SSQAWQPGVAMPNLYKMQRMLLEKCDLQNYGDSATLPKGIMMNVAKYTQLCQYLNTLTLAVPYNMRVIHFGAGSDKGVAPGTAVLRQWLP 6888
+                         89**************************************************************************************** PP
+
+  methyltransferase   91 tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl 180 
+                         tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl
+          OQ896588_ 6889 TGTLLVDSDLNDFVSDADSTLIGDCATVHTANKWDLIISDMYDPKTKNVTKENDSKEGFFTYICGFIQQKLALGGSVAIKITEHSWNADL 6978
+                         ****************************************************************************************** PP
+
+  methyltransferase  181 yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm 270 
+                         yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm
+          OQ896588_ 6979 YKLMGHFAWWTAFVTNVNASSSEAFLIGCNYLGKPREQIDGYVMHANYIFWRNTNPIQLSSYSLFDMSKFPLKLRGTAVMSLKEGQINDM 7068
+                         ****************************************************************************************** PP
+
+  methyltransferase  271 ilsllskgrliirennrvvissdvlvnn 298 
+                         ilsllskgrliirennrvvissdvlvnn
+          OQ896588_ 7069 ILSLLSKGRLIIRENNRVVISSDVLVNN 7096
+                         ***************************8 PP
+
+>> OR689160_  ORF1ab 224-13417;13417-21504
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  711.4   1.8  3.3e-217  3.3e-217       1     298 []    6796    7093 ..    6796    7093 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 711.4 bits;  conditional E-value: 3.3e-217
+  methyltransferase    1 ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp 90  
+                         ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp
+          OR689160_ 6796 SSQAWQPGVAMPNLYKMQRMLLEKCDLQNYGDSATLPKGIMMNVAKYTQLCQYLNTLTLAVPYNMRVIHFGAGSDKGVAPGTAVLRQWLP 6885
+                         89**************************************************************************************** PP
+
+  methyltransferase   91 tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl 180 
+                         tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl
+          OR689160_ 6886 TGTLLVDSDLNDFVSDADSTLIGDCATVHTANKWDLIISDMYDPKTKNVTKENDSKEGFFTYICGFIQQKLALGGSVAIKITEHSWNADL 6975
+                         ****************************************************************************************** PP
+
+  methyltransferase  181 yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm 270 
+                         yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm
+          OR689160_ 6976 YKLMGHFAWWTAFVTNVNASSSEAFLIGCNYLGKPREQIDGYVMHANYIFWRNTNPIQLSSYSLFDMSKFPLKLRGTAVMSLKEGQINDM 7065
+                         ****************************************************************************************** PP
+
+  methyltransferase  271 ilsllskgrliirennrvvissdvlvnn 298 
+                         ilsllskgrliirennrvvissdvlvnn
+          OR689160_ 7066 ILSLLSKGRLIIRENNRVVISSDVLVNN 7093
+                         ***************************8 PP
+
+>> PQ017244_  ORF1ab 211-13404;13404-21491
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  711.4   1.8  3.3e-217  3.3e-217       1     298 []    6796    7093 ..    6796    7093 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 711.4 bits;  conditional E-value: 3.3e-217
+  methyltransferase    1 ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp 90  
+                         ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp
+          PQ017244_ 6796 SSQAWQPGVAMPNLYKMQRMLLEKCDLQNYGDSATLPKGIMMNVAKYTQLCQYLNTLTLAVPYNMRVIHFGAGSDKGVAPGTAVLRQWLP 6885
+                         89**************************************************************************************** PP
+
+  methyltransferase   91 tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl 180 
+                         tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl
+          PQ017244_ 6886 TGTLLVDSDLNDFVSDADSTLIGDCATVHTANKWDLIISDMYDPKTKNVTKENDSKEGFFTYICGFIQQKLALGGSVAIKITEHSWNADL 6975
+                         ****************************************************************************************** PP
+
+  methyltransferase  181 yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm 270 
+                         yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm
+          PQ017244_ 6976 YKLMGHFAWWTAFVTNVNASSSEAFLIGCNYLGKPREQIDGYVMHANYIFWRNTNPIQLSSYSLFDMSKFPLKLRGTAVMSLKEGQINDM 7065
+                         ****************************************************************************************** PP
+
+  methyltransferase  271 ilsllskgrliirennrvvissdvlvnn 298 
+                         ilsllskgrliirennrvvissdvlvnn
+          PQ017244_ 7066 ILSLLSKGRLIIRENNRVVISSDVLVNN 7093
+                         ***************************8 PP
+
+>> OK177352_  ORF1ab 220-13413;13413-21500
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  711.4   1.8  3.3e-217  3.3e-217       1     298 []    6796    7093 ..    6796    7093 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 711.4 bits;  conditional E-value: 3.3e-217
+  methyltransferase    1 ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp 90  
+                         ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp
+          OK177352_ 6796 SSQAWQPGVAMPNLYKMQRMLLEKCDLQNYGDSATLPKGIMMNVAKYTQLCQYLNTLTLAVPYNMRVIHFGAGSDKGVAPGTAVLRQWLP 6885
+                         89**************************************************************************************** PP
+
+  methyltransferase   91 tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl 180 
+                         tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl
+          OK177352_ 6886 TGTLLVDSDLNDFVSDADSTLIGDCATVHTANKWDLIISDMYDPKTKNVTKENDSKEGFFTYICGFIQQKLALGGSVAIKITEHSWNADL 6975
+                         ****************************************************************************************** PP
+
+  methyltransferase  181 yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm 270 
+                         yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm
+          OK177352_ 6976 YKLMGHFAWWTAFVTNVNASSSEAFLIGCNYLGKPREQIDGYVMHANYIFWRNTNPIQLSSYSLFDMSKFPLKLRGTAVMSLKEGQINDM 7065
+                         ****************************************************************************************** PP
+
+  methyltransferase  271 ilsllskgrliirennrvvissdvlvnn 298 
+                         ilsllskgrliirennrvvissdvlvnn
+          OK177352_ 7066 ILSLLSKGRLIIRENNRVVISSDVLVNN 7093
+                         ***************************8 PP
+
+>> PP615923_  ORF1ab 264-13466;13466-21553
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  711.4   1.8  3.3e-217  3.3e-217       1     298 []    6799    7096 ..    6799    7096 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 711.4 bits;  conditional E-value: 3.3e-217
+  methyltransferase    1 ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp 90  
+                         ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp
+          PP615923_ 6799 SSQAWQPGVAMPNLYKMQRMLLEKCDLQNYGDSATLPKGIMMNVAKYTQLCQYLNTLTLAVPYNMRVIHFGAGSDKGVAPGTAVLRQWLP 6888
+                         89**************************************************************************************** PP
+
+  methyltransferase   91 tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl 180 
+                         tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl
+          PP615923_ 6889 TGTLLVDSDLNDFVSDADSTLIGDCATVHTANKWDLIISDMYDPKTKNVTKENDSKEGFFTYICGFIQQKLALGGSVAIKITEHSWNADL 6978
+                         ****************************************************************************************** PP
+
+  methyltransferase  181 yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm 270 
+                         yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm
+          PP615923_ 6979 YKLMGHFAWWTAFVTNVNASSSEAFLIGCNYLGKPREQIDGYVMHANYIFWRNTNPIQLSSYSLFDMSKFPLKLRGTAVMSLKEGQINDM 7068
+                         ****************************************************************************************** PP
+
+  methyltransferase  271 ilsllskgrliirennrvvissdvlvnn 298 
+                         ilsllskgrliirennrvvissdvlvnn
+          PP615923_ 7069 ILSLLSKGRLIIRENNRVVISSDVLVNN 7096
+                         ***************************8 PP
+
+>> OL714154_  ORF1ab 245-13447;13447-21534
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  711.4   1.8  3.3e-217  3.3e-217       1     298 []    6799    7096 ..    6799    7096 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 711.4 bits;  conditional E-value: 3.3e-217
+  methyltransferase    1 ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp 90  
+                         ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp
+          OL714154_ 6799 SSQAWQPGVAMPNLYKMQRMLLEKCDLQNYGDSATLPKGIMMNVAKYTQLCQYLNTLTLAVPYNMRVIHFGAGSDKGVAPGTAVLRQWLP 6888
+                         89**************************************************************************************** PP
+
+  methyltransferase   91 tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl 180 
+                         tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl
+          OL714154_ 6889 TGTLLVDSDLNDFVSDADSTLIGDCATVHTANKWDLIISDMYDPKTKNVTKENDSKEGFFTYICGFIQQKLALGGSVAIKITEHSWNADL 6978
+                         ****************************************************************************************** PP
+
+  methyltransferase  181 yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm 270 
+                         yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm
+          OL714154_ 6979 YKLMGHFAWWTAFVTNVNASSSEAFLIGCNYLGKPREQIDGYVMHANYIFWRNTNPIQLSSYSLFDMSKFPLKLRGTAVMSLKEGQINDM 7068
+                         ****************************************************************************************** PP
+
+  methyltransferase  271 ilsllskgrliirennrvvissdvlvnn 298 
+                         ilsllskgrliirennrvvissdvlvnn
+          OL714154_ 7069 ILSLLSKGRLIIRENNRVVISSDVLVNN 7096
+                         ***************************8 PP
+
+>> OR983979_  ORF1ab 216-13409;13409-21496
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  711.4   1.8  3.3e-217  3.3e-217       1     298 []    6796    7093 ..    6796    7093 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 711.4 bits;  conditional E-value: 3.3e-217
+  methyltransferase    1 ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp 90  
+                         ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp
+          OR983979_ 6796 SSQAWQPGVAMPNLYKMQRMLLEKCDLQNYGDSATLPKGIMMNVAKYTQLCQYLNTLTLAVPYNMRVIHFGAGSDKGVAPGTAVLRQWLP 6885
+                         89**************************************************************************************** PP
+
+  methyltransferase   91 tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl 180 
+                         tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl
+          OR983979_ 6886 TGTLLVDSDLNDFVSDADSTLIGDCATVHTANKWDLIISDMYDPKTKNVTKENDSKEGFFTYICGFIQQKLALGGSVAIKITEHSWNADL 6975
+                         ****************************************************************************************** PP
+
+  methyltransferase  181 yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm 270 
+                         yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm
+          OR983979_ 6976 YKLMGHFAWWTAFVTNVNASSSEAFLIGCNYLGKPREQIDGYVMHANYIFWRNTNPIQLSSYSLFDMSKFPLKLRGTAVMSLKEGQINDM 7065
+                         ****************************************************************************************** PP
+
+  methyltransferase  271 ilsllskgrliirennrvvissdvlvnn 298 
+                         ilsllskgrliirennrvvissdvlvnn
+          OR983979_ 7066 ILSLLSKGRLIIRENNRVVISSDVLVNN 7093
+                         ***************************8 PP
+
+>> OD923885_  ORF1ab 266-13468;13468-21555
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  711.4   1.8  3.3e-217  3.3e-217       1     298 []    6799    7096 ..    6799    7096 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 711.4 bits;  conditional E-value: 3.3e-217
+  methyltransferase    1 ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp 90  
+                         ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp
+          OD923885_ 6799 SSQAWQPGVAMPNLYKMQRMLLEKCDLQNYGDSATLPKGIMMNVAKYTQLCQYLNTLTLAVPYNMRVIHFGAGSDKGVAPGTAVLRQWLP 6888
+                         89**************************************************************************************** PP
+
+  methyltransferase   91 tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl 180 
+                         tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl
+          OD923885_ 6889 TGTLLVDSDLNDFVSDADSTLIGDCATVHTANKWDLIISDMYDPKTKNVTKENDSKEGFFTYICGFIQQKLALGGSVAIKITEHSWNADL 6978
+                         ****************************************************************************************** PP
+
+  methyltransferase  181 yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm 270 
+                         yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm
+          OD923885_ 6979 YKLMGHFAWWTAFVTNVNASSSEAFLIGCNYLGKPREQIDGYVMHANYIFWRNTNPIQLSSYSLFDMSKFPLKLRGTAVMSLKEGQINDM 7068
+                         ****************************************************************************************** PP
+
+  methyltransferase  271 ilsllskgrliirennrvvissdvlvnn 298 
+                         ilsllskgrliirennrvvissdvlvnn
+          OD923885_ 7069 ILSLLSKGRLIIRENNRVVISSDVLVNN 7096
+                         ***************************8 PP
+
+>> PP030571_  ORF1ab 216-13409;13409-21496
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  710.2   1.6  7.8e-217  7.8e-217       1     298 []    6796    7093 ..    6796    7093 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 710.2 bits;  conditional E-value: 7.8e-217
+  methyltransferase    1 ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp 90  
+                         ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp
+          PP030571_ 6796 SSQAWQPGVAMPNLYKMQRMLLEKCDLQNYGDSATLPKGIMMNVAKYTQLCQYLNTLTLAVPYNMRVIHFGAGSDKGVAPGTAVLRQWLP 6885
+                         89**************************************************************************************** PP
+
+  methyltransferase   91 tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl 180 
+                         tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqq+lalggsvaikitehswnadl
+          PP030571_ 6886 TGTLLVDSDLNDFVSDADSTLIGDCATVHTANKWDLIISDMYDPKTKNVTKENDSKEGFFTYICGFIQQRLALGGSVAIKITEHSWNADL 6975
+                         ****************************************************************************************** PP
+
+  methyltransferase  181 yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm 270 
+                         yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm
+          PP030571_ 6976 YKLMGHFAWWTAFVTNVNASSSEAFLIGCNYLGKPREQIDGYVMHANYIFWRNTNPIQLSSYSLFDMSKFPLKLRGTAVMSLKEGQINDM 7065
+                         ****************************************************************************************** PP
+
+  methyltransferase  271 ilsllskgrliirennrvvissdvlvnn 298 
+                         ilsllskgrliirennrvvissdvlvnn
+          PP030571_ 7066 ILSLLSKGRLIIRENNRVVISSDVLVNN 7093
+                         ***************************8 PP
+
+>> OZ061529_  ORF1ab 228-13421;13421-21508
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  709.4   1.6  1.4e-216  1.4e-216       1     298 []    6796    7093 ..    6796    7093 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 709.4 bits;  conditional E-value: 1.4e-216
+  methyltransferase    1 ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp 90  
+                         s qawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp
+          OZ061529_ 6796 SGQAWQPGVAMPNLYKMQRMLLEKCDLQNYGDSATLPKGIMMNVAKYTQLCQYLNTLTLAVPYNMRVIHFGAGSDKGVAPGTAVLRQWLP 6885
+                         68**************************************************************************************** PP
+
+  methyltransferase   91 tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl 180 
+                         tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl
+          OZ061529_ 6886 TGTLLVDSDLNDFVSDADSTLIGDCATVHTANKWDLIISDMYDPKTKNVTKENDSKEGFFTYICGFIQQKLALGGSVAIKITEHSWNADL 6975
+                         ****************************************************************************************** PP
+
+  methyltransferase  181 yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm 270 
+                         yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm
+          OZ061529_ 6976 YKLMGHFAWWTAFVTNVNASSSEAFLIGCNYLGKPREQIDGYVMHANYIFWRNTNPIQLSSYSLFDMSKFPLKLRGTAVMSLKEGQINDM 7065
+                         ****************************************************************************************** PP
+
+  methyltransferase  271 ilsllskgrliirennrvvissdvlvnn 298 
+                         ilsllskgrliirennrvvissdvlvnn
+          OZ061529_ 7066 ILSLLSKGRLIIRENNRVVISSDVLVNN 7093
+                         ***************************8 PP
+
+>> OY792307_  ORF1ab 266-13459;13459-21546
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  709.4   1.6  1.3e-216  1.3e-216       1     298 []    6796    7093 ..    6796    7093 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 709.4 bits;  conditional E-value: 1.3e-216
+  methyltransferase    1 ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp 90  
+                         ssqawqpgvampnlykmqrmllekcdl+nygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp
+          OY792307_ 6796 SSQAWQPGVAMPNLYKMQRMLLEKCDLRNYGDSATLPKGIMMNVAKYTQLCQYLNTLTLAVPYNMRVIHFGAGSDKGVAPGTAVLRQWLP 6885
+                         89**************************************************************************************** PP
+
+  methyltransferase   91 tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl 180 
+                         tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl
+          OY792307_ 6886 TGTLLVDSDLNDFVSDADSTLIGDCATVHTANKWDLIISDMYDPKTKNVTKENDSKEGFFTYICGFIQQKLALGGSVAIKITEHSWNADL 6975
+                         ****************************************************************************************** PP
+
+  methyltransferase  181 yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm 270 
+                         yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm
+          OY792307_ 6976 YKLMGHFAWWTAFVTNVNASSSEAFLIGCNYLGKPREQIDGYVMHANYIFWRNTNPIQLSSYSLFDMSKFPLKLRGTAVMSLKEGQINDM 7065
+                         ****************************************************************************************** PP
+
+  methyltransferase  271 ilsllskgrliirennrvvissdvlvnn 298 
+                         ilsllskgrliirennrvvissdvlvnn
+          OY792307_ 7066 ILSLLSKGRLIIRENNRVVISSDVLVNN 7093
+                         ***************************8 PP
+
+>> PP601887_  ORF1ab 212-13414;13414-21501
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  708.7   2.0  2.3e-216  2.3e-216       1     298 []    6799    7096 ..    6799    7096 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 708.7 bits;  conditional E-value: 2.3e-216
+  methyltransferase    1 ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp 90  
+                         ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp
+          PP601887_ 6799 SSQAWQPGVAMPNLYKMQRMLLEKCDLQNYGDSATLPKGIMMNVAKYTQLCQYLNTLTLAVPYNMRVIHFGAGSDKGVAPGTAVLRQWLP 6888
+                         89**************************************************************************************** PP
+
+  methyltransferase   91 tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl 180 
+                         tg llvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl
+          PP601887_ 6889 TGMLLVDSDLNDFVSDADSTLIGDCATVHTANKWDLIISDMYDPKTKNVTKENDSKEGFFTYICGFIQQKLALGGSVAIKITEHSWNADL 6978
+                         ****************************************************************************************** PP
+
+  methyltransferase  181 yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm 270 
+                         yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm
+          PP601887_ 6979 YKLMGHFAWWTAFVTNVNASSSEAFLIGCNYLGKPREQIDGYVMHANYIFWRNTNPIQLSSYSLFDMSKFPLKLRGTAVMSLKEGQINDM 7068
+                         ****************************************************************************************** PP
+
+  methyltransferase  271 ilsllskgrliirennrvvissdvlvnn 298 
+                         ilsllskgrliirennrvvissdvlvnn
+          PP601887_ 7069 ILSLLSKGRLIIRENNRVVISSDVLVNN 7096
+                         ***************************8 PP
+
+>> MG772933_  ORF1ab 265-13455;13455-21542
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  701.4   2.0  3.6e-214  3.6e-214       1     298 []    6795    7092 ..    6795    7092 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 701.4 bits;  conditional E-value: 3.6e-214
+  methyltransferase    1 ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp 90  
+                         ssqawqpgvampnlykmqrmllekcdlqnygdsa lpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp
+          MG772933_ 6795 SSQAWQPGVAMPNLYKMQRMLLEKCDLQNYGDSAILPKGIMMNVAKYTQLCQYLNTLTLAVPYNMRVIHFGAGSDKGVAPGTAVLRQWLP 6884
+                         89**************************************************************************************** PP
+
+  methyltransferase   91 tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl 180 
+                         tgtllvdsdlndfvsdadstlig catvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsva+kitehswnadl
+          MG772933_ 6885 TGTLLVDSDLNDFVSDADSTLIGHCATVHTANKWDLIISDMYDPKTKNVTKENDSKEGFFTYICGFIQQKLALGGSVAVKITEHSWNADL 6974
+                         ****************************************************************************************** PP
+
+  methyltransferase  181 yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm 270 
+                         yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslk+gqindm
+          MG772933_ 6975 YKLMGHFAWWTAFVTNVNASSSEAFLIGCNYLGKPREQIDGYVMHANYIFWRNTNPIQLSSYSLFDMSKFPLKLRGTAVMSLKDGQINDM 7064
+                         ****************************************************************************************** PP
+
+  methyltransferase  271 ilsllskgrliirennrvvissdvlvnn 298 
+                         ilsllskgrli+rennrv+issdvlvnn
+          MG772933_ 7065 ILSLLSKGRLIVRENNRVIISSDVLVNN 7092
+                         ***************************8 PP
+
+>> MT072864_  ORF1ab 249-13427;13427-21514
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  701.2   1.6  4.2e-214  4.2e-214       1     298 []    6791    7088 ..    6791    7088 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 701.2 bits;  conditional E-value: 4.2e-214
+  methyltransferase    1 ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp 90  
+                         ssqawqpgvampnlykmqrmll+kcdlqnyg++atlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp
+          MT072864_ 6791 SSQAWQPGVAMPNLYKMQRMLLDKCDLQNYGEAATLPKGIMMNVAKYTQLCQYLNTLTLAVPYNMRVIHFGAGSDKGVAPGTAVLRQWLP 6880
+                         89**************************************************************************************** PP
+
+  methyltransferase   91 tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl 180 
+                         tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktk vt+endskegfftyicgfiqqklalggsvaikitehswnadl
+          MT072864_ 6881 TGTLLVDSDLNDFVSDADSTLIGDCATVHTANKWDLIISDMYDPKTKHVTRENDSKEGFFTYICGFIQQKLALGGSVAIKITEHSWNADL 6970
+                         ****************************************************************************************** PP
+
+  methyltransferase  181 yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm 270 
+                         yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm
+          MT072864_ 6971 YKLMGHFAWWTAFVTNVNASSSEAFLIGCNYLGKPREQIDGYVMHANYIFWRNTNPIQLSSYSLFDMSKFPLKLRGTAVMSLKEGQINDM 7060
+                         ****************************************************************************************** PP
+
+  methyltransferase  271 ilsllskgrliirennrvvissdvlvnn 298 
+                         ilsllskgrliirenn+vvissdvlvnn
+          MT072864_ 7061 ILSLLSKGRLIIRENNKVVISSDVLVNN 7088
+                         ***************************8 PP
+
+>> MG772934_  ORF1ab 265-13389;13389-21476
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  701.0   2.2  4.8e-214  4.8e-214       1     298 []    6773    7070 ..    6773    7070 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 701.0 bits;  conditional E-value: 4.8e-214
+  methyltransferase    1 ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp 90  
+                         ss+awqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp
+          MG772934_ 6773 SSHAWQPGVAMPNLYKMQRMLLEKCDLQNYGDSATLPKGIMMNVAKYTQLCQYLNTLTLAVPYNMRVIHFGAGSDKGVAPGTAVLRQWLP 6862
+                         799*************************************************************************************** PP
+
+  methyltransferase   91 tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl 180 
+                         tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsva+kitehswnadl
+          MG772934_ 6863 TGTLLVDSDLNDFVSDADSTLIGDCATVHTANKWDLIISDMYDPKTKNVTKENDSKEGFFTYICGFIQQKLALGGSVAVKITEHSWNADL 6952
+                         ****************************************************************************************** PP
+
+  methyltransferase  181 yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm 270 
+                         yklmg+fawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslk+gqindm
+          MG772934_ 6953 YKLMGYFAWWTAFVTNVNASSSEAFLIGCNYLGKPREQIDGYVMHANYIFWRNTNPIQLSSYSLFDMSKFPLKLRGTAVMSLKDGQINDM 7042
+                         ****************************************************************************************** PP
+
+  methyltransferase  271 ilsllskgrliirennrvvissdvlvnn 298 
+                         ilsllskgrli+rennrv+issdvlvnn
+          MG772934_ 7043 ILSLLSKGRLIVRENNRVIISSDVLVNN 7070
+                         ***************************8 PP
+
+>> MT040334_  ORF1ab 267-13445;13445-21532
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  700.2   1.6  8.7e-214  8.7e-214       1     298 []    6791    7088 ..    6791    7088 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 700.2 bits;  conditional E-value: 8.7e-214
+  methyltransferase    1 ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp 90  
+                         ssqawqpgvampnlykmqrmll+kcdlqnyg++atlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp
+          MT040334_ 6791 SSQAWQPGVAMPNLYKMQRMLLDKCDLQNYGEAATLPKGIMMNVAKYTQLCQYLNTLTLAVPYNMRVIHFGAGSDKGVAPGTAVLRQWLP 6880
+                         89**************************************************************************************** PP
+
+  methyltransferase   91 tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl 180 
+                         tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktk vt+endskegfftyicgfiqqklalggsvaikitehswnadl
+          MT040334_ 6881 TGTLLVDSDLNDFVSDADSTLIGDCATVHTANKWDLIISDMYDPKTKHVTRENDSKEGFFTYICGFIQQKLALGGSVAIKITEHSWNADL 6970
+                         ****************************************************************************************** PP
+
+  methyltransferase  181 yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm 270 
+                         yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm
+          MT040334_ 6971 YKLMGHFAWWTAFVTNVNASSSEAFLIGCNYLGKPREQIDGYVMHANYIFWRNTNPIQLSSYSLFDMSKFPLKLRGTAVMSLKEGQINDM 7060
+                         ****************************************************************************************** PP
+
+  methyltransferase  271 ilsllskgrliirennrvvissdvlvnn 298 
+                         ilsllskgrliirenn+vv+ssdvlvnn
+          MT040334_ 7061 ILSLLSKGRLIIRENNKVVVSSDVLVNN 7088
+                         ***************************8 PP
+
+>> MT040336_  ORF1ab 267-13445;13445-21532
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  700.2   1.6  8.7e-214  8.7e-214       1     298 []    6791    7088 ..    6791    7088 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 700.2 bits;  conditional E-value: 8.7e-214
+  methyltransferase    1 ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp 90  
+                         ssqawqpgvampnlykmqrmll+kcdlqnyg++atlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp
+          MT040336_ 6791 SSQAWQPGVAMPNLYKMQRMLLDKCDLQNYGEAATLPKGIMMNVAKYTQLCQYLNTLTLAVPYNMRVIHFGAGSDKGVAPGTAVLRQWLP 6880
+                         89**************************************************************************************** PP
+
+  methyltransferase   91 tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl 180 
+                         tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktk vt+endskegfftyicgfiqqklalggsvaikitehswnadl
+          MT040336_ 6881 TGTLLVDSDLNDFVSDADSTLIGDCATVHTANKWDLIISDMYDPKTKHVTRENDSKEGFFTYICGFIQQKLALGGSVAIKITEHSWNADL 6970
+                         ****************************************************************************************** PP
+
+  methyltransferase  181 yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm 270 
+                         yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm
+          MT040336_ 6971 YKLMGHFAWWTAFVTNVNASSSEAFLIGCNYLGKPREQIDGYVMHANYIFWRNTNPIQLSSYSLFDMSKFPLKLRGTAVMSLKEGQINDM 7060
+                         ****************************************************************************************** PP
+
+  methyltransferase  271 ilsllskgrliirennrvvissdvlvnn 298 
+                         ilsllskgrliirenn+vv+ssdvlvnn
+          MT040336_ 7061 ILSLLSKGRLIIRENNKVVVSSDVLVNN 7088
+                         ***************************8 PP
+
+>> MT040333_  ORF1ab 267-13445;13445-21532
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  700.2   1.6  8.7e-214  8.7e-214       1     298 []    6791    7088 ..    6791    7088 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 700.2 bits;  conditional E-value: 8.7e-214
+  methyltransferase    1 ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp 90  
+                         ssqawqpgvampnlykmqrmll+kcdlqnyg++atlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp
+          MT040333_ 6791 SSQAWQPGVAMPNLYKMQRMLLDKCDLQNYGEAATLPKGIMMNVAKYTQLCQYLNTLTLAVPYNMRVIHFGAGSDKGVAPGTAVLRQWLP 6880
+                         89**************************************************************************************** PP
+
+  methyltransferase   91 tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl 180 
+                         tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktk vt+endskegfftyicgfiqqklalggsvaikitehswnadl
+          MT040333_ 6881 TGTLLVDSDLNDFVSDADSTLIGDCATVHTANKWDLIISDMYDPKTKHVTRENDSKEGFFTYICGFIQQKLALGGSVAIKITEHSWNADL 6970
+                         ****************************************************************************************** PP
+
+  methyltransferase  181 yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm 270 
+                         yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm
+          MT040333_ 6971 YKLMGHFAWWTAFVTNVNASSSEAFLIGCNYLGKPREQIDGYVMHANYIFWRNTNPIQLSSYSLFDMSKFPLKLRGTAVMSLKEGQINDM 7060
+                         ****************************************************************************************** PP
+
+  methyltransferase  271 ilsllskgrliirennrvvissdvlvnn 298 
+                         ilsllskgrliirenn+vv+ssdvlvnn
+          MT040333_ 7061 ILSLLSKGRLIIRENNKVVVSSDVLVNN 7088
+                         ***************************8 PP
+
+>> MT040335_  ORF1ab 267-13445;13445-21532
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  700.2   1.6  8.7e-214  8.7e-214       1     298 []    6791    7088 ..    6791    7088 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 700.2 bits;  conditional E-value: 8.7e-214
+  methyltransferase    1 ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp 90  
+                         ssqawqpgvampnlykmqrmll+kcdlqnyg++atlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp
+          MT040335_ 6791 SSQAWQPGVAMPNLYKMQRMLLDKCDLQNYGEAATLPKGIMMNVAKYTQLCQYLNTLTLAVPYNMRVIHFGAGSDKGVAPGTAVLRQWLP 6880
+                         89**************************************************************************************** PP
+
+  methyltransferase   91 tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl 180 
+                         tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktk vt+endskegfftyicgfiqqklalggsvaikitehswnadl
+          MT040335_ 6881 TGTLLVDSDLNDFVSDADSTLIGDCATVHTANKWDLIISDMYDPKTKHVTRENDSKEGFFTYICGFIQQKLALGGSVAIKITEHSWNADL 6970
+                         ****************************************************************************************** PP
+
+  methyltransferase  181 yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm 270 
+                         yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm
+          MT040335_ 6971 YKLMGHFAWWTAFVTNVNASSSEAFLIGCNYLGKPREQIDGYVMHANYIFWRNTNPIQLSSYSLFDMSKFPLKLRGTAVMSLKEGQINDM 7060
+                         ****************************************************************************************** PP
+
+  methyltransferase  271 ilsllskgrliirennrvvissdvlvnn 298 
+                         ilsllskgrliirenn+vv+ssdvlvnn
+          MT040335_ 7061 ILSLLSKGRLIIRENNKVVVSSDVLVNN 7088
+                         ***************************8 PP
+
+>> OL926066_  ORF1ab 241-13443;13443-21575
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  696.7   1.3    1e-212    1e-212       1     297 [.    6799    7095 ..    6799    7096 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 696.7 bits;  conditional E-value: 1e-212
+  methyltransferase    1 ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp 90  
+                         ssqa  pgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp
+          OL926066_ 6799 SSQAXXPGVAMPNLYKMQRMLLEKCDLQNYGDSATLPKGIMMNVAKYTQLCQYLNTLTLAVPYNMRVIHFGAGSDKGVAPGTAVLRQWLP 6888
+                         89**************************************************************************************** PP
+
+  methyltransferase   91 tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl 180 
+                          gtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl
+          OL926066_ 6889 XGTLLVDSDLNDFVSDADSTLIGDCATVHTANKWDLIISDMYDPKTKNVTKENDSKEGFFTYICGFIQQKLALGGSVAIKITEHSWNADL 6978
+                         ****************************************************************************************** PP
+
+  methyltransferase  181 yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm 270 
+                         yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm
+          OL926066_ 6979 YKLMGHFAWWTAFVTNVNASSSEAFLIGCNYLGKPREQIDGYVMHANYIFWRNTNPIQLSSYSLFDMSKFPLKLRGTAVMSLKEGQINDM 7068
+                         ****************************************************************************************** PP
+
+  methyltransferase  271 ilsllskgrliirennrvvissdvlvn 297 
+                         ilsllskgrliirennrvvissdvlv 
+          OL926066_ 7069 ILSLLSKGRLIIRENNRVVISSDVLVX 7095
+                         *************************95 PP
+
+>> OU470855_  ORF1ab 66-13268;13268-21400
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  684.2   1.2  6.3e-209  6.3e-209       1     286 [.    6799    7084 ..    6799    7090 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 684.2 bits;  conditional E-value: 6.3e-209
+  methyltransferase    1 ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp 90  
+                         ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp
+          OU470855_ 6799 SSQAWQPGVAMPNLYKMQRMLLEKCDLQNYGDSATLPKGIMMNVAKYTQLCQYLNTLTLAVPYNMRVIHFGAGSDKGVAPGTAVLRQWLP 6888
+                         89**************************************************************************************** PP
+
+  methyltransferase   91 tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl 180 
+                         tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl
+          OU470855_ 6889 TGTLLVDSDLNDFVSDADSTLIGDCATVHTANKWDLIISDMYDPKTKNVTKENDSKEGFFTYICGFIQQKLALGGSVAIKITEHSWNADL 6978
+                         ****************************************************************************************** PP
+
+  methyltransferase  181 yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm 270 
+                         yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm
+          OU470855_ 6979 YKLMGHFAWWTAFVTNVNASSSEAFLIGCNYLGKPREQIDGYVMHANYIFWRNTNPIQLSSYSLFDMSKFPLKLRGTAVMSLKEGQINDM 7068
+                         ****************************************************************************************** PP
+
+  methyltransferase  271 ilsllskgrliirenn 286 
+                         ilsllskgrliiren 
+          OU470855_ 7069 ILSLLSKGRLIIRENX 7084
+                         **************96 PP
+
+>> PP023772_  ORF1ab 241-13434;13434-21686
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  684.2   1.2  6.3e-209  6.3e-209       1     286 [.    6796    7081 ..    6796    7087 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 684.2 bits;  conditional E-value: 6.3e-209
+  methyltransferase    1 ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp 90  
+                         ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp
+          PP023772_ 6796 SSQAWQPGVAMPNLYKMQRMLLEKCDLQNYGDSATLPKGIMMNVAKYTQLCQYLNTLTLAVPYNMRVIHFGAGSDKGVAPGTAVLRQWLP 6885
+                         89**************************************************************************************** PP
+
+  methyltransferase   91 tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl 180 
+                         tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl
+          PP023772_ 6886 TGTLLVDSDLNDFVSDADSTLIGDCATVHTANKWDLIISDMYDPKTKNVTKENDSKEGFFTYICGFIQQKLALGGSVAIKITEHSWNADL 6975
+                         ****************************************************************************************** PP
+
+  methyltransferase  181 yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm 270 
+                         yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm
+          PP023772_ 6976 YKLMGHFAWWTAFVTNVNASSSEAFLIGCNYLGKPREQIDGYVMHANYIFWRNTNPIQLSSYSLFDMSKFPLKLRGTAVMSLKEGQINDM 7065
+                         ****************************************************************************************** PP
+
+  methyltransferase  271 ilsllskgrliirenn 286 
+                         ilsllskgrliiren 
+          PP023772_ 7066 ILSLLSKGRLIIRENX 7081
+                         **************96 PP
+
+>> OR020535_  ORF1ab 241-13431;13431-21563
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  684.2   1.2  6.3e-209  6.3e-209       1     286 [.    6795    7080 ..    6795    7086 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 684.2 bits;  conditional E-value: 6.3e-209
+  methyltransferase    1 ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp 90  
+                         ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp
+          OR020535_ 6795 SSQAWQPGVAMPNLYKMQRMLLEKCDLQNYGDSATLPKGIMMNVAKYTQLCQYLNTLTLAVPYNMRVIHFGAGSDKGVAPGTAVLRQWLP 6884
+                         89**************************************************************************************** PP
+
+  methyltransferase   91 tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl 180 
+                         tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl
+          OR020535_ 6885 TGTLLVDSDLNDFVSDADSTLIGDCATVHTANKWDLIISDMYDPKTKNVTKENDSKEGFFTYICGFIQQKLALGGSVAIKITEHSWNADL 6974
+                         ****************************************************************************************** PP
+
+  methyltransferase  181 yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm 270 
+                         yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm
+          OR020535_ 6975 YKLMGHFAWWTAFVTNVNASSSEAFLIGCNYLGKPREQIDGYVMHANYIFWRNTNPIQLSSYSLFDMSKFPLKLRGTAVMSLKEGQINDM 7064
+                         ****************************************************************************************** PP
+
+  methyltransferase  271 ilsllskgrliirenn 286 
+                         ilsllskgrliiren 
+          OR020535_ 7065 ILSLLSKGRLIIRENX 7080
+                         **************96 PP
+
+>> OR563456_  ORF1ab 241-13434;13434-21566
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.3   0.1         8         8      50     105 ..    6131    6186 ..    6126    6209 .. 0.76
+   2 !  682.9   1.0  1.6e-208  1.6e-208       1     286 [.    6796    7081 ..    6796    7087 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: -2.3 bits;  conditional E-value: 8
+  methyltransferase   50 lcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlptgtllvdsdlndfvs 105 
+                         lc+   t   +  y     h   g d    p    ++qw  tg l  + dl   v 
+          OR563456_ 6131 LCDRRATCFSTASYTYACWHHSIGFDYVYNPFMIDVQQWGFTGNLQSNHDLYCQVH 6186
+                         788888888888999999****************************9999965543 PP
+
+  == domain 2  score: 682.9 bits;  conditional E-value: 1.6e-208
+  methyltransferase    1 ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp 90  
+                         ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp
+          OR563456_ 6796 SSQAWQPGVAMPNLYKMQRMLLEKCDLQNYGDSATLPKGIMMNVAKYTQLCQYLNTLTLAVPYNMRVIHFGAGSDKGVAPGTAVLRQWLP 6885
+                         89**************************************************************************************** PP
+
+  methyltransferase   91 tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl 180 
+                         tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqq+lalggsvaikitehswnadl
+          OR563456_ 6886 TGTLLVDSDLNDFVSDADSTLIGDCATVHTANKWDLIISDMYDPKTKNVTKENDSKEGFFTYICGFIQQRLALGGSVAIKITEHSWNADL 6975
+                         ****************************************************************************************** PP
+
+  methyltransferase  181 yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm 270 
+                         yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm
+          OR563456_ 6976 YKLMGHFAWWTAFVTNVNASSSEAFLIGCNYLGKPREQIDGYVMHANYIFWRNTNPIQLSSYSLFDMSKFPLKLRGTAVMSLKEGQINDM 7065
+                         ****************************************************************************************** PP
+
+  methyltransferase  271 ilsllskgrliirenn 286 
+                         ilsllskgrliiren 
+          OR563456_ 7066 ILSLLSKGRLIIRENX 7081
+                         **************96 PP
+
+>> GQ153543_  ORF1ab 262-13389;13389-21476
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  679.0   2.1  2.5e-207  2.5e-207       1     298 []    6774    7071 ..    6774    7071 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 679.0 bits;  conditional E-value: 2.5e-207
+  methyltransferase    1 ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp 90  
+                         +sqawqpgvampnlykmqrmllekcdlqnyg+ a++pkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp
+          GQ153543_ 6774 ASQAWQPGVAMPNLYKMQRMLLEKCDLQNYGENAVIPKGIMMNVAKYTQLCQYLNTLTLAVPYNMRVIHFGAGSDKGVAPGTAVLRQWLP 6863
+                         59**************************************************************************************** PP
+
+  methyltransferase   91 tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl 180 
+                         tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktk vtkendskegffty+cgfi+qklalggsva+kitehswnadl
+          GQ153543_ 6864 TGTLLVDSDLNDFVSDADSTLIGDCATVHTANKWDLIISDMYDPKTKHVTKENDSKEGFFTYLCGFIKQKLALGGSVAVKITEHSWNADL 6953
+                         ****************************************************************************************** PP
+
+  methyltransferase  181 yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm 270 
+                         yklmghf+wwtafvtnvnassseaflig+nylgkp+eqidgy mhanyifwrntnpiqlssyslfdmskfplklrgtavmslke+qindm
+          GQ153543_ 6954 YKLMGHFSWWTAFVTNVNASSSEAFLIGVNYLGKPKEQIDGYTMHANYIFWRNTNPIQLSSYSLFDMSKFPLKLRGTAVMSLKENQINDM 7043
+                         ****************************************************************************************** PP
+
+  methyltransferase  271 ilsllskgrliirennrvvissdvlvnn 298 
+                         i+sll kgrliirennrvv+ssd+lvnn
+          GQ153543_ 7044 IYSLLEKGRLIIRENNRVVVSSDILVNN 7071
+                         ***************************8 PP
+
+>> GQ153542_  ORF1ab 262-13389;13389-21476
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  679.0   2.1  2.5e-207  2.5e-207       1     298 []    6774    7071 ..    6774    7071 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 679.0 bits;  conditional E-value: 2.5e-207
+  methyltransferase    1 ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp 90  
+                         +sqawqpgvampnlykmqrmllekcdlqnyg+ a++pkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp
+          GQ153542_ 6774 ASQAWQPGVAMPNLYKMQRMLLEKCDLQNYGENAVIPKGIMMNVAKYTQLCQYLNTLTLAVPYNMRVIHFGAGSDKGVAPGTAVLRQWLP 6863
+                         59**************************************************************************************** PP
+
+  methyltransferase   91 tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl 180 
+                         tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktk vtkendskegffty+cgfi+qklalggsva+kitehswnadl
+          GQ153542_ 6864 TGTLLVDSDLNDFVSDADSTLIGDCATVHTANKWDLIISDMYDPKTKHVTKENDSKEGFFTYLCGFIKQKLALGGSVAVKITEHSWNADL 6953
+                         ****************************************************************************************** PP
+
+  methyltransferase  181 yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm 270 
+                         yklmghf+wwtafvtnvnassseaflig+nylgkp+eqidgy mhanyifwrntnpiqlssyslfdmskfplklrgtavmslke+qindm
+          GQ153542_ 6954 YKLMGHFSWWTAFVTNVNASSSEAFLIGVNYLGKPKEQIDGYTMHANYIFWRNTNPIQLSSYSLFDMSKFPLKLRGTAVMSLKENQINDM 7043
+                         ****************************************************************************************** PP
+
+  methyltransferase  271 ilsllskgrliirennrvvissdvlvnn 298 
+                         i+sll kgrliirennrvv+ssd+lvnn
+          GQ153542_ 7044 IYSLLEKGRLIIRENNRVVVSSDILVNN 7071
+                         ***************************8 PP
+
+>> GQ153547_  ORF1ab 262-13377;13377-21464
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  674.2   2.3  7.2e-206  7.2e-206       1     298 []    6770    7067 ..    6770    7067 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 674.2 bits;  conditional E-value: 7.2e-206
+  methyltransferase    1 ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp 90  
+                         +sqawqpgvampnlykmqrmllekcdlqnyg+ a++pkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp
+          GQ153547_ 6770 ASQAWQPGVAMPNLYKMQRMLLEKCDLQNYGENAVIPKGIMMNVAKYTQLCQYLNTLTLAVPYNMRVIHFGAGSDKGVAPGTAVLRQWLP 6859
+                         59**************************************************************************************** PP
+
+  methyltransferase   91 tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl 180 
+                         tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktk v k+ndskegffty+cgfi+qklalggsva+kitehswnadl
+          GQ153547_ 6860 TGTLLVDSDLNDFVSDADSTLIGDCATVHTANKWDLIISDMYDPKTKHVLKDNDSKEGFFTYLCGFIKQKLALGGSVAVKITEHSWNADL 6949
+                         ****************************************************************************************** PP
+
+  methyltransferase  181 yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm 270 
+                         yklmghf+wwtafvtnvnassseaflig+nylgkp+eqidgy mhanyifwrntnpiqlssyslfdmskfplklrgtavmslke+qindm
+          GQ153547_ 6950 YKLMGHFSWWTAFVTNVNASSSEAFLIGVNYLGKPKEQIDGYTMHANYIFWRNTNPIQLSSYSLFDMSKFPLKLRGTAVMSLKENQINDM 7039
+                         ****************************************************************************************** PP
+
+  methyltransferase  271 ilsllskgrliirennrvvissdvlvnn 298 
+                         i+sll kgrliirennrvv+ssd+lvnn
+          GQ153547_ 7040 IYSLLEKGRLIIRENNRVVVSSDILVNN 7067
+                         ***************************8 PP
+
+>> DQ022305_  ORF1ab 262-13377;13377-21464
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  674.2   2.3  7.2e-206  7.2e-206       1     298 []    6770    7067 ..    6770    7067 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 674.2 bits;  conditional E-value: 7.2e-206
+  methyltransferase    1 ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp 90  
+                         +sqawqpgvampnlykmqrmllekcdlqnyg+ a++pkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp
+          DQ022305_ 6770 ASQAWQPGVAMPNLYKMQRMLLEKCDLQNYGENAVIPKGIMMNVAKYTQLCQYLNTLTLAVPYNMRVIHFGAGSDKGVAPGTAVLRQWLP 6859
+                         59**************************************************************************************** PP
+
+  methyltransferase   91 tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl 180 
+                         tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktk v k+ndskegffty+cgfi+qklalggsva+kitehswnadl
+          DQ022305_ 6860 TGTLLVDSDLNDFVSDADSTLIGDCATVHTANKWDLIISDMYDPKTKHVLKDNDSKEGFFTYLCGFIKQKLALGGSVAVKITEHSWNADL 6949
+                         ****************************************************************************************** PP
+
+  methyltransferase  181 yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm 270 
+                         yklmghf+wwtafvtnvnassseaflig+nylgkp+eqidgy mhanyifwrntnpiqlssyslfdmskfplklrgtavmslke+qindm
+          DQ022305_ 6950 YKLMGHFSWWTAFVTNVNASSSEAFLIGVNYLGKPKEQIDGYTMHANYIFWRNTNPIQLSSYSLFDMSKFPLKLRGTAVMSLKENQINDM 7039
+                         ****************************************************************************************** PP
+
+  methyltransferase  271 ilsllskgrliirennrvvissdvlvnn 298 
+                         i+sll kgrliirennrvv+ssd+lvnn
+          DQ022305_ 7040 IYSLLEKGRLIIRENNRVVVSSDILVNN 7067
+                         ***************************8 PP
+
+>> GQ153546_  ORF1ab 262-13368;13368-21455
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  674.2   2.3  7.2e-206  7.2e-206       1     298 []    6767    7064 ..    6767    7064 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 674.2 bits;  conditional E-value: 7.2e-206
+  methyltransferase    1 ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp 90  
+                         +sqawqpgvampnlykmqrmllekcdlqnyg+ a++pkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp
+          GQ153546_ 6767 ASQAWQPGVAMPNLYKMQRMLLEKCDLQNYGENAVIPKGIMMNVAKYTQLCQYLNTLTLAVPYNMRVIHFGAGSDKGVAPGTAVLRQWLP 6856
+                         59**************************************************************************************** PP
+
+  methyltransferase   91 tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl 180 
+                         tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktk v k+ndskegffty+cgfi+qklalggsva+kitehswnadl
+          GQ153546_ 6857 TGTLLVDSDLNDFVSDADSTLIGDCATVHTANKWDLIISDMYDPKTKHVLKDNDSKEGFFTYLCGFIKQKLALGGSVAVKITEHSWNADL 6946
+                         ****************************************************************************************** PP
+
+  methyltransferase  181 yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm 270 
+                         yklmghf+wwtafvtnvnassseaflig+nylgkp+eqidgy mhanyifwrntnpiqlssyslfdmskfplklrgtavmslke+qindm
+          GQ153546_ 6947 YKLMGHFSWWTAFVTNVNASSSEAFLIGVNYLGKPKEQIDGYTMHANYIFWRNTNPIQLSSYSLFDMSKFPLKLRGTAVMSLKENQINDM 7036
+                         ****************************************************************************************** PP
+
+  methyltransferase  271 ilsllskgrliirennrvvissdvlvnn 298 
+                         i+sll kgrliirennrvv+ssd+lvnn
+          GQ153546_ 7037 IYSLLEKGRLIIRENNRVVVSSDILVNN 7064
+                         ***************************8 PP
+
+>> GQ153544_  ORF1ab 262-13368;13368-21455
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  674.2   2.3  7.2e-206  7.2e-206       1     298 []    6767    7064 ..    6767    7064 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 674.2 bits;  conditional E-value: 7.2e-206
+  methyltransferase    1 ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp 90  
+                         +sqawqpgvampnlykmqrmllekcdlqnyg+ a++pkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp
+          GQ153544_ 6767 ASQAWQPGVAMPNLYKMQRMLLEKCDLQNYGENAVIPKGIMMNVAKYTQLCQYLNTLTLAVPYNMRVIHFGAGSDKGVAPGTAVLRQWLP 6856
+                         59**************************************************************************************** PP
+
+  methyltransferase   91 tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl 180 
+                         tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktk v k+ndskegffty+cgfi+qklalggsva+kitehswnadl
+          GQ153544_ 6857 TGTLLVDSDLNDFVSDADSTLIGDCATVHTANKWDLIISDMYDPKTKHVLKDNDSKEGFFTYLCGFIKQKLALGGSVAVKITEHSWNADL 6946
+                         ****************************************************************************************** PP
+
+  methyltransferase  181 yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm 270 
+                         yklmghf+wwtafvtnvnassseaflig+nylgkp+eqidgy mhanyifwrntnpiqlssyslfdmskfplklrgtavmslke+qindm
+          GQ153544_ 6947 YKLMGHFSWWTAFVTNVNASSSEAFLIGVNYLGKPKEQIDGYTMHANYIFWRNTNPIQLSSYSLFDMSKFPLKLRGTAVMSLKENQINDM 7036
+                         ****************************************************************************************** PP
+
+  methyltransferase  271 ilsllskgrliirennrvvissdvlvnn 298 
+                         i+sll kgrliirennrvv+ssd+lvnn
+          GQ153544_ 7037 IYSLLEKGRLIIRENNRVVVSSDILVNN 7064
+                         ***************************8 PP
+
+>> GQ153545_  ORF1ab 262-13368;13368-21455
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  674.2   2.3  7.2e-206  7.2e-206       1     298 []    6767    7064 ..    6767    7064 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 674.2 bits;  conditional E-value: 7.2e-206
+  methyltransferase    1 ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp 90  
+                         +sqawqpgvampnlykmqrmllekcdlqnyg+ a++pkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp
+          GQ153545_ 6767 ASQAWQPGVAMPNLYKMQRMLLEKCDLQNYGENAVIPKGIMMNVAKYTQLCQYLNTLTLAVPYNMRVIHFGAGSDKGVAPGTAVLRQWLP 6856
+                         59**************************************************************************************** PP
+
+  methyltransferase   91 tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl 180 
+                         tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktk v k+ndskegffty+cgfi+qklalggsva+kitehswnadl
+          GQ153545_ 6857 TGTLLVDSDLNDFVSDADSTLIGDCATVHTANKWDLIISDMYDPKTKHVLKDNDSKEGFFTYLCGFIKQKLALGGSVAVKITEHSWNADL 6946
+                         ****************************************************************************************** PP
+
+  methyltransferase  181 yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm 270 
+                         yklmghf+wwtafvtnvnassseaflig+nylgkp+eqidgy mhanyifwrntnpiqlssyslfdmskfplklrgtavmslke+qindm
+          GQ153545_ 6947 YKLMGHFSWWTAFVTNVNASSSEAFLIGVNYLGKPKEQIDGYTMHANYIFWRNTNPIQLSSYSLFDMSKFPLKLRGTAVMSLKENQINDM 7036
+                         ****************************************************************************************** PP
+
+  methyltransferase  271 ilsllskgrliirennrvvissdvlvnn 298 
+                         i+sll kgrliirennrvv+ssd+lvnn
+          GQ153545_ 7037 IYSLLEKGRLIIRENNRVVVSSDILVNN 7064
+                         ***************************8 PP
+
+>> GQ153541_  ORF1ab 262-13377;13377-21464
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  674.2   2.3  7.2e-206  7.2e-206       1     298 []    6770    7067 ..    6770    7067 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 674.2 bits;  conditional E-value: 7.2e-206
+  methyltransferase    1 ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp 90  
+                         +sqawqpgvampnlykmqrmllekcdlqnyg+ a++pkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp
+          GQ153541_ 6770 ASQAWQPGVAMPNLYKMQRMLLEKCDLQNYGENAVIPKGIMMNVAKYTQLCQYLNTLTLAVPYNMRVIHFGAGSDKGVAPGTAVLRQWLP 6859
+                         59**************************************************************************************** PP
+
+  methyltransferase   91 tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl 180 
+                         tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktk v k+ndskegffty+cgfi+qklalggsva+kitehswnadl
+          GQ153541_ 6860 TGTLLVDSDLNDFVSDADSTLIGDCATVHTANKWDLIISDMYDPKTKHVLKDNDSKEGFFTYLCGFIKQKLALGGSVAVKITEHSWNADL 6949
+                         ****************************************************************************************** PP
+
+  methyltransferase  181 yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm 270 
+                         yklmghf+wwtafvtnvnassseaflig+nylgkp+eqidgy mhanyifwrntnpiqlssyslfdmskfplklrgtavmslke+qindm
+          GQ153541_ 6950 YKLMGHFSWWTAFVTNVNASSSEAFLIGVNYLGKPKEQIDGYTMHANYIFWRNTNPIQLSSYSLFDMSKFPLKLRGTAVMSLKENQINDM 7039
+                         ****************************************************************************************** PP
+
+  methyltransferase  271 ilsllskgrliirennrvvissdvlvnn 298 
+                         i+sll kgrliirennrvv+ssd+lvnn
+          GQ153541_ 7040 IYSLLEKGRLIIRENNRVVVSSDILVNN 7067
+                         ***************************8 PP
+
+>> GQ153540_  ORF1ab 262-13377;13377-21464
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  674.2   2.3  7.2e-206  7.2e-206       1     298 []    6770    7067 ..    6770    7067 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 674.2 bits;  conditional E-value: 7.2e-206
+  methyltransferase    1 ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp 90  
+                         +sqawqpgvampnlykmqrmllekcdlqnyg+ a++pkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp
+          GQ153540_ 6770 ASQAWQPGVAMPNLYKMQRMLLEKCDLQNYGENAVIPKGIMMNVAKYTQLCQYLNTLTLAVPYNMRVIHFGAGSDKGVAPGTAVLRQWLP 6859
+                         59**************************************************************************************** PP
+
+  methyltransferase   91 tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl 180 
+                         tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktk v k+ndskegffty+cgfi+qklalggsva+kitehswnadl
+          GQ153540_ 6860 TGTLLVDSDLNDFVSDADSTLIGDCATVHTANKWDLIISDMYDPKTKHVLKDNDSKEGFFTYLCGFIKQKLALGGSVAVKITEHSWNADL 6949
+                         ****************************************************************************************** PP
+
+  methyltransferase  181 yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm 270 
+                         yklmghf+wwtafvtnvnassseaflig+nylgkp+eqidgy mhanyifwrntnpiqlssyslfdmskfplklrgtavmslke+qindm
+          GQ153540_ 6950 YKLMGHFSWWTAFVTNVNASSSEAFLIGVNYLGKPKEQIDGYTMHANYIFWRNTNPIQLSSYSLFDMSKFPLKLRGTAVMSLKENQINDM 7039
+                         ****************************************************************************************** PP
+
+  methyltransferase  271 ilsllskgrliirennrvvissdvlvnn 298 
+                         i+sll kgrliirennrvv+ssd+lvnn
+          GQ153540_ 7040 IYSLLEKGRLIIRENNRVVVSSDILVNN 7067
+                         ***************************8 PP
+
+>> DQ084199_  ORF1ab 245-13360;13360-21447
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  674.2   2.3  7.2e-206  7.2e-206       1     298 []    6770    7067 ..    6770    7067 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 674.2 bits;  conditional E-value: 7.2e-206
+  methyltransferase    1 ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp 90  
+                         +sqawqpgvampnlykmqrmllekcdlqnyg+ a++pkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp
+          DQ084199_ 6770 ASQAWQPGVAMPNLYKMQRMLLEKCDLQNYGENAVIPKGIMMNVAKYTQLCQYLNTLTLAVPYNMRVIHFGAGSDKGVAPGTAVLRQWLP 6859
+                         59**************************************************************************************** PP
+
+  methyltransferase   91 tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl 180 
+                         tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktk v k+ndskegffty+cgfi+qklalggsva+kitehswnadl
+          DQ084199_ 6860 TGTLLVDSDLNDFVSDADSTLIGDCATVHTANKWDLIISDMYDPKTKHVLKDNDSKEGFFTYLCGFIKQKLALGGSVAVKITEHSWNADL 6949
+                         ****************************************************************************************** PP
+
+  methyltransferase  181 yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm 270 
+                         yklmghf+wwtafvtnvnassseaflig+nylgkp+eqidgy mhanyifwrntnpiqlssyslfdmskfplklrgtavmslke+qindm
+          DQ084199_ 6950 YKLMGHFSWWTAFVTNVNASSSEAFLIGVNYLGKPKEQIDGYTMHANYIFWRNTNPIQLSSYSLFDMSKFPLKLRGTAVMSLKENQINDM 7039
+                         ****************************************************************************************** PP
+
+  methyltransferase  271 ilsllskgrliirennrvvissdvlvnn 298 
+                         i+sll kgrliirennrvv+ssd+lvnn
+          DQ084199_ 7040 IYSLLEKGRLIIRENNRVVVSSDILVNN 7067
+                         ***************************8 PP
+
+>> GQ153548_  ORF1ab 262-13350;13350-21437
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  674.2   2.3  7.2e-206  7.2e-206       1     298 []    6761    7058 ..    6761    7058 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 674.2 bits;  conditional E-value: 7.2e-206
+  methyltransferase    1 ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp 90  
+                         +sqawqpgvampnlykmqrmllekcdlqnyg+ a++pkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp
+          GQ153548_ 6761 ASQAWQPGVAMPNLYKMQRMLLEKCDLQNYGENAVIPKGIMMNVAKYTQLCQYLNTLTLAVPYNMRVIHFGAGSDKGVAPGTAVLRQWLP 6850
+                         59**************************************************************************************** PP
+
+  methyltransferase   91 tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl 180 
+                         tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktk v k+ndskegffty+cgfi+qklalggsva+kitehswnadl
+          GQ153548_ 6851 TGTLLVDSDLNDFVSDADSTLIGDCATVHTANKWDLIISDMYDPKTKHVLKDNDSKEGFFTYLCGFIKQKLALGGSVAVKITEHSWNADL 6940
+                         ****************************************************************************************** PP
+
+  methyltransferase  181 yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm 270 
+                         yklmghf+wwtafvtnvnassseaflig+nylgkp+eqidgy mhanyifwrntnpiqlssyslfdmskfplklrgtavmslke+qindm
+          GQ153548_ 6941 YKLMGHFSWWTAFVTNVNASSSEAFLIGVNYLGKPKEQIDGYTMHANYIFWRNTNPIQLSSYSLFDMSKFPLKLRGTAVMSLKENQINDM 7030
+                         ****************************************************************************************** PP
+
+  methyltransferase  271 ilsllskgrliirennrvvissdvlvnn 298 
+                         i+sll kgrliirennrvv+ssd+lvnn
+          GQ153548_ 7031 IYSLLEKGRLIIRENNRVVVSSDILVNN 7058
+                         ***************************8 PP
+
+>> GQ153539_  ORF1ab 262-13377;13377-21464
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  674.2   2.3  7.2e-206  7.2e-206       1     298 []    6770    7067 ..    6770    7067 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 674.2 bits;  conditional E-value: 7.2e-206
+  methyltransferase    1 ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp 90  
+                         +sqawqpgvampnlykmqrmllekcdlqnyg+ a++pkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp
+          GQ153539_ 6770 ASQAWQPGVAMPNLYKMQRMLLEKCDLQNYGENAVIPKGIMMNVAKYTQLCQYLNTLTLAVPYNMRVIHFGAGSDKGVAPGTAVLRQWLP 6859
+                         59**************************************************************************************** PP
+
+  methyltransferase   91 tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl 180 
+                         tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktk v k+ndskegffty+cgfi+qklalggsva+kitehswnadl
+          GQ153539_ 6860 TGTLLVDSDLNDFVSDADSTLIGDCATVHTANKWDLIISDMYDPKTKHVLKDNDSKEGFFTYLCGFIKQKLALGGSVAVKITEHSWNADL 6949
+                         ****************************************************************************************** PP
+
+  methyltransferase  181 yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm 270 
+                         yklmghf+wwtafvtnvnassseaflig+nylgkp+eqidgy mhanyifwrntnpiqlssyslfdmskfplklrgtavmslke+qindm
+          GQ153539_ 6950 YKLMGHFSWWTAFVTNVNASSSEAFLIGVNYLGKPKEQIDGYTMHANYIFWRNTNPIQLSSYSLFDMSKFPLKLRGTAVMSLKENQINDM 7039
+                         ****************************************************************************************** PP
+
+  methyltransferase  271 ilsllskgrliirennrvvissdvlvnn 298 
+                         i+sll kgrliirennrvv+ssd+lvnn
+          GQ153539_ 7040 IYSLLEKGRLIIRENNRVVVSSDILVNN 7067
+                         ***************************8 PP
+
+>> KY352407_  ORF1ab 260-13324;13324-21411
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  655.6   3.4  3.3e-200  3.3e-200       1     298 []    6753    7050 ..    6753    7050 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 655.6 bits;  conditional E-value: 3.3e-200
+  methyltransferase    1 ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp 90  
+                         +sqawqpgvampnlykmqrmllekcdl+nyg+ a+lpkgimmnvakytqlcqylntlt+avpynmrvihfgagsdkgvapg+avl+qwlp
+          KY352407_ 6753 ASQAWQPGVAMPNLYKMQRMLLEKCDLHNYGENAVLPKGIMMNVAKYTQLCQYLNTLTIAVPYNMRVIHFGAGSDKGVAPGSAVLKQWLP 6842
+                         59**************************************************************************************** PP
+
+  methyltransferase   91 tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl 180 
+                          gtllvdsd+ndfvsdadstligdcatv+tankwdliisdmydpktk v ++ndskegffty+cgfi+qklalggsvaikitehsw+adl
+          KY352407_ 6843 VGTLLVDSDMNDFVSDADSTLIGDCATVYTANKWDLIISDMYDPKTKHVMHDNDSKEGFFTYLCGFIKQKLALGGSVAIKITEHSWSADL 6932
+                         ****************************************************************************************** PP
+
+  methyltransferase  181 yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm 270 
+                         yklmghfawwtafvtnvnassseaflig+nylgkp+e idgy+mhanyifwrntnpiqlssyslfdmskfplklrgtavmslk++q+ndm
+          KY352407_ 6933 YKLMGHFAWWTAFVTNVNASSSEAFLIGVNYLGKPKEIIDGYIMHANYIFWRNTNPIQLSSYSLFDMSKFPLKLRGTAVMSLKDNQVNDM 7022
+                         ****************************************************************************************** PP
+
+  methyltransferase  271 ilsllskgrliirennrvvissdvlvnn 298 
+                         i+sll kgrliirennrvv+ssdvlvnn
+          KY352407_ 7023 IYSLLEKGRLIIRENNRVVVSSDVLVNN 7050
+                         ***************************8 PP
+
+>> PV239625_  ORF1ab 188-13381;13381-21468
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  644.7   2.7  6.7e-197  6.7e-197       1     298 []    6796    7093 ..    6796    7093 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 644.7 bits;  conditional E-value: 6.7e-197
+  methyltransferase    1 ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp 90  
+                         ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp
+          PV239625_ 6796 SSQAWQPGVAMPNLYKMQRMLLEKCDLQNYGDSATLPKGIMMNVAKYTQLCQYLNTLTLAVPYNMRVIHFGAGSDKGVAPGTAVLRQWLP 6885
+                         89**************************************************************************************** PP
+
+  methyltransferase   91 tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl 180 
+                         tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl
+          PV239625_ 6886 TGTLLVDSDLNDFVSDADSTLIGDCATVHTANKWDLIISDMYDPKTKNVTKENDSKEGFFTYICGFIQQKLALGGSVAIKITEHSWNADL 6975
+                         ****************************************************************************************** PP
+
+  methyltransferase  181 yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm 270 
+                         yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiq                   avm     qindm
+          PV239625_ 6976 YKLMGHFAWWTAFVTNVNASSSEAFLIGCNYLGKPREQIDGYVMHANYIFWRNTNPIQXXXXXXXXXXXXXXXXXXXAVMXXXXXQINDM 7065
+                         ****************************************************************************************** PP
+
+  methyltransferase  271 ilsllskgrliirennrvvissdvlvnn 298 
+                         ilsllskgrliirennrvvissdvlvnn
+          PV239625_ 7066 ILSLLSKGRLIIRENNRVVISSDVLVNN 7093
+                         ***************************8 PP
+
+>> PQ972523_  ORF1ab 217-13410;13410-21623
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  637.2   1.6  1.3e-194  1.3e-194       1     265 [.    6796    7060 ..    6796    7067 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 637.2 bits;  conditional E-value: 1.3e-194
+  methyltransferase    1 ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp 90  
+                         ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp
+          PQ972523_ 6796 SSQAWQPGVAMPNLYKMQRMLLEKCDLQNYGDSATLPKGIMMNVAKYTQLCQYLNTLTLAVPYNMRVIHFGAGSDKGVAPGTAVLRQWLP 6885
+                         89**************************************************************************************** PP
+
+  methyltransferase   91 tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl 180 
+                         tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl
+          PQ972523_ 6886 TGTLLVDSDLNDFVSDADSTLIGDCATVHTANKWDLIISDMYDPKTKNVTKENDSKEGFFTYICGFIQQKLALGGSVAIKITEHSWNADL 6975
+                         ****************************************************************************************** PP
+
+  methyltransferase  181 yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkeg 265 
+                         yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslke 
+          PQ972523_ 6976 YKLMGHFAWWTAFVTNVNASSSEAFLIGCNYLGKPREQIDGYVMHANYIFWRNTNPIQLSSYSLFDMSKFPLKLRGTAVMSLKEX 7060
+                         ***********************************************************************************97 PP
+
+>> MZ131148_  ORF1ab 228-13421;13421-21508
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  635.9   2.6  3.4e-194  3.4e-194       1     298 []    6796    7093 ..    6796    7093 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 635.9 bits;  conditional E-value: 3.4e-194
+  methyltransferase    1 ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp 90  
+                         ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp
+          MZ131148_ 6796 SSQAWQPGVAMPNLYKMQRMLLEKCDLQNYGDSATLPKGIMMNVAKYTQLCQYLNTLTLAVPYNMRVIHFGAGSDKGVAPGTAVLRQWLP 6885
+                         89**************************************************************************************** PP
+
+  methyltransferase   91 tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl 180 
+                         tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl
+          MZ131148_ 6886 TGTLLVDSDLNDFVSDADSTLIGDCATVHTANKWDLIISDMYDPKTKNVTKENDSKEGFFTYICGFIQQKLALGGSVAIKITEHSWNADL 6975
+                         ****************************************************************************************** PP
+
+  methyltransferase  181 yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm 270 
+                         yklmghfawwtafvtnvnasss                         yifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm
+          MZ131148_ 6976 YKLMGHFAWWTAFVTNVNASSSXXXXXXXXXXXXXXXXXXXXXXXXXYIFWRNTNPIQLSSYSLFDMSKFPLKLRGTAVMSLKEGQINDM 7065
+                         ****************************999999999999************************************************** PP
+
+  methyltransferase  271 ilsllskgrliirennrvvissdvlvnn 298 
+                         ilsllskgrliirennrvvissdvlvnn
+          MZ131148_ 7066 ILSLLSKGRLIIRENNRVVISSDVLVNN 7093
+                         ***************************8 PP
+
+>> OK221016_  ORF1ab 232-13425;13425-21512
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  587.0   1.4  2.6e-179  2.6e-179       1     276 [.    6796    7071 ..    6796    7076 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 587.0 bits;  conditional E-value: 2.6e-179
+  methyltransferase    1 ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp 90  
+                         ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp
+          OK221016_ 6796 SSQAWQPGVAMPNLYKMQRMLLEKCDLQNYGDSATLPKGIMMNVAKYTQLCQYLNTLTLAVPYNMRVIHFGAGSDKGVAPGTAVLRQWLP 6885
+                         89**************************************************************************************** PP
+
+  methyltransferase   91 tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsvaikitehswnadl 180 
+                         tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtkendskegfftyicgfiqqklalggsva   tehswnadl
+          OK221016_ 6886 TGTLLVDSDLNDFVSDADSTLIGDCATVHTANKWDLIISDMYDPKTKNVTKENDSKEGFFTYICGFIQQKLALGGSVAXXXTEHSWNADL 6975
+                         ****************************************************************************************** PP
+
+  methyltransferase  181 yklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqindm 270 
+                         yklm    wwta          eafli  nylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslke      
+          OK221016_ 6976 YKLMXXXXWWTAXXXXXXXXXXEAFLIXXNYLGKPREQIDGYVMHANYIFWRNTNPIQLSSYSLFDMSKFPLKLRGTAVMSLKEXXXXXX 7065
+                         ***************************************************************************************999 PP
+
+  methyltransferase  271 ilslls 276 
+                          lsll 
+          OK221016_ 7066 XLSLLX 7071
+                         999986 PP
+
+>> NC025217_  ORF1ab 303-13931;13931-22045
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  485.7   1.9  1.9e-148  1.9e-148       1     297 [.    6949    7246 ..    6949    7247 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 485.7 bits;  conditional E-value: 1.9e-148
+  methyltransferase    1 ssqawqpgvampnlykmqrmllekcdlqnygdsatlpkgimmnvakytqlcqylntltlavpynmrvihfgagsdkgvapgtavlrqwlp 90  
+                         ss  wqpg +mp lyk+q m +ekc+l nyg+   lp+gi+mnvakytqlcqyln  t+avp +mrvihfgags+kg+apg++vl+qwlp
+          NC025217_ 6949 SSSEWQPGQSMPRLYKIQTMCMEKCELLNYGQPPKLPNGILMNVAKYTQLCQYLNKTTIAVPAKMRVIHFGAGSEKGIAPGSTVLKQWLP 7038
+                         7889************************************************************************************** PP
+
+  methyltransferase   91 tgtllvdsdlndfvsdadstligdcatvhtankwdliisdmydpktknvtk.endskegfftyicgfiqqklalggsvaikitehswnad 179 
+                           ++lvd dlndf sdad t+ig+c t ht  kwdl++sdmyd   k+ t  en sk++ff y+cgfi++kl++ggsvaikitehsw+ad
+          NC025217_ 7039 KDAILVDNDLNDFASDADVTIIGNCVTFHTETKWDLLVSDMYDCDFKSTTMgENYSKDSFFPYLCGFIKNKLSIGGSVAIKITEHSWSAD 7128
+                         ***********************************************998549************************************* PP
+
+  methyltransferase  180 lyklmghfawwtafvtnvnassseafligcnylgkpreqidgyvmhanyifwrntnpiqlssyslfdmskfplklrgtavmslkegqind 269 
+                         ly+lmghfawwtaf tnvnasssea+lig+ny+gk  e+idg +mhanyifwrn  p ++s yslfdmskf lk +gt vmslk+ qin+
+          NC025217_ 7129 LYNLMGHFAWWTAFCTNVNASSSEAYLIGVNYVGKEVEKIDGNIMHANYIFWRNYSPFNVSNYSLFDMSKFALKAKGTPVMSLKKEQINE 7218
+                         ****************************************************************************************** PP
+
+  methyltransferase  270 milsllskgrliirennrvvissdvlvn 297 
+                         m+l l+ kgrl+ir+ n  v++ d++vn
+          NC025217_ 7219 MVLGLVEKGRLLIRDTNSFVLTNDMMVN 7246
+                         **************************98 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (298 nodes)
+Target sequences:                         69  (489168 residues searched)
+Passed MSV filter:                        69  (1); expected 1.4 (0.02)
+Passed bias filter:                       69  (1); expected 1.4 (0.02)
+Passed Vit filter:                        69  (1); expected 0.1 (0.001)
+Passed Fwd filter:                        69  (1); expected 0.0 (1e-05)
+Initial search space (Z):                 69  [actual number of targets]
+Domain search space  (domZ):              69  [number of targets reported over threshold]
+# CPU time: 0.58u 0.00s 00:00:00.57 Elapsed: 00:00:00.58
+# Mc/sec: 250.57
+//
+[ok]
