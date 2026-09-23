@@ -1,0 +1,20 @@
+# Péva run parameters — generated automatically for reproducibility.
+
+[run]
+peva_version  = "0.5.11-dev"
+timestamp_utc = 1788389982   # Unix epoch seconds (UTC)
+subcommand    = "categorize"
+
+[inputs]
+matrix = [
+  "muscle_ng_o.nexus",
+]
+graph = [
+  "muscle_ng_o_trees.nwk",
+]
+
+[parameters]
+output_prefix = "muscle_ng_o"
+ordered       = false
+cost_file     = "(none)"
+svg           = true
